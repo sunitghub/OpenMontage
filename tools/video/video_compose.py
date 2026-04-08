@@ -855,14 +855,6 @@ class VideoCompose(BaseTool):
         types, and transitions using React-based frame-accurate rendering.
         Accepts edit_decisions (with resolved file paths) or raw composition_data.
         """
-        import shutil
-
-        if not shutil.which("npx"):
-            return ToolResult(
-                success=False,
-                error="npx not found. Install Node.js to use Remotion rendering.",
-            )
-
         composition_data = inputs.get("edit_decisions") or inputs.get("composition_data")
         if not composition_data:
             return ToolResult(
@@ -912,13 +904,26 @@ class VideoCompose(BaseTool):
                 error=f"Remotion composer project not found at {composer_dir}",
             )
 
+        local_remotion = composer_dir / "node_modules" / ".bin" / "remotion"
+        if local_remotion.exists():
+            remotion_cmd = [str(local_remotion)]
+        else:
+            import shutil
+
+            if not shutil.which("npx"):
+                return ToolResult(
+                    success=False,
+                    error="npx not found. Install Node.js to use Remotion rendering.",
+                )
+            remotion_cmd = ["npx", "remotion"]
+
         # Route to the correct Remotion composition based on renderer_family.
         # This prevents all pipelines from collapsing into the Explainer visual grammar.
         renderer_family = (composition_data or {}).get("renderer_family", "explainer-data")
         composition_id = self._get_composition_id(renderer_family)
 
-        cmd = [
-            "npx", "remotion", "render",
+        cmd = remotion_cmd + [
+            "render",
             str(composer_dir / "src" / "index.tsx"),
             composition_id,
             str(output_path),
@@ -936,7 +941,7 @@ class VideoCompose(BaseTool):
                 pass
 
         try:
-            self.run_command(cmd, timeout=600)
+            self.run_command(cmd, timeout=600, cwd=composer_dir)
         except Exception as e:
             return ToolResult(success=False, error=f"Remotion render failed: {e}")
         finally:

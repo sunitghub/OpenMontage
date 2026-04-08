@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import shutil
 import subprocess
+import sys
 import time
 from pathlib import Path
 from typing import Any
@@ -95,8 +96,17 @@ class PiperTTS(BaseTool):
     side_effects = ["writes audio file to output_path"]
     user_visible_verification = ["Listen to generated audio for intelligibility"]
 
+    def _find_piper_executable(self) -> str | None:
+        exe = shutil.which("piper")
+        if exe:
+            return exe
+        venv_candidate = Path(sys.executable).parent / "piper"
+        if venv_candidate.exists():
+            return str(venv_candidate)
+        return None
+
     def get_status(self) -> ToolStatus:
-        if shutil.which("piper"):
+        if self._find_piper_executable():
             return ToolStatus.AVAILABLE
         try:
             import piper  # noqa: F401
@@ -124,9 +134,13 @@ class PiperTTS(BaseTool):
         output_path = Path(inputs.get("output_path", "tts_output.wav"))
         output_path.parent.mkdir(parents=True, exist_ok=True)
 
+        piper_exe = self._find_piper_executable()
+        if not piper_exe:
+            return ToolResult(success=False, error="Piper executable not found. " + self.install_instructions)
+
         proc = subprocess.run(
             [
-                "piper",
+                piper_exe,
                 "--model", inputs.get("model", "en_US-lessac-medium"),
                 "--speaker", str(inputs.get("speaker_id", 0)),
                 "--length-scale", str(inputs.get("length_scale", 1.0)),

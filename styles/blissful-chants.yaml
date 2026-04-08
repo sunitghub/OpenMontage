@@ -1,0 +1,117 @@
+identity:
+  name: "Blissful Chants"
+  category: cinematic
+  mood: reverent, mystical, luminous, devotional, emotionally intense but serene
+  pace: deliberate
+  best_for: "Hindu spiritual storytelling, scripture explainers, devotional shorts, sacred narrative videos"
+
+visual_language:
+  color_palette:
+    primary: ["#0B1026", "#C32148"]
+    accent: ["#E7B84B", "#F05A28", "#E27A8D"]
+    background: "#0B1026"
+    text: "#F6E7C8"
+    muted: "#A89A83"
+  composition: centered sacred compositions, strong silhouettes, medium and wide devotional framing, protected lower-third for captions
+  texture: painterly digital illustration, soft incense haze, subtle grain, sacred glow, no photoreal realism
+
+typography:
+  headings:
+    font: "Cinzel"
+    weight: 700
+    tracking: "0.01em"
+  body:
+    font: "Cormorant Garamond"
+    weight: 500
+    line_height: 1.55
+  code:
+    font: "JetBrains Mono"
+    weight: 400
+  stat_card:
+    font: "Cinzel"
+    weight: 700
+    size_multiplier: 2.6
+  scale_system: "major_third"
+  weight_matrix:
+    title: 700
+    heading: 700
+    body: 500
+    caption: 600
+
+motion:
+  transitions: [fade, dissolve, slow-zoom]
+  animation_style: "slow devotional movement, gentle aura pulses, deliberate parallax, no aggressive camera moves"
+  pacing_rules:
+    min_scene_hold_seconds: 3.0
+    max_scene_hold_seconds: 8.0
+    text_card_hold_seconds: 4.0
+    stat_card_hold_seconds: 3.5
+    transition_duration_seconds: 0.6
+  entrance: "soft fade-in with subtle upward reveal"
+  exit: "gentle fade to indigo or dissolve into glow"
+
+audio:
+  voice_style: "calm, devotional, intimate, clear, slightly slowed for spiritual emphasis"
+  music_mood: "sacred ambient drone, meditative, subtle percussion only when story intensity rises"
+  music_volume: 0.06
+  sfx_style: "light temple ambience, incense-like whooshes, restrained bells, no trailer impacts"
+  ducking_threshold_db: -4
+  voice_variation_allowed: false
+  hero_moment_voice_shift: "slightly slower, more grounded, more breath between phrases"
+  transition_voice_shift: "brief contemplative pause before the next teaching or image"
+
+asset_generation:
+  image_prompt_prefix: "reverent Hindu devotional digital illustration, temple-mural-inspired sacred storytelling, midnight indigo and crimson palette, lotus-gold highlights, sacred cinematic rim light, soft incense haze, strong silhouette design, consistent character design, subtitle-safe lower area, "
+  image_negative_prompt: "horror, gore, zombie, monstrous face, jump scare, extra limbs, distorted anatomy, inconsistent jewelry, photorealistic skin pores, modern clothing, sci-fi armor, cluttered composition, muddy colors, low contrast, text artifacts"
+  diagram_style: "sacred editorial cards, gold-accent callouts, calm linework, restrained ornament"
+  consistency_anchors:
+    - "Maa Kali and other sacred figures must read as divine and reverent, never horror-coded"
+    - "All scenes stay within the indigo-crimson-gold palette family"
+    - "Lower-third remains visually quiet to support captions and future mobile crops"
+    - "Motion stays slow and devotional, with no whip pans or chaotic camera behavior"
+    - "Recurring characters use the same ornaments, silhouette, aura logic, and facial demeanor across shots"
+    - "Image-to-video is preferred over pure text-to-video for recurring sacred subjects"
+
+overlays:
+  stat_card:
+    bg: "#0F1533"
+    border: "#E7B84B"
+    radius: 14
+    shadow: "0 8px 24px rgba(0,0,0,0.28)"
+  key_term:
+    bg: "#C32148"
+    text: "#F6E7C8"
+    radius: 8
+  code_block:
+    bg: "#120F1F"
+    text: "#F6E7C8"
+    highlight: "#E7B84B"
+
+quality_rules:
+  - "Depictions of deities must remain devotional, serene, and spiritually grounded"
+  - "Do not mix photorealism, anime, and comic-book rendering within the same project"
+  - "Caption area must remain readable at 720p and safe for 9:16 crops"
+  - "Use one motion provider per project unless a symbolic insert explicitly justifies deviation"
+  - "Prefer short guided clips over long freeform generations to reduce identity drift"
+  - "All generated assets must preserve the indigo-crimson-gold palette logic"
+  - "Avoid rapid cuts; the visual rhythm should support recitation and contemplation"
+  - "Text overlays should use warm light text and one gold or ember emphasis color only"
+
+chart_palette:
+  - "#E7B84B"
+  - "#C32148"
+  - "#F05A28"
+  - "#E27A8D"
+  - "#F6E7C8"
+  - "#6E7BD9"
+
+color_rules:
+  harmony_type: "analogous"
+  contrast_validation: true
+  colorblind_safe: true
+
+overrides:
+  max_deviation_ratio: 0.15
+  scene_overrides:
+    - scene_id: "battlefield-or-cosmic-sequence"
+      reason: "Scripture or cosmic sequences may need broader spatial scale while preserving the core palette and devotional tone"
