@@ -6,7 +6,7 @@ Purpose: define the default working rules for the Blissful Chants workflow so sc
 
 These defaults are for:
 
-- Blissful Chants YouTube videos
+- Blissful Chants YouTube videos only
 - deity-led spiritual storytelling
 - English-language output only
 - reference-first image selection from the local deity library
