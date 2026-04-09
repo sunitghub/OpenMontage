@@ -8,6 +8,7 @@ are not available.
 from __future__ import annotations
 
 import json
+import os
 import time
 from pathlib import Path
 from typing import Any, Optional
@@ -113,6 +114,22 @@ class Transcriber(BaseTool):
         """Rough estimate: ~0.5x real-time on CPU for 'base' model."""
         return 60.0  # conservative default
 
+    @staticmethod
+    def _sanitize_hf_env() -> None:
+        """Drop malformed HF auth variables that break public model downloads.
+
+        Some local setups store comment text or rich punctuation in HF token vars.
+        httpx then fails while encoding request headers before any download starts.
+        The Whisper models we use here are public, so invalid HF tokens are worse
+        than no token at all.
+        """
+        for key in ("HF_TOKEN", "HUGGINGFACE_HUB_TOKEN", "HUGGING_FACE_HUB_TOKEN"):
+            value = os.environ.get(key)
+            if not value:
+                continue
+            if any(ch.isspace() for ch in value) or any(ord(ch) > 127 for ch in value):
+                os.environ.pop(key, None)
+
     def execute(self, inputs: dict[str, Any]) -> ToolResult:
         input_path = Path(inputs["input_path"])
         model_size = inputs.get("model_size", "base")
@@ -132,6 +149,8 @@ class Transcriber(BaseTool):
                 success=False,
                 error="faster-whisper is not installed. Run: pip install faster-whisper",
             )
+
+        self._sanitize_hf_env()
 
         start = time.time()
 

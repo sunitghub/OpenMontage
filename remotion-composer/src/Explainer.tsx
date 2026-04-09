@@ -191,6 +191,8 @@ interface Cut {
   out_seconds: number;
   layer?: string;
   type?: string;
+  preserveAudio?: boolean;
+  sourceStartSeconds?: number;
   // Component-specific props
   text?: string;
   stat?: string;
@@ -395,9 +397,10 @@ const ImageScene: React.FC<{ src: string; animation?: string }> = ({
 // Enhanced Video Scene
 // ---------------------------------------------------------------------------
 
-const VideoScene: React.FC<{ src: string; startFrom?: number }> = ({
+const VideoScene: React.FC<{ src: string; startFrom?: number; preserveAudio?: boolean }> = ({
   src,
   startFrom = 0,
+  preserveAudio = false,
 }) => {
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
@@ -420,7 +423,7 @@ const VideoScene: React.FC<{ src: string; startFrom?: number }> = ({
           objectFit: "cover",
           opacity: fadeIn * fadeOut,
         }}
-        muted
+        muted={!preserveAudio}
       />
       <Vignette />
     </AbsoluteFill>
@@ -624,7 +627,13 @@ const SceneRenderer: React.FC<{ cut: Cut; theme: ThemeConfig }> = ({ cut, theme 
   }
 
   if (cut.source && isVideo(cut.source)) {
-    return <VideoScene src={cut.source} startFrom={cut.in_seconds} />;
+    return (
+      <VideoScene
+        src={cut.source}
+        startFrom={cut.sourceStartSeconds ?? 0}
+        preserveAudio={cut.preserveAudio}
+      />
+    );
   }
 
   // Final fallback — try as image if source exists, otherwise show text_card

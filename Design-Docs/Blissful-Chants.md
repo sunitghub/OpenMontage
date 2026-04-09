@@ -8,7 +8,9 @@ This guide is written for:
 - OpenMontage pipelines using fal-backed image and video generation
 
 Concrete playbook:
+- [Config.md](/Users/sunitjoshi/Developer/TryOuts/OpenMontage/Config.md)
 - [styles/blissful-chants.yaml](/Users/sunitjoshi/Developer/TryOuts/OpenMontage/styles/blissful-chants.yaml)
+- [Blissful-Chants-4min-Template.md](/Users/sunitjoshi/Developer/TryOuts/OpenMontage/Design-Docs/Blissful-Chants-4min-Template.md)
 
 ## Core Principle
 
@@ -247,7 +249,107 @@ Scoring dimensions:
 
 ### Results
 
-To be filled in after live fal testing.
+Initial pilot completed for `MaaKali-Battles`.
+
+Date:
+- `2026-04-08`
+
+Project:
+- `OpenMontage/projects/blissful-chants-smoke/renders/MaaKali-Battles/`
+
+What was tested:
+- `FLUX Pro v1.1` for anchor still generation
+- local Maha Kali artwork for hero-support identity frames
+
+## FAL Reference-Led Video Workflow
+
+For devotional battle stories, do not default to long-form text-to-video.
+
+Preferred workflow:
+1. lock a reference pack for deity, demon, and environment
+2. generate one short hero test clip with `reference_to_video`
+3. validate reverence, silhouette, and motion stability
+4. expand to 2-3 additional clips only after the first test is acceptable
+5. stitch clips in OpenMontage and keep narration, captions, and music separate
+
+Recommended provider path in this repo:
+- `veo_video` for multi-reference continuity tests
+- `kling_video` for simpler single-image motion shots when cost matters more than multi-image guidance
+
+### Why `veo_video` Is the Better First Test Here
+
+The repo's current `veo_video` tool already supports:
+- `reference_to_video`
+- `first_last_frame_to_video`
+- local image-path inputs
+
+That makes it the best fit for:
+- Maa Kali plus demon reference packs
+- battle continuity
+- hero-shot testing before batch generation
+
+### Testing Rule
+
+Run one clip first.
+
+Do not batch-generate a full script until the first clip passes these checks:
+- deity depiction remains reverent, not horror-coded
+- weapon and silhouette read clearly
+- the demon remains stable enough to be recognizable
+- motion is smooth and not morph-heavy
+- the bottom third stays reasonably safe for subtitles
+
+### Prompting Rule for Reference Video
+
+When using reference-led video:
+- use references for identity
+- use prompts for action, atmosphere, camera movement, and composition
+- do not re-describe the full character from scratch in every shot
+
+Good prompt structure:
+- subject action
+- mythic environment
+- devotional tone
+- camera move
+- readability constraint
+- safety / anti-gore constraint
+
+### MaaKali-Battles-60s Test Plan
+
+Saved project artifacts:
+- [fal_video_plan.md](/Users/sunitjoshi/Developer/TryOuts/OpenMontage/projects/blissful-chants-smoke/renders/MaaKali-Battles-60s/artifacts/fal_video_plan.md)
+- [fal_video_test_request.json](/Users/sunitjoshi/Developer/TryOuts/OpenMontage/projects/blissful-chants-smoke/renders/MaaKali-Battles-60s/artifacts/fal_video_test_request.json)
+
+Planned first clip:
+- provider: `veo_video`
+- operation: `reference_to_video`
+- model: `veo3.1/fast`
+- duration: `8s`
+- references: `MahaKali-3.png`, `Demon-1.png`, `Demon-3.png`
+- target output: `videos/test_01_veo_reference_confrontation.mp4`
+
+Current test result:
+- first multi-reference Veo battle attempt failed with `no_media_generated`
+- second simpler Veo `image_to_video` hero-shot test succeeded
+- [fal_video_test_result.json](/Users/sunitjoshi/Developer/TryOuts/OpenMontage/projects/blissful-chants-smoke/renders/MaaKali-Battles-60s/artifacts/fal_video_test_result.json)
+- current best practice: prove a single-character hero shot first, then expand to multi-reference battle clips
+- Remotion composition with the `blissful-chants` playbook
+
+Live result summary:
+- 7 of 7 FLUX image generations succeeded
+- estimated image cost: about `$0.35`
+- model used: `flux-pro/v1.1`
+- seed family used: `41021` through `41027`
+
+What worked:
+- devotional still generation responded well to the locked prompt prefix
+- FLUX was a practical starting model for mythic battle tableaux
+- local reference artwork remained useful for preserving a strong hero image in the edit package
+
+What still needs testing:
+- side-by-side `Kling image-to-video` vs `Veo`
+- whether generated motion preserves reverence and identity as well as the still-image workflow
+- premium-model cost per usable heroic shot
 
 Suggested fields to capture:
 - date
@@ -775,3 +877,98 @@ For Blissful Chants, the best path is:
 - treat every approved still as a canonical asset, not a disposable draft
 
 This will produce a channel that feels authored and recognizable instead of randomly AI-generated.
+
+## Render Package Workflow
+
+Each publishable Blissful Chants video should have its own dedicated render folder.
+
+Recommended location:
+- `OpenMontage/projects/<project>/renders/<Render-Name>/`
+
+Example:
+- `OpenMontage/projects/blissful-chants-smoke/renders/MaaKali-Battles/`
+
+### Required Files Per Render
+
+Every render folder should contain at minimum:
+- `<Render-Name>.md` — the source script package
+- `Thumbnail.jpg` — direct-use YouTube thumbnail with title text
+- generated images and video clips for that render
+- final rendered video outputs
+- any supporting artifacts needed for reuse later
+
+### Script Package Format
+
+The script package file should use the render name directly.
+
+Example:
+- `MaaKali-Battles.md`
+
+Required sections:
+- `Title`
+- `Description`
+- `Script`
+- `References`
+
+### Title and Description Rules
+
+The `Title` and `Description` are not internal notes. They are intended for YouTube publication fields.
+
+They should be:
+- engaging
+- devotional
+- mystic in tone
+- emotionally clear
+- accurate to the script
+
+Avoid:
+- clickbait that misstates the source material
+- flat academic phrasing
+- sensational horror framing for sacred subjects
+
+### Reference and Corroboration Rule
+
+Before a Blissful Chants script is considered ready:
+- corroborate the narrative from at least 2 to 3 sources
+- include those sources in the `References` section
+- clearly distinguish between scriptural narrative, later retellings, and devotional interpretation when needed
+
+Recommended source mix:
+- one primary or near-primary source when possible, such as a translation of the relevant scripture
+- one respected secondary reference
+- one additional corroborating overview or scholarly source
+
+### Thumbnail Rule
+
+Every render folder should include a `Thumbnail.jpg` that is usable immediately without extra editing.
+
+The thumbnail should:
+- carry the final publish-facing title or close variant
+- use the Blissful Chants palette and devotional tone
+- avoid clutter
+- remain legible at small size
+
+### Reuse Rule
+
+This folder should be self-contained enough that it can later support:
+- YouTube publishing
+- Shorts or vertical re-cuts
+- mobile app ingestion
+- future localization or narration swaps
+
+### Channel Intro Rule
+
+Unless a project explicitly opts out, every Blissful Chants video should begin with the channel intro:
+- `/Users/sunitjoshi/Documents/Documents/BlissfulChants/Blissful-Intro.mp4`
+
+This should be treated as the default opening asset for the channel.
+
+Operational rule:
+- prepend the intro before the main content during composition
+- keep the intro as a reusable canonical asset, not a one-off copy inside each render package unless needed for portability
+
+### Current Example
+
+Current pilot package:
+- [MaaKali-Battles.md](/Users/sunitjoshi/Developer/TryOuts/OpenMontage/projects/blissful-chants-smoke/renders/MaaKali-Battles/MaaKali-Battles.md)
+- [Thumbnail.jpg](/Users/sunitjoshi/Developer/TryOuts/OpenMontage/projects/blissful-chants-smoke/renders/MaaKali-Battles/Thumbnail.jpg)
