@@ -11,6 +11,9 @@ Concrete playbook:
 - [Config.md](/Users/sunitjoshi/Developer/TryOuts/OpenMontage/Config.md)
 - [styles/blissful-chants.yaml](/Users/sunitjoshi/Developer/TryOuts/OpenMontage/styles/blissful-chants.yaml)
 - [Blissful-Chants-4min-Template.md](/Users/sunitjoshi/Developer/TryOuts/OpenMontage/Design-Docs/Blissful-Chants-4min-Template.md)
+- [Shiva-Crow-Replication-Analysis.md](/Users/sunitjoshi/Developer/TryOuts/OpenMontage/Design-Docs/Shiva-Crow-Replication-Analysis.md)
+- [Omni-Flow.md](/Users/sunitjoshi/Developer/TryOuts/OpenMontage/Design-Docs/Omni-Flow.md)
+- [Blissful-Chants-Strategy.md](/Users/sunitjoshi/Developer/TryOuts/OpenMontage/Design-Docs/Blissful-Chants-Strategy.md)
 
 ## Core Principle
 

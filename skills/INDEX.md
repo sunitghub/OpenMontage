@@ -127,6 +127,18 @@ Pipeline type skills provide production guidance for specific video formats, ind
 | Animation Pipeline | `creative/animation-pipeline.md` | Motion graphics, easing, transitions, composition |
 | Cinematic | `creative/cinematic.md` | Letterbox, film pacing, layered audio, color grading |
 
+## Meta Skills
+
+| Skill | File | When to Use |
+|-------|------|-------------|
+| Creative Intake | `meta/creative-intake.md` | Gather missing user intent before production |
+| Onboarding | `meta/onboarding.md` | First-turn orientation for vague user requests |
+| Reviewer | `meta/reviewer.md` | Self-review and quality scoring |
+| Checkpoint Protocol | `meta/checkpoint-protocol.md` | Stage persistence and approval handling |
+| Video Reference Analyst | `meta/video-reference-analyst.md` | Reference-led video analysis workflow |
+| Skill Creator | `meta/skill-creator.md` | Create new OpenMontage skills during pipeline work |
+| Shorts Package Spruce | `meta/shorts-package-spruce.md` | Create or improve lightweight Shorts markdown packages |
+
 ## Pipeline Stage Director Skills
 
 Stage director skills teach the agent HOW to execute each pipeline stage. Each skill is a detailed markdown file with process steps, quality rubrics, and self-evaluation criteria.
