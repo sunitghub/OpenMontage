@@ -1,5 +1,8 @@
 # Shorts Package Spruce — Meta Skill
 
+> Superseded by `meta/shorts-workflow.md` for the full Codex-native workflow.
+> Keep this file as a narrow package-improvement reference only.
+
 ## When to Use
 
 Use this when you need to create or improve a YouTube Shorts markdown package under `Design-Docs/ToPublish/Shorts/`.

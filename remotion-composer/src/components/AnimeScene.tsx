@@ -61,6 +61,14 @@ export interface AnimeSceneProps {
   lightingFrom?: string;
   /** Ending gradient color for animated lighting shift */
   lightingTo?: string;
+  /** Optional centered sacred overlay, such as a bija mantra */
+  overlayImage?: string;
+  /** Relative width of the overlay image compared to frame width */
+  overlayScale?: number;
+  /** Vertical offset in pixels for the overlay image */
+  overlayYOffset?: number;
+  /** Enable a gentle sacred pulse on the overlay */
+  overlayPulse?: boolean;
   /**
    * Actual scene duration in seconds.
    * CRITICAL: useVideoConfig().durationInFrames returns the FULL composition
@@ -157,10 +165,14 @@ export const AnimeScene: React.FC<AnimeSceneProps> = ({
   vignette = true,
   lightingFrom,
   lightingTo,
+  overlayImage,
+  overlayScale = 0.18,
+  overlayYOffset = 0,
+  overlayPulse = false,
   sceneDurationSeconds,
 }) => {
   const frame = useCurrentFrame();
-  const { fps, durationInFrames } = useVideoConfig();
+  const { fps, durationInFrames, width } = useVideoConfig();
 
   // CRITICAL FIX: useVideoConfig().durationInFrames returns the FULL
   // composition duration (e.g. 930 for a 31s video), NOT the Sequence
@@ -256,6 +268,16 @@ export const AnimeScene: React.FC<AnimeSceneProps> = ({
         })
       : 0;
 
+  const overlayBaseOpacity = overlayPulse
+    ? 0.72 + Math.sin((frame / fps) * 1.6) * 0.18
+    : 0.82;
+  const overlayScalePulse = overlayPulse
+    ? 1 + Math.sin((frame / fps) * 1.4) * 0.035
+    : 1;
+  const overlayGlowOpacity = overlayPulse
+    ? 0.22 + Math.sin((frame / fps) * 1.6) * 0.08
+    : 0.18;
+
   return (
     <AbsoluteFill style={{ overflow: "hidden", background: backgroundColor }}>
       {/* Layer 1: Image stack with crossfade + camera motion */}
@@ -286,10 +308,54 @@ export const AnimeScene: React.FC<AnimeSceneProps> = ({
         />
       )}
 
-      {/* Layer 3: Cinematic vignette */}
+      {/* Layer 3: Optional sacred center overlay */}
+      {overlayImage && (
+        <AbsoluteFill
+          style={{
+            justifyContent: "center",
+            alignItems: "center",
+            pointerEvents: "none",
+          }}
+        >
+          <div
+            style={{
+              position: "relative",
+              width: width * overlayScale,
+              aspectRatio: "1 / 1",
+              transform: `translateY(${overlayYOffset}px) scale(${overlayScalePulse})`,
+            }}
+          >
+            <Img
+              src={resolveAsset(overlayImage)}
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "contain",
+                opacity: overlayGlowOpacity,
+                filter: "blur(14px)",
+                position: "absolute",
+                inset: 0,
+              }}
+            />
+            <Img
+              src={resolveAsset(overlayImage)}
+              style={{
+                width: "100%",
+                height: "100%",
+                objectFit: "contain",
+                opacity: overlayBaseOpacity,
+                position: "absolute",
+                inset: 0,
+              }}
+            />
+          </div>
+        </AbsoluteFill>
+      )}
+
+      {/* Layer 4: Cinematic vignette */}
       {vignette && <AnimeVignette />}
 
-      {/* Layer 4: Particle effects */}
+      {/* Layer 5: Particle effects */}
       {particles && (
         <ParticleOverlay
           type={particles}

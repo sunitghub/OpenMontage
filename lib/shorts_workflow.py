@@ -399,7 +399,7 @@ def build_codex_skill_prompt(
     existing_md_path: Path | None,
 ) -> str:
     prompt_lines = [
-        "Use the OpenMontage skill `skills/meta/shorts-package-spruce.md`.",
+        "Use the OpenMontage skill `skills/meta/shorts-workflow.md`.",
         "",
         f"Task: {mode}.",
         f"Folder: {folder}",

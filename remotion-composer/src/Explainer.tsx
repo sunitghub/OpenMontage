@@ -14,7 +14,12 @@ import { loadFont } from "@remotion/google-fonts/SpaceGrotesk";
 
 // Resolve asset path — handle URLs, absolute paths (Windows/Unix), and public/ relative paths
 function resolveAsset(src: string): string {
-  if (src.startsWith("http://") || src.startsWith("https://") || src.startsWith("data:")) {
+  if (
+    src.startsWith("http://") ||
+    src.startsWith("https://") ||
+    src.startsWith("data:") ||
+    src.startsWith("file://")
+  ) {
     return src;
   }
   // Strip any file:// prefix
@@ -252,6 +257,10 @@ interface Cut {
   vignette?: boolean;
   lightingFrom?: string;
   lightingTo?: string;
+  overlayImage?: string;
+  overlayScale?: number;
+  overlayYOffset?: number;
+  overlayPulse?: boolean;
 }
 
 interface Overlay {
@@ -287,6 +296,13 @@ export interface ExplainerProps {
   cuts: Cut[];
   overlays?: Overlay[];
   captions?: WordCaption[];
+  captionsConfig?: {
+    wordsPerPage?: number;
+    fontSize?: number;
+    color?: string;
+    highlightColor?: string;
+    backgroundColor?: string;
+  };
   audio?: AudioConfig;
 }
 
@@ -614,6 +630,10 @@ const SceneRenderer: React.FC<{ cut: Cut; theme: ThemeConfig }> = ({ cut, theme 
         vignette={cut.vignette ?? true}
         lightingFrom={cut.lightingFrom}
         lightingTo={cut.lightingTo}
+        overlayImage={cut.overlayImage}
+        overlayScale={cut.overlayScale}
+        overlayYOffset={cut.overlayYOffset}
+        overlayPulse={cut.overlayPulse}
         sceneDurationSeconds={cut.out_seconds - cut.in_seconds}
       />
     );
@@ -681,7 +701,7 @@ const OverlayRenderer: React.FC<{ overlay: Overlay }> = ({ overlay }) => {
 // ---------------------------------------------------------------------------
 
 export const Explainer: React.FC<ExplainerProps> = (props) => {
-  const { cuts, overlays, captions, audio } = props;
+  const { cuts, overlays, captions, captionsConfig, audio } = props;
   const { fps, durationInFrames } = useVideoConfig();
 
   // Resolve theme from props — playbook name, theme name, or custom themeConfig
@@ -722,10 +742,11 @@ export const Explainer: React.FC<ExplainerProps> = (props) => {
       {captions && captions.length > 0 && (
         <CaptionOverlay
           words={captions}
-          wordsPerPage={6}
-          fontSize={42}
-          highlightColor={theme.captionHighlightColor}
-          backgroundColor={theme.captionBackgroundColor}
+          wordsPerPage={captionsConfig?.wordsPerPage ?? 5}
+          fontSize={captionsConfig?.fontSize ?? 52}
+          color={captionsConfig?.color ?? "#F8FAFC"}
+          highlightColor={captionsConfig?.highlightColor ?? "#FBBF24"}
+          backgroundColor={captionsConfig?.backgroundColor ?? "rgba(0, 0, 0, 0.62)"}
         />
       )}
 

@@ -159,7 +159,27 @@ Expected render package assets may include:
 - scene clips
 - final rendered video
 
-### 10. Scenes
+### 10. Reference Assets
+
+This section records the anchor images or reference files that should be reused during generation.
+
+Use this whenever an existing deity asset library or prior approved visual already exists.
+
+Include:
+- asset library path
+- primary deity anchor
+- scene-specific anchors where needed
+- thumbnail anchor if applicable
+- notes on why a specific anchor was chosen
+
+Rules:
+- prefer existing approved deity assets before creating new anchors from scratch
+- record the exact chosen file path in the package
+- reuse anchors consistently across rerolls to reduce identity drift
+- do not pick anchors ad hoc for every generation attempt
+- if a better anchor replaces an older one, update the package explicitly
+
+### 11. Scenes
 
 This section should not be only a prompt dump.
 
@@ -178,7 +198,7 @@ Each scene should include:
 - reference or anchor asset if applicable
 - output filename if one is assigned
 
-### 11. Production Notes
+### 12. Production Notes
 
 Use this section for execution details that arise during generation.
 
@@ -190,7 +210,7 @@ Include:
 - continuity issues
 - decisions about switching provider or workflow
 
-### 12. Post Timeline
+### 13. Post Timeline
 
 This section tracks publishing and follow-up.
 
@@ -258,6 +278,13 @@ Include:
 - Scene outputs:
 - Final render:
 
+## Reference Assets
+- Asset library:
+- Primary deity anchor:
+- Scene-1 anchor:
+- Thumbnail anchor:
+- Notes:
+
 ## Scenes
 ### Scene-1
 - Purpose:
@@ -289,6 +316,7 @@ Include:
 - The folder slug and markdown filename must match exactly.
 - A script should not be marked ready without sources or corroboration notes where factual claims are involved.
 - Scenes should be provider-agnostic at the planning layer and provider-specific only where generation instructions are needed.
+- If an approved deity asset library exists, selected anchor files should be recorded under `Reference Assets` and reused consistently.
 - Visual consistency rules should be locked before batch generation begins.
 - The package should remain useful after publishing, so post results and issues must be preserved instead of discarded.
 
@@ -324,3 +352,49 @@ Cost and subscription note:
 Long-term note:
 - do not make the package structure Sora-only
 - keep prompts, references, and asset planning portable across providers
+
+## Motion-Light Montage Workflow
+
+The reference video `/Users/sunitjoshi/Downloads/Shiva-Kailash.mp4` appears to rely primarily on a small set of static or near-static devotional images rather than continuously generated full-motion scenes.
+
+Observed characteristics:
+- long runtime: about `23m 14s`
+- low render complexity: `640x360`, `25 fps`, about `340 kb/s` video bitrate
+- repeated reuse of a few Shiva/Kailash illustration setups across many verses
+- motion is likely created through slow zooms, pans, holds, dissolves, atmospheric particles, glow, and text overlays rather than per-shot native video motion
+- this is a good fit for a lower-cost devotional montage workflow
+
+Recommendation:
+- yes, OpenMontage should support this style as a first-class fast-generation workflow
+- do not require every scene to be generated as full image-to-video or text-to-video
+- support a composition path built from anchor stills plus lightweight motion and overlays
+
+Suggested OpenMontage workflow:
+- create `anchor images` for each visual setup, such as meditating Shiva, Shiva standing in snow, Shiva with trident, Kailash landscape, Nandi tableau
+- reuse those anchors across multiple script beats or verses instead of rerendering each line from scratch
+- generate final scene motion using simple editorial effects:
+- slow push-in or pull-out
+- slight pan or parallax
+- snowfall, mist, embers, glow, or light rays
+- dissolve or dip-to-color transitions
+- verse text and translation overlays
+- optional subtle loop layers behind the anchor image
+
+Implementation guidance for package design:
+- allow each scene to declare `Source Type`: `Generated Video`, `Animated Still`, or `Hybrid`
+- add a per-scene `Anchor Reuse` field so one approved image can intentionally drive multiple scenes
+- add a per-scene `Motion Recipe` field for edit-layer effects such as `slow zoom in`, `left-to-right drift`, `snow overlay`, `soft glow pulse`, `cross dissolve`
+- add a `Text Overlay Plan` field separate from the generation prompt so subtitle and verse treatment is handled in composition, not baked into the source render
+- treat long-form chant or stotra videos as `montage-first` by default unless a scene truly needs bespoke motion
+
+Why this helps:
+- much faster production
+- lower generation cost
+- lower memory pressure than generating every beat as video
+- better deity consistency because the same approved anchors are reused
+- easier corrections when only text timing or transitions need to change
+
+Default recommendation for devotional long-form:
+- use generated video only for hero moments, openings, transitions, and a small number of visual resets
+- use animated stills for the majority of verse-driven sections
+- keep the package structure provider-agnostic so anchors can come from OpenAI image generation, Draw Things, Midjourney, or an existing approved asset library

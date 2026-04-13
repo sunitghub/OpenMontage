@@ -868,11 +868,16 @@ class VideoCompose(BaseTool):
         # Deep-copy props so we don't mutate the original
         props = json.loads(json.dumps(composition_data))
 
-        # Convert absolute file paths to file:// URIs for Remotion's
-        # Img and OffthreadVideo components
+        # Convert only absolute local paths to file:// URIs for Remotion's
+        # Img and OffthreadVideo components. Leave public-relative asset paths
+        # untouched so Remotion can serve them from the bundled public/ tree.
         for cut in props.get("cuts", []):
             source = cut.get("source", "")
-            if source and not source.startswith(("http://", "https://", "file://")):
+            if (
+                source
+                and Path(source).is_absolute()
+                and not source.startswith(("http://", "https://", "file://"))
+            ):
                 resolved = Path(source).resolve()
                 if resolved.exists():
                     posix = resolved.as_posix()
@@ -891,10 +896,9 @@ class VideoCompose(BaseTool):
             if theme_config:
                 props["themeConfig"] = theme_config
 
-        # Write props to temp file for Remotion CLI
-        props_path = output_path.parent / ".remotion_props.json"
-        with open(props_path, "w", encoding="utf-8") as f:
-            json.dump(props, f)
+        # Remotion CLI expects --props to be a JSON string, not a file path.
+        # Keep the payload inline so image-heavy montage renders work reliably.
+        props_json = json.dumps(props)
 
         # remotion-composer lives at project root
         composer_dir = Path(__file__).resolve().parent.parent.parent / "remotion-composer"
@@ -927,7 +931,7 @@ class VideoCompose(BaseTool):
             str(composer_dir / "src" / "index.tsx"),
             composition_id,
             str(output_path),
-            "--props", str(props_path),
+            "--props", props_json,
         ]
 
         # Apply media profile dimensions
@@ -944,9 +948,6 @@ class VideoCompose(BaseTool):
             self.run_command(cmd, timeout=600, cwd=composer_dir)
         except Exception as e:
             return ToolResult(success=False, error=f"Remotion render failed: {e}")
-        finally:
-            if props_path.exists():
-                props_path.unlink()
 
         if not output_path.exists():
             return ToolResult(

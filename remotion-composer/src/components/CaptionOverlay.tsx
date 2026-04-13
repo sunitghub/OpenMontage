@@ -33,14 +33,44 @@ interface CaptionPage {
 
 function buildPages(words: WordCaption[], wordsPerPage: number): CaptionPage[] {
   const pages: CaptionPage[] = [];
-  for (let i = 0; i < words.length; i += wordsPerPage) {
-    const pageWords = words.slice(i, i + wordsPerPage);
-    if (pageWords.length === 0) continue;
+  const minWords = Math.max(3, wordsPerPage - 1);
+  const maxWords = wordsPerPage + 2;
+
+  for (let i = 0; i < words.length;) {
+    const remaining = words.length - i;
+    let count = Math.min(wordsPerPage, remaining);
+
+    const windowEnd = Math.min(i + maxWords, words.length);
+    let sentenceBreak: number | null = null;
+    let clauseBreak: number | null = null;
+
+    for (let j = i; j < windowEnd; j++) {
+      const token = words[j].word;
+      const length = j - i + 1;
+      if (length < minWords) continue;
+      if (/[.!?]["']?$/.test(token)) {
+        sentenceBreak = length;
+        break;
+      }
+      if (clauseBreak === null && /[,;:]["']?$/.test(token)) {
+        clauseBreak = length;
+      }
+    }
+
+    if (sentenceBreak !== null) {
+      count = sentenceBreak;
+    } else if (clauseBreak !== null) {
+      count = clauseBreak;
+    }
+
+    const pageWords = words.slice(i, i + count);
+    if (pageWords.length === 0) break;
     pages.push({
       words: pageWords,
       startMs: pageWords[0].startMs,
       endMs: pageWords[pageWords.length - 1].endMs,
     });
+    i += count;
   }
   return pages;
 }

@@ -137,6 +137,7 @@ Pipeline type skills provide production guidance for specific video formats, ind
 | Checkpoint Protocol | `meta/checkpoint-protocol.md` | Stage persistence and approval handling |
 | Video Reference Analyst | `meta/video-reference-analyst.md` | Reference-led video analysis workflow |
 | Skill Creator | `meta/skill-creator.md` | Create new OpenMontage skills during pipeline work |
+| Shorts Workflow | `meta/shorts-workflow.md` | Codex-native end-to-end Shorts inspection, research, and review workflow |
 | Shorts Package Spruce | `meta/shorts-package-spruce.md` | Create or improve lightweight Shorts markdown packages |
 
 ## Pipeline Stage Director Skills

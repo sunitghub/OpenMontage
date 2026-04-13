@@ -13,15 +13,29 @@ PYTHON_BIN="$SCRIPT_DIR/.venv/bin/python"
 MAIN_PY="$SCRIPT_DIR/main.py"
 
 show_help() {
+  local cmd_name
+  cmd_name="$(basename "$0")"
   cat <<'EOF'
-youtube-shorts
+EOF
+  cat <<EOF
+$cmd_name
 
 Helper wrapper for the OpenMontage Shorts workflow.
 
 Usage:
-  youtube-shorts --help
-  youtube-shorts --gen-shorts
-  youtube-shorts --gen-mp4
+  $cmd_name --help
+  $cmd_name --gen-shorts
+  $cmd_name --gen-mp4
+EOF
+  if [[ "$cmd_name" == "shorts-workflow" ]]; then
+    cat <<'EOF'
+  shorts-workflow
+
+Shortcuts:
+  Running `shorts-workflow` with no arguments defaults to `--gen-shorts`.
+EOF
+  fi
+  cat <<'EOF'
 
 Options:
   --gen-shorts   Enter interactive Shorts mode. Lists folders under
@@ -47,6 +61,9 @@ if [[ ! -f "$MAIN_PY" ]]; then
 fi
 
 if [[ $# -eq 0 ]]; then
+  if [[ "$(basename "$0")" == "shorts-workflow" ]]; then
+    exec "$PYTHON_BIN" "$MAIN_PY" --gen-shorts
+  fi
   show_help
   exit 0
 fi
