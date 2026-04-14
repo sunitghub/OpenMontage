@@ -254,6 +254,10 @@ interface Cut {
   particleColor?: string;
   particleCount?: number;
   particleIntensity?: number;
+  secondaryParticles?: ParticleType;
+  secondaryParticleColor?: string;
+  secondaryParticleCount?: number;
+  secondaryParticleIntensity?: number;
   vignette?: boolean;
   lightingFrom?: string;
   lightingTo?: string;
@@ -261,6 +265,10 @@ interface Cut {
   overlayScale?: number;
   overlayYOffset?: number;
   overlayPulse?: boolean;
+  haloColor?: string;
+  haloIntensity?: number;
+  haloScale?: number;
+  haloOffsetY?: number;
 }
 
 interface Overlay {
@@ -341,9 +349,61 @@ const Vignette: React.FC = () => (
 // Enhanced Image Scene — spring physics, parallax, variety
 // ---------------------------------------------------------------------------
 
-const ImageScene: React.FC<{ src: string; animation?: string }> = ({
+const PulsingHalo: React.FC<{
+  color?: string;
+  intensity?: number;
+  scale?: number;
+  offsetY?: number;
+}> = ({
+  color = "rgba(245, 185, 80, 0.95)",
+  intensity = 0.2,
+  scale = 0.5,
+  offsetY = -220,
+}) => {
+  const frame = useCurrentFrame();
+  const { fps, width, height } = useVideoConfig();
+  const pulse = 1 + Math.sin((frame / fps) * 1.6) * 0.04;
+  const opacity = intensity + Math.sin((frame / fps) * 1.8) * (intensity * 0.18);
+  const haloWidth = width * scale;
+  const haloHeight = height * scale * 0.6;
+
+  return (
+    <AbsoluteFill
+      style={{
+        justifyContent: "center",
+        alignItems: "center",
+        pointerEvents: "none",
+      }}
+    >
+      <div
+        style={{
+          width: haloWidth,
+          height: haloHeight,
+          transform: `translateY(${offsetY}px) scale(${pulse})`,
+          borderRadius: "50%",
+          background: `radial-gradient(circle, ${color} 0%, rgba(245, 185, 80, 0.42) 32%, rgba(245, 185, 80, 0.12) 54%, rgba(245, 185, 80, 0) 72%)`,
+          filter: "blur(10px)",
+          opacity,
+        }}
+      />
+    </AbsoluteFill>
+  );
+};
+
+const ImageScene: React.FC<{
+  src: string;
+  animation?: string;
+  haloColor?: string;
+  haloIntensity?: number;
+  haloScale?: number;
+  haloOffsetY?: number;
+}> = ({
   src,
   animation,
+  haloColor,
+  haloIntensity,
+  haloScale,
+  haloOffsetY,
 }) => {
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
@@ -404,6 +464,14 @@ const ImageScene: React.FC<{ src: string; animation?: string }> = ({
           willChange: "transform, opacity",
         }}
       />
+      {haloIntensity ? (
+        <PulsingHalo
+          color={haloColor}
+          intensity={haloIntensity}
+          scale={haloScale}
+          offsetY={haloOffsetY}
+        />
+      ) : null}
       <Vignette />
     </AbsoluteFill>
   );
@@ -413,10 +481,22 @@ const ImageScene: React.FC<{ src: string; animation?: string }> = ({
 // Enhanced Video Scene
 // ---------------------------------------------------------------------------
 
-const VideoScene: React.FC<{ src: string; startFrom?: number; preserveAudio?: boolean }> = ({
+const VideoScene: React.FC<{
+  src: string;
+  startFrom?: number;
+  preserveAudio?: boolean;
+  haloColor?: string;
+  haloIntensity?: number;
+  haloScale?: number;
+  haloOffsetY?: number;
+}> = ({
   src,
   startFrom = 0,
   preserveAudio = false,
+  haloColor,
+  haloIntensity,
+  haloScale,
+  haloOffsetY,
 }) => {
   const frame = useCurrentFrame();
   const { fps, durationInFrames } = useVideoConfig();
@@ -441,6 +521,14 @@ const VideoScene: React.FC<{ src: string; startFrom?: number; preserveAudio?: bo
         }}
         muted={!preserveAudio}
       />
+      {haloIntensity ? (
+        <PulsingHalo
+          color={haloColor}
+          intensity={haloIntensity}
+          scale={haloScale}
+          offsetY={haloOffsetY}
+        />
+      ) : null}
       <Vignette />
     </AbsoluteFill>
   );
@@ -626,6 +714,10 @@ const SceneRenderer: React.FC<{ cut: Cut; theme: ThemeConfig }> = ({ cut, theme 
         particleColor={cut.particleColor}
         particleCount={cut.particleCount}
         particleIntensity={cut.particleIntensity}
+        secondaryParticles={cut.secondaryParticles}
+        secondaryParticleColor={cut.secondaryParticleColor}
+        secondaryParticleCount={cut.secondaryParticleCount}
+        secondaryParticleIntensity={cut.secondaryParticleIntensity}
         backgroundColor={cut.backgroundColor}
         vignette={cut.vignette ?? true}
         lightingFrom={cut.lightingFrom}
@@ -643,7 +735,16 @@ const SceneRenderer: React.FC<{ cut: Cut; theme: ThemeConfig }> = ({ cut, theme 
   const animation = cut.animation || cut.transform?.animation;
 
   if (cut.source && isImage(cut.source)) {
-    return <ImageScene src={cut.source} animation={animation} />;
+    return (
+      <ImageScene
+        src={cut.source}
+        animation={animation}
+        haloColor={cut.haloColor}
+        haloIntensity={cut.haloIntensity}
+        haloScale={cut.haloScale}
+        haloOffsetY={cut.haloOffsetY}
+      />
+    );
   }
 
   if (cut.source && isVideo(cut.source)) {
@@ -652,13 +753,26 @@ const SceneRenderer: React.FC<{ cut: Cut; theme: ThemeConfig }> = ({ cut, theme 
         src={cut.source}
         startFrom={cut.sourceStartSeconds ?? 0}
         preserveAudio={cut.preserveAudio}
+        haloColor={cut.haloColor}
+        haloIntensity={cut.haloIntensity}
+        haloScale={cut.haloScale}
+        haloOffsetY={cut.haloOffsetY}
       />
     );
   }
 
   // Final fallback — try as image if source exists, otherwise show text_card
   if (cut.source) {
-    return <ImageScene src={cut.source} animation={animation} />;
+    return (
+      <ImageScene
+        src={cut.source}
+        animation={animation}
+        haloColor={cut.haloColor}
+        haloIntensity={cut.haloIntensity}
+        haloScale={cut.haloScale}
+        haloOffsetY={cut.haloOffsetY}
+      />
+    );
   }
 
   // No source, no type — render as text card with cut id as fallback

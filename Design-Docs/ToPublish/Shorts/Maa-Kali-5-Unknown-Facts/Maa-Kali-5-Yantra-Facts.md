@@ -49,9 +49,11 @@ The Maa Kali Yantra is not just sacred geometry. Here are 5 powerful facts that 
 
 ### Hook
 
+Many people don't understand the MahaKali Yantra.
+
 This is not just a symbol.
 
-The Maa Kali Yantra is a map of power, transformation, and sacred reality.
+It is a map of power, transformation, and sacred reality.
 
 ### Body
 
@@ -59,7 +61,7 @@ Fact one: at the very center is `Krim`, Kali's bija mantra, the seed sound of cr
 
 Fact two: surrounding it are fifteen sacred energies linked to the final fading nights of the Moon, when transformation is strongest.
 
-Fact three: the interlocking triangles represent Moon, Sun, and Fire, the cosmic forces shaping existence.
+Fact three: the interlocking triangles represent Moon, Sun, and Fire, the energies that shape all existence.
 
 Fact four: the great outer triangle is the cremation ground, not a symbol of fear, but of truth, where illusion ends.
 
@@ -158,35 +160,8 @@ This isn’t just art… it’s a portal into Kali's universe.
 
 ### Scene-1
 
-- Purpose:
-  open with immediate reverent curiosity
-- Source Type:
-  `Animated Still`
-- Script beat:
-  `Most people see Maa Kali and stop at the fierce form. But here are 5 powerful facts many devotees still do not know.`
-- Duration:
-  `5s`
-- Visual:
-  dramatic but sacred close-up of Maa Kali emerging from indigo darkness with lotus-gold rim light
-- Camera:
-  slow push-in
-- Motion:
-  low
-- Motion Recipe:
-  slow push-in, soft aura shimmer, optional dust motes, no aggressive morphing
-- Text overlay:
-  `Most people misunderstand Maa Kali`
-- Prompt:
-  MidJourney scene still prompt: reverent Maa Kali close-up, sacred temple-mural-inspired devotional illustration, midnight indigo background, crimson and lotus-gold aura, calm but intense divine expression, flowing black hair, traditional ornaments, subtle snowfall or ash motes, centered portrait with subtitle-safe lower frame, devotional not horror-coded, no gore, no text, no watermark --ar 9:16 --stylize 110 --v 7
-- Reference asset:
-  `/Users/sunitjoshi/Documents/Documents/BlissfulChants/Assets/Deities/MahaKali/YouTube/Mahakali-1.png`
-- Anchor Reuse:
-  opener-only; may also supply a faint background presence for Scene-9
-- Output:
-  `scene-01.mp4`
-- Repeat Count: 2
-- Review note:
-  Use `Scene-1-Maa-Kali-Opener-Keeper.mp4` as the primary opener and `Scene-1-Maa-Kali-Opener-Alt.mp4` as the intensified second opener beat. `Scene-1-Maa-Kali-Opener-Keeper.mp4` gives the strongest sacred reveal, while `Scene-1-Maa-Kali-Opener-Alt.mp4` works well as a closer follow-up shot with added intensity.
+- Purpose: reveal Kali Yantra 
+- Script beat: `Many peopl don't know the real significance and meaning of the MahaKali Yantra. It's much deeper than one would think.`
 
 ### Scene-2
 
@@ -195,7 +170,7 @@ This isn’t just art… it’s a portal into Kali's universe.
 - Source Type:
   `Animated Still`
 - Script beat:
-  `What you're looking at isn't just a symbol... it's a map of raw cosmic power.`
+  `It isn't just a symbol... it's a map of raw cosmic power.`
 - Duration:
   `8s`
 - Visual:
@@ -300,13 +275,13 @@ This isn’t just art… it’s a portal into Kali's universe.
 - Text overlay:
   `Moon. Sun. Fire.`
 - Prompt:
-  Primary still: use `Mid-Kreem.jpg` as the base yantra image.
+  Primary still: use `Scene-5.png` as the main Moon / Sun / Fire support plate.
   Supporting MidJourney still prompt: sacred Maa Kali Yantra suspended in sacred space, precise symmetrical black line art on aged ivory parchment, three balanced energy presences expressed through light only, moon-silver, radiant solar-gold, ember-red, subtle luminous streams crossing the yantra without obscuring the geometry, devotional mystical atmosphere, centered composition, clean symmetry, no extra symbols, no text, no watermark, no chaotic effects --ar 9:16 --stylize 100 --v 7
   Optional symbolic insert still: devotional abstract sacred energy tableau of Moon, Sun, and Fire as three luminous cosmic forces, indigo background, silver gold and ember-red light, temple-mural-inspired mystical art, reverent not chaotic, no text, no watermark --ar 9:16 --stylize 120 --v 7
 - Reference asset:
-  `/Users/sunitjoshi/Developer/TryOuts/OpenMontage/Design-Docs/ToPublish/Shorts/Maa-Kali-5-Unknown-Facts/Mid-Kreem.jpg`
+  `/Users/sunitjoshi/Developer/TryOuts/OpenMontage/Design-Docs/ToPublish/Shorts/Maa-Kali-5-Unknown-Facts/Scene-5.png`
 - Anchor Reuse:
-  full reuse of yantra anchor with color-energy overlays added in edit
+  use the saved Moon / Sun / Fire support plate directly, with subtle zoom and glow treatment in edit
 - Output:
   `scene-05.mp4`
 
@@ -422,13 +397,13 @@ This isn’t just art… it’s a portal into Kali's universe.
 - Text overlay:
   `A portal into Kali's universe`
 - Prompt:
-  Primary still: use `Mid-Kreem.jpg` as the base yantra image.
+  Primary still: use `Yantra-Energy.png` as the portal-energy background.
   Supporting MidJourney still prompt: full sacred Maa Kali Yantra glowing like a portal into the universe of the Goddess, precise symmetrical black line art on aged ivory parchment, subtle softened presence of Maa Kali behind the geometry, indigo cosmos, crimson aura, lotus-gold sacred light, awe-filled devotional atmosphere, centered composition, preserve the yantra line art, no extra symbols, no text, no watermark, no horror styling --ar 9:16 --stylize 140 --v 7
   Optional closing Maa Kali still: luminous Maa Kali appearing behind sacred geometry like a cosmic mother-presence, indigo cosmos, crimson aura, lotus-gold sacred light, reverent awe-filled still image, calm divine expression, no gore, no text, no watermark --ar 9:16 --stylize 120 --v 7
 - Reference asset:
-  `/Users/sunitjoshi/Developer/TryOuts/OpenMontage/Design-Docs/ToPublish/Shorts/Maa-Kali-5-Unknown-Facts/Mid-Kreem.jpg` plus `/Users/sunitjoshi/Documents/Documents/BlissfulChants/Assets/Deities/MahaKali/YouTube/Mahakali-1.png` for subtle divine presence
+  `/Users/sunitjoshi/Developer/TryOuts/OpenMontage/Design-Docs/ToPublish/Shorts/Maa-Kali-5-Unknown-Facts/Yantra-Energy.png` plus `/Users/sunitjoshi/Documents/Documents/BlissfulChants/Assets/Deities/MahaKali/YouTube/Mahakali-1.png` for subtle divine presence
 - Anchor Reuse:
-  reuse the yantra base and layer a softened version of the approved Maa Kali portrait behind it
+  reuse the yantra-energy field as the closer background and layer a softened version of the approved Maa Kali portrait behind it only if needed
 - Output:
   `scene-09.mp4`
 
@@ -474,7 +449,7 @@ MidJourney usage note:
 - Scene-specific motion rule:
   Scene `4` should use the red triangle as the focal symbol inside the moon ring, ideally with center-grow motion; Scene `6` should visibly suggest fire through drifting ember or spark motion at the sides and above the pyres
 - Notes:
-  Scene-1 currently exists as `Scene-1-Maa-Kali-Opener-Keeper.mp4` with `Scene-1-Maa-Kali-Opener-Alt.mp4` as backup, and Scene-2 should now prefer `Scene-2-Yantra-Reveal-Alt-Clean.mp4` with `Scene-2-Yantra-Reveal-Keeper.mp4` as the backup. Remaining scenes should be assembled in `9:16` using the stills and overlays listed above to bring the total runtime to roughly `90s`
+  Scene-1 currently exists as `Scene-1-Maa-Kali-Opener-Keeper.mp4` with `Scene-1-Maa-Kali-Opener-Alt.mp4` as backup, and Scene-2 should now prefer `Scene-2-Yantra-Reveal-Keeper.mp4` with `Scene-2-Yantra-Reveal-Alt-Clean.mp4` as the alternate cleaned option. Remaining scenes should be assembled in `9:16` using the stills and overlays listed above to bring the total runtime to roughly `90s`
 
 ## Assembly Map
 
@@ -496,9 +471,9 @@ Use this as the default OpenMontage build plan.
 ### Scene-2
 
 - Primary source:
-  `Scene-2-Yantra-Reveal-Alt-Clean.mp4`
-- Alternate source:
   `Scene-2-Yantra-Reveal-Keeper.mp4`
+- Alternate source:
+  `Scene-2-Yantra-Reveal-Alt-Clean.mp4`
 - Backup still:
   `Mid-Kreem.jpg`
 - Persistent frame:

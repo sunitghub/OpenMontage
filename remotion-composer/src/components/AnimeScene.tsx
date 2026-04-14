@@ -53,6 +53,14 @@ export interface AnimeSceneProps {
   particleCount?: number;
   /** Particle opacity multiplier 0-1 (default: 0.6) */
   particleIntensity?: number;
+  /** Optional secondary particle effect overlay */
+  secondaryParticles?: ParticleType;
+  /** Secondary particle color */
+  secondaryParticleColor?: string;
+  /** Secondary particle count */
+  secondaryParticleCount?: number;
+  /** Secondary particle opacity multiplier 0-1 */
+  secondaryParticleIntensity?: number;
   /** Scene background color behind images (default: dark navy) */
   backgroundColor?: string;
   /** Show cinematic vignette (default: true) */
@@ -161,6 +169,10 @@ export const AnimeScene: React.FC<AnimeSceneProps> = ({
   particleColor = "#FFE082",
   particleCount = 20,
   particleIntensity = 0.6,
+  secondaryParticles,
+  secondaryParticleColor = "#FFE082",
+  secondaryParticleCount = 12,
+  secondaryParticleIntensity = 0.35,
   backgroundColor = "#0A0A1A",
   vignette = true,
   lightingFrom,
@@ -362,6 +374,15 @@ export const AnimeScene: React.FC<AnimeSceneProps> = ({
           count={particleCount}
           color={particleColor}
           intensity={particleIntensity}
+        />
+      )}
+
+      {secondaryParticles && (
+        <ParticleOverlay
+          type={secondaryParticles}
+          count={secondaryParticleCount}
+          color={secondaryParticleColor}
+          intensity={secondaryParticleIntensity}
         />
       )}
     </AbsoluteFill>
