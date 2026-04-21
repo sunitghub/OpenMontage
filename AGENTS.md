@@ -7,3 +7,13 @@ It contains routing rules that determine your first action based on what the use
 Skipping it WILL cause you to take the wrong action.
 
 There are no instructions in this file. All instructions are in AGENT_GUIDE.md.
+
+<!-- AI-SKILLS:BEGIN -->
+## Active AI-Skills
+> Managed by `skills.sh` — use `add`/`remove` to change. Source: /Users/sunitjoshi/Developer/AI-Skills
+
+| Skill | Category | Source |
+|-------|----------|--------|
+| ticket | tools | /Users/sunitjoshi/Developer/AI-Skills/tools/ticket.md |
+<!-- AI-SKILLS:END -->
+@/Users/sunitjoshi/Developer/AI-Skills/tools/ticket.md
