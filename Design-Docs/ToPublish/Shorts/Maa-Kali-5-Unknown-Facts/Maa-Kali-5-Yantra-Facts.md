@@ -161,7 +161,7 @@ This isn’t just art… it’s a portal into Kali's universe.
 ### Scene-1
 
 - Purpose: reveal Kali Yantra 
-- Script beat: `Many peopl don't know the real significance and meaning of the MahaKali Yantra. It's much deeper than one would think.`
+- Script beat: `Many people don't know the real significance and meaning of the MahaKali Yantra. It's much deeper than one would think.`
 
 ### Scene-2
 

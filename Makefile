@@ -1,4 +1,4 @@
-.PHONY: setup install install-dev install-gpu test test-contracts lint clean preflight demo cleanup-renders
+.PHONY: setup install install-dev install-gpu test test-contracts lint clean preflight demo cleanup-renders sync-scene-beats
 
 UV ?= $(shell command -v uv 2>/dev/null)
 PYTHON ?= $(if $(wildcard .venv/bin/python),.venv/bin/python,python)
@@ -65,6 +65,10 @@ lint:
 cleanup-renders:
 	@if [ -z "$(DIR)" ]; then echo "Usage: make cleanup-renders DIR=projects/foo/renders [KEEP=1] [DRY_RUN=1]"; exit 1; fi
 	$(PYTHON) tools/video/render_cleanup.py $(DIR) $(if $(KEEP),--keep $(KEEP),) $(if $(DRY_RUN),--dry-run,)
+
+sync-scene-beats:
+	@if [ -z "$(MD)" ] || [ -z "$(EDIT)" ]; then echo "Usage: make sync-scene-beats MD=path/to/package.md EDIT=path/to/edit_decisions.json [DRY_RUN=1]"; exit 1; fi
+	$(PYTHON) tools/video/sync_scene_beats.py $(MD) $(EDIT) $(if $(DRY_RUN),--dry-run,)
 
 clean:
 	$(PYTHON) -c "import pathlib, shutil; [shutil.rmtree(p) for p in pathlib.Path('.').rglob('__pycache__')]; [p.unlink() for p in pathlib.Path('.').rglob('*.pyc')]"

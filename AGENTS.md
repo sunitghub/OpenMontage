@@ -15,9 +15,6 @@ There are no instructions in this file. All instructions are in AGENT_GUIDE.md.
 | Skill | Category | Source |
 |-------|----------|--------|
 | ticket | tools | /Users/sunitjoshi/Developer/AI-Skills/tools/ticket.md |
-| code-simplifier | skills | /Users/sunitjoshi/Developer/AI-Skills/skills/code-simplifier.md |
-| code-reviewer | skills | /Users/sunitjoshi/Developer/AI-Skills/skills/code-reviewer.md |
-| security-review | skills | /Users/sunitjoshi/Developer/AI-Skills/skills/security-review.md |
 | polish | skills | /Users/sunitjoshi/Developer/AI-Skills/skills/polish.md |
 <!-- AI-SKILLS:END -->
 @/Users/sunitjoshi/Developer/AI-Skills/tools/ticket.md
