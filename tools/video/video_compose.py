@@ -127,6 +127,15 @@ class VideoCompose(BaseTool):
                 "type": "object",
                 "description": "Render options (used by the render operation)",
                 "properties": {
+                    "render_intent": {
+                        "type": "string",
+                        "enum": ["final", "captioned", "publishable", "visual_preview"],
+                        "default": "final",
+                        "description": (
+                            "final/captioned/publishable renders require a configured "
+                            "voiceover/narration source. visual_preview may omit audio."
+                        ),
+                    },
                     "subtitle_burn": {"type": "boolean", "default": True},
                     "two_pass_encode": {"type": "boolean", "default": False},
                 },
@@ -247,6 +256,90 @@ class VideoCompose(BaseTool):
         """Check if a file is a still image (routes to Remotion, not FFmpeg)."""
         return path.suffix.lower() in VideoCompose._IMAGE_EXTENSIONS
 
+    @staticmethod
+    def _render_intent(inputs: dict[str, Any], edit_decisions: dict[str, Any]) -> str:
+        options = inputs.get("options") or {}
+        metadata = edit_decisions.get("metadata") or {}
+        intent = (
+            inputs.get("render_intent")
+            or options.get("render_intent")
+            or metadata.get("render_intent")
+            or "final"
+        )
+        return str(intent).lower().replace("-", "_")
+
+    @staticmethod
+    def _voiceover_src(inputs: dict[str, Any], edit_decisions: dict[str, Any]) -> str | None:
+        audio_path = inputs.get("audio_path")
+        if audio_path:
+            return str(audio_path)
+
+        voiceover = edit_decisions.get("voiceover") or {}
+        if isinstance(voiceover, dict) and voiceover.get("src"):
+            return str(voiceover["src"])
+
+        narration = (edit_decisions.get("audio") or {}).get("narration") or {}
+        if isinstance(narration, dict) and narration.get("src"):
+            return str(narration["src"])
+
+        standalone_narration = edit_decisions.get("narration") or {}
+        if isinstance(standalone_narration, dict) and standalone_narration.get("src"):
+            return str(standalone_narration["src"])
+
+        return None
+
+    @staticmethod
+    def _voiceover_src_exists(src: str) -> bool:
+        if src.startswith(("http://", "https://", "data:")):
+            return True
+
+        clean = src.replace("file://", "", 1)
+        path = Path(clean)
+        if path.exists():
+            return True
+
+        # Remotion public-relative assets are commonly specified relative to
+        # remotion-composer/public.
+        composer_public = Path(__file__).resolve().parent.parent.parent / "remotion-composer" / "public"
+        if (composer_public / clean).exists():
+            return True
+
+        return False
+
+    def _validate_voiceover_requirement(
+        self,
+        inputs: dict[str, Any],
+        edit_decisions: dict[str, Any],
+    ) -> ToolResult | None:
+        """Block publish/final renders that are not driven by narration audio."""
+        intent = self._render_intent(inputs, edit_decisions)
+        if intent == "visual_preview":
+            return None
+
+        src = self._voiceover_src(inputs, edit_decisions)
+        if not src:
+            return ToolResult(
+                success=False,
+                error=(
+                    "Voiceover is required for final/captioned/publishable renders. "
+                    "Configure edit_decisions.audio.narration.src, edit_decisions.voiceover.src, "
+                    "or pass audio_path. Use options.render_intent='visual_preview' only for "
+                    "non-final visual timing checks."
+                ),
+            )
+
+        if not self._voiceover_src_exists(src):
+            return ToolResult(
+                success=False,
+                error=(
+                    f"Voiceover source not found: {src}. "
+                    "Final/captioned/publishable renders must point to an existing "
+                    "voiceover file before composition."
+                ),
+            )
+
+        return None
+
     def _compose(self, inputs: dict[str, Any]) -> ToolResult:
         """FFmpeg composition: concat video cuts, add audio, burn subtitles.
 
@@ -257,6 +350,10 @@ class VideoCompose(BaseTool):
         edit_decisions = inputs.get("edit_decisions")
         if not edit_decisions:
             return ToolResult(success=False, error="edit_decisions required for compose")
+
+        voiceover_gate = self._validate_voiceover_requirement(inputs, edit_decisions)
+        if voiceover_gate is not None:
+            return voiceover_gate
 
         output_path = Path(inputs.get("output_path", "composed_output.mp4"))
         output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -746,6 +843,10 @@ class VideoCompose(BaseTool):
         if not asset_manifest:
             return ToolResult(success=False, error="asset_manifest required for render")
 
+        voiceover_gate = self._validate_voiceover_requirement(inputs, edit_decisions)
+        if voiceover_gate is not None:
+            return voiceover_gate
+
         output_path = Path(inputs.get("output_path", "renders/output.mp4"))
         output_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -780,6 +881,9 @@ class VideoCompose(BaseTool):
                 "edit_decisions": dict(edit_decisions, cuts=resolved_cuts),
                 "output_path": str(output_path),
             }
+            for key in ("audio_path", "options", "render_intent"):
+                if key in inputs:
+                    remotion_inputs[key] = inputs[key]
             if profile:
                 remotion_inputs["profile"] = profile
             render_result = self._remotion_render(remotion_inputs)
@@ -861,6 +965,10 @@ class VideoCompose(BaseTool):
                 success=False,
                 error="edit_decisions or composition_data required for remotion_render",
             )
+
+        voiceover_gate = self._validate_voiceover_requirement(inputs, composition_data)
+        if voiceover_gate is not None:
+            return voiceover_gate
 
         output_path = Path(inputs.get("output_path", "renders/remotion_output.mp4"))
         output_path.parent.mkdir(parents=True, exist_ok=True)

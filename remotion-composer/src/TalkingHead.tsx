@@ -301,6 +301,7 @@ export interface TalkingHeadProps {
   overlays?: TalkingHeadOverlay[];
   wordsPerPage?: number;
   fontSize?: number;
+  bottomOffset?: number;
   highlightColor?: string;
 }
 
@@ -310,6 +311,7 @@ export const TalkingHead: React.FC<TalkingHeadProps> = ({
   overlays,
   wordsPerPage = 4,
   fontSize = 52,
+  bottomOffset = 80,
   highlightColor = "#22D3EE",
 }) => {
   const { fps } = useVideoConfig();
@@ -344,6 +346,7 @@ export const TalkingHead: React.FC<TalkingHeadProps> = ({
         words={captions}
         wordsPerPage={wordsPerPage}
         fontSize={fontSize}
+        bottomOffset={bottomOffset}
         highlightColor={highlightColor}
         backgroundColor="rgba(0, 0, 0, 0.65)"
         color="#FFFFFF"

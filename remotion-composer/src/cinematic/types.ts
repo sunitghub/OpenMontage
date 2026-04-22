@@ -45,6 +45,7 @@ export interface CinematicCaptionConfig {
   words: CinematicWordCaption[];
   wordsPerPage?: number;
   fontSize?: number;
+  bottomOffset?: number;
   color?: string;
   highlightColor?: string;
   backgroundColor?: string;

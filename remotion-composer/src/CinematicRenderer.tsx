@@ -14,11 +14,14 @@ import {
 } from "remotion";
 
 function resolveAsset(src: string): string {
-  if (src.startsWith("http://") || src.startsWith("https://") || src.startsWith("data:")) {
+  if (src.startsWith("http://") || src.startsWith("https://") || src.startsWith("data:") || src.startsWith("file://")) {
     return src;
   }
   const clean = src.replace(/^file:\/\/\/?/, "");
-  if (clean.startsWith("/") || /^[A-Za-z]:[/\\]/.test(clean)) {
+  if (clean.startsWith("/")) {
+    return `file://${clean.replace(/\\/g, "/")}`;
+  }
+  if (/^[A-Za-z]:[/\\]/.test(clean)) {
     return `file:///${clean.replace(/\\/g, "/")}`;
   }
   return staticFile(clean);
@@ -394,6 +397,7 @@ export const CinematicRenderer: React.FC<CinematicRendererProps> = ({
           words={captions.words}
           wordsPerPage={captions.wordsPerPage ?? 5}
           fontSize={captions.fontSize ?? 48}
+          bottomOffset={captions.bottomOffset ?? 80}
           color={captions.color ?? "#F8FAFC"}
           highlightColor={captions.highlightColor ?? "#FBBF24"}
           backgroundColor={captions.backgroundColor ?? "rgba(0, 0, 0, 0.6)"}

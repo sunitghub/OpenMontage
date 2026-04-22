@@ -19,6 +19,7 @@ interface CaptionOverlayProps {
   // How many words to show at once in a "page"
   wordsPerPage?: number;
   fontSize?: number;
+  bottomOffset?: number;
   color?: string;
   highlightColor?: string;
   backgroundColor?: string;
@@ -33,7 +34,8 @@ interface CaptionPage {
 
 function buildPages(words: WordCaption[], wordsPerPage: number): CaptionPage[] {
   const pages: CaptionPage[] = [];
-  const minWords = Math.max(3, wordsPerPage - 1);
+  const minSentenceWords = 2;
+  const minClauseWords = Math.max(3, wordsPerPage - 1);
   const maxWords = wordsPerPage + 2;
 
   for (let i = 0; i < words.length;) {
@@ -47,11 +49,12 @@ function buildPages(words: WordCaption[], wordsPerPage: number): CaptionPage[] {
     for (let j = i; j < windowEnd; j++) {
       const token = words[j].word;
       const length = j - i + 1;
-      if (length < minWords) continue;
       if (/[.!?]["']?$/.test(token)) {
+        if (length < minSentenceWords) continue;
         sentenceBreak = length;
         break;
       }
+      if (length < minClauseWords) continue;
       if (clauseBreak === null && /[,;:]["']?$/.test(token)) {
         clauseBreak = length;
       }
@@ -82,7 +85,8 @@ const PageRenderer: React.FC<{
   highlightColor: string;
   backgroundColor: string;
   fontFamily: string;
-}> = ({ page, fontSize, color, highlightColor, backgroundColor, fontFamily }) => {
+  bottomOffset: number;
+}> = ({ page, fontSize, color, highlightColor, backgroundColor, fontFamily, bottomOffset }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
@@ -100,7 +104,7 @@ const PageRenderer: React.FC<{
       style={{
         justifyContent: "flex-end",
         alignItems: "center",
-        paddingBottom: 80,
+        paddingBottom: bottomOffset,
       }}
     >
       <div
@@ -151,6 +155,7 @@ export const CaptionOverlay: React.FC<CaptionOverlayProps> = ({
   words,
   wordsPerPage = 6,
   fontSize = 42,
+  bottomOffset = 80,
   color = "#F8FAFC",
   highlightColor = "#22D3EE",
   backgroundColor = "rgba(15, 23, 42, 0.75)",
@@ -178,6 +183,7 @@ export const CaptionOverlay: React.FC<CaptionOverlayProps> = ({
               highlightColor={highlightColor}
               backgroundColor={backgroundColor}
               fontFamily={fontFamily}
+              bottomOffset={bottomOffset}
             />
           </Sequence>
         );

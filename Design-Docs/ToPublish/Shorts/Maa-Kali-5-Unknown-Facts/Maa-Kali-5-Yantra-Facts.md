@@ -573,21 +573,21 @@ Use this as the default OpenMontage build plan.
 | Scene | Status           | DateTime   |
 | ----- | ---------------- | ---------- |
 | 1     | Publishable      | 2026-04-12 |
-| 2     | Checked          | 2026-04-13 |
-| 3     | Needs Generation |            |
-| 4     | Needs Generation |            |
-| 5     | Needs Generation |            |
-| 6     | Needs Generation |            |
-| 7     | Needs Generation |            |
-| 8     | Needs Generation |            |
-| 9     | Needs Generation |            |
+| 2     | Publishable      | 2026-04-21 |
+| 3     | Publishable      | 2026-04-21 |
+| 4     | Publishable      | 2026-04-21 |
+| 5     | Publishable      | 2026-04-21 |
+| 6     | Publishable      | 2026-04-21 |
+| 7     | Publishable      | 2026-04-21 |
+| 8     | Publishable      | 2026-04-21 |
+| 9     | Publishable      | 2026-04-21 |
 
 ## Post Timeline
 
 - Tentative publish date/time:
-  pending
+  2026-04-21
 - Scheduled platform:
-  `YouTube Shorts`
+  `TikTok`
 - Posted: [ ]
 - Actual post date/time:
   pending
@@ -596,6 +596,6 @@ Use this as the default OpenMontage build plan.
 - Thumbnail used:
   pending
 - Early performance notes:
-  pending
+  Final render exported to `Renders/Maa-Kali-5-Yantra-Facts-Captioned-v11-Vertical.mp4` with QC stills in `Renders/qc/`.
 - Issues:
   corroboration still required before final publish

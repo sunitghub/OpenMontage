@@ -1,4 +1,4 @@
-.PHONY: setup install install-dev install-gpu test test-contracts lint clean preflight demo cleanup-renders sync-scene-beats
+.PHONY: setup install install-dev install-gpu test test-contracts lint clean preflight demo cleanup-renders sync-scene-beats export-screen-script apply-voiceover-timeline cleanup-remotion-staging
 
 UV ?= $(shell command -v uv 2>/dev/null)
 PYTHON ?= $(if $(wildcard .venv/bin/python),.venv/bin/python,python)
@@ -69,6 +69,21 @@ cleanup-renders:
 sync-scene-beats:
 	@if [ -z "$(MD)" ] || [ -z "$(EDIT)" ]; then echo "Usage: make sync-scene-beats MD=path/to/package.md EDIT=path/to/edit_decisions.json [DRY_RUN=1]"; exit 1; fi
 	$(PYTHON) tools/video/sync_scene_beats.py $(MD) $(EDIT) $(if $(DRY_RUN),--dry-run,)
+
+export-screen-script:
+	@if [ -z "$(MD)" ]; then echo "Usage: make export-screen-script MD=path/to/package.md [OUT=path/to/script.md] [DRY_RUN=1]"; exit 1; fi
+	$(PYTHON) tools/video/export_screen_script.py $(MD) $(if $(OUT),--output $(OUT),) $(if $(DRY_RUN),--dry-run,)
+
+apply-voiceover-timeline:
+	@if [ -z "$(EDIT)" ] || [ -z "$(TRANSCRIPT)" ] || [ -z "$(VOICEOVER)" ] || [ -z "$(SCENE_END_SEGMENTS)" ]; then echo "Usage: make apply-voiceover-timeline EDIT=path/to/edit.json TRANSCRIPT=path/to/transcript.json VOICEOVER=path/to/voiceover.mp3 SCENE_END_SEGMENTS=4,6,9 [OUT=path/to/output.json] [DRY_RUN=1]"; exit 1; fi
+	$(PYTHON) tools/video/apply_voiceover_timeline.py $(EDIT) $(TRANSCRIPT) $(VOICEOVER) --scene-end-segments $(SCENE_END_SEGMENTS) $(if $(OUT),--output $(OUT),) $(if $(DRY_RUN),--dry-run,)
+
+cleanup-remotion-staging:
+	@if [ -z "$(PROJECT)" ]; then echo "Usage: make cleanup-remotion-staging PROJECT=<project-slug>"; exit 1; fi
+	@rm -f remotion-composer/public/test-props.json
+	@rm -f remotion-composer/public/$(PROJECT)/props-v*.json
+	@if [ -d "remotion-composer/public/$(PROJECT)/assets" ] && [ ! -L "remotion-composer/public/$(PROJECT)/assets" ]; then rm -rf remotion-composer/public/$(PROJECT)/assets; fi
+	@if [ ! -e "remotion-composer/public/$(PROJECT)/assets" ]; then ln -s "$(CURDIR)/projects/$(PROJECT)/assets" remotion-composer/public/$(PROJECT)/assets; fi
 
 clean:
 	$(PYTHON) -c "import pathlib, shutil; [shutil.rmtree(p) for p in pathlib.Path('.').rglob('__pycache__')]; [p.unlink() for p in pathlib.Path('.').rglob('*.pyc')]"

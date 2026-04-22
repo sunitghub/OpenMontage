@@ -26,7 +26,10 @@ function resolveAsset(src: string): string {
   const clean = src.replace(/^file:\/\/\/?/, "");
   // Absolute paths (Unix: /foo, Windows: C:\foo or C:/foo) — convert to file:// URI
   // staticFile() only accepts relative paths within public/, so absolute paths must bypass it
-  if (clean.startsWith("/") || /^[A-Za-z]:[\\/]/.test(clean)) {
+  if (clean.startsWith("/")) {
+    return `file://${clean.replace(/\\/g, "/")}`;
+  }
+  if (/^[A-Za-z]:[\\/]/.test(clean)) {
     return `file:///${clean.replace(/\\/g, "/")}`;
   }
   return staticFile(clean);
@@ -307,6 +310,7 @@ export interface ExplainerProps {
   captionsConfig?: {
     wordsPerPage?: number;
     fontSize?: number;
+    bottomOffset?: number;
     color?: string;
     highlightColor?: string;
     backgroundColor?: string;
@@ -858,6 +862,7 @@ export const Explainer: React.FC<ExplainerProps> = (props) => {
           words={captions}
           wordsPerPage={captionsConfig?.wordsPerPage ?? 5}
           fontSize={captionsConfig?.fontSize ?? 52}
+          bottomOffset={captionsConfig?.bottomOffset ?? 80}
           color={captionsConfig?.color ?? "#F8FAFC"}
           highlightColor={captionsConfig?.highlightColor ?? "#FBBF24"}
           backgroundColor={captionsConfig?.backgroundColor ?? "rgba(0, 0, 0, 0.62)"}

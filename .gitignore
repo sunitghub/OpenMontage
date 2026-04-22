@@ -10,6 +10,8 @@ build/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.cache/
+.remotion/
 htmlcov/
 .coverage
 .trae/
@@ -20,6 +22,7 @@ htmlcov/
 output/
 pipeline/
 tests/qa/output/
+Design-Docs/ToPublish/Shorts/**/Renders/
 
 # Project workspaces (generated assets, renders — all regenerable)
 projects/

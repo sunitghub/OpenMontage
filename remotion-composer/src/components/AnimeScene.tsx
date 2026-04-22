@@ -17,11 +17,18 @@ function resolveAsset(src: string): string {
   if (
     src.startsWith("http://") ||
     src.startsWith("https://") ||
-    src.startsWith("data:")
+    src.startsWith("data:") ||
+    src.startsWith("file://")
   ) {
     return src;
   }
   const clean = src.replace(/^file:\/\/\/?/, "");
+  if (clean.startsWith("/")) {
+    return `file://${clean.replace(/\\/g, "/")}`;
+  }
+  if (/^[A-Za-z]:[/\\]/.test(clean)) {
+    return `file:///${clean.replace(/\\/g, "/")}`;
+  }
   return staticFile(clean);
 }
 

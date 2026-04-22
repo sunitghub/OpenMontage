@@ -9,13 +9,13 @@ Skipping it WILL cause you to take the wrong action.
 There are no instructions in this file. All instructions are in AGENT_GUIDE.md.
 
 <!-- AI-SKILLS:BEGIN -->
-## Active AI-Skills
-> Managed by `skills.sh` — use `add`/`remove` to change. Source: /Users/sunitjoshi/Developer/AI-Skills
+## Active canon skills
+> Managed by `skills.sh` — use `add`/`remove` to change. Source: /Users/sunitjoshi/Developer/canon
 
 | Skill | Category | Source |
 |-------|----------|--------|
-| ticket | tools | /Users/sunitjoshi/Developer/AI-Skills/tools/ticket.md |
-| polish | skills | /Users/sunitjoshi/Developer/AI-Skills/skills/polish.md |
+| ticket | tools | /Users/sunitjoshi/Developer/canon/tools/ticket.md |
+| wrapup | skills | /Users/sunitjoshi/Developer/canon/skills/wrapup.md |
 <!-- AI-SKILLS:END -->
-@/Users/sunitjoshi/Developer/AI-Skills/tools/ticket.md
-@/Users/sunitjoshi/Developer/AI-Skills/skills/polish.md
+@/Users/sunitjoshi/Developer/canon/tools/ticket.md
+@/Users/sunitjoshi/Developer/canon/skills/wrapup.md
