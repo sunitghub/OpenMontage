@@ -35,6 +35,22 @@ Replicate I2V integration validated; pipeline is production-ready for devotional
 - I2V tool: `tools/video/seedance_replicate.py`
 - Test clip output: `Design-Docs/ToPublish/Shorts/Maa-Kali-5-Unknown-Facts/Renders/test-replicate-i2v.mp4`
 
+<!-- HANDOFF-SNAPSHOT:START 2026-04-22 20:33 branch:main -->
+**Modified files:**
+```
+ M Design-Docs/Shorts-Pipeline-Guide.md
+```
+
+**Recent commits:**
+```
+47054f7 chore: auto-update handoff snapshot [2026-04-22 20:31]
+4da751d chore: auto-update handoff snapshot [2026-04-22 20:31]
+78e0e83 chore: auto-update handoff snapshot [2026-04-22 20:29]
+09d657d Fix Replicate cost estimate to match actual billing
+ce34cf7 chore: auto-update handoff snapshot [2026-04-22 20:29]
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-04-22 20:31 branch:main -->
 **Modified files:**
 ```
@@ -48,21 +64,5 @@ Replicate I2V integration validated; pipeline is production-ready for devotional
 09d657d Fix Replicate cost estimate to match actual billing
 ce34cf7 chore: auto-update handoff snapshot [2026-04-22 20:29]
 556ed7c Validate Replicate I2V; fix fast-variant 402; update handoff
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-04-22 20:31 branch:main -->
-**Modified files:**
-```
- M Design-Docs/Shorts-Pipeline-Guide.md
-```
-
-**Recent commits:**
-```
-78e0e83 chore: auto-update handoff snapshot [2026-04-22 20:29]
-09d657d Fix Replicate cost estimate to match actual billing
-ce34cf7 chore: auto-update handoff snapshot [2026-04-22 20:29]
-556ed7c Validate Replicate I2V; fix fast-variant 402; update handoff
-0ac140d chore: auto-update handoff snapshot [2026-04-22 20:23]
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
