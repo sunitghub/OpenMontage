@@ -330,6 +330,7 @@ export interface ExplainerProps {
     color?: string;
     highlightColor?: string;
     backgroundColor?: string;
+    maxWidth?: string | number;
   };
   audio?: AudioConfig;
 }
@@ -949,6 +950,7 @@ export const Explainer: React.FC<ExplainerProps> = (props) => {
           color={captionsConfig?.color ?? "#F8FAFC"}
           highlightColor={captionsConfig?.highlightColor ?? "#FBBF24"}
           backgroundColor={captionsConfig?.backgroundColor ?? "rgba(0, 0, 0, 0.62)"}
+          maxWidth={captionsConfig?.maxWidth ?? "80%"}
         />
       )}
 

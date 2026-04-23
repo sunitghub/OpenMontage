@@ -49,6 +49,7 @@ export interface CinematicCaptionConfig {
   color?: string;
   highlightColor?: string;
   backgroundColor?: string;
+  maxWidth?: string | number;
 }
 
 export interface CinematicRendererProps {

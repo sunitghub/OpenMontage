@@ -401,6 +401,7 @@ export const CinematicRenderer: React.FC<CinematicRendererProps> = ({
           color={captions.color ?? "#F8FAFC"}
           highlightColor={captions.highlightColor ?? "#FBBF24"}
           backgroundColor={captions.backgroundColor ?? "rgba(0, 0, 0, 0.6)"}
+          maxWidth={captions.maxWidth ?? "80%"}
         />
       ) : null}
     </AbsoluteFill>

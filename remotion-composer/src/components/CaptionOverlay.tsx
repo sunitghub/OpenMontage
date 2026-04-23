@@ -24,6 +24,7 @@ interface CaptionOverlayProps {
   highlightColor?: string;
   backgroundColor?: string;
   fontFamily?: string;
+  maxWidth?: string | number;
 }
 
 interface CaptionPage {
@@ -86,7 +87,17 @@ const PageRenderer: React.FC<{
   backgroundColor: string;
   fontFamily: string;
   bottomOffset: number;
-}> = ({ page, fontSize, color, highlightColor, backgroundColor, fontFamily, bottomOffset }) => {
+  maxWidth: string | number;
+}> = ({
+  page,
+  fontSize,
+  color,
+  highlightColor,
+  backgroundColor,
+  fontFamily,
+  bottomOffset,
+  maxWidth,
+}) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
 
@@ -114,7 +125,8 @@ const PageRenderer: React.FC<{
           backgroundColor,
           borderRadius: 12,
           padding: "14px 28px",
-          maxWidth: "80%",
+          boxSizing: "border-box",
+          maxWidth,
           textAlign: "center",
         }}
       >
@@ -160,8 +172,10 @@ export const CaptionOverlay: React.FC<CaptionOverlayProps> = ({
   highlightColor = "#22D3EE",
   backgroundColor = "rgba(15, 23, 42, 0.75)",
   fontFamily = "Space Grotesk, Inter, system-ui, sans-serif",
+  maxWidth,
 }) => {
-  const { fps } = useVideoConfig();
+  const { fps, width, height } = useVideoConfig();
+  const resolvedMaxWidth = maxWidth ?? (height > width ? "68%" : "80%");
   const pages = buildPages(words, wordsPerPage);
 
   return (
@@ -184,6 +198,7 @@ export const CaptionOverlay: React.FC<CaptionOverlayProps> = ({
               backgroundColor={backgroundColor}
               fontFamily={fontFamily}
               bottomOffset={bottomOffset}
+              maxWidth={resolvedMaxWidth}
             />
           </Sequence>
         );
