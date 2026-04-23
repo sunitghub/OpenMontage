@@ -17,6 +17,22 @@ Ope-lnxy [in_progress] - Project OpenMontage-Create TikTok style video from Maa 
 ## Next Steps
 1.
 
+<!-- HANDOFF-SNAPSHOT:START 2026-04-22 20:22 branch:main -->
+**Modified files:**
+```
+ M Design-Docs/Shorts-Pipeline-Guide.md
+```
+
+**Recent commits:**
+```
+efbf44b chore: auto-update handoff snapshot [2026-04-22 20:21]
+faebb4b chore: auto-update handoff snapshot [2026-04-22 20:19]
+471a79e chore: auto-update handoff snapshot [2026-04-22 20:17]
+d09bf70 chore: auto-update handoff snapshot [2026-04-22 20:14]
+7f66410 chore: auto-update handoff snapshot [2026-04-22 20:13]
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-04-22 20:21 branch:main -->
 **Modified files:**
 ```
@@ -30,21 +46,5 @@ faebb4b chore: auto-update handoff snapshot [2026-04-22 20:19]
 d09bf70 chore: auto-update handoff snapshot [2026-04-22 20:14]
 7f66410 chore: auto-update handoff snapshot [2026-04-22 20:13]
 eb883fb chore: auto-update handoff snapshot [2026-04-22 20:06]
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-04-22 20:19 branch:main -->
-**Modified files:**
-```
- M Design-Docs/Shorts-Pipeline-Guide.md
-```
-
-**Recent commits:**
-```
-471a79e chore: auto-update handoff snapshot [2026-04-22 20:17]
-d09bf70 chore: auto-update handoff snapshot [2026-04-22 20:14]
-7f66410 chore: auto-update handoff snapshot [2026-04-22 20:13]
-eb883fb chore: auto-update handoff snapshot [2026-04-22 20:06]
-1952b20 chore: auto-update handoff snapshot [2026-04-22 20:01]
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
