@@ -43,15 +43,15 @@ Replicate I2V integration validated; pipeline is production-ready for devotional
 
 **Recent commits:**
 ```
+4da751d chore: auto-update handoff snapshot [2026-04-22 20:31]
 78e0e83 chore: auto-update handoff snapshot [2026-04-22 20:29]
 09d657d Fix Replicate cost estimate to match actual billing
 ce34cf7 chore: auto-update handoff snapshot [2026-04-22 20:29]
 556ed7c Validate Replicate I2V; fix fast-variant 402; update handoff
-0ac140d chore: auto-update handoff snapshot [2026-04-22 20:23]
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
 
-<!-- HANDOFF-SNAPSHOT:START 2026-04-22 20:29 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-04-22 20:31 branch:main -->
 **Modified files:**
 ```
  M Design-Docs/Shorts-Pipeline-Guide.md
@@ -59,10 +59,10 @@ ce34cf7 chore: auto-update handoff snapshot [2026-04-22 20:29]
 
 **Recent commits:**
 ```
+78e0e83 chore: auto-update handoff snapshot [2026-04-22 20:29]
 09d657d Fix Replicate cost estimate to match actual billing
 ce34cf7 chore: auto-update handoff snapshot [2026-04-22 20:29]
 556ed7c Validate Replicate I2V; fix fast-variant 402; update handoff
 0ac140d chore: auto-update handoff snapshot [2026-04-22 20:23]
-e385cbb chore: auto-update handoff snapshot [2026-04-22 20:22]
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
