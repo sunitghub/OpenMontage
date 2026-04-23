@@ -136,8 +136,8 @@ class SeedanceReplicate(BaseTool):
         variant = inputs.get("model_variant", "standard")
         duration = inputs.get("duration", "5")
         secs = 5 if duration == "auto" else int(duration)
-        # Replicate bills per-second at roughly the same rate as fal.ai for this model family.
-        rate = 0.24 if variant == "fast" else 0.30
+        # Verified 2026-04-23: 5s clip = $0.90 actual on standard tier (~$0.18/output-sec)
+        rate = 0.18
         return round(rate * secs, 2)
 
     def estimate_runtime(self, inputs: dict[str, Any]) -> float:
