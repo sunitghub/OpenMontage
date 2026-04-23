@@ -17,30 +17,56 @@ show_help() {
   local cmd_name
   cmd_name="$(basename "$0")"
   cat <<EOF
-$cmd_name
+$cmd_name — OpenMontage Shorts pipeline
 
-Helper wrapper for the OpenMontage Shorts workflow.
+Turns a markdown file with a Script section into a final 9:16 TikTok/Shorts MP4
+through four gated phases. Each phase creates a ticket; nothing advances until approved.
 
-Usage:
-  $cmd_name --help
-  $cmd_name --gen-shorts
-  $cmd_name --gen-mp4
+PIPELINE USAGE  (one folder, four phases in order):
+
   $cmd_name <folder> --scenes
+      Phase 1 — Agent reads your ## Script and writes a full scene breakdown
+      to the markdown: timing, visuals, camera moves, motion recipes, prompts.
+      A ticket is created for your review before proceeding.
+
   $cmd_name <folder> --artifacts
+      Phase 2 — Agent finalizes all image/video prompts per scene (MidJourney,
+      DrawThings, Kling, Seedance). Writes an Artifact Status table. No API
+      calls are made — all artifacts stay PENDING until you approve the prompts.
+
   $cmd_name <folder> --generate-clips
+      Phase 3 — Calls Kling/Seedance/image-gen APIs for PENDING artifacts where
+      keys are configured. MidJourney and DrawThings remain manual (prompts are
+      already written — run them in their apps and drop files into the folder).
+
   $cmd_name <folder> --rendershorts
+      Phase 4 — Requires a voiceover file in <folder>/Renders/. Builds a
+      HyperFrames composition from the scene markdown (if not yet built), then
+      renders a 9:16 MP4 at tiktok_vertical profile, 1080×1920, 30fps.
 
-Options (legacy):
-  --gen-shorts   Interactive Shorts mode — inspect and spruce markdown packages.
-  --gen-mp4      Interactive scene MP4 review mode — update Results table.
+LEGACY USAGE  (interactive modes):
 
-Options (pipeline — requires <folder>):
-  --scenes         Phase 1: Break the Script section into full scene breakdown.
-  --artifacts      Phase 2: Write image/video prompts for each artifact. No API calls.
-  --generate-clips Phase 3: Execute API-backed artifact generation (Kling, Seedance, etc.).
-  --rendershorts   Phase 4: Render final 9:16 MP4 via HyperFrames (requires voiceover).
+  $cmd_name --gen-shorts
+      Interactive Shorts mode — browse all Shorts folders, inspect a package,
+      and optionally research or spruce the markdown via the agent.
 
-  --help         Show this help text.
+  $cmd_name --gen-mp4
+      Interactive scene MP4 review mode — review scene-*.mp4 files in a
+      selected Shorts folder and update the Results table with status + timestamp.
+
+OTHER:
+
+  $cmd_name --help    Show this help text.
+
+MAKEFILE SHORTCUTS:
+
+  make shorts-scenes NAME=<folder>
+  make shorts-artifacts NAME=<folder>
+  make shorts-generate-clips NAME=<folder>
+  make shorts-render NAME=<folder>
+
+FULL GUIDE:
+  Design-Docs/Shorts-Pipeline-Guide.md
 EOF
   if [[ "$cmd_name" == "shorts-workflow" ]]; then
     echo ""
