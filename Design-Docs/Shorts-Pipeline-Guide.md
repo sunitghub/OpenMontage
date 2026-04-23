@@ -1,8 +1,28 @@
 # Shorts Production Pipeline
 
-Step-by-step guide for producing TikTok/YouTube Shorts using `youtube-shorts.sh`.
+Step-by-step guide for producing TikTok/YouTube Shorts.
 
 The pipeline takes a markdown file with only a `## Script` section and produces a final 9:16 MP4 through four gated phases. Each phase creates a `tk` ticket; nothing moves forward until you approve.
+
+---
+
+## How this pipeline works
+
+Two actors collaborate in this pipeline:
+
+**Claude Code (this session)** — the AI that does the creative work. It has the `shorts-director` skill loaded (registered in `CLAUDE.md`), which contains the scene cadence rules, prompt templates, and format conventions. You talk to it in the chat window. For Phases 1, 2, and the composition step of Phase 4, you simply tell Claude what to do and it writes directly to the markdown file.
+
+**Your terminal** — runs deterministic operations that don't need AI: scaffolding folders, calling video generation APIs, running the HyperFrames renderer. The `make shorts-*` commands and `youtube-shorts.sh` flags handle this layer.
+
+```
+Phase 1 (scenes)        → tell Claude Code
+Phase 2 (prompts)       → tell Claude Code
+Phase 3 (generate)      → run in terminal (API calls)
+Phase 4 (render)        → run in terminal (HyperFrames CLI)
+  └── if no composition.html yet → tell Claude Code first, then re-run
+```
+
+The `make shorts-scenes` / `make shorts-artifacts` commands exist as convenience helpers — they scaffold the folder and print the current markdown state — but the actual creative output comes from Claude Code reading the `shorts-director` skill.
 
 ---
 
@@ -44,25 +64,25 @@ Close: The resonant closing line.
 CTA: Follow for more.
 ```
 
-Alternatively, run `--scenes` without the file and the script scaffolds the folder and a blank markdown for you.
+Alternatively, run `make shorts-scenes NAME=my-short-name` without a pre-existing file and the shell will scaffold the folder and a blank markdown for you.
 
 ---
 
-## Phase 1 — Generate scene breakdown (`--scenes`)
+## Phase 1 — Generate scene breakdown
 
+**Who does this:** Claude Code
+
+**How to invoke:** Tell Claude Code in the chat window:
+> "Generate scenes for `my-short-name`"
+
+Claude reads the `## Script` section from the markdown, applies the `shorts-director` skill (competitor cadence rules, timing, visual format), and writes the full `## Scenes` section directly to the markdown file.
+
+**Optional terminal helper** (scaffolds folder + prints current state before you talk to Claude):
 ```bash
-./youtube-shorts.sh my-short-name --scenes
-# or
 make shorts-scenes NAME=my-short-name
 ```
 
-**What happens:**
-- The agent reads your `## Script` section
-- Applies competitor cadence rules (motion-light montage, 4–6s holds, max 90s total)
-- Writes a full `## Scenes` section to your markdown with one `### Scene-N` block per beat
-- Creates a `tk` ticket tagged `shorts,scenes`
-
-**Each scene block contains:**
+**What Claude writes — each scene block:**
 ```markdown
 ### Scene-3
 Script beat: At the very center is Kali's bija mantra — Krim
@@ -79,32 +99,31 @@ Artifacts:
 Status: DRAFT
 ```
 
-**Your job:** Review the scenes in the markdown. Discuss with the agent to adjust timing, visual descriptions, or motion recipes. When satisfied, close the scenes ticket and move to Phase 2.
+**Your job:** Review the scenes in the markdown. Discuss with Claude to adjust timing, visual descriptions, or motion recipes. When satisfied, close the scenes ticket and move to Phase 2.
 
-**Key rules the agent applies:**
+**Key rules Claude applies:**
 - Hook: 4–5s, strong provocation or mystery
 - Body scenes: 4–6s each (reverent/devotional pace)
 - Close: 4–5s, resonant
 - CTA: 3–4s (optional)
-- Total must stay under 90s — agent tightens body holds if needed
+- Total must stay under 90s — Claude tightens body holds if needed
 - Hero clips (true AI-generated video) only for opener and 1–2 peak moments; rest are animated stills
 
 ---
 
-## Phase 2 — Write artifact prompts (`--artifacts`)
+## Phase 2 — Write artifact prompts
 
+**Who does this:** Claude Code
+
+**How to invoke:** Tell Claude Code in the chat window:
+> "Write artifact prompts for `my-short-name`"
+
+Claude reads each `### Scene-N` block, finalizes and sharpens every prompt (MidJourney, DrawThings, Kling, Seedance), and appends an `## Artifact Status` table to the markdown. **No API calls are made** — prompts only, all artifacts stay PENDING.
+
+**Optional terminal helper** (prints scene count + current state before you talk to Claude):
 ```bash
-./youtube-shorts.sh my-short-name --artifacts
-# or
 make shorts-artifacts NAME=my-short-name
 ```
-
-**What happens:**
-- The agent reads each `### Scene-N` block
-- Finalizes and sharpens every prompt (MidJourney, DrawThings, Kling, Seedance)
-- Appends an `## Artifact Status` table to the markdown
-- **No API calls are made** — prompts only, all artifacts stay PENDING
-- Creates a `tk` ticket tagged `shorts,artifacts` dependent on the scenes ticket
 
 **Artifact Status table example:**
 ```markdown
@@ -128,7 +147,9 @@ make shorts-artifacts NAME=my-short-name
 
 ## Phase 3 — Generate artifacts (`--generate-clips` + manual tools)
 
-### 3a — API-backed clips (automated)
+### 3a — API-backed clips (terminal)
+
+**Who does this:** Terminal (API calls to Kling, Seedance, fal.ai)
 
 ```bash
 ./youtube-shorts.sh my-short-name --generate-clips
@@ -146,7 +167,7 @@ Artifact Status updates to `GENERATED ✓` on success or `FAILED — <reason>` o
 
 **DrawThings:** Copy the prompt and settings from the markdown. In the DrawThings app, load `SkyReels v2 I2V 14B 720p`, paste the prompt, apply the settings (strength ~70%, 49 frames), and export to the Shorts folder.
 
-**After dropping files in:** Tell the agent "artifacts for scene N are in the folder" — it will update the status table.
+**After dropping files in:** Tell Claude Code "artifacts for scene N are in the folder" — it will update the status table.
 
 ### What to check before Phase 4
 
@@ -175,20 +196,23 @@ Options for generating voiceover:
 
 ## Phase 4 — Render (`--rendershorts`)
 
+**Who does this:** Terminal (HyperFrames CLI), with a one-time Claude step if no composition exists yet
+
 ```bash
 ./youtube-shorts.sh my-short-name --rendershorts
 # or
 make shorts-render NAME=my-short-name
 ```
 
-**What happens (if `composition.html` already exists):**
+**First run (no `composition.html` yet):**
+1. Shell detects no composition and prints a message
+2. Tell Claude Code: "Build the HyperFrames composition for `my-short-name`"
+3. Claude reads the scenes markdown and writes `composition.html` (scenes, timing, text animations, audio sync)
+4. Re-run `--rendershorts` — the shell picks up the composition and renders
+
+**Subsequent runs (composition exists):**
 1. Shell checks for voiceover — blocks with a clear error if missing
 2. Calls `npx hyperframes render composition.html --output Renders/my-short-name-captioned-v1.mp4 --profile tiktok_vertical --quality high --fps 30`
-
-**What happens (first run, no `composition.html` yet):**
-1. Shell hands off to the agent
-2. Agent builds the HyperFrames HTML composition from the scenes markdown (scenes, timing, text animations, audio sync)
-3. Once `composition.html` is written, re-run `--rendershorts` to render
 
 **Output:** `Design-Docs/ToPublish/Shorts/my-short-name/Renders/my-short-name-captioned-v1.mp4`
 
@@ -223,17 +247,14 @@ Close tickets bottom-up after each approval phase.
 
 ## Quick reference
 
-| Action | Command |
-|---|---|
-| Start a new short | `./youtube-shorts.sh <folder> --scenes` |
-| Write artifact prompts | `./youtube-shorts.sh <folder> --artifacts` |
-| Generate API clips | `./youtube-shorts.sh <folder> --generate-clips` |
-| Render final MP4 | `./youtube-shorts.sh <folder> --rendershorts` |
-| Inspect all Shorts folders | `./youtube-shorts.sh --gen-shorts` |
-| Review scene MP4s | `./youtube-shorts.sh --gen-mp4` |
-| Full help | `./youtube-shorts.sh --help` |
-
-Makefile equivalents: `make shorts-scenes NAME=<folder>`, `make shorts-artifacts NAME=<folder>`, etc.
+| Phase | Who | How |
+|---|---|---|
+| 1 — Scene breakdown | Claude Code | "Generate scenes for `<folder>`" |
+| 2 — Artifact prompts | Claude Code | "Write artifact prompts for `<folder>`" |
+| 3 — Generate clips | Terminal | `make shorts-generate-clips NAME=<folder>` |
+| 3b — Manual artifacts | You | Run MidJourney/DrawThings, drop files in folder |
+| 4 — Build composition | Claude Code | "Build HyperFrames composition for `<folder>`" |
+| 4 — Render | Terminal | `make shorts-render NAME=<folder>` |
 
 ---
 
@@ -242,7 +263,7 @@ Makefile equivalents: `make shorts-scenes NAME=<folder>`, `make shorts-artifacts
 ```
 Design-Docs/ToPublish/Shorts/my-short-name/
   my-short-name.md          ← source of truth (Script + Scenes + Artifact Status)
-  composition.html          ← HyperFrames composition (written by agent in Phase 4)
+  composition.html          ← HyperFrames composition (written by Claude in Phase 4)
   scene-1-bg.png
   scene-1-hero.mp4
   scene-2-bg.png
