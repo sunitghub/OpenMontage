@@ -571,6 +571,161 @@ def _parse_results_rows(text: str) -> dict[int, dict[str, str]]:
     return rows
 
 
+def scaffold_package(folder: str) -> Path:
+    """Create the Shorts folder and minimal markdown stub if they don't exist."""
+    folder_path = SHORTS_ROOT / folder
+    folder_path.mkdir(parents=True, exist_ok=True)
+    md_path = folder_path / f"{folder}.md"
+    if not md_path.exists():
+        md_path.write_text(
+            f"# {folder.replace('-', ' ').title()}\n\n"
+            "## Script\n\n"
+            "Hook: \n\nBody: \n\nClose: \n\nCTA: \n"
+        )
+        print(f"Created: {md_path}")
+    return md_path
+
+
+def _resolve_md_path(folder: str) -> Path | None:
+    """Find the package markdown: prefer <folder>.md, fall back to largest .md (skips Screen-Script files)."""
+    folder_path = SHORTS_ROOT / folder
+    canonical = folder_path / f"{folder}.md"
+    if canonical.exists():
+        return canonical
+    candidates = [
+        p for p in folder_path.glob("*.md")
+        if "screen-script" not in p.stem.lower()
+    ]
+    return max(candidates, key=lambda p: p.stat().st_size) if candidates else None
+
+
+def read_script_section(folder: str) -> str:
+    """Extract the raw ## Script section text for the agent to process."""
+    md_path = _resolve_md_path(folder)
+    if not md_path:
+        return ""
+    return _get_section(md_path.read_text(), "Script")
+
+
+def write_scenes_section(folder: str, scenes_md: str) -> None:
+    """Write/replace the ## Scenes block in the package markdown."""
+    md_path = SHORTS_ROOT / folder / f"{folder}.md"
+    text = md_path.read_text()
+    new_block = f"## Scenes\n\n{scenes_md.strip()}\n"
+    pattern = re.compile(r"^## Scenes\s*$.*?(?=^## |\Z)", re.MULTILINE | re.DOTALL)
+    if pattern.search(text):
+        updated = pattern.sub(new_block, text)
+    else:
+        updated = text.rstrip() + "\n\n" + new_block
+    md_path.write_text(updated)
+
+
+def read_scenes(folder: str) -> list[dict[str, Any]]:
+    """Parse the ## Scenes block into a list of scene dicts."""
+    md_path = _resolve_md_path(folder)
+    if not md_path:
+        return []
+    text = md_path.read_text()
+    scenes_text = _get_section(text, "Scenes")
+    if not scenes_text:
+        return []
+    try:
+        return _parse_scenes(scenes_text)
+    except PackageBootstrapError:
+        # Markdown uses an extended scene format that the strict parser can't handle.
+        # Count ### Scene-N headings as a best-effort scene count.
+        return [{"heading": h} for h in re.findall(r"^### Scene-\d+", scenes_text, re.MULTILINE)]
+
+
+def write_artifact_status_table(folder: str, rows: list[dict[str, str]]) -> None:
+    """Write/replace the ## Artifact Status table at the end of the package markdown."""
+    md_path = SHORTS_ROOT / folder / f"{folder}.md"
+    text = md_path.read_text()
+    table_lines = [
+        "## Artifact Status",
+        "",
+        "| Scene | File | Tool | Status |",
+        "|---|---|---|---|",
+    ]
+    for row in rows:
+        table_lines.append(
+            f"| {row['scene']} | {row['file']} | {row['tool']} | {row['status']} |"
+        )
+    new_block = "\n".join(table_lines).rstrip() + "\n"
+    pattern = re.compile(r"^## Artifact Status\s*$.*?(?=^## |\Z)", re.MULTILINE | re.DOTALL)
+    if pattern.search(text):
+        updated = pattern.sub(new_block, text)
+    else:
+        updated = text.rstrip() + "\n\n" + new_block
+    md_path.write_text(updated)
+
+
+def get_pending_artifacts(folder: str) -> list[dict[str, str]]:
+    """Return rows from ## Artifact Status where Status starts with PENDING (run --generate-clips)."""
+    md_path = SHORTS_ROOT / folder / f"{folder}.md"
+    if not md_path.exists():
+        return []
+    text = md_path.read_text()
+    pattern = re.compile(r"^## Artifact Status\s*$.*?(?=^## |\Z)", re.MULTILINE | re.DOTALL)
+    match = pattern.search(text)
+    if not match:
+        return []
+    pending = []
+    for line in match.group(0).splitlines():
+        if not line.startswith("|"):
+            continue
+        cells = [c.strip() for c in line.strip("|").split("|")]
+        if len(cells) != 4 or cells[0] in {"Scene", "---"}:
+            continue
+        status = cells[3]
+        if "run --generate-clips" in status:
+            pending.append({"scene": cells[0], "file": cells[1], "tool": cells[2], "status": status})
+    return pending
+
+
+def run_scenes_mode(folder: str) -> int:
+    """Entry point for --scenes: scaffold if needed, then print context for the agent."""
+    md_path = scaffold_package(folder)
+    script = read_script_section(folder)
+    print(f"\nShorts package: {md_path}")
+    print(f"Script section:\n{script or '(empty — fill in the Script section first)'}\n")
+    print("The agent will now read the shorts-director skill and generate the scene breakdown.")
+    print("When done, review the Scenes section in the markdown, then run --artifacts.\n")
+    return 0
+
+
+def run_artifacts_mode(folder: str) -> int:
+    """Entry point for --artifacts: print context for the agent."""
+    md_path = _resolve_md_path(folder) or SHORTS_ROOT / folder / f"{folder}.md"
+    scenes = read_scenes(folder)
+    print(f"\nShorts package: {md_path}")
+    print(f"Scenes found: {len(scenes)}")
+    print("The agent will now read the shorts-director skill and write artifact prompts.")
+    print("No API calls will be made. Review prompts in the markdown, then run --generate-clips.\n")
+    return 0
+
+
+def run_generate_clips_mode(folder: str) -> int:
+    """Entry point for --generate-clips: print pending artifacts for the agent."""
+    md_path = _resolve_md_path(folder) or SHORTS_ROOT / folder / f"{folder}.md"
+    pending = get_pending_artifacts(folder)
+    print(f"\nShorts package: {md_path}")
+    print(f"Pending API-backed artifacts: {len(pending)}")
+    for row in pending:
+        print(f"  Scene {row['scene']}: {row['file']} via {row['tool']}")
+    print("The agent will now call the appropriate tools for each pending artifact.\n")
+    return 0
+
+
+def run_rendershorts_mode(folder: str) -> int:
+    """Entry point for --rendershorts when no composition.html exists yet."""
+    md_path = _resolve_md_path(folder) or SHORTS_ROOT / folder / f"{folder}.md"
+    print(f"\nShorts package: {md_path}")
+    print("No composition.html found. The agent will build the HyperFrames composition from the scene markdown.")
+    print("Once composition.html is written, re-run --rendershorts to render the final MP4.\n")
+    return 0
+
+
 def _get_section(text: str, heading: str) -> str:
     lines = text.splitlines()
     buffer: list[str] = []

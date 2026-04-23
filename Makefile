@@ -1,4 +1,4 @@
-.PHONY: setup install install-dev install-gpu test test-contracts lint clean preflight demo demo-list hyperframes-doctor hyperframes-warm cleanup-renders sync-scene-beats export-screen-script apply-voiceover-timeline cleanup-remotion-staging
+.PHONY: setup install install-dev install-gpu test test-contracts lint clean preflight demo demo-list hyperframes-doctor hyperframes-warm cleanup-renders sync-scene-beats export-screen-script apply-voiceover-timeline cleanup-remotion-staging shorts-scenes shorts-artifacts shorts-generate-clips shorts-render
 
 UV ?= $(shell command -v uv 2>/dev/null)
 PYTHON ?= $(if $(wildcard .venv/bin/python),.venv/bin/python,python)
@@ -102,6 +102,22 @@ cleanup-remotion-staging:
 	@rm -f remotion-composer/public/$(PROJECT)/props-v*.json
 	@if [ -d "remotion-composer/public/$(PROJECT)/assets" ] && [ ! -L "remotion-composer/public/$(PROJECT)/assets" ]; then rm -rf remotion-composer/public/$(PROJECT)/assets; fi
 	@if [ ! -e "remotion-composer/public/$(PROJECT)/assets" ]; then ln -s "$(CURDIR)/projects/$(PROJECT)/assets" remotion-composer/public/$(PROJECT)/assets; fi
+
+shorts-scenes:
+	@if [ -z "$(NAME)" ]; then echo "Usage: make shorts-scenes NAME=<folder>"; exit 1; fi
+	@./youtube-shorts.sh $(NAME) --scenes
+
+shorts-artifacts:
+	@if [ -z "$(NAME)" ]; then echo "Usage: make shorts-artifacts NAME=<folder>"; exit 1; fi
+	@./youtube-shorts.sh $(NAME) --artifacts
+
+shorts-generate-clips:
+	@if [ -z "$(NAME)" ]; then echo "Usage: make shorts-generate-clips NAME=<folder>"; exit 1; fi
+	@./youtube-shorts.sh $(NAME) --generate-clips
+
+shorts-render:
+	@if [ -z "$(NAME)" ]; then echo "Usage: make shorts-render NAME=<folder>"; exit 1; fi
+	@./youtube-shorts.sh $(NAME) --rendershorts
 
 clean:
 	$(PYTHON) -c "import pathlib, shutil; [shutil.rmtree(p) for p in pathlib.Path('.').rglob('__pycache__')]; [p.unlink() for p in pathlib.Path('.').rglob('*.pyc')]"

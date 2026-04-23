@@ -16,6 +16,8 @@ There are no instructions in this file. All instructions are in AGENT_GUIDE.md.
 |-------|----------|--------|
 | ticket | tools | /Users/sunitjoshi/Developer/canon/tools/ticket.md |
 | wrapup | skills | /Users/sunitjoshi/Developer/canon/skills/wrapup.md |
+| shorts-director | skills | /Users/sunitjoshi/Developer/canon/skills/shorts-director.md |
 <!-- AI-SKILLS:END -->
 @/Users/sunitjoshi/Developer/canon/tools/ticket.md
 @/Users/sunitjoshi/Developer/canon/skills/wrapup.md
+@/Users/sunitjoshi/Developer/canon/skills/shorts-director.md
