@@ -155,9 +155,8 @@ class SeedanceReplicate(BaseTool):
 
         start = time.time()
         variant = inputs.get("model_variant", "standard")
-        model_slug = (
-            "bytedance/seedance-2.0-fast" if variant == "fast" else "bytedance/seedance-2.0"
-        )
+        # seedance-2.0-fast requires a higher Replicate billing tier; fall back to standard
+        model_slug = "bytedance/seedance-2.0"
 
         payload_input: dict[str, Any] = {"prompt": inputs["prompt"]}
         if inputs.get("duration") and inputs["duration"] != "auto":
