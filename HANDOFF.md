@@ -34,3 +34,19 @@ Replicate I2V integration validated; pipeline is production-ready for devotional
 - Canon skill (scene rules + prompt templates): `~/Developer/canon/skills/shorts-director.md`
 - I2V tool: `tools/video/seedance_replicate.py`
 - Test clip output: `Design-Docs/ToPublish/Shorts/Maa-Kali-5-Unknown-Facts/Renders/test-replicate-i2v.mp4`
+
+<!-- HANDOFF-SNAPSHOT:START 2026-04-22 20:29 branch:main -->
+**Modified files:**
+```
+ M Design-Docs/Shorts-Pipeline-Guide.md
+```
+
+**Recent commits:**
+```
+556ed7c Validate Replicate I2V; fix fast-variant 402; update handoff
+0ac140d chore: auto-update handoff snapshot [2026-04-22 20:23]
+e385cbb chore: auto-update handoff snapshot [2026-04-22 20:22]
+33d29af chore: auto-update handoff snapshot [2026-04-22 20:22]
+efbf44b chore: auto-update handoff snapshot [2026-04-22 20:21]
+```
+<!-- HANDOFF-SNAPSHOT:END -->
