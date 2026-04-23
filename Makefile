@@ -1,20 +1,21 @@
 .PHONY: setup install install-dev install-gpu test test-contracts lint clean preflight demo demo-list hyperframes-doctor hyperframes-warm cleanup-renders sync-scene-beats export-screen-script apply-voiceover-timeline cleanup-remotion-staging shorts-scenes shorts-artifacts shorts-generate-clips shorts-render
 
-UV ?= $(shell command -v uv 2>/dev/null)
+UV := $(shell command -v uv 2>/dev/null)
 PYTHON ?= $(if $(wildcard .venv/bin/python),.venv/bin/python,python)
-PIP ?= $(if $(UV),uv pip,$(PYTHON) -m pip)
+# uv sync is preferred; pip install -r is the fallback for environments without uv
+SYNC ?= $(if $(UV),uv sync,$(PYTHON) -m pip install -r requirements.txt)
 
 # ---- One-command setup ----
 
 setup:
 	@echo "==> Installing Python dependencies..."
-	$(PIP) install -r requirements.txt
+	$(SYNC)
 	@echo ""
 	@echo "==> Installing Remotion composer..."
 	cd remotion-composer && npm install
 	@echo ""
 	@echo "==> Installing free offline TTS (Piper)..."
-	$(PIP) install piper-tts || echo "  [skip] piper-tts install failed — TTS will use cloud providers instead"
+	$(if $(UV),uv sync --extra tts,$(PYTHON) -m pip install piper-tts) || echo "  [skip] piper-tts install failed — TTS will use cloud providers instead"
 	@echo ""
 	@echo "==> Installing HyperFrames runtime (cache-warm via npx)..."
 	@echo "    Pulls the 'hyperframes' npm package into the local npx cache so the"
@@ -33,14 +34,13 @@ setup:
 # ---- Individual installs ----
 
 install:
-	$(PIP) install -r requirements.txt
+	$(SYNC)
 
 install-dev:
-	$(PIP) install -r requirements-dev.txt
+	$(if $(UV),uv sync --extra dev,$(PYTHON) -m pip install -r requirements-dev.txt)
 
 install-gpu:
-	$(PIP) install -r requirements-gpu.txt
-	$(PIP) install diffusers transformers accelerate
+	$(if $(UV),uv sync --extra gpu,$(PYTHON) -m pip install -r requirements-gpu.txt)
 
 # ---- Testing ----
 
