@@ -36,7 +36,7 @@ It is not for:
 |---|---|---|
 | Shorts root | `Design-Docs/ToPublish/Shorts/` | Source folders |
 | Design guidance | `Design-Docs/ToPublish/Design-Changes.md` | Packaging rules |
-| Strategy | `Design-Docs/Blissful-Chants-Strategy.md` | Channel fit and content priorities |
+| Strategy | `Design-Docs/Blissful-Strategy.md` | Channel fit, content priorities, and production rules |
 | Existing package | `<short-folder>/<slug>.md` | Existing source of truth |
 
 ## Codex-Native Workflow
@@ -107,7 +107,7 @@ Use research to improve:
 
 ### 5. Apply Channel Strategy
 
-Use `Blissful-Chants-Strategy.md` to align the package with the channel.
+Use `Blissful-Strategy.md` to align the package with the channel.
 
 For Shorts:
 - prefer discovery-led hooks

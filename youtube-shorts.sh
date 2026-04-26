@@ -66,7 +66,7 @@ MAKEFILE SHORTCUTS:
   make shorts-render NAME=<folder>
 
 FULL GUIDE:
-  Design-Docs/Shorts-Pipeline-Guide.md
+  Design-Docs/Blissful-Strategy.md
 EOF
   if [[ "$cmd_name" == "shorts-workflow" ]]; then
     echo ""

@@ -443,7 +443,7 @@ MidJourney usage note:
 - Reference-video alignment:
   follow the `Shiva-Kailash.mp4` pattern by reusing a small number of strong stills across multiple beats, relying on slow zooms, dissolves, particles, glow, and subtitle overlays rather than generating a brand-new image for every line
 - Competitor-analysis inheritance:
-  follow the rules captured in `/Users/sunitjoshi/Developer/TryOuts/OpenMontage/Design-Docs/Competitor-Analysis.md`: use dark-base montage compositions, prefer anchor still reuse over unnecessary full-video generation, make sacred-symbol motion grow from the center when possible, and add scene-local energy like ember sparks or light rays only where it strengthens the beat
+  follow the rules captured in `/Users/sunitjoshi/Developer/TryOuts/OpenMontage/Design-Docs/Competitors/Competitor-Analysis.md`: use dark-base montage compositions, prefer anchor still reuse over unnecessary full-video generation, make sacred-symbol motion grow from the center when possible, and add scene-local energy like ember sparks or light rays only where it strengthens the beat
 - Yantra scene styling rule:
   avoid plain parchment-card presentation for Scenes `3` and `7`; place canonical yantra crops onto the darker sacred frame or a darker devotional plate so those beats stay visually consistent with the rest of the short
 - Scene-specific motion rule:

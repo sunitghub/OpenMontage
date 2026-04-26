@@ -17,7 +17,7 @@ from lib.package_bootstrap import (
 
 
 DESIGN_CHANGES_PATH = SHORTS_ROOT.parent / "Design-Changes.md"
-STRATEGY_PATH = SHORTS_ROOT.parent.parent / "Blissful-Chants-Strategy.md"
+STRATEGY_PATH = SHORTS_ROOT.parent.parent / "Blissful-Strategy.md"
 
 
 @dataclass

@@ -31,7 +31,7 @@ Do not use this skill for:
 |---|---|---|
 | Shorts root | `Design-Docs/ToPublish/Shorts/` | Source folders to inspect |
 | Design guidance | `Design-Docs/ToPublish/Design-Changes.md` | Packaging rules |
-| Channel strategy | `Design-Docs/Blissful-Chants-Strategy.md` | Topic and format strategy |
+| Channel strategy | `Design-Docs/Blissful-Strategy.md` | Topic, format, visual, and production strategy |
 | Existing package | `<short-folder>/<slug>.md` | Existing source of truth, if present |
 
 ## Process
@@ -86,7 +86,7 @@ Research should improve:
 
 ### 4. Apply Channel Strategy
 
-Use `Blissful-Chants-Strategy.md` to make the package fit the channel.
+Use `Blissful-Strategy.md` to make the package fit the channel.
 
 For Shorts:
 - prefer discovery-oriented hooks
