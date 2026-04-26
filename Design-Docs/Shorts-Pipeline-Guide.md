@@ -35,6 +35,47 @@ The `make shorts-scenes` / `make shorts-artifacts` commands exist as convenience
 
 ---
 
+## Current low-cost stack
+
+Use this as the default unless the specific Short needs a premium shot:
+
+| Layer | Default | Cost posture |
+|---|---|---|
+| Stills | MidJourney, OpenAI/Grok/Recraft/Flux, or reused assets | cheap enough for most beats |
+| Motion clips | Seedance 2.0 via Replicate for selected 5s I2V hero shots | about `$0.90/5s` from local billing |
+| Local motion | Remotion or HyperFrames camera moves, parallax, particles, glow, smoke, text | `$0` API cost |
+| Voice | HyperFrames TTS for free draft, ElevenLabs/OpenAI/Google for branded output | low compared with video gen |
+| Music | Existing library, Pixabay, ElevenLabs/Suno when needed | low compared with video gen |
+
+Budget rule:
+- `0` I2V clips: still-card animatic, cheapest
+- `1` I2V clip: hook or reveal, about `$0.90`
+- `2` I2V clips: hook + peak, about `$1.80`
+- `3` I2V clips: hook + mid-turn + peak, about `$2.70`
+- stay under roughly `$5/Short` by animating the remaining scenes locally
+
+Provider pricing changes quickly. Before a paid batch, trust the live tool estimate and actual billing over old docs.
+
+## Reference patterns
+
+The competitor references now fall into two useful patterns:
+
+**Devotional symbol montage** — Shiva/Kailash/Maa Kali style.
+- Best shape: `5-10` scenes for Shorts.
+- Visuals: dark devotional stills, sacred geometry, deity anchors, glows, embers, mist, one focal motion per scene.
+- True video: hook and peak only.
+
+**Folk-story card montage** — Charava-Bhootni style.
+- Reference measured at `21:59`, `293` visual beats, median beat about `4.2s`.
+- Most sampled frames are near-static; the story comes from narration and frequent illustrated scene cards.
+- Best Shorts shape: `8-14` scenes, `35-75s`, with a strong narrator and fast visual readability.
+- Best long-form shape: many stills plus local Ken Burns/parallax; do not generate every beat as I2V.
+- True video: only the supernatural reveal, chase, confrontation, or final twist.
+
+For both patterns, the key cost lesson is the same: spend video generation only where motion changes retention.
+
+---
+
 ## Phase 0 — Create your markdown file
 
 Create a folder and markdown file under `Design-Docs/ToPublish/Shorts/`:
@@ -92,7 +133,7 @@ Camera: Slow push-in to center
 Motion Recipe: center-grow yantra reveal, glow pulse, text fade-up
 Prompts:
   MidJourney: '/imagine sacred yantra crimson glow dark bg --ar 9:16 --v 6'
-  Kling I2V: 'gentle pulse from center outward, divine light'
+  Seedance I2V: 'gentle pulse from center outward, divine light'
 Artifacts:
   - scene-3-bg.png
   - scene-3-hero.mp4
@@ -106,8 +147,9 @@ Status: DRAFT
 - Body scenes: 4–6s each (reverent/devotional pace)
 - Close: 4–5s, resonant
 - CTA: 3–4s (optional)
-- Total must stay under 90s — Claude tightens body holds if needed
-- Hero clips (true AI-generated video) only for opener and 1–2 peak moments; rest are animated stills
+- Shorts should usually stay `35-75s`; go longer only when the script earns it
+- Hero clips (true AI-generated video) only for opener and 1–2 peak moments; the rest are animated stills
+- Folk-story Shorts can use slightly faster `3-5s` visual beats than devotional symbol Shorts
 
 ---
 
@@ -132,7 +174,7 @@ make shorts-artifacts NAME=my-short-name
 | Scene | File | Tool | Status |
 |---|---|---|---|
 | 1 | scene-1-bg.png | MidJourney | PENDING (manual — run prompt in MidJourney web) |
-| 1 | scene-1-hero.mp4 | Kling | PENDING (run --generate-clips) |
+| 1 | scene-1-hero.mp4 | Seedance | PENDING (run --generate-clips) |
 | 2 | scene-2-bg.png | MidJourney | PENDING (manual) |
 | 3 | scene-3-bg.png | Reuse | READY — Yantra-Energy.png |
 ```
@@ -255,6 +297,28 @@ Close tickets bottom-up after each approval phase.
 | 3b — Manual artifacts | You | Run MidJourney/DrawThings, drop files in folder |
 | 4 — Build composition | Claude Code | "Build HyperFrames composition for `<folder>`" |
 | 4 — Render | Terminal | `make shorts-render NAME=<folder>` |
+
+---
+
+## shorts-director readiness notes
+
+The `shorts-director` skill is directionally ready for the current low-cost approach:
+- it encodes the right core production strategy: motion-light montage, `2-3` hero clips, local animation for the rest
+- it points the hero-clip path at `seedance_replicate`
+- it preserves the approval gates between scenes, artifacts, generation, and render
+
+Recent readiness fixes:
+- stale `Kling` hero-clip examples were updated to `Seedance`
+- the default duration target was corrected from `90s+` to `35-75s`
+- Charava-Bhootni-style folk-story card montage rules were added to the skill
+
+Current caveat to watch:
+- the skill is still devotional-biased in its visual defaults; for folk stories, actively apply the character/location bible and faster `3-5s` story-card beat rules
+
+Scene planning rule for the next Shorts packages:
+- devotional symbol Short: `5-10` scenes, `4-6s` body holds, dark sacred focal imagery
+- folk-story Short: `8-14` scenes, `3-5s` visual beats, strong recurring costume/location anchors
+- any Short: cap true I2V to `1-3` clips unless explicitly approved for a higher budget
 
 ---
 

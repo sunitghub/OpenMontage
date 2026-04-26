@@ -44,6 +44,7 @@ music_library/
 .youtube-token.json
 
 # Stray media downloads (test/scratch clips left in repo root)
+*.mp4
 pexels_video_*.mp4
 
 # Scratch/debug scripts
