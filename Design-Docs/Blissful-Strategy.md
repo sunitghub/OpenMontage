@@ -130,6 +130,21 @@ Story rules:
 - one emotional spine per story
 - one clear spiritual takeaway
 
+### Story Scope Table
+
+Use this to estimate how many scenes a story package needs before generating assets. The competitor story references average about one visual beat every `4-5s`: `Charava-Bhootni` used about `293` beats over `21:59`, and `Aatma-ChitaKeBaad` used about `310` beats over `21:42`. OpenMontage should not treat every beat as a paid video clip; most should be still anchors with local motion.
+
+| Type | Target Runtime | Scene Count | Script Shape | Asset Strategy |
+|---|---:|---:|---|---|
+| Shorts | `35-75s` | `6-14` | Hook, setup, sacred/supernatural turn, takeaway | `6-14` stills/cards, `0-3` I2V hero clips depending on motion need |
+| Video Small (`4 min`) | `3m30s-4m30s` | `40-60` | Hook, setup, rising tension, divine/karmic reveal, human relevance, payoff | `20-35` reusable still anchors plus local pans/zooms/VFX; `1-3` I2V hero clips |
+| Video Long (`10+ min`) | `10-22 min` | `130-310` | Serialized folk/devotional story with repeated locations, character returns, turning points, and clear spiritual close | Batch still generation with a character/location bible; reusable local VFX; `3-8` I2V hero clips only for major reveals |
+
+Planning rule:
+- budget by hero moments, not by total scene count
+- for a `4 min` story, script around `45-50` visual beats unless the narration is unusually slow
+- for `10+ min`, build a reusable visual bible first, then repeat locations and character poses intentionally
+
 ## Shorts
 
 Shorts are for discovery, testing topics, and turning long-form ideas into quick hooks.

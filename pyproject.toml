@@ -7,11 +7,15 @@ requires-python = ">=3.10"
 dependencies = [
     "jsonschema>=4.20",
     "numpy>=1.26",
-    "Pillow>=10.0",
+    "pillow>=10.0",
     "pydantic>=2.0",
     "python-dotenv>=1.0",
     "requests>=2.32",
     "pyyaml>=6.0",
+    "easyocr>=1.7.2",
+    "deep-translator>=1.11.4",
+    "pytesseract>=0.3.13",
+    "anthropic>=0.97.0",
 ]
 
 [project.optional-dependencies]
