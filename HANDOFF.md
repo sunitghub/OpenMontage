@@ -65,3 +65,27 @@ right-side action icons.
 - Canon skill (scene rules + prompt templates): `~/Developer/canon/skills/shorts-director.md`
 - I2V tool: `tools/video/seedance_replicate.py`
 - Test clip output: `Design-Docs/ToPublish/Shorts/Maa-Kali-5-Unknown-Facts/Renders/test-replicate-i2v.mp4`
+
+<!-- HANDOFF-SNAPSHOT:START 2026-04-26 19:43 branch:main -->
+**Modified files:**
+```
+ M Design-Docs/Blissful-Strategy.md
+ D docs/ARCHITECTURE.md
+ D docs/PROVIDERS.md
+ D docs/stage-gates/.gitkeep
+```
+
+**Recent commits:**
+```
+7e1dc57 Consolidate Blissful Chants strategy guide
+f02f2d1 Update competitor analysis for devotional formats
+95a765e Add project notes for config and active skills
+d368524 Ope-oqbu: update handoff
+f0d970f Ope-oqbu: adjust vertical caption width
+```
+
+**In-progress tickets:**
+```
+Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
+```
+<!-- HANDOFF-SNAPSHOT:END -->
