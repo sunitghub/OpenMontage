@@ -66,6 +66,34 @@ right-side action icons.
 - I2V tool: `tools/video/seedance_replicate.py`
 - Test clip output: `Design-Docs/ToPublish/Shorts/Maa-Kali-5-Unknown-Facts/Renders/test-replicate-i2v.mp4`
 
+<!-- HANDOFF-SNAPSHOT:START 2026-04-27 07:16 branch:main -->
+**Modified files:**
+```
+ M Design-Docs/Blissful-Strategy.md
+ D docs/ARCHITECTURE.md
+ D docs/PROVIDERS.md
+ D docs/stage-gates/.gitkeep
+ M pyproject.toml
+ M uv.lock
+?? Design-Docs/ToPublish/Videos/
+?? tools/ingest/
+```
+
+**Recent commits:**
+```
+4508d78 chore: auto-update handoff snapshot [2026-04-26 21:04]
+09f422b chore: auto-update handoff snapshot [2026-04-26 21:03]
+43de66f chore: auto-update handoff snapshot [2026-04-26 20:12]
+d7d37f9 chore: auto-update handoff snapshot [2026-04-26 20:09]
+a0a9709 chore: auto-update handoff snapshot [2026-04-26 20:02]
+```
+
+**In-progress tickets:**
+```
+Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-04-26 21:04 branch:main -->
 **Modified files:**
 ```
@@ -86,34 +114,6 @@ right-side action icons.
 d7d37f9 chore: auto-update handoff snapshot [2026-04-26 20:09]
 a0a9709 chore: auto-update handoff snapshot [2026-04-26 20:02]
 ce11187 chore: auto-update handoff snapshot [2026-04-26 19:59]
-```
-
-**In-progress tickets:**
-```
-Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-04-26 21:03 branch:main -->
-**Modified files:**
-```
- M Design-Docs/Blissful-Strategy.md
- D docs/ARCHITECTURE.md
- D docs/PROVIDERS.md
- D docs/stage-gates/.gitkeep
- M pyproject.toml
- M uv.lock
-?? Design-Docs/ToPublish/Videos/
-?? tools/ingest/
-```
-
-**Recent commits:**
-```
-43de66f chore: auto-update handoff snapshot [2026-04-26 20:12]
-d7d37f9 chore: auto-update handoff snapshot [2026-04-26 20:09]
-a0a9709 chore: auto-update handoff snapshot [2026-04-26 20:02]
-ce11187 chore: auto-update handoff snapshot [2026-04-26 19:59]
-d81c3af chore: auto-update handoff snapshot [2026-04-26 19:53]
 ```
 
 **In-progress tickets:**
