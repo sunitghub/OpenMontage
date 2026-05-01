@@ -66,7 +66,7 @@ right-side action icons.
 - I2V tool: `tools/video/seedance_replicate.py`
 - Test clip output: `Design-Docs/ToPublish/Shorts/Maa-Kali-5-Unknown-Facts/Renders/test-replicate-i2v.mp4`
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-01 15:32 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-01 15:33 branch:main -->
 **Modified files:**
 ```
  M Design-Docs/ToPublish/Videos/BaglaMukhi-Sadhana-Anubhav/Bagla-Sadhana-Anubhav.md
@@ -76,11 +76,11 @@ right-side action icons.
 
 **Recent commits:**
 ```
+f955dd5 chore: auto-update handoff snapshot [2026-05-01 15:32]
 2b3a0ef chore: auto-update handoff snapshot [2026-05-01 15:32]
 a8b8878 chore: auto-update handoff snapshot [2026-05-01 15:31]
 a84f818 chore: auto-update handoff snapshot [2026-05-01 15:27]
 9bfef9e chore: auto-update handoff snapshot [2026-05-01 15:26]
-a4133f5 chore: remove unused agent config files, fix whitespace
 ```
 
 **In-progress tickets:**
@@ -99,11 +99,11 @@ Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
 
 **Recent commits:**
 ```
+2b3a0ef chore: auto-update handoff snapshot [2026-05-01 15:32]
 a8b8878 chore: auto-update handoff snapshot [2026-05-01 15:31]
 a84f818 chore: auto-update handoff snapshot [2026-05-01 15:27]
 9bfef9e chore: auto-update handoff snapshot [2026-05-01 15:26]
 a4133f5 chore: remove unused agent config files, fix whitespace
-a45cc22 feat(scripts): add scenes 2-5 to BaglaMukhi Sadhana video, fix CLAUDE.md imports
 ```
 
 **In-progress tickets:**
