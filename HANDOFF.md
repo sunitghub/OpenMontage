@@ -66,6 +66,29 @@ right-side action icons.
 - I2V tool: `tools/video/seedance_replicate.py`
 - Test clip output: `Design-Docs/ToPublish/Shorts/Maa-Kali-5-Unknown-Facts/Renders/test-replicate-i2v.mp4`
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-01 15:26 branch:main -->
+**Modified files:**
+```
+ M Design-Docs/ToPublish/Videos/BaglaMukhi-Sadhana-Anubhav/Bagla-Sadhana-Anubhav.md
+?? Design-Docs/ToPublish/Videos/BaglaMukhi-Sadhana-Anubhav/Bagla-Sadhana-Anubhav-Design.md
+?? Design-Docs/ToPublish/Videos/BaglaMukhi-Sadhana-Anubhav/Maa-Baglamukhi-Anushthan.jpg
+```
+
+**Recent commits:**
+```
+a4133f5 chore: remove unused agent config files, fix whitespace
+a45cc22 feat(scripts): add scenes 2-5 to BaglaMukhi Sadhana video, fix CLAUDE.md imports
+ad8b5c8 chore: auto-update handoff snapshot [2026-04-29 18:53]
+2f2967c chore: auto-update handoff snapshot [2026-04-29 18:52]
+80dbd20 chore: auto-update handoff snapshot [2026-04-29 18:51]
+```
+
+**In-progress tickets:**
+```
+Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-04-27 07:17 branch:main -->
 **Modified files:**
 ```
@@ -86,34 +109,6 @@ right-side action icons.
 09f422b chore: auto-update handoff snapshot [2026-04-26 21:03]
 43de66f chore: auto-update handoff snapshot [2026-04-26 20:12]
 d7d37f9 chore: auto-update handoff snapshot [2026-04-26 20:09]
-```
-
-**In-progress tickets:**
-```
-Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-04-27 07:16 branch:main -->
-**Modified files:**
-```
- M Design-Docs/Blissful-Strategy.md
- D docs/ARCHITECTURE.md
- D docs/PROVIDERS.md
- D docs/stage-gates/.gitkeep
- M pyproject.toml
- M uv.lock
-?? Design-Docs/ToPublish/Videos/
-?? tools/ingest/
-```
-
-**Recent commits:**
-```
-4508d78 chore: auto-update handoff snapshot [2026-04-26 21:04]
-09f422b chore: auto-update handoff snapshot [2026-04-26 21:03]
-43de66f chore: auto-update handoff snapshot [2026-04-26 20:12]
-d7d37f9 chore: auto-update handoff snapshot [2026-04-26 20:09]
-a0a9709 chore: auto-update handoff snapshot [2026-04-26 20:02]
 ```
 
 **In-progress tickets:**
