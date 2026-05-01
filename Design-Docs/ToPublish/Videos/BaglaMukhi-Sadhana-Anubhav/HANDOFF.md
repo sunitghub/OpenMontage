@@ -17,6 +17,29 @@ Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
 ## Next Steps
 1.
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-01 16:01 branch:main -->
+**Modified files:**
+```
+ M Bagla-Sadhana-Anubhav.md
+?? Bagla-Sadhana-Anubhav-Design.md
+?? Maa-Baglamukhi-Anushthan.jpg
+```
+
+**Recent commits:**
+```
+5de0de5 chore: auto-update handoff snapshot [2026-05-01 15:57]
+4e761d5 chore: auto-update handoff snapshot [2026-05-01 15:54]
+2e0808b chore: auto-update handoff snapshot [2026-05-01 15:33]
+f955dd5 chore: auto-update handoff snapshot [2026-05-01 15:32]
+2b3a0ef chore: auto-update handoff snapshot [2026-05-01 15:32]
+```
+
+**In-progress tickets:**
+```
+Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-01 15:57 branch:main -->
 **Modified files:**
 ```
@@ -32,29 +55,6 @@ Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
 f955dd5 chore: auto-update handoff snapshot [2026-05-01 15:32]
 2b3a0ef chore: auto-update handoff snapshot [2026-05-01 15:32]
 a8b8878 chore: auto-update handoff snapshot [2026-05-01 15:31]
-```
-
-**In-progress tickets:**
-```
-Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-01 15:54 branch:main -->
-**Modified files:**
-```
- M Bagla-Sadhana-Anubhav.md
-?? Bagla-Sadhana-Anubhav-Design.md
-?? Maa-Baglamukhi-Anushthan.jpg
-```
-
-**Recent commits:**
-```
-2e0808b chore: auto-update handoff snapshot [2026-05-01 15:33]
-f955dd5 chore: auto-update handoff snapshot [2026-05-01 15:32]
-2b3a0ef chore: auto-update handoff snapshot [2026-05-01 15:32]
-a8b8878 chore: auto-update handoff snapshot [2026-05-01 15:31]
-a84f818 chore: auto-update handoff snapshot [2026-05-01 15:27]
 ```
 
 **In-progress tickets:**
