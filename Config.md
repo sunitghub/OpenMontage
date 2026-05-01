@@ -198,8 +198,3 @@ Why:
 This config is meant to drive future script and asset workflows.
 
 If a future automation step needs exact transcript-density targets from benchmark videos, local transcription support should be installed first. The current benchmark values here are based on the analyzed duration, scene structure, pacing, and visual review of the competitor reference, not exact word-count extraction.
-
-
-bynder_assets.csv
-bynder_download.sh
-Bynder_Export_Arch.md
