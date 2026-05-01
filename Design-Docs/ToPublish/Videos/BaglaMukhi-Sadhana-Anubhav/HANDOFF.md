@@ -27,6 +27,29 @@ Baglamukhi Sadhana Anubhav video — MidJourney prompt design for Scenes 1–5. 
 3. Continue writing remaining scenes of the script
 4. Update scene prompts for new scenes as script is completed
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-01 16:22 branch:main -->
+**Modified files:**
+```
+ M Bagla-Sadhana-Anubhav.md
+ D Sceen-1.HEIC
+?? Scene-1-1.png
+```
+
+**Recent commits:**
+```
+6770339 docs: add character bible and update scene prompts for Baglamukhi Sadhana video
+f8eda6a chore: auto-update handoff snapshot [2026-05-01 16:07]
+c305bd9 chore: auto-update handoff snapshot [2026-05-01 16:01]
+5de0de5 chore: auto-update handoff snapshot [2026-05-01 15:57]
+4e761d5 chore: auto-update handoff snapshot [2026-05-01 15:54]
+```
+
+**In-progress tickets:**
+```
+Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-01 16:07 branch:main -->
 **Modified files:**
 ```
