@@ -36,3 +36,24 @@ Baglamukhi Sadhana Anubhav video — script completion before generating more im
 3. **Review full script arc** with Claude — critique hook strength, pacing, tension beats, payoff
 4. **Then resume image generation** starting with hook scene (thumbnail candidate) and outcome scenes
 5. Untracked scratch file `Sadhak-Backwards.jpg` — decide whether to keep or delete
+
+<!-- HANDOFF-SNAPSHOT:START 2026-05-02 11:54 branch:main -->
+**Modified files:**
+```
+?? Sadhak-Backwards.jpg
+```
+
+**Recent commits:**
+```
+beb3ff9 docs: update handoff with current session context
+4883904 feat(baglamukhi): add character refs, scene prompts, and competitor analysis
+f41728e chore: auto-update handoff snapshot [2026-05-02 11:52]
+3044fd7 chore: auto-update handoff snapshot [2026-05-02 11:50]
+081fad2 chore: auto-update handoff snapshot [2026-05-02 11:48]
+```
+
+**In-progress tickets:**
+```
+Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
+```
+<!-- HANDOFF-SNAPSHOT:END -->
