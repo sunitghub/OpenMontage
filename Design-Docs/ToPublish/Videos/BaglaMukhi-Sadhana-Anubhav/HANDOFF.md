@@ -27,6 +27,33 @@ Baglamukhi Sadhana Anubhav video — MidJourney prompt design for Scenes 1–5. 
 3. Continue writing remaining scenes of the script
 4. Update scene prompts for new scenes as script is completed
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-01 19:25 branch:main -->
+**Modified files:**
+```
+ M Bagla-Sadhana-Anubhav.md
+ D Sceen-1.HEIC
+?? .#Bagla-Sadhana-Anubhav.md
+?? Mata-Baglamukhi.png
+?? Scene-1-1-0.png
+?? Scene-1-1-1.png
+?? Scene-1-1.png
+```
+
+**Recent commits:**
+```
+a616a8c chore: auto-update handoff snapshot [2026-05-01 19:24]
+968ee8f chore: auto-update handoff snapshot [2026-05-01 18:48]
+0a81a51 chore: auto-update handoff snapshot [2026-05-01 18:47]
+1fcb95f chore: auto-update handoff snapshot [2026-05-01 18:44]
+71ad896 chore: auto-update handoff snapshot [2026-05-01 18:41]
+```
+
+**In-progress tickets:**
+```
+Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-01 19:24 branch:main -->
 **Modified files:**
 ```
@@ -46,33 +73,6 @@ Baglamukhi Sadhana Anubhav video — MidJourney prompt design for Scenes 1–5. 
 1fcb95f chore: auto-update handoff snapshot [2026-05-01 18:44]
 71ad896 chore: auto-update handoff snapshot [2026-05-01 18:41]
 17f8322 chore: auto-update handoff snapshot [2026-05-01 18:39]
-```
-
-**In-progress tickets:**
-```
-Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-01 18:48 branch:main -->
-**Modified files:**
-```
- M Bagla-Sadhana-Anubhav.md
- D Sceen-1.HEIC
-?? .#Bagla-Sadhana-Anubhav.md
-?? Mata-Baglamukhi.png
-?? Scene-1-1-0.png
-?? Scene-1-1-1.png
-?? Scene-1-1.png
-```
-
-**Recent commits:**
-```
-0a81a51 chore: auto-update handoff snapshot [2026-05-01 18:47]
-1fcb95f chore: auto-update handoff snapshot [2026-05-01 18:44]
-71ad896 chore: auto-update handoff snapshot [2026-05-01 18:41]
-17f8322 chore: auto-update handoff snapshot [2026-05-01 18:39]
-60164e9 chore: auto-update handoff snapshot [2026-05-01 18:39]
 ```
 
 **In-progress tickets:**
