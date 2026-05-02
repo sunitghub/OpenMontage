@@ -27,6 +27,32 @@ Baglamukhi Sadhana Anubhav video — MidJourney prompt design for Scenes 1–5. 
 3. Continue writing remaining scenes of the script
 4. Update scene prompts for new scenes as script is completed
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-01 19:47 branch:main -->
+**Modified files:**
+```
+ M Bagla-Sadhana-Anubhav.md
+ D Sceen-1.HEIC
+?? .#Bagla-Sadhana-Anubhav.md
+?? Mata-Baglamukhi.png
+?? Scene-1-1.png
+?? Scene-1-2.png
+```
+
+**Recent commits:**
+```
+c368638 chore: auto-update handoff snapshot [2026-05-01 19:38]
+d82b974 chore: auto-update handoff snapshot [2026-05-01 19:35]
+2ce4315 chore: auto-update handoff snapshot [2026-05-01 19:34]
+1e9b0ca chore: auto-update handoff snapshot [2026-05-01 19:29]
+a45efd6 chore: auto-update handoff snapshot [2026-05-01 19:27]
+```
+
+**In-progress tickets:**
+```
+Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-01 19:38 branch:main -->
 **Modified files:**
 ```
@@ -45,32 +71,6 @@ d82b974 chore: auto-update handoff snapshot [2026-05-01 19:35]
 1e9b0ca chore: auto-update handoff snapshot [2026-05-01 19:29]
 a45efd6 chore: auto-update handoff snapshot [2026-05-01 19:27]
 316029d chore: auto-update handoff snapshot [2026-05-01 19:27]
-```
-
-**In-progress tickets:**
-```
-Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-01 19:35 branch:main -->
-**Modified files:**
-```
- M Bagla-Sadhana-Anubhav.md
- D Sceen-1.HEIC
-?? .#Bagla-Sadhana-Anubhav.md
-?? Mata-Baglamukhi.png
-?? Scene-1-1-1.png
-?? Scene-1-1.png
-```
-
-**Recent commits:**
-```
-2ce4315 chore: auto-update handoff snapshot [2026-05-01 19:34]
-1e9b0ca chore: auto-update handoff snapshot [2026-05-01 19:29]
-a45efd6 chore: auto-update handoff snapshot [2026-05-01 19:27]
-316029d chore: auto-update handoff snapshot [2026-05-01 19:27]
-a1a02b9 chore: auto-update handoff snapshot [2026-05-01 19:25]
 ```
 
 **In-progress tickets:**
