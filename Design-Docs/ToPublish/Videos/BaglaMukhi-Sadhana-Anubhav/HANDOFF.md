@@ -27,7 +27,7 @@ Baglamukhi Sadhana Anubhav video — MidJourney prompt design for Scenes 1–5. 
 3. Continue writing remaining scenes of the script
 4. Update scene prompts for new scenes as script is completed
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-01 19:27 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-01 19:29 branch:main -->
 **Modified files:**
 ```
  M Bagla-Sadhana-Anubhav.md
@@ -40,11 +40,11 @@ Baglamukhi Sadhana Anubhav video — MidJourney prompt design for Scenes 1–5. 
 
 **Recent commits:**
 ```
+a45efd6 chore: auto-update handoff snapshot [2026-05-01 19:27]
 316029d chore: auto-update handoff snapshot [2026-05-01 19:27]
 a1a02b9 chore: auto-update handoff snapshot [2026-05-01 19:25]
 a616a8c chore: auto-update handoff snapshot [2026-05-01 19:24]
 968ee8f chore: auto-update handoff snapshot [2026-05-01 18:48]
-0a81a51 chore: auto-update handoff snapshot [2026-05-01 18:47]
 ```
 
 **In-progress tickets:**
@@ -66,11 +66,11 @@ Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
 
 **Recent commits:**
 ```
+316029d chore: auto-update handoff snapshot [2026-05-01 19:27]
 a1a02b9 chore: auto-update handoff snapshot [2026-05-01 19:25]
 a616a8c chore: auto-update handoff snapshot [2026-05-01 19:24]
 968ee8f chore: auto-update handoff snapshot [2026-05-01 18:48]
 0a81a51 chore: auto-update handoff snapshot [2026-05-01 18:47]
-1fcb95f chore: auto-update handoff snapshot [2026-05-01 18:44]
 ```
 
 **In-progress tickets:**
