@@ -34,6 +34,31 @@ Baglamukhi Sadhana Anubhav video — MidJourney prompt design for Scenes 1–5. 
  M Bagla-Sadhana-Anubhav.md
  M Mata-Baglamukhi.png
 ?? ../../../Competitors/JInn-Masoom_frames/
+?? .#Bagla-Sadhana-Anubhav.md
+```
+
+**Recent commits:**
+```
+fc77e2c chore: auto-update handoff snapshot [2026-05-02 10:29]
+3ff7948 chore: auto-update handoff snapshot [2026-05-02 10:25]
+2490065 chore: auto-update handoff snapshot [2026-05-02 10:24]
+48d5c43 chore: auto-update handoff snapshot [2026-05-02 10:21]
+ce8ef1a chore: auto-update handoff snapshot [2026-05-02 10:16]
+```
+
+**In-progress tickets:**
+```
+Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
+<!-- HANDOFF-SNAPSHOT:START 2026-05-02 10:29 branch:main -->
+**Modified files:**
+```
+ M ../../../Competitors/Competitor-Analysis.md
+ M Bagla-Sadhana-Anubhav.md
+ M Mata-Baglamukhi.png
+?? ../../../Competitors/JInn-Masoom_frames/
 ```
 
 **Recent commits:**
@@ -43,31 +68,6 @@ Baglamukhi Sadhana Anubhav video — MidJourney prompt design for Scenes 1–5. 
 48d5c43 chore: auto-update handoff snapshot [2026-05-02 10:21]
 ce8ef1a chore: auto-update handoff snapshot [2026-05-02 10:16]
 a20af82 chore: auto-update handoff snapshot [2026-05-02 10:14]
-```
-
-**In-progress tickets:**
-```
-Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-02 10:25 branch:main -->
-**Modified files:**
-```
- M ../../../Competitors/Competitor-Analysis.md
- M Bagla-Sadhana-Anubhav.md
- M Mata-Baglamukhi.png
-?? ../../../Competitors/JInn-Masoom_frames/
-?? .#Bagla-Sadhana-Anubhav.md
-```
-
-**Recent commits:**
-```
-2490065 chore: auto-update handoff snapshot [2026-05-02 10:24]
-48d5c43 chore: auto-update handoff snapshot [2026-05-02 10:21]
-ce8ef1a chore: auto-update handoff snapshot [2026-05-02 10:16]
-a20af82 chore: auto-update handoff snapshot [2026-05-02 10:14]
-a864824 chore: auto-update handoff snapshot [2026-05-02 10:13]
 ```
 
 **In-progress tickets:**
