@@ -83,3 +83,6 @@ remotion-composer/public/*
 remotion-composer/public/demo-props/test-*
 remotion-composer/public/demo-props/talking-head-*
 remotion-composer/public/demo-props/caption-burn-*
+
+# Extracted video frames (analysis artifacts — regenerable)
+Design-Docs/Competitors/*_frames/
