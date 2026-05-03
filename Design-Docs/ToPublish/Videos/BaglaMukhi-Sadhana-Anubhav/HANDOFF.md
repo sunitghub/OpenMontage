@@ -37,7 +37,7 @@ Baglamukhi Sadhana Anubhav video — script completion before generating more im
 4. **Then resume image generation** starting with hook scene (thumbnail candidate) and outcome scenes
 5. Untracked scratch file `Sadhak-Backwards.jpg` — decide whether to keep or delete
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-03 18:46 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-03 18:48 branch:main -->
 **Modified files:**
 ```
 ?? Sadhak-Backwards.jpg
@@ -45,11 +45,11 @@ Baglamukhi Sadhana Anubhav video — script completion before generating more im
 
 **Recent commits:**
 ```
+6fb3765 chore: auto-update handoff snapshot [2026-05-03 18:46]
 56ebd9b chore: auto-update handoff snapshot [2026-05-03 18:46]
 85c5afe chore: auto-update handoff snapshot [2026-05-03 18:43]
 6817b43 chore: auto-update handoff snapshot [2026-05-03 18:42]
 535f6a5 chore: auto-update handoff snapshot [2026-05-03 18:41]
-48c5f69 chore: auto-update handoff snapshot [2026-05-03 18:41]
 ```
 
 **In-progress tickets:**
@@ -66,11 +66,11 @@ Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
 
 **Recent commits:**
 ```
+56ebd9b chore: auto-update handoff snapshot [2026-05-03 18:46]
 85c5afe chore: auto-update handoff snapshot [2026-05-03 18:43]
 6817b43 chore: auto-update handoff snapshot [2026-05-03 18:42]
 535f6a5 chore: auto-update handoff snapshot [2026-05-03 18:41]
 48c5f69 chore: auto-update handoff snapshot [2026-05-03 18:41]
-578d7c6 chore: auto-update handoff snapshot [2026-05-03 18:40]
 ```
 
 **In-progress tickets:**
