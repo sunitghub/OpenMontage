@@ -53,11 +53,11 @@ Baglamukhi Sadhana Anubhav video — script completion before generating more im
 
 **Recent commits:**
 ```
+aeb030b chore: auto-update handoff snapshot [2026-05-04 09:56]
 707c3bf chore: auto-update handoff snapshot [2026-05-04 09:52]
 0225aef chore: auto-update handoff snapshot [2026-05-04 09:51]
 80ffbb6 chore: auto-update handoff snapshot [2026-05-04 09:50]
 7a05855 chore: auto-update handoff snapshot [2026-05-04 09:49]
-99ea265 chore: auto-update handoff snapshot [2026-05-04 09:48]
 ```
 
 **In-progress tickets:**
@@ -66,7 +66,7 @@ Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-04 09:52 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-04 09:56 branch:main -->
 **Modified files:**
 ```
  M Bagla-Sadhana-Anubhav.md
@@ -75,11 +75,11 @@ Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
 
 **Recent commits:**
 ```
+707c3bf chore: auto-update handoff snapshot [2026-05-04 09:52]
 0225aef chore: auto-update handoff snapshot [2026-05-04 09:51]
 80ffbb6 chore: auto-update handoff snapshot [2026-05-04 09:50]
 7a05855 chore: auto-update handoff snapshot [2026-05-04 09:49]
 99ea265 chore: auto-update handoff snapshot [2026-05-04 09:48]
-74e9a48 chore: auto-update handoff snapshot [2026-05-04 09:46]
 ```
 
 **In-progress tickets:**
