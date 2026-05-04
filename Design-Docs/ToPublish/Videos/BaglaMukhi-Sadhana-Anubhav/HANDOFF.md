@@ -54,6 +54,59 @@ Expanded visual-card generation pass for Scenes 1-5. Scene-1 support cards 5, 6,
 4. **Write remaining outcome scenes** (Hindi + English) — court case resolution, adversaries helpless, devotee's gratitude.
 5. **Review full script arc** — hook strength, pacing, tension beats, payoff.
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-04 16:51 branch:main -->
+**Modified files:**
+```
+ M ../../../../AGENTS.md
+ M ../../../../CLAUDE.md
+ M ../../../Competitors/Competitor-Analysis.md
+ M Bagla-Sadhana-Anubhav-Design.md
+ M Bagla-Sadhana-Anubhav.md
+ D Mata-Baglamukhi.png
+ M PROMPT-LEARNINGS.md
+ D Sadhak-Backwards.jpg
+ D Scene-1-1-2.png
+ M Scene-1-1.png
+ M Scene-2-1.png
+ M Scene-2-2.png
+ D Scene-2-3-1.png
+ D Scene-2-3-2.png
+?? "Bagalmukhi Yantra.jpg"
+?? Maa-Baglamukhi.png
+?? Scene-1-4.png
+?? Scene-1-5.png
+?? Scene-1-6.png
+?? Scene-1-7.png
+?? Scene-1-8.png
+?? Scene-2-3.png
+?? Scene-2-4.png
+?? Scene-2-5.png
+?? Scene-2-6.png
+?? Scene-2-7.png
+?? Scene-2-8.png
+?? Scene-3-2.png
+?? Scene-4-1.png
+?? Scene-4-2-Final.png
+?? Scene-5-1.png
+?? Scene-5-2.png
+?? ../../../../bin/
+```
+
+**Recent commits:**
+```
+db8aff4 chore: auto-update handoff snapshot [2026-05-04 16:46]
+b6a1af4 chore: auto-update handoff snapshot [2026-05-04 16:42]
+9fe5078 chore: auto-update handoff snapshot [2026-05-04 16:28]
+8f6fd5a chore: auto-update handoff snapshot [2026-05-04 15:37]
+8f98329 chore: auto-update handoff snapshot [2026-05-04 15:24]
+```
+
+**In-progress tickets:**
+```
+Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-04 16:46 branch:main -->
 **Modified files:**
 ```
@@ -99,59 +152,6 @@ b6a1af4 chore: auto-update handoff snapshot [2026-05-04 16:42]
 8f6fd5a chore: auto-update handoff snapshot [2026-05-04 15:37]
 8f98329 chore: auto-update handoff snapshot [2026-05-04 15:24]
 60eeb67 chore: auto-update handoff snapshot [2026-05-04 15:17]
-```
-
-**In-progress tickets:**
-```
-Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-04 16:42 branch:main -->
-**Modified files:**
-```
- M ../../../../AGENTS.md
- M ../../../../CLAUDE.md
- M ../../../Competitors/Competitor-Analysis.md
- M Bagla-Sadhana-Anubhav-Design.md
- M Bagla-Sadhana-Anubhav.md
- D Mata-Baglamukhi.png
- M PROMPT-LEARNINGS.md
- D Sadhak-Backwards.jpg
- D Scene-1-1-2.png
- M Scene-1-1.png
- M Scene-2-1.png
- M Scene-2-2.png
- D Scene-2-3-1.png
- D Scene-2-3-2.png
-?? "Bagalmukhi Yantra.jpg"
-?? Maa-Baglamukhi.png
-?? Scene-1-4.png
-?? Scene-1-5.png
-?? Scene-1-6.png
-?? Scene-1-7.png
-?? Scene-1-8.png
-?? Scene-2-3.png
-?? Scene-2-4.png
-?? Scene-2-5.png
-?? Scene-2-6.png
-?? Scene-2-7.png
-?? Scene-2-8.png
-?? Scene-3-2.png
-?? Scene-4-1.png
-?? Scene-4-2-Final.png
-?? Scene-5-1.png
-?? Scene-5-2.png
-?? ../../../../bin/
-```
-
-**Recent commits:**
-```
-9fe5078 chore: auto-update handoff snapshot [2026-05-04 16:28]
-8f6fd5a chore: auto-update handoff snapshot [2026-05-04 15:37]
-8f98329 chore: auto-update handoff snapshot [2026-05-04 15:24]
-60eeb67 chore: auto-update handoff snapshot [2026-05-04 15:17]
-4d73fbe chore: auto-update handoff snapshot [2026-05-04 15:14]
 ```
 
 **In-progress tickets:**
