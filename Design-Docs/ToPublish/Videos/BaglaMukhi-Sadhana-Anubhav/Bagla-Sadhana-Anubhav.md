@@ -2,17 +2,19 @@
 
 Generate these reference images first. All scene prompts should visually match these anchors.
 
+> **GPT-4o note:** No reference image needed for Character Bible generations — these ARE the references.
+
 ### Maa Baglamukhi (Mata)
 
 Two reference states: blessing pose (most scenes) and yanpeedha pose (power/victory scenes).
 
 1.
 
-   `traditional Baglamukhi temple poster art, devotional Hindu calendar painting style, Maa Baglamukhi seated on golden lotus throne, golden yellow complexion, radiant yellow silk sari with gold embroidery border, ornate gold crown with jewels, elaborate gold necklaces bangles and armlets, holding golden gada mace in right hand, left palm stretched outward in blessing, calm powerful serene expression, soft golden divine aura surrounding her body, warm yellow-gold light, pure devotional iconography, clean single-figure composition, no other characters, no text, no watermark --ar 16:9 --style raw --s 70 --v 6`
+   `traditional Baglamukhi temple poster art, devotional Hindu calendar painting style, Maa Baglamukhi seated on golden lotus throne, golden yellow complexion, radiant yellow silk sari with gold embroidery border, ornate gold crown with jewels, elaborate gold necklaces bangles and armlets, holding golden gada mace in right hand, left palm stretched outward in blessing, calm powerful serene expression, soft golden divine aura surrounding her body, warm yellow-gold light, pure devotional iconography, clean single-figure composition, no other characters, no text, no watermark, wide 16:9 composition`
 
 2.
 
-   `traditional Baglamukhi yanpeedha temple poster art, devotional Hindu calendar painting style, Maa Baglamukhi seated in power pose on golden lotus throne, golden yellow complexion, yellow silk sari, ornate gold crown and jewelry, right hand raised holding golden gada mace, left hand gripping the tongue of a subdued asura adversary, calm dominant expression with serene eyes, golden divine aura, warm yellow-gold tones, pure iconographic composition, mythological demon figure only, no sadhu, no guru, no ordinary human devotee, no text, no watermark --ar 16:9 --style raw --s 70 --v 6`
+   `traditional Baglamukhi yanpeedha temple poster art, devotional Hindu calendar painting style, Maa Baglamukhi seated in power pose on golden lotus throne, golden yellow complexion, yellow silk sari, ornate gold crown and jewelry, right hand raised holding golden gada mace, left hand gripping the tongue of a subdued asura adversary, calm dominant expression with serene eyes, golden divine aura, warm yellow-gold tones, pure iconographic composition, mythological demon figure only, no sadhu, no guru, no ordinary human devotee, no text, no watermark, wide 16:9 composition`
 
 ---
 
@@ -24,17 +26,17 @@ Young Indian male, 30–35, medium build, black hair, clean-shaven. Two states �
 
 1.
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, young Indian male devotee age 30-35, medium build, black hair, clean-shaven, calm earnest expression, plain white kurta and white dhoti, standing upright with hands folded in namaste, warm amber interior light, simple domestic setting, full body visible, narrative scene-card composition, polished folk illustration, no text, no watermark --ar 16:9 --style raw --s 70 --v 6`
+   `painterly AI devotional illustration, Hindustani folk-story art style, young Indian male devotee age 30-35, medium build, black hair, clean-shaven, calm earnest expression, plain white kurta and white dhoti, standing upright with hands folded in namaste, warm amber interior light, simple domestic setting, full body visible, narrative scene-card composition, polished folk illustration, no text, no watermark, wide 16:9 composition`
 
 **State B — Ritual attire (Scene-2 onward):**
 
 1.
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, young Indian male sadhak age 30-35, medium build, black hair, clean-shaven, focused devotional expression, yellow cotton dhoti, yellow shawl draped over both shoulders, bare chest, seated cross-legged on woven yellow asan, hands resting on knees in meditation posture, warm amber oil lamp light, yellow room interior at night, full body visible, narrative scene-card composition, polished folk illustration, no text, no watermark --ar 16:9 --style raw --s 70 --v 6`
+   `painterly AI devotional illustration, Hindustani folk-story art style, young Indian male sadhak age 30-35, medium build, black hair, clean-shaven, focused devotional expression, yellow cotton dhoti, yellow shawl draped over both shoulders, bare chest, seated cross-legged on woven yellow asan, hands resting on knees in meditation posture, warm amber oil lamp light, yellow room interior at night, full body visible, narrative scene-card composition, polished folk illustration, no text, no watermark, wide 16:9 composition`
 
 2.
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, young Indian male sadhak age 30-35, medium build, black hair, clean-shaven, eyes closed in deep prayer, yellow cotton dhoti, yellow shawl draped over shoulders, hands pressed together in namaste at chest level, warm golden diya glow on face, yellow room at night, intimate devotional posture, narrative scene-card composition, polished folk illustration, no text, no watermark --ar 16:9 --style raw --s 70 --v 6`
+   `painterly AI devotional illustration, Hindustani folk-story art style, young Indian male sadhak age 30-35, medium build, black hair, clean-shaven, eyes closed in deep prayer, yellow cotton dhoti, yellow shawl draped over shoulders, hands pressed together in namaste at chest level, warm golden diya glow on face, yellow room at night, intimate devotional posture, narrative scene-card composition, polished folk illustration, no text, no watermark, wide 16:9 composition`
 
 ---
 
@@ -59,14 +61,25 @@ In this video, we will hear the experiences of a spiritual Sadhak who performed 
 
 1.
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, wide establishing shot inside a large plain Indian home room with freshly painted warm yellow-ochre walls, dimly lit room with deep shadows on the walls, warm brass oil lamp on the left and Maa's divine aura as the only light sources, young Indian man male sadhak with short black hair broad shoulders bare muscular back seated cross-legged on a flat yellow asan on the floor in the center of the room as the prominent foreground figure facing fully away from the viewer, bare-chested wearing a yellow dhoti and yellow cloth draped over shoulders, a small low ornate yellow wooden bajot chowki directly in front of him on the floor, on the bajot a neat rounded mound of yellow rice grains, a small framed portrait picture, and a lit brass diya with visible flame, Maa Baglamukhi clearly female goddess with feminine face and form, floating freely in the open air above and in front of the devotee facing him, NOT on any throne or altar or statue, exactly two arms only, seated cross-legged in the air, golden yellow complexion, radiant yellow silk sari, ornate gold crown and jewelry, left palm stretched outward toward the devotee in blessing, luminous golden divine aura radiating all around her body, long yellow curtain over the doorway behind the devotee, simple yellow painted walls no ornate temple architecture, cinematic 16:9 composition, sharp crisp focus, no blur, no sadhu, no guru, no multiple arms no extra arms no extra hands, no text, no watermark --ar 16:9 --cw 80 --style raw --s 70 --v 6`
+   **Ref:** Upload `Mata-Baglamukhi.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, wide establishing shot inside a large plain Indian home room with freshly painted warm yellow-ochre walls, dimly lit room with deep shadows on the walls, warm brass oil lamp on the left and Maa's divine aura as the only light sources, young Indian man male sadhak with short black hair broad shoulders bare muscular back seated cross-legged on a flat yellow asan on the floor in the center of the room as the prominent foreground figure facing fully away from the viewer, bare-chested wearing a yellow dhoti and yellow cloth draped over shoulders, a small low ornate yellow wooden bajot chowki directly in front of him on the floor, on the bajot a neat rounded mound of yellow rice grains, a small framed portrait picture, and a lit brass diya with visible flame, Maa Baglamukhi clearly female goddess with feminine face and form, floating freely in the open air above and in front of the devotee facing him, NOT on any throne or altar or statue, exactly two arms only, seated cross-legged in the air, golden yellow complexion, radiant yellow silk sari, ornate gold crown and jewelry, left palm stretched outward toward the devotee in blessing, luminous golden divine aura radiating all around her body, long yellow curtain over the doorway behind the devotee, simple yellow painted walls no ornate temple architecture, cinematic 16:9 composition, sharp crisp focus, no blur, no sadhu, no guru, no multiple arms no extra arms no extra hands, no text, no watermark`
+
 2.
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, elderly Indian guru with white beard and dark teal turban seated on cave rock, one finger raised upward gesturing toward the moon indicating a sacred date, young male sadhak in plain white kurta standing attentively with hands clasped in respect, oil lamp glowing beside them, dark night sky faintly visible at cave mouth, cracked stone walls, warm amber inner glow, intimate instruction moment, narrative scene-card composition, polished folk illustration, no text, no watermark --ar 16:9 --cref SADHAK_A_REF --cw 80 --style raw --s 70 --v 6`
+   **Ref:** Upload `Sadhak_A_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, elderly Indian guru with white beard and dark teal turban seated on cave rock, one finger raised upward gesturing toward the moon indicating a sacred date, young male sadhak in plain white kurta standing attentively with hands clasped in respect, oil lamp glowing beside them, dark night sky faintly visible at cave mouth, cracked stone walls, warm amber inner glow, intimate instruction moment, narrative scene-card composition, polished folk illustration, wide 16:9 composition, no text, no watermark`
 
 3.
 
-   `smooth digital illustration, clean shading, cinematic 3D art style, two-figure composition, foreground large figure young Indian man male devotee sadhak with short black hair broad muscular back masculine build seated cross-legged on a flat yellow asan on the floor, back fully turned toward camera, only back of head and broad male shoulders visible, viewer cannot see his face, bare upper back in traditional sadhak attire no jewelry no ornaments, wearing a yellow dhoti and yellow cloth draped over both shoulders, a small low wooden bajot chowki directly in front of him with a lit brass diya, plain domestic home room simple home interior warm yellow-ochre walls dimly lit, warm brass oil lamp on the left, long yellow curtain over the doorway, upper center of the frame large prominent floating divine figure Maa Baglamukhi woman goddess explicitly female Baglamukhi goddess ornate gold crown on her head long black hair feminine face and form two arms only, large and clearly visible hovering in the air directly above and in front of the sadhak facing toward him filling the upper half of the frame, NOT on any throne or altar or shelf, golden yellow skin complexion, yellow silk sari, gold crown, left palm extended in blessing toward the sadhak, large luminous golden divine aura radiating outward, cinematic 16:9 wide shot composition, sharp crisp focus, no blur, no Shiva, no male deity, no Vishnu, no Krishna, no trident, no multiple arms, no third arm, no fourth arm, no extra limbs, no temple arch, no alcove, no niche, no palace, no idol, no statue, no portrait painting, no female sadhak, no text, no watermark --ar 16:9 --style raw --s 30 --v 6`
+   `smooth digital illustration, clean shading, cinematic 3D art style, two-figure composition, foreground large figure young Indian man male devotee sadhak with short black hair broad muscular back masculine build seated cross-legged on a flat yellow asan on the floor, back fully turned toward camera, only back of head and broad male shoulders visible, viewer cannot see his face, bare upper back in traditional sadhak attire no jewelry no ornaments, wearing a yellow dhoti and yellow cloth draped over both shoulders, a small low wooden bajot chowki directly in front of him with a lit brass diya, plain domestic home room simple home interior warm yellow-ochre walls dimly lit, warm brass oil lamp on the left, long yellow curtain over the doorway, upper center of the frame large prominent floating divine figure Maa Baglamukhi woman goddess explicitly female Baglamukhi goddess ornate gold crown on her head long black hair feminine face and form two arms only, large and clearly visible hovering in the air directly above and in front of the sadhak facing toward him filling the upper half of the frame, NOT on any throne or altar or shelf, golden yellow skin complexion, yellow silk sari, gold crown, left palm extended in blessing toward the sadhak, large luminous golden divine aura radiating outward, cinematic 16:9 wide shot composition, sharp crisp focus, no blur, no Shiva, no male deity, no Vishnu, no Krishna, no trident, no multiple arms, no third arm, no fourth arm, no extra limbs, no temple arch, no alcove, no niche, no palace, no idol, no statue, no portrait painting, no female sadhak, no text, no watermark`
+
+4.
+
+   **Ref:** Upload `Sadhak_A_Ref.png`
+
+   `painterly devotional illustration, Hindustani folk-story art style, elderly Indian guru with long white beard and dark teal turban seated cross-legged on floor before a small low wooden table, small framed portrait of Maa Baglamukhi placed on the table with a lit brass diya beside it, guru holding a yellow rosary mala in one hand slightly raised, speaking earnestly with focused expression, young Indian male sadhak in plain white kurta seated respectfully to the side leaning slightly forward listening with complete attention hands resting on knees, warm amber oil lamp light, simple indoor domestic setting, intimate spiritual teaching moment, two figures only, wide 16:9 composition, narrative scene-card composition, polished folk illustration style, no text, no watermark`
 
 ## Scene-2:
 
@@ -89,13 +102,19 @@ This Sadhak decided that he would commence his spiritual practice one day prior 
 
 1.
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, young Indian male sadhak in plain white kurta actively painting a small indoor room, wide brush in hand, walls half-coated in warm yellow-ochre, paint bucket on stone floor, furniture cleared out, simple arched window showing dark night outside, warm oil lamp on floor, focused determined expression, single-figure scene, narrative scene-card composition, polished folk illustration, no text, no watermark --ar 16:9 --cref SADHAK_A_REF --cw 80 --style raw --s 70 --v 6`
+   **Ref:** Upload `Sadhak_A_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, young Indian male sadhak in plain white kurta actively painting a small indoor room, wide brush in hand, walls half-coated in warm yellow-ochre, paint bucket on stone floor, furniture cleared out, simple arched window showing dark night outside, warm oil lamp on floor, focused determined expression, single-figure scene, narrative scene-card composition, polished folk illustration, wide 16:9 composition, no text, no watermark`
+
 2.
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, empty Indian home room with walls completely painted warm yellow-ochre, long flowing yellow curtain hanging over the doorway, brass oil lamp on stone floor casting warm amber glow, folded yellow cloth beside it, small arched window with dark night outside, clean prepared sacred space, no people, peaceful solitary interior, narrative scene-card composition, polished folk illustration, no text, no watermark --ar 16:9 --style raw --s 70 --v 6`
+   `painterly AI devotional illustration, Hindustani folk-story art style, empty Indian home room with walls completely painted warm yellow-ochre, long flowing yellow curtain hanging over the doorway, brass oil lamp on stone floor casting warm amber glow, folded yellow cloth beside it, small arched window with dark night outside, clean prepared sacred space, no people, peaceful solitary interior, narrative scene-card composition, polished folk illustration, wide 16:9 composition, no text, no watermark`
+
 3.
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, young Indian male sadhak in plain white kurta standing on tiptoe reaching up to hang a long yellow curtain over a plain doorway, curtain half-draped and falling into place, warm oil lamp on floor casting amber glow on yellow-ochre walls, determined focused expression, single-figure scene, night outside, narrative scene-card composition, polished folk illustration, no text, no watermark --ar 16:9 --cref SADHAK_A_REF --cw 80 --style raw --s 70 --v 6`
+   **Ref:** Upload `Sadhak_A_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, young Indian male sadhak in plain white kurta standing on tiptoe reaching up to hang a long yellow curtain over a plain doorway, curtain half-draped and falling into place, warm oil lamp on floor casting amber glow on yellow-ochre walls, determined focused expression, single-figure scene, night outside, narrative scene-card composition, polished folk illustration, wide 16:9 composition, no text, no watermark`
 
 ## Scene-3
 
@@ -118,10 +137,13 @@ The sadhak's Guru had instructed him to commence his spiritual practice (*Sadhan
 
 1.
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, young Indian male sadhak in yellow dhoti and yellow shawl, seated cross-legged on woven yellow asan inside yellow room at night, wooden bajot in front covered with yellow cloth, Baglamukhi Yantra of yellow rice grains at center, small framed image of Maa Baglamukhi, brass diya, copper lota, marigold flowers, incense holder, warm amber oil lamp light, full ritual arrangement visible, narrative scene-card composition, polished folk illustration, no text, no watermark --ar 16:9 --cref SADHAK_B_REF --cw 80 --style raw --s 70 --v 6`
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, young Indian male sadhak in yellow dhoti and yellow shawl, seated cross-legged on woven yellow asan inside yellow room at night, wooden bajot in front covered with yellow cloth, Baglamukhi Yantra of yellow rice grains at center, small framed image of Maa Baglamukhi, brass diya, copper lota, marigold flowers, incense holder, warm amber oil lamp light, full ritual arrangement visible, narrative scene-card composition, polished folk illustration, wide 16:9 composition, no text, no watermark`
+
 2.
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, close detail of wooden bajot covered in yellow cloth, intricate Baglamukhi Yantra carefully formed from individual yellow rice grains, small framed Maa Baglamukhi image at center surrounded by marigold petals, glowing brass diya, copper plate, incense holder, sandalwood paste, warm golden light, sacred ritual objects arranged with care, no people, crisp devotional detail, narrative scene-card composition, polished folk illustration, no text, no watermark --ar 16:9 --style raw --s 70 --v 6`
+   `painterly AI devotional illustration, Hindustani folk-story art style, close detail of wooden bajot covered in yellow cloth, intricate Baglamukhi Yantra carefully formed from individual yellow rice grains, small framed Maa Baglamukhi image at center surrounded by marigold petals, glowing brass diya, copper plate, incense holder, sandalwood paste, warm golden light, sacred ritual objects arranged with care, no people, crisp devotional detail, narrative scene-card composition, polished folk illustration, wide 16:9 composition, no text, no watermark`
 
 ## Scene-4
 
@@ -144,10 +166,13 @@ Adhering to the rules prescribed by his Guru, the sadhak commenced his spiritual
 
 1.
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, young Indian male sadhak in yellow dhoti and yellow shawl, leaning forward to light a ghee diya on wooden bajot, yellow cotton wick catching the flame, warm diya glow illuminating his face from below, facing south, seated on yellow asan in yellow room at night, framed Maa Baglamukhi image on bajot, focused reverent expression, narrative scene-card composition, polished folk illustration, no text, no watermark --ar 16:9 --cref SADHAK_B_REF --cw 80 --style raw --s 70 --v 6`
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, young Indian male sadhak in yellow dhoti and yellow shawl, leaning forward to light a ghee diya on wooden bajot, yellow cotton wick catching the flame, warm diya glow illuminating his face from below, facing south, seated on yellow asan in yellow room at night, framed Maa Baglamukhi image on bajot, focused reverent expression, narrative scene-card composition, polished folk illustration, wide 16:9 composition, no text, no watermark`
+
 2.
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, close ritual detail on wooden bajot, seven neat small mounds of loose incense each topped with a single clove, yellow marigold flowers arranged around framed Maa Baglamukhi image, glowing ghee diya with yellow wick, soft rising smoke trails, brass bell, copper plate, yellow rice grains, warm golden light, no people, precise sacred arrangement, narrative scene-card composition, polished folk illustration, no text, no watermark --ar 16:9 --style raw --s 70 --v 6`
+   `painterly AI devotional illustration, Hindustani folk-story art style, close ritual detail on wooden bajot, seven neat small mounds of loose incense each topped with a single clove, yellow marigold flowers arranged around framed Maa Baglamukhi image, glowing ghee diya with yellow wick, soft rising smoke trails, brass bell, copper plate, yellow rice grains, warm golden light, no people, precise sacred arrangement, narrative scene-card composition, polished folk illustration, wide 16:9 composition, no text, no watermark`
 
 ## Scene-5
 
@@ -170,7 +195,12 @@ Subsequently, he placed a water pot, which too was yellow in color, next to Mata
 
 1.
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, young Indian male sadhak in yellow dhoti and yellow shawl, carefully placing a yellow brass water lota beside framed Maa Baglamukhi image on wooden bajot, hands deliberate and reverent, Baglamukhi Yantra of yellow rice visible, marigold petals, brass diya flame, incense smoke, yellow room interior at night, warm amber glow, focused devotional act, narrative scene-card composition, polished folk illustration, no text, no watermark --ar 16:9 --cref SADHAK_B_REF --cw 80 --style raw --s 70 --v 6`
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, young Indian male sadhak in yellow dhoti and yellow shawl, carefully placing a yellow brass water lota beside framed Maa Baglamukhi image on wooden bajot, hands deliberate and reverent, Baglamukhi Yantra of yellow rice visible, marigold petals, brass diya flame, incense smoke, yellow room interior at night, warm amber glow, focused devotional act, narrative scene-card composition, polished folk illustration, wide 16:9 composition, no text, no watermark`
+
 2.
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, close shot of Indian male sadhak's cupped right palm holding water and yellow oleander flowers, droplets of water glistening, eyes closed in deep prayer, yellow dhoti and yellow shawl visible, Baglamukhi Yantra and framed Maa image softly visible behind on bajot, brass diya flame, warm golden amber light, peaceful surrendered expression, narrative scene-card composition, polished folk illustration, no text, no watermark --ar 16:9 --cref SADHAK_B_REF --cw 80 --style raw --s 70 --v 6`
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, close shot of Indian male sadhak's cupped right palm holding water and yellow oleander flowers, droplets of water glistening, eyes closed in deep prayer, yellow dhoti and yellow shawl visible, Baglamukhi Yantra and framed Maa image softly visible behind on bajot, brass diya flame, warm golden amber light, peaceful surrendered expression, narrative scene-card composition, polished folk illustration, wide 16:9 composition, no text, no watermark`
