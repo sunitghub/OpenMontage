@@ -47,11 +47,11 @@ Scene-3 image generation — Scenes 1–2 fully imaged and committed. Thumbnail 
 
 **Recent commits:**
 ```
+6a7cde1 chore: auto-update handoff snapshot [2026-05-04 10:12]
 f191f88 feat: approve Scene-1-3 thumbnail, add PROMPT-LEARNINGS
 e22ea36 chore: auto-update handoff snapshot [2026-05-04 10:03]
 cfbc86f chore: auto-update handoff snapshot [2026-05-04 10:03]
 aa66c6e chore: auto-update handoff snapshot [2026-05-04 10:03]
-4d5b645 chore: auto-update handoff snapshot [2026-05-04 10:01]
 ```
 
 **In-progress tickets:**
@@ -60,20 +60,19 @@ Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-04 10:03 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-04 10:12 branch:main -->
 **Modified files:**
 ```
- M Bagla-Sadhana-Anubhav.md
-?? PROMPT-LEARNINGS.md
+ M Scene-1-3.png
 ```
 
 **Recent commits:**
 ```
+f191f88 feat: approve Scene-1-3 thumbnail, add PROMPT-LEARNINGS
+e22ea36 chore: auto-update handoff snapshot [2026-05-04 10:03]
 cfbc86f chore: auto-update handoff snapshot [2026-05-04 10:03]
 aa66c6e chore: auto-update handoff snapshot [2026-05-04 10:03]
 4d5b645 chore: auto-update handoff snapshot [2026-05-04 10:01]
-f723287 chore: auto-update handoff snapshot [2026-05-04 10:00]
-c8da4ed chore: auto-update handoff snapshot [2026-05-04 09:58]
 ```
 
 **In-progress tickets:**
