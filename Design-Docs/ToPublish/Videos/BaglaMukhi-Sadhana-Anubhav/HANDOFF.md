@@ -54,6 +54,57 @@ Expanded visual-card generation pass for Scenes 1-5. Scene-1 support cards 5, 6,
 4. **Write remaining outcome scenes** (Hindi + English) — court case resolution, adversaries helpless, devotee's gratitude.
 5. **Review full script arc** — hook strength, pacing, tension beats, payoff.
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-04 15:37 branch:main -->
+**Modified files:**
+```
+ M ../../../Competitors/Competitor-Analysis.md
+ M Bagla-Sadhana-Anubhav-Design.md
+ M Bagla-Sadhana-Anubhav.md
+ D Mata-Baglamukhi.png
+ M PROMPT-LEARNINGS.md
+ D Sadhak-Backwards.jpg
+ D Scene-1-1-2.png
+ M Scene-1-1.png
+ M Scene-2-1.png
+ M Scene-2-2.png
+ D Scene-2-3-1.png
+ D Scene-2-3-2.png
+?? "Bagalmukhi Yantra.jpg"
+?? Maa-Baglamukhi.png
+?? Scene-1-4.png
+?? Scene-1-5.png
+?? Scene-1-6.png
+?? Scene-1-7.png
+?? Scene-1-8.png
+?? Scene-2-3.png
+?? Scene-2-4.png
+?? Scene-2-5.png
+?? Scene-2-6.png
+?? Scene-2-7.png
+?? Scene-2-8.png
+?? Scene-3-2.png
+?? Scene-4-1.png
+?? Scene-4-2-Final.png
+?? Scene-5-1.png
+?? Scene-5-2.png
+?? render_scene.py
+```
+
+**Recent commits:**
+```
+8f98329 chore: auto-update handoff snapshot [2026-05-04 15:24]
+60eeb67 chore: auto-update handoff snapshot [2026-05-04 15:17]
+4d73fbe chore: auto-update handoff snapshot [2026-05-04 15:14]
+e75993a chore: auto-update handoff snapshot [2026-05-04 15:07]
+466d1d5 chore: auto-update handoff snapshot [2026-05-04 10:33]
+```
+
+**In-progress tickets:**
+```
+Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-04 15:24 branch:main -->
 **Modified files:**
 ```
@@ -95,55 +146,6 @@ Expanded visual-card generation pass for Scenes 1-5. Scene-1 support cards 5, 6,
 e75993a chore: auto-update handoff snapshot [2026-05-04 15:07]
 466d1d5 chore: auto-update handoff snapshot [2026-05-04 10:33]
 2f1f936 feat: convert all prompts to GPT-4o format, add Scene-1 img4, Scene-3 img1
-```
-
-**In-progress tickets:**
-```
-Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-04 15:17 branch:main -->
-**Modified files:**
-```
- M ../../../Competitors/Competitor-Analysis.md
- M Bagla-Sadhana-Anubhav-Design.md
- M Bagla-Sadhana-Anubhav.md
- D Mata-Baglamukhi.png
- M PROMPT-LEARNINGS.md
- D Sadhak-Backwards.jpg
- D Scene-1-1-2.png
- M Scene-1-1.png
- M Scene-2-1.png
- M Scene-2-2.png
- D Scene-2-3-1.png
- D Scene-2-3-2.png
-?? "Bagalmukhi Yantra.jpg"
-?? Maa-Baglamukhi.png
-?? Scene-1-4.png
-?? Scene-1-5.png
-?? Scene-1-6.png
-?? Scene-1-7.png
-?? Scene-1-8.png
-?? Scene-2-4.png
-?? Scene-2-5.png
-?? Scene-2-6.png
-?? Scene-2-7.png
-?? Scene-2-8.png
-?? Scene-3-2.png
-?? Scene-4-1.png
-?? Scene-4-2-Final.png
-?? Scene-5-1.png
-?? Scene-5-2.png
-```
-
-**Recent commits:**
-```
-4d73fbe chore: auto-update handoff snapshot [2026-05-04 15:14]
-e75993a chore: auto-update handoff snapshot [2026-05-04 15:07]
-466d1d5 chore: auto-update handoff snapshot [2026-05-04 10:33]
-2f1f936 feat: convert all prompts to GPT-4o format, add Scene-1 img4, Scene-3 img1
-587fdab chore: auto-update handoff snapshot [2026-05-04 10:21]
 ```
 
 **In-progress tickets:**
