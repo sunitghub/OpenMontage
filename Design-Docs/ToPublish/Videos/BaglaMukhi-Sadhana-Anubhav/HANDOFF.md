@@ -100,11 +100,11 @@ Expanded visual-card generation pass for Scenes 1-5. Scene-1 support cards 5, 6,
 
 **Recent commits:**
 ```
+f4da1d2 chore: auto-update handoff snapshot [2026-05-04 18:07]
 5196ec2 chore: auto-update handoff snapshot [2026-05-04 18:04]
 2f5024a chore: auto-update handoff snapshot [2026-05-04 17:58]
 9415f32 chore: auto-update handoff snapshot [2026-05-04 17:11]
 02dd365 chore: auto-update handoff snapshot [2026-05-04 17:09]
-12600b4 chore: auto-update handoff snapshot [2026-05-04 17:07]
 ```
 
 **In-progress tickets:**
@@ -113,7 +113,7 @@ Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-04 18:04 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-04 18:07 branch:main -->
 **Modified files:**
 ```
  M ../../../../AGENTS.md
@@ -159,11 +159,11 @@ Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
 
 **Recent commits:**
 ```
+5196ec2 chore: auto-update handoff snapshot [2026-05-04 18:04]
 2f5024a chore: auto-update handoff snapshot [2026-05-04 17:58]
 9415f32 chore: auto-update handoff snapshot [2026-05-04 17:11]
 02dd365 chore: auto-update handoff snapshot [2026-05-04 17:09]
 12600b4 chore: auto-update handoff snapshot [2026-05-04 17:07]
-e71db28 chore: auto-update handoff snapshot [2026-05-04 17:00]
 ```
 
 **In-progress tickets:**
