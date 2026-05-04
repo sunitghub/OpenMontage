@@ -39,6 +39,30 @@ Scene-3 image generation — Scenes 1–2 fully imaged and committed. Thumbnail 
 3. **Write remaining outcome scenes** (Hindi + English) — court case resolution, adversaries helpless, devotee's gratitude
 4. **Review full script arc** — hook strength, pacing, tension beats, payoff
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-04 10:21 branch:main -->
+**Modified files:**
+```
+ M Bagla-Sadhana-Anubhav.md
+ M Scene-1-2.png
+ M Scene-1-3.png
+?? Scene-3-1.png
+```
+
+**Recent commits:**
+```
+baf80eb chore: auto-update handoff snapshot [2026-05-04 10:20]
+ad17f32 chore: auto-update handoff snapshot [2026-05-04 10:18]
+eb8ff84 chore: auto-update handoff snapshot [2026-05-04 10:17]
+e981a8b chore: auto-update handoff snapshot [2026-05-04 10:16]
+fbbe652 chore: auto-update handoff snapshot [2026-05-04 10:15]
+```
+
+**In-progress tickets:**
+```
+Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-04 10:20 branch:main -->
 **Modified files:**
 ```
@@ -53,28 +77,6 @@ eb8ff84 chore: auto-update handoff snapshot [2026-05-04 10:17]
 e981a8b chore: auto-update handoff snapshot [2026-05-04 10:16]
 fbbe652 chore: auto-update handoff snapshot [2026-05-04 10:15]
 0208da2 chore: auto-update handoff snapshot [2026-05-04 10:12]
-```
-
-**In-progress tickets:**
-```
-Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-04 10:18 branch:main -->
-**Modified files:**
-```
- M Scene-1-3.png
-?? Scene-3-1.png
-```
-
-**Recent commits:**
-```
-eb8ff84 chore: auto-update handoff snapshot [2026-05-04 10:17]
-e981a8b chore: auto-update handoff snapshot [2026-05-04 10:16]
-fbbe652 chore: auto-update handoff snapshot [2026-05-04 10:15]
-0208da2 chore: auto-update handoff snapshot [2026-05-04 10:12]
-6a7cde1 chore: auto-update handoff snapshot [2026-05-04 10:12]
 ```
 
 **In-progress tickets:**
