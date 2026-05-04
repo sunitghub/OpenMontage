@@ -1,6 +1,6 @@
 # Handoff
 
-_Last updated: 2026-05-02 by Claude (claude-sonnet-4-6)_
+_Last updated: 2026-05-04 by Codex (GPT-5)_
 
 ## Prompt Rules
 
@@ -10,34 +10,99 @@ Update it whenever a new pattern is confirmed or a dead end is discovered — th
 ---
 
 ## Current Focus
-Scene-3 image generation — Scenes 1–2 fully imaged and committed. Thumbnail locked. Remaining scenes (3–5 images, plus outcome scenes not yet written) are next.
+Expanded visual-card generation pass for Scenes 1-5. Scene-1 support cards 5, 6, and 7 are generated and approved. Next immediate prompt is Scene-1 Image 8: sadhak sitting alone after the guru's instruction, pensive decision moment.
 
 ## In Progress
-- `Bagla-Sadhana-Anubhav.md`: Scenes 1–5 fully prompted, character refs locked
+- `Bagla-Sadhana-Anubhav.md`: Scenes 1–5 fully prompted in GPT-4o format, character refs locked
+- `Bagla-Sadhana-Anubhav-Design.md`: updated to prefer competitor-style visual card density for long-form story pacing instead of only 1-2 stills per scene
+- `PROMPT-LEARNINGS.md`: updated with new ChatGPT image model surgical-edit rules for framed Maa portraits, seven incense mounds, clove counts, four-arm layout, and gada side
 - Script incomplete — outcome scenes (court case resolution, adversaries rendered helpless, devotee's gratitude) not yet written
 
 ## Recent Decisions
-- **Scene-1-3.png approved as thumbnail** — cinematic 3D style, no cref used, glowing arch framing Maa. See PROMPT-LEARNINGS.md → Thumbnail Composition section for full lessons from 14-round iteration.
-- **`--cref` replaces `--sref`** throughout all scene prompts — character face lock, not style lock
-- **Three character refs locked** and committed:
-  - `Mata-Baglamukhi.png` → MAA_REF (blessing pose)
-  - `Sadhak_A_Ref.png` → SADHAK_A_REF (white kurta, State A — Scene-1 img 2 and Scene-2 imgs 1,3)
-  - `Sadhak_B_Ref.png` → SADHAK_B_REF (yellow dhoti, State B — Scenes 3–5)
-- **cref upload via MidJourney web UI** — remove `--cref NAME` text from prompt, upload image via Character References button, keep `--cw 80` in prompt text
+- **Switched from MidJourney to GPT-4o (ChatGPT)** — GPT-4o solves two-arm constraint, female deity face, and domestic architecture in one shot. MidJourney required 14+ rounds and still failed on key constraints. See PROMPT-LEARNINGS.md → GPT-4o section.
+- **User is now using the new ChatGPT image model** — preservation is better than previous runs, but iconography corrections still need surgical prompts: `Edit only...`, `Do not change anything else`, `viewer's left/right`, exact ritual counts, and explicit anti-Shiva symbol negatives.
+- **All prompts converted to GPT-4o format** — stripped MidJourney params (`--ar`, `--cref`, `--cw`, `--sref`, `--s`, `--v 6`), added `wide 16:9 composition` in plain text, added `**Ref:** Upload \`filename.png\`` notes in script.
+- **Scene-1-3.png approved as thumbnail** — GPT-4o, no reference, glowing arch framing Maa.
+- **Scene-1-4.png added** — new scene: guru with Maa portrait and mala, sadhak listening. GPT-4o + `Sadhak_A_Ref.png`.
+- **Scene-1 support cards approved** — `Scene-1-5.png` close sadhak listening with guru raised hand, `Scene-1-6.png` Chaudas moon and lamp insert, `Scene-1-7.png` standing guru instruction. These match `Scene-1-4.png` well enough through teal turban, white-bearded guru, white-clad sadhak, warm cave light, and moonlit cave setting.
+- **Scene-4 detail finalized** — seven incense mounds, one clove each, corrected framed Maa portrait, warm altar lighting. Current local file: `Scene-4-2-Final.png`.
+- **Standalone Maa reference corrected** — trident replaced with golden gada, four arms restored. Current local file appears as `Maa-Baglamukhi.png`; old `Mata-Baglamukhi.png` is deleted in the working tree.
+- **Visual-card density increased** — Scenes 1-5 now use 34 total image prompts: Scene-1 = 8, Scene-2 = 8, Scene-3 = 6, Scene-4 = 6, Scene-5 = 6. New support beats include guru standing instruction, sadhak pensive after guru talk, choosing the room, clearing/painting the room, ritual hand inserts, exact seven incense mounds, achaman, and prayer closeups.
+- **Three character refs locked:**
+  - `Maa-Baglamukhi.png` → Maa reference (blessing pose, golden gada, no trident)
+  - `Sadhak_A_Ref.png` → Sadhak State A (white kurta — Scenes 1–2)
+  - `Sadhak_B_Ref.png` → Sadhak State B (yellow dhoti — Scenes 3–5)
 
 ## Dead Ends
-- See `PROMPT-LEARNINGS.md` for full record — cref bleeding, multi-arm negatives, floating Maa failures, primary/secondary subject labels, all documented there.
+- See `PROMPT-LEARNINGS.md` → MidJourney sections for full record of what failed and why.
+- For framed Maa portrait edits, phrasing such as "Maa's left hand" or "right hand" confused the model. Use `viewer's LEFT side` / `viewer's RIGHT side` and describe the visible frame placement instead.
+- When correcting the gada, the model may fix the weapon but change arm count. Always include `exactly four arms total` and a final hand layout.
+- When correcting altar details, the model may drift from seven incense mounds. Always repeat `exactly seven incense mounds total` and `each mound has exactly one clove`.
 
 ## Generated so far (committed)
-- Scene-1: `Scene-1-1-2.png` (folk style, in-video), `Scene-1-2.png` (guru scene), `Scene-1-3.png` (thumbnail ✓)
+- Scene-1: `Scene-1-1-2.png` (folk, in-video), `Scene-1-2.png` (guru cave), `Scene-1-3.png` (thumbnail ✓), `Scene-1-4.png` (guru with mala)
 - Scene-2: `Scene-2-1.png`, `Scene-2-2.png`, `Scene-2-3-1.png`, `Scene-2-3-2.png`
+- Scene-3: `Scene-3-1.png` (ritual setup, sadhak back-facing), `Scene-3-2.png` (bajot/yantra close detail)
+- Scene-4: `Screen-4-1.png` (sadhak lighting diya, likely draft), `Scene-4-2-Final.png` (final incense/clove altar detail)
+- Scene-5: Image 1 is in active edit loop; latest version has good sadhak/lota/altar but framed Maa needs gada moved to viewer-left
 - Videos: `Scene-1-1-Vid.mp4`, `Scene-1-2-Vid.mp4`, `Scene-2-1.mp4`, `Scene-2-3.mp4`
 
 ## Next Steps
-1. **Generate Scene-3 images** — 2 prompts ready in script, SADHAK_B_REF only
-2. **Generate Scene-4 and Scene-5 images** — prompts ready
-3. **Write remaining outcome scenes** (Hindi + English) — court case resolution, adversaries helpless, devotee's gratitude
-4. **Review full script arc** — hook strength, pacing, tension beats, payoff
+1. **Generate Scene-1 Image 8** — upload `Sadhak_A_Ref.png`; pensive sadhak alone after guru instruction.
+2. **Generate Scene-2 room-choice/preparation beats** — choosing the room, clearing objects, half-cleared planning moment, painting insert, completed yellow room.
+3. **Generate remaining Scene-3 to Scene-5 inserts** — hands spreading cloth, yantra formation, framed Maa placement, diya lighting, flower offering, seven incense mounds, achaman, and oleander/water closeups.
+4. **Write remaining outcome scenes** (Hindi + English) — court case resolution, adversaries helpless, devotee's gratitude.
+5. **Review full script arc** — hook strength, pacing, tension beats, payoff.
+
+<!-- HANDOFF-SNAPSHOT:START 2026-05-04 15:07 branch:main -->
+**Modified files:**
+```
+ M ../../../Competitors/Competitor-Analysis.md
+ M Bagla-Sadhana-Anubhav-Design.md
+ M Bagla-Sadhana-Anubhav.md
+ M HANDOFF.md
+ D Mata-Baglamukhi.png
+ M PROMPT-LEARNINGS.md
+ D Sadhak-Backwards.jpg
+ D Scene-1-1-2.png
+ M Scene-1-1.png
+ M Scene-2-1.png
+ M Scene-2-2.png
+ D Scene-2-3-1.png
+ D Scene-2-3-2.png
+?? "Bagalmukhi Yantra.jpg"
+?? Maa-Baglamukhi.png
+?? Scene-1-4.png
+?? Scene-1-5.png
+?? Scene-1-6.png
+?? Scene-1-7.png
+?? Scene-1-8.png
+?? Scene-2-4.png
+?? Scene-2-5.png
+?? Scene-2-6.png
+?? Scene-2-7.png
+?? Scene-2-8.png
+?? Scene-3-2.png
+?? Scene-4-1.png
+?? Scene-4-2-Final.png
+?? Scene-5-1.png
+?? Scene-5-2.png
+```
+
+**Recent commits:**
+```
+466d1d5 chore: auto-update handoff snapshot [2026-05-04 10:33]
+2f1f936 feat: convert all prompts to GPT-4o format, add Scene-1 img4, Scene-3 img1
+587fdab chore: auto-update handoff snapshot [2026-05-04 10:21]
+baf80eb chore: auto-update handoff snapshot [2026-05-04 10:20]
+ad17f32 chore: auto-update handoff snapshot [2026-05-04 10:18]
+```
+
+**In-progress tickets:**
+```
+Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
+```
+<!-- HANDOFF-SNAPSHOT:END -->
 
 <!-- HANDOFF-SNAPSHOT:START 2026-05-04 10:33 branch:main -->
 **Modified files:**
@@ -52,30 +117,6 @@ Scene-3 image generation — Scenes 1–2 fully imaged and committed. Thumbnail 
 baf80eb chore: auto-update handoff snapshot [2026-05-04 10:20]
 ad17f32 chore: auto-update handoff snapshot [2026-05-04 10:18]
 eb8ff84 chore: auto-update handoff snapshot [2026-05-04 10:17]
-```
-
-**In-progress tickets:**
-```
-Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-04 10:21 branch:main -->
-**Modified files:**
-```
- M Bagla-Sadhana-Anubhav.md
- M Scene-1-2.png
- M Scene-1-3.png
-?? Scene-3-1.png
-```
-
-**Recent commits:**
-```
-baf80eb chore: auto-update handoff snapshot [2026-05-04 10:20]
-ad17f32 chore: auto-update handoff snapshot [2026-05-04 10:18]
-eb8ff84 chore: auto-update handoff snapshot [2026-05-04 10:17]
-e981a8b chore: auto-update handoff snapshot [2026-05-04 10:16]
-fbbe652 chore: auto-update handoff snapshot [2026-05-04 10:15]
 ```
 
 **In-progress tickets:**
