@@ -16,7 +16,9 @@ There are no instructions in this file. All instructions are in AGENT_GUIDE.md.
 |-------|----------|--------|
 | wrapup | skills | /Users/sunitjoshi/Developer/canon/skills/wrapup.md |
 | shorts-director | skills | /Users/sunitjoshi/Developer/canon/skills/shorts-director.md |
+| devotional-producer | skills | /Users/sunitjoshi/Developer/canon/skills/devotional-producer.md |
 <!-- AI-SKILLS:END -->
 @/Users/sunitjoshi/Developer/canon/skills/wrapup.md
 @/Users/sunitjoshi/Developer/canon/skills/shorts-director.md
 @/Users/sunitjoshi/Developer/canon/standards/efficiency.md
+@/Users/sunitjoshi/Developer/canon/skills/devotional-producer.md

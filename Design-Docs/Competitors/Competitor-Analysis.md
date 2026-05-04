@@ -385,6 +385,89 @@ Important conclusion:
 - among the named options, `Dream Screen / Design Screen` is the least likely primary source, `Kling` is plausible only as a selective embellishment, and `AI stills + editor` is the most likely backbone
 - confidence: `medium`; a higher-confidence attribution would require the original YouTube page description, project files, or uncompressed generator exports
 
+## Sixth Reference Case: Kumar Aur Chudail
+
+Reference studied:
+- `/Users/sunitjoshi/Developer/TryOuts/OpenMontage/Design-Docs/Competitors/Kumar-Aur-Chudail.mp4`
+
+Channel: **قديم قصص** (Qadeem Qissay = "Old Stories") — watermark top-left, gold/black ornamental badge, Hindi/Urdu folk story channel
+
+Measured notes:
+- runtime: `1298.4s` (`21:38`)
+- format: `638x360`, `16:9`, `30fps`
+- video bitrate: about `638 kb/s`
+- audio: AAC stereo, `44100 Hz`, `96 kb/s`
+- audio mean volume: `-20.9 dB` (narration + music bed blend)
+- audio max volume: `-4.8 dB` (punchy peaks, not over-compressed)
+- detected scene changes: `143` (includes fade-to-black frames — roughly 40% are pure black)
+- estimated content scenes: `85–100`
+- one-second image-diff sampling: median `26.09`, with `72%` of samples above `20` and `0.1%` below `5`
+- note: the high-motion reading is inflated by fade-to-black transitions, not by in-scene animation
+
+Story: poor potter Kumar encounters Zareena, a chudail (witch) who helps him make magical pottery; village shuns him; she departs supernaturally; he keeps the magical gift.
+
+Observed pattern:
+- **comic book / graphic novel illustration style** — the only reference in this set with this art direction
+- strong black ink outlines, bold saturated colors, cel-shading with highlights
+- exaggerated facial expressions and body language (comic convention for emotion)
+- speech bubbles used selectively for key dialogue reveals (`"Arey Zareena..."`, `"بے مثال!"`)
+- no in-frame subtitle captions in content scenes — narration carries the full semantic load
+- recurring props: donkey, pottery wheel, oil lamp, ornate vase
+- two distinct palettes: warm amber for workshop/interior, dusty brown/grey for outdoor day, cool blue-black for night/supernatural
+
+Character continuity method:
+- **costume-based, not face-locked**:
+  - Kumar: dark teal turban + ragged brown kurta + beard = identity marker (face drifts within comic tolerance)
+  - Chudail: flowing black dress with red trim + long wild black hair = supernatural identity marker
+  - no `--cref` equivalent needed because comic outlines make costume carry continuity
+- character face consistency is "good enough" — expression exaggeration draws the eye, not face precision
+
+Transition pattern:
+- **fade-to-black between every scene** — the dominant and consistent transition throughout
+- not hard cuts (Charava-Bhootni), not slow dissolves (Jinn-Masoom), not Ken Burns holds (Shiva Kailash)
+- fade-to-black functions as a narrative pause and chapter breath, not just a cut
+- each content card held `5–8s`; black transitions held `1–2s`
+- in CapCut/DaVinci, this is a global "fade to black" transition applied per cut
+
+VFX usage:
+- **minimal** — despite supernatural content:
+  - soft glow aura on Chudail when appearing supernaturally (composited, not generated)
+  - one tornado/whirlwind vortex for departure climax
+  - one golden hand-glow for emotional farewell beat
+  - everything else is pure illustrated still card
+
+Tool attribution:
+- **Primary image generation**: MidJourney v6 with `--sref` (Style Reference) or Ideogram with illustration preset
+  - consistent comic outline and palette across 100+ cards over 21 minutes confirms a style lock, not just a prompt match
+  - GPT-4o also produces this style cleanly with `"comic book illustration"` framing
+- **No I2V detected** — zero video generation in the entire episode; purely still-card montage
+- **Assembly**: CapCut or DaVinci with fade-to-black transition applied globally
+- **Narration**: male Hindi/Urdu TTS, likely ElevenLabs multilingual or Murf.ai
+
+Cost estimate:
+- image generation: ~90–100 cards at ~`$0.04/image` = `~$4` per episode
+- video generation: `$0` (no I2V clips)
+- total estimated production cost per 21-minute episode: `~$4–6` — cheapest of all references analyzed
+
+Production conclusion:
+- this is the **lowest-cost long-form competitor** analyzed: zero video generation, minimal VFX, purely still-card montage
+- the comic illustration style solves character consistency cheaper than photoreal `--cref` face lock — costume + outline does the identity work
+- fade-to-black is a legitimate long-form pacing device, not a production shortcut; it creates chapter rhythm and emotional reset between scenes
+- selective speech bubbles add in-scene dialogue emphasis without requiring full subtitle overlay
+- audio mix target: `-20 to -21 dB` mean volume is the practical narration-with-music-bed target
+
+OpenMontage fit:
+- **fade-to-black transition** should be available as a default template for folk-story long-form; add as a scene transition option in HyperFrames or ffmpeg assembly
+- **comic style** is a valid alternative art direction for folk-story content (not appropriate for devotional content like Baglamukhi, but usable for Charava-Bhootni-style stories)
+- **costume-continuity-first** character bible approach is confirmed: lock turban, kurta, condition (ragged vs. clean) before generating any scene cards
+- **zero I2V budget** episodes are viable for narration-led folk stories where the narrator carries all meaning — confirm per project whether `1–2` hero clips add enough value to justify cost
+
+Important conclusion:
+- Kumar Aur Chudail proves 21-minute folk-story videos can be produced for `~$4–6` total with zero video generation
+- the comic illustration style + fade-to-black transitions + costume-continuity is a complete, replicable production system
+- for OpenMontage, the winning extraction from this reference is: `style-lock your image generator` + `apply fade-to-black globally` + `let costume carry character identity` + `reserve speech bubbles for 2–3 dramatic dialogue beats`
+- audio mixing target confirmed: `-20 to -21 dB` mean, `-5 dB` max, stereo AAC 96 kbps for web delivery
+
 ## Prototype Findings: Maa Kali Yantra Short
 
 Working package:

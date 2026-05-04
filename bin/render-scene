@@ -1,0 +1,85 @@
+#!/usr/bin/env bash
+# render-scene — Generate a test MP4 for a devotional video scene
+# Symlinked from ~/bin — safe to call from any project directory.
+
+set -euo pipefail
+
+# Resolve the real directory of this script, following symlinks
+SOURCE="${BASH_SOURCE[0]}"
+while [[ -h "$SOURCE" ]]; do
+    DIR="$(cd -P "$(dirname "$SOURCE")" && pwd)"
+    SOURCE="$(readlink "$SOURCE")"
+    [[ "$SOURCE" != /* ]] && SOURCE="$DIR/$SOURCE"
+done
+SCRIPT_DIR="$(cd -P "$(dirname "$SOURCE")" && pwd)"
+
+PYTHON="$SCRIPT_DIR/render_scene.py"
+
+usage() {
+    cat <<'EOF'
+render-scene — Generate a test MP4 for a devotional video scene
+
+USAGE
+  render-scene --scene N [options]
+
+OPTIONS
+  --scene N         Scene number to render (required)
+  --duration N      Seconds per image when no narration given (default: 7)
+  --narration FILE  Narration audio — auto-times each image to fit total duration
+  --preview         Fast 720p preview render (use while scripting/testing)
+  --glow            Force bloom glow effect (auto-detected from script MD if omitted)
+  --critic          Print critique summary from script MD — no render, script analysis only
+  --project DIR     Project directory containing Scene-N-*.png files
+                    (default: current working directory)
+
+EXAMPLES
+  cd ~/my-video-project
+  render-scene --scene 1 --preview
+  render-scene --scene 1 --glow --preview          # deity scene — bloom glow on
+  render-scene --scene 1 --duration 6
+  render-scene --scene 1 --narration scene-1-narration.mp3
+  render-scene --scene 2 --project ~/Videos/OtherProject --preview
+
+OUTPUT
+  Render/Scene-N-test.mp4           (full quality, 1920x1080, created in cwd)
+  Render/Scene-N-test-preview.mp4   (fast preview, 1280x720, created in cwd)
+  <project-dir>/Scene-N-test.mp4    (when --project is passed, written directly there)
+
+BAKED-IN EFFECTS  (from competitor research — 6 devotional video references)
+  Ken Burns slow push-in    zoom 1.00 → 1.04, centered
+  Hard cuts                 between images within a scene
+  Fade-in from black        0.8s at scene start
+  Fade-out to black         0.8s at scene end
+  Default hold              7s per image (use --duration or --narration to override)
+  Full quality              H.264, 30fps, 1920x1080
+  Preview                   H.264, 24fps, 1280x720
+
+NARRATION TIMING
+  When --narration is passed, total audio duration is divided evenly across all
+  images in the scene. To calibrate your WPM, record Scene 1 first and run:
+    render-scene --scene 1 --narration scene-1-narration.mp3
+  The reported "Xs/image" is your calibration baseline for planning other scenes.
+
+REQUIREMENTS
+  python3, ffmpeg (brew install ffmpeg)
+
+EOF
+}
+
+if [[ $# -eq 0 ]]; then
+    usage
+    exit 0
+fi
+
+# Validate ffmpeg and python3 are available
+if ! command -v ffmpeg &>/dev/null; then
+    echo "Error: ffmpeg not found. Install with: brew install ffmpeg" >&2
+    exit 1
+fi
+
+if ! command -v python3 &>/dev/null; then
+    echo "Error: python3 not found." >&2
+    exit 1
+fi
+
+exec python3 "$PYTHON" "$@"
