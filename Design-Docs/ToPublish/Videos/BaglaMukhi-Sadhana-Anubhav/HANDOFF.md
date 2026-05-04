@@ -10,39 +10,34 @@ Update it whenever a new pattern is confirmed or a dead end is discovered — th
 ---
 
 ## Current Focus
-Baglamukhi Sadhana Anubhav video — script completion before generating more images. Scenes 1–5 prompts are ready; remaining scenes (outcome, court case resolution, divine intervention) need to be written first.
+Scene-3 image generation — Scenes 1–2 fully imaged and committed. Thumbnail locked. Remaining scenes (3–5 images, plus outcome scenes not yet written) are next.
 
 ## In Progress
-- `Bagla-Sadhana-Anubhav.md`: Scenes 1–5 fully prompted, character refs locked, some scene images generated
-- Script incomplete — remaining scenes (the actual story outcome) not yet written
+- `Bagla-Sadhana-Anubhav.md`: Scenes 1–5 fully prompted, character refs locked
+- Script incomplete — outcome scenes (court case resolution, adversaries rendered helpless, devotee's gratitude) not yet written
 
 ## Recent Decisions
+- **Scene-1-3.png approved as thumbnail** — cinematic 3D style, no cref used, glowing arch framing Maa. See PROMPT-LEARNINGS.md → Thumbnail Composition section for full lessons from 14-round iteration.
 - **`--cref` replaces `--sref`** throughout all scene prompts — character face lock, not style lock
-- **Three character refs now locked** and committed:
+- **Three character refs locked** and committed:
   - `Mata-Baglamukhi.png` → MAA_REF (blessing pose)
   - `Sadhak_A_Ref.png` → SADHAK_A_REF (white kurta, State A — Scene-1 img 2 and Scene-2 imgs 1,3)
   - `Sadhak_B_Ref.png` → SADHAK_B_REF (yellow dhoti, State B — Scenes 3–5)
 - **cref upload via MidJourney web UI** — remove `--cref NAME` text from prompt, upload image via Character References button, keep `--cw 80` in prompt text
-- **Back-facing sadhak scenes** (Scene-1 imgs 1 and 3): upload MAA_REF only — no sadhak cref since his face is never seen
-- **Scene-1 Image #3** is the thumbnail (cinematic 3D style); Scene-1 Image #1 is the in-video folk style version of the same shot
-- **Script-first decision**: stop generating images until remaining scenes are written — the outcome/court case/divine intervention scenes are where viewer engagement lives
-- Jinn-Masoom competitor analysis added to Competitor-Analysis.md — key finding: MidJourney v6 `--cref` is how they lock character faces across 230+ scene cards
 
 ## Dead Ends
-- `--sref` for character identity — wrong tool, causes deity drift and costume override
-- Two character `--cref` refs in same prompt for back-facing sadhak scenes — caused sadhak to absorb Maa's divine appearance
-- `--sw 60` style weight — too high, overrides composition; use `--sw 20` max or drop entirely
+- See `PROMPT-LEARNINGS.md` for full record — cref bleeding, multi-arm negatives, floating Maa failures, primary/secondary subject labels, all documented there.
 
 ## Generated so far (committed)
-- Scene-1: `Scene-1-1-2.png` (one approved variant)
+- Scene-1: `Scene-1-1-2.png` (folk style, in-video), `Scene-1-2.png` (guru scene), `Scene-1-3.png` (thumbnail ✓)
 - Scene-2: `Scene-2-1.png`, `Scene-2-2.png`, `Scene-2-3-1.png`, `Scene-2-3-2.png`
+- Videos: `Scene-1-1-Vid.mp4`, `Scene-1-2-Vid.mp4`, `Scene-2-1.mp4`, `Scene-2-3.mp4`
 
 ## Next Steps
-1. **Finish writing remaining script scenes** (Hindi + English) — especially outcome scenes: court case resolution, adversaries rendered helpless, devotee's gratitude
-2. **Add prompts for new scenes** to `Bagla-Sadhana-Anubhav.md`
-3. **Review full script arc** with Claude — critique hook strength, pacing, tension beats, payoff
-4. **Then resume image generation** starting with hook scene (thumbnail candidate) and outcome scenes
-5. Untracked scratch file `Sadhak-Backwards.jpg` — decide whether to keep or delete
+1. **Generate Scene-3 images** — 2 prompts ready in script, SADHAK_B_REF only
+2. **Generate Scene-4 and Scene-5 images** — prompts ready
+3. **Write remaining outcome scenes** (Hindi + English) — court case resolution, adversaries helpless, devotee's gratitude
+4. **Review full script arc** — hook strength, pacing, tension beats, payoff
 
 <!-- HANDOFF-SNAPSHOT:START 2026-05-04 10:03 branch:main -->
 **Modified files:**
