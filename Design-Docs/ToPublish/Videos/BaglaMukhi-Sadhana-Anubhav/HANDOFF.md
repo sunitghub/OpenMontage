@@ -96,11 +96,11 @@ Expanded visual-card generation pass for Scenes 1-5. Scene-1 support cards 5, 6,
 
 **Recent commits:**
 ```
+5a2c889 chore: auto-update handoff snapshot [2026-05-04 17:00]
 98c8a66 chore: auto-update handoff snapshot [2026-05-04 16:56]
 8d5c429 chore: auto-update handoff snapshot [2026-05-04 16:54]
 e6832ab chore: auto-update handoff snapshot [2026-05-04 16:53]
 1af3b09 chore: auto-update handoff snapshot [2026-05-04 16:52]
-ed09c6c chore: auto-update handoff snapshot [2026-05-04 16:51]
 ```
 
 **In-progress tickets:**
@@ -109,13 +109,13 @@ Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-04 16:56 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-04 17:00 branch:main -->
 **Modified files:**
 ```
  M ../../../../AGENTS.md
  M ../../../../CLAUDE.md
  M ../../../Competitors/Competitor-Analysis.md
- M Bagla-Sadhana-Anubhav-Design.md
+ D Bagla-Sadhana-Anubhav-Design.md
  M Bagla-Sadhana-Anubhav.md
  D Mata-Baglamukhi.png
  M PROMPT-LEARNINGS.md
@@ -126,6 +126,7 @@ Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
  M Scene-2-2.png
  D Scene-2-3-1.png
  D Scene-2-3-2.png
+?? ../../../Bagla-Sadhana-Anubhav-Design.md
 ?? "Bagalmukhi Yantra.jpg"
 ?? Maa-Baglamukhi.png
 ?? Scene-1-4.png
@@ -150,11 +151,11 @@ Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
 
 **Recent commits:**
 ```
+98c8a66 chore: auto-update handoff snapshot [2026-05-04 16:56]
 8d5c429 chore: auto-update handoff snapshot [2026-05-04 16:54]
 e6832ab chore: auto-update handoff snapshot [2026-05-04 16:53]
 1af3b09 chore: auto-update handoff snapshot [2026-05-04 16:52]
 ed09c6c chore: auto-update handoff snapshot [2026-05-04 16:51]
-0b16060 chore: auto-update handoff snapshot [2026-05-04 16:51]
 ```
 
 **In-progress tickets:**
