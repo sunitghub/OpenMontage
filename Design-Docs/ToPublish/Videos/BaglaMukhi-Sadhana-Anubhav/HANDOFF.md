@@ -70,19 +70,20 @@ Scene-1 narration recorded and render done (Scene-1-test.mp4). GarageBand EQ for
 6. **Write remaining outcome scenes** (Hindi + English) — court case crisis, Maa's grace, resolution, adversaries rendered helpless, devotee's gratitude.
 5. **Place courtroom/thumbnail assets into final scene numbering** once outcome scenes are written.
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-05 18:16 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-05 18:18 branch:main -->
 **Modified files:**
 ```
+ M Bagla-Sadhana-Anubhav.md
 ?? Scene-1-eq.mp3
 ```
 
 **Recent commits:**
 ```
+32dbe44 chore: auto-update handoff snapshot [2026-05-05 18:16]
 1c61f45 chore: auto-update handoff snapshot [2026-05-05 18:16]
 c0b167a feat: randomised per-card zoom direction (in/out)
 adfb24d chore: auto-update handoff snapshot [2026-05-05 18:14]
 dd68705 feat: add --vintage film grain + dust spot effect
-c00feba chore: auto-update handoff snapshot [2026-05-05 18:06]
 ```
 
 **In-progress tickets:**
@@ -99,11 +100,11 @@ Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
 
 **Recent commits:**
 ```
+1c61f45 chore: auto-update handoff snapshot [2026-05-05 18:16]
 c0b167a feat: randomised per-card zoom direction (in/out)
 adfb24d chore: auto-update handoff snapshot [2026-05-05 18:14]
 dd68705 feat: add --vintage film grain + dust spot effect
 c00feba chore: auto-update handoff snapshot [2026-05-05 18:06]
-f889899 feat: bake Devotional-Narration EQ into render pipeline
 ```
 
 **In-progress tickets:**
