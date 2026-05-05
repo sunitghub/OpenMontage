@@ -1,6 +1,6 @@
 # Handoff
 
-_Last updated: 2026-05-04 by Codex (GPT-5)_
+_Last updated: 2026-05-05 by Codex (GPT-5)_
 
 ## Prompt Rules
 
@@ -10,12 +10,13 @@ Update it whenever a new pattern is confirmed or a dead end is discovered — th
 ---
 
 ## Current Focus
-Expanded visual-card generation pass for Scenes 1-5. Scene-1 support cards 5, 6, and 7 are generated and approved. Next immediate prompt is Scene-1 Image 8: sadhak sitting alone after the guru's instruction, pensive decision moment.
+Expanded visual-card generation pass for Scenes 1-5 plus courtroom crisis/thumbnail exploration. Scene-1 support pass is complete, Scene-2 is generated/reordered, Scene-3 support inserts are generated, and Scene-4 has progressed through the diya-lighting and flower-offering inserts. Current resume point: continue Scene-4 with Image 5, the close top-down shot of exactly seven incense mounds being shaped on the Baglamukhi Yantra.
 
 ## In Progress
 - `Bagla-Sadhana-Anubhav.md`: Scenes 1–5 fully prompted in GPT-4o format, character refs locked
 - `Bagla-Sadhana-Anubhav-Design.md`: updated to prefer competitor-style visual card density for long-form story pacing instead of only 1-2 stills per scene
 - `PROMPT-LEARNINGS.md`: updated with new ChatGPT image model surgical-edit rules for framed Maa portraits, seven incense mounds, clove counts, four-arm layout, and gada side
+- Courtroom crisis / thumbnail visual lane has started, but final outcome scenes are still not written into the script
 - Script incomplete — outcome scenes (court case resolution, adversaries rendered helpless, devotee's gratitude) not yet written
 
 ## Recent Decisions
@@ -24,7 +25,11 @@ Expanded visual-card generation pass for Scenes 1-5. Scene-1 support cards 5, 6,
 - **All prompts converted to GPT-4o format** — stripped MidJourney params (`--ar`, `--cref`, `--cw`, `--sref`, `--s`, `--v 6`), added `wide 16:9 composition` in plain text, added `**Ref:** Upload \`filename.png\`` notes in script.
 - **Scene-1-3.png approved as thumbnail** — GPT-4o, no reference, glowing arch framing Maa.
 - **Scene-1-4.png added** — new scene: guru with Maa portrait and mala, sadhak listening. GPT-4o + `Sadhak_A_Ref.png`.
-- **Scene-1 support cards approved** — `Scene-1-5.png` close sadhak listening with guru raised hand, `Scene-1-6.png` Chaudas moon and lamp insert, `Scene-1-7.png` standing guru instruction. These match `Scene-1-4.png` well enough through teal turban, white-bearded guru, white-clad sadhak, warm cave light, and moonlit cave setting.
+- **Scene-1 support cards approved** — `Scene-1-5.png` close sadhak listening with guru raised hand, `Scene-1-6.png` Chaudas moon and lamp insert, `Scene-1-7.png` standing guru instruction, `Scene-1-8.png` pensive sadhak alone after guru instruction. These match `Scene-1-4.png` well enough through teal turban, white-bearded guru, white-clad sadhak, warm cave light, and moonlit cave setting.
+- **Scene-2 sequence generated and reordered** — `Scene-2-1.png` choosing cluttered room, `Scene-2-2.png` clearing/removing objects, `Scene-2-3.png` pensive half-cleared planning moment, `Scene-2-4.png` painting room, `Scene-2-5.png` brush closeup, `Scene-2-6.png` hanging yellow curtain, `Scene-2-7.png` empty completed yellow room, `Scene-2-8.png` completed room transition with folded asan/lamp. `Scene-2-2` prompt was tightened to avoid yellow curtain/ritual setup too early.
+- **Scene-3 support inserts generated** — `Scene-3-3.png` yellow cloth on bajot, `Scene-3-4.png` rice yantra top-down, `Scene-3-5.png` Maa frame placement, `Scene-3-6.png` 10 o'clock room discipline shot.
+- **Scene-4 current progress** — `Scene-4-3.png` regenerated with better front-facing posture for lighting diya; `Scene-4-4.png` saved as close hand/flower offering insert to avoid duplicating `Scene-4-3`.
+- **Courtroom crisis/thumbnail assets started** — `courtroom-1.jpeg` and `crowded-courtroom.png` are reference/source images. `Thumbnail.png` is the engaging court-grace thumbnail where Maa Baglamukhi appears above the white-kurta sadhak in court. The latest courtroom edit prompt should move the black-coated standing lawyer to the right, turned toward the sadhak, with the police constable less dominant in the background.
 - **Scene-4 detail finalized** — seven incense mounds, one clove each, corrected framed Maa portrait, warm altar lighting. Current local file: `Scene-4-2-Final.png`.
 - **Standalone Maa reference corrected** — trident replaced with golden gada, four arms restored. Current local file appears as `Maa-Baglamukhi.png`; old `Mata-Baglamukhi.png` is deleted in the working tree.
 - **Visual-card density increased** — Scenes 1-5 now use 34 total image prompts: Scene-1 = 8, Scene-2 = 8, Scene-3 = 6, Scene-4 = 6, Scene-5 = 6. New support beats include guru standing instruction, sadhak pensive after guru talk, choosing the room, clearing/painting the room, ritual hand inserts, exact seven incense mounds, achaman, and prayer closeups.
@@ -40,19 +45,54 @@ Expanded visual-card generation pass for Scenes 1-5. Scene-1 support cards 5, 6,
 - When correcting altar details, the model may drift from seven incense mounds. Always repeat `exactly seven incense mounds total` and `each mound has exactly one clove`.
 
 ## Generated so far (committed)
-- Scene-1: `Scene-1-1-2.png` (folk, in-video), `Scene-1-2.png` (guru cave), `Scene-1-3.png` (thumbnail ✓), `Scene-1-4.png` (guru with mala)
-- Scene-2: `Scene-2-1.png`, `Scene-2-2.png`, `Scene-2-3-1.png`, `Scene-2-3-2.png`
-- Scene-3: `Scene-3-1.png` (ritual setup, sadhak back-facing), `Scene-3-2.png` (bajot/yantra close detail)
-- Scene-4: `Screen-4-1.png` (sadhak lighting diya, likely draft), `Scene-4-2-Final.png` (final incense/clove altar detail)
-- Scene-5: Image 1 is in active edit loop; latest version has good sadhak/lota/altar but framed Maa needs gada moved to viewer-left
+- Scene-1: `Scene-1-1-2.png` (folk, in-video), `Scene-1-2.png` (guru cave), `Scene-1-3.png` (thumbnail candidate), `Scene-1-4.png` (guru with mala), `Scene-1-5.png`, `Scene-1-6.png`, `Scene-1-7.png`, `Scene-1-8.png`
+- Scene-2: `Scene-2-1.png` through `Scene-2-8.png` generated and ordered
+- Scene-3: `Scene-3-1.png` through `Scene-3-6.png` generated
+- Scene-4: `Screen-4-1.png` draft, `Scene-4-2-Final.png` final incense/clove altar detail, `Scene-4-3.png` diya lighting, `Scene-4-4.png` flower offering hand insert
+- Scene-5: `Scene-5-1.png` and `Scene-5-2.png` exist from earlier generation
+- Court/thumbnail: `courtroom-1.jpeg`, `crowded-courtroom.png`, `Thumbnail.png`
 - Videos: `Scene-1-1-Vid.mp4`, `Scene-1-2-Vid.mp4`, `Scene-2-1.mp4`, `Scene-2-3.mp4`
 
 ## Next Steps
-1. **Generate Scene-1 Image 8** — upload `Sadhak_A_Ref.png`; pensive sadhak alone after guru instruction.
-2. **Generate Scene-2 room-choice/preparation beats** — choosing the room, clearing objects, half-cleared planning moment, painting insert, completed yellow room.
-3. **Generate remaining Scene-3 to Scene-5 inserts** — hands spreading cloth, yantra formation, framed Maa placement, diya lighting, flower offering, seven incense mounds, achaman, and oleander/water closeups.
-4. **Write remaining outcome scenes** (Hindi + English) — court case resolution, adversaries helpless, devotee's gratitude.
-5. **Review full script arc** — hook strength, pacing, tension beats, payoff.
+1. **Continue Scene-4 Image 5** — close top-down ritual insert of hands shaping exactly seven incense mounds on the Baglamukhi Yantra, cloves waiting in a copper dish.
+2. **Generate/verify Scene-4 Image 6** — close detail of exactly seven incense mounds total, one clove each, smoke trails, diya, framed Maa softly blurred.
+3. **Review Scene-5 existing files** — `Scene-5-1.png` and `Scene-5-2.png` exist; decide if they are final enough or need regeneration under the current prompt style.
+4. **Write remaining outcome scenes** (Hindi + English) — court case crisis, Maa's grace, court case resolution, adversaries rendered helpless, devotee's gratitude.
+5. **Place courtroom/thumbnail assets into final scene numbering** once outcome scenes are written.
+
+<!-- HANDOFF-SNAPSHOT:START 2026-05-05 13:15 branch:main -->
+**Modified files:**
+```
+ M ../../../Competitors/Competitor-Analysis.md
+ M Bagla-Sadhana-Anubhav.md
+ M HANDOFF.md
+ M PROMPT-LEARNINGS.md
+ M ../../../../bin/render_scene.py
+?? ../../../Bagla-Sadhana-Anubhav-Design.md
+?? ../../../Start-Content.md
+?? Scene-1-1a.png
+?? Scene-1-1b.png
+?? Scene-4-3.png
+?? Scene-4-4.png
+?? Thumbnail.png
+?? courtroom-1.jpeg
+?? crowded-courtroom.png
+```
+
+**Recent commits:**
+```
+ddced30 chore: auto-update handoff snapshot [2026-05-05 08:22]
+d74ebb8 chore: auto-update handoff snapshot [2026-05-05 08:16]
+f9d17cb chore: auto-update handoff snapshot [2026-05-05 08:14]
+ef3b474 chore: auto-update handoff snapshot [2026-05-05 08:07]
+7982c03 chore: auto-update handoff snapshot [2026-05-05 08:03]
+```
+
+**In-progress tickets:**
+```
+Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
+```
+<!-- HANDOFF-SNAPSHOT:END -->
 
 <!-- HANDOFF-SNAPSHOT:START 2026-05-05 08:22 branch:main -->
 **Modified files:**
@@ -78,37 +118,6 @@ f9d17cb chore: auto-update handoff snapshot [2026-05-05 08:14]
 ef3b474 chore: auto-update handoff snapshot [2026-05-05 08:07]
 7982c03 chore: auto-update handoff snapshot [2026-05-05 08:03]
 ee1a244 chore: auto-update handoff snapshot [2026-05-05 07:59]
-```
-
-**In-progress tickets:**
-```
-Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-05 08:16 branch:main -->
-**Modified files:**
-```
- M ../../../Competitors/Competitor-Analysis.md
- M Bagla-Sadhana-Anubhav.md
- M PROMPT-LEARNINGS.md
- M ../../../../bin/render_scene.py
-?? ../../../Bagla-Sadhana-Anubhav-Design.md
-?? ../../../Start-Content.md
-?? .#Bagla-Sadhana-Anubhav.md
-?? Scene-4-3.png
-?? Scene-4-4.png
-?? courtroom-1.jpeg
-?? crowded-courtroom.png
-```
-
-**Recent commits:**
-```
-f9d17cb chore: auto-update handoff snapshot [2026-05-05 08:14]
-ef3b474 chore: auto-update handoff snapshot [2026-05-05 08:07]
-7982c03 chore: auto-update handoff snapshot [2026-05-05 08:03]
-ee1a244 chore: auto-update handoff snapshot [2026-05-05 07:59]
-cd436aa chore: auto-update handoff snapshot [2026-05-05 07:58]
 ```
 
 **In-progress tickets:**
