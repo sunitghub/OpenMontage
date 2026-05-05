@@ -24,6 +24,13 @@ ZOOM_TARGET = 1.04
 FADE_DUR = 0.8
 WPM = 85  # Hindi devotional narration benchmark (80–90 WPM range)
 _CRITIQUE_TRUNC = 100
+NARRATION_EQ = (
+    "highpass=f=90:poles=2,"
+    "equalizer=f=120:width_type=q:width=1.5:g=-2.5,"
+    "equalizer=f=320:width_type=q:width=1.5:g=-1.5,"
+    "equalizer=f=2500:width_type=q:width=1.2:g=2.5,"
+    "treble=g=2:f=10000"
+)
 
 HONORIFICS = {"maa", "shri", "sri", "mata", "devi", "shree"}
 
@@ -474,7 +481,8 @@ def main():
             cmd = ["ffmpeg", "-y",
                    "-f", "concat", "-safe", "0", "-i", concat_txt,
                    "-i", narration_path,
-                   "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
+                   "-c:v", "copy", "-af", NARRATION_EQ,
+                   "-c:a", "aac", "-b:a", "192k",
                    "-shortest", output]
         else:
             cmd = ["ffmpeg", "-y",
