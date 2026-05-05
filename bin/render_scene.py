@@ -31,6 +31,13 @@ NARRATION_EQ = (
     "equalizer=f=2500:width_type=q:width=1.2:g=2.5,"
     "treble=g=2:f=10000"
 )
+# Film dust: subtle grain + sparse black spots that change each frame.
+# random(0) evolves per-pixel per-frame; probability tuned for ~15-25 spots
+# at 1080p. Lum-only keeps spots pure black without chroma shift.
+VINTAGE_VF = (
+    "noise=alls=8:allf=t+u,"
+    "geq=lum='if(lt(random(0),0.0001),0,lum(X,Y))'"
+)
 
 HONORIFICS = {"maa", "shri", "sri", "mata", "devi", "shree"}
 
@@ -401,6 +408,8 @@ def main():
     ap.add_argument("--preview", action="store_true")
     ap.add_argument("--glow", action="store_true",
                     help="Force bloom glow on all images (auto-detected per image if omitted)")
+    ap.add_argument("--vintage", action="store_true",
+                    help="Add film grain + dust spots (competitor-style vintage effect)")
     ap.add_argument("--critic", action="store_true",
                     help="Print critique summary from script MD (no render)")
     ap.add_argument("--project", default=None,
@@ -477,17 +486,17 @@ def main():
         suffix = "-preview" if args.preview else ""
         output = os.path.join(renders_dir, f"Scene-{args.scene}-test{suffix}.mp4")
 
+        base_cmd = ["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", concat_txt]
+        video_opts = (
+            ["-vf", VINTAGE_VF, "-c:v", "libx264", "-crf", "18",
+             "-preset", "veryfast" if args.preview else "medium", "-pix_fmt", "yuv420p"]
+            if args.vintage else ["-c:v", "copy"]
+        )
         if narration_path:
-            cmd = ["ffmpeg", "-y",
-                   "-f", "concat", "-safe", "0", "-i", concat_txt,
-                   "-i", narration_path,
-                   "-c:v", "copy", "-af", NARRATION_EQ,
-                   "-c:a", "aac", "-b:a", "192k",
-                   "-shortest", output]
+            cmd = base_cmd + ["-i", narration_path] + video_opts + [
+                "-af", NARRATION_EQ, "-c:a", "aac", "-b:a", "192k", "-shortest", output]
         else:
-            cmd = ["ffmpeg", "-y",
-                   "-f", "concat", "-safe", "0", "-i", concat_txt,
-                   "-c", "copy", output]
+            cmd = base_cmd + video_opts + (["-c:a", "copy"] if args.vintage else ["-c", "copy"]) + [output]
 
         subprocess.run(cmd, check=True)
         size_mb = os.path.getsize(output) / 1024 / 1024
