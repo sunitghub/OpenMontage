@@ -60,6 +60,39 @@ Expanded visual-card generation pass for Scenes 1-5 plus courtroom crisis/thumbn
 4. **Write remaining outcome scenes** (Hindi + English) — court case crisis, Maa's grace, court case resolution, adversaries rendered helpless, devotee's gratitude.
 5. **Place courtroom/thumbnail assets into final scene numbering** once outcome scenes are written.
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-05 13:53 branch:main -->
+**Modified files:**
+```
+ M ../../../Competitors/Competitor-Analysis.md
+ M Bagla-Sadhana-Anubhav.md
+ M PROMPT-LEARNINGS.md
+ M ../../../../bin/render_scene.py
+?? ../../../Bagla-Sadhana-Anubhav-Design.md
+?? ../../../Start-Content.md
+?? Scene-1-1a.png
+?? Scene-1-1b.png
+?? Scene-4-3.png
+?? Scene-4-4.png
+?? Thumbnail.png
+?? courtroom-1.jpeg
+?? crowded-courtroom.png
+```
+
+**Recent commits:**
+```
+7e8c5ca chore: auto-update handoff snapshot [2026-05-05 13:47]
+e360c81 chore: auto-update handoff snapshot [2026-05-05 13:38]
+c4409cd chore: auto-update handoff snapshot [2026-05-05 13:34]
+152800b chore: auto-update handoff snapshot [2026-05-05 13:32]
+5ab0d11 chore: auto-update handoff snapshot [2026-05-05 13:15]
+```
+
+**In-progress tickets:**
+```
+Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-05 13:47 branch:main -->
 **Modified files:**
 ```
@@ -85,39 +118,6 @@ c4409cd chore: auto-update handoff snapshot [2026-05-05 13:34]
 152800b chore: auto-update handoff snapshot [2026-05-05 13:32]
 5ab0d11 chore: auto-update handoff snapshot [2026-05-05 13:15]
 4ba4d03 chore: auto-update handoff snapshot [2026-05-05 13:15]
-```
-
-**In-progress tickets:**
-```
-Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-05 13:38 branch:main -->
-**Modified files:**
-```
- M ../../../Competitors/Competitor-Analysis.md
- M Bagla-Sadhana-Anubhav.md
- M PROMPT-LEARNINGS.md
- M ../../../../bin/render_scene.py
-?? ../../../Bagla-Sadhana-Anubhav-Design.md
-?? ../../../Start-Content.md
-?? Scene-1-1a.png
-?? Scene-1-1b.png
-?? Scene-4-3.png
-?? Scene-4-4.png
-?? Thumbnail.png
-?? courtroom-1.jpeg
-?? crowded-courtroom.png
-```
-
-**Recent commits:**
-```
-c4409cd chore: auto-update handoff snapshot [2026-05-05 13:34]
-152800b chore: auto-update handoff snapshot [2026-05-05 13:32]
-5ab0d11 chore: auto-update handoff snapshot [2026-05-05 13:15]
-4ba4d03 chore: auto-update handoff snapshot [2026-05-05 13:15]
-ddced30 chore: auto-update handoff snapshot [2026-05-05 08:22]
 ```
 
 **In-progress tickets:**
