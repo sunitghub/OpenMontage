@@ -54,6 +54,37 @@ Expanded visual-card generation pass for Scenes 1-5. Scene-1 support cards 5, 6,
 4. **Write remaining outcome scenes** (Hindi + English) — court case resolution, adversaries helpless, devotee's gratitude.
 5. **Review full script arc** — hook strength, pacing, tension beats, payoff.
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-05 08:14 branch:main -->
+**Modified files:**
+```
+ M ../../../Competitors/Competitor-Analysis.md
+ M Bagla-Sadhana-Anubhav.md
+ M PROMPT-LEARNINGS.md
+ M ../../../../bin/render_scene.py
+?? ../../../Bagla-Sadhana-Anubhav-Design.md
+?? ../../../Start-Content.md
+?? .#Bagla-Sadhana-Anubhav.md
+?? Scene-4-3.png
+?? Scene-4-4.png
+?? courtroom-1.jpeg
+?? crowded-courtroom.png
+```
+
+**Recent commits:**
+```
+ef3b474 chore: auto-update handoff snapshot [2026-05-05 08:07]
+7982c03 chore: auto-update handoff snapshot [2026-05-05 08:03]
+ee1a244 chore: auto-update handoff snapshot [2026-05-05 07:59]
+cd436aa chore: auto-update handoff snapshot [2026-05-05 07:58]
+acd6b32 chore: auto-update handoff snapshot [2026-05-05 07:47]
+```
+
+**In-progress tickets:**
+```
+Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-05 08:07 branch:main -->
 **Modified files:**
 ```
@@ -77,37 +108,6 @@ ee1a244 chore: auto-update handoff snapshot [2026-05-05 07:59]
 cd436aa chore: auto-update handoff snapshot [2026-05-05 07:58]
 acd6b32 chore: auto-update handoff snapshot [2026-05-05 07:47]
 4b23c31 chore: auto-update handoff snapshot [2026-05-05 07:41]
-```
-
-**In-progress tickets:**
-```
-Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-05 08:03 branch:main -->
-**Modified files:**
-```
- M ../../../Competitors/Competitor-Analysis.md
- M Bagla-Sadhana-Anubhav.md
- M PROMPT-LEARNINGS.md
- M ../../../../bin/render_scene.py
-?? ../../../Bagla-Sadhana-Anubhav-Design.md
-?? ../../../Start-Content.md
-?? .#Bagla-Sadhana-Anubhav.md
-?? Scene-4-3.png
-?? Scene-4-4.png
-?? courtroom-1.jpeg
-?? crowded-courtroom.png
-```
-
-**Recent commits:**
-```
-ee1a244 chore: auto-update handoff snapshot [2026-05-05 07:59]
-cd436aa chore: auto-update handoff snapshot [2026-05-05 07:58]
-acd6b32 chore: auto-update handoff snapshot [2026-05-05 07:47]
-4b23c31 chore: auto-update handoff snapshot [2026-05-05 07:41]
-03ae832 chore: auto-update handoff snapshot [2026-05-05 07:30]
 ```
 
 **In-progress tickets:**
