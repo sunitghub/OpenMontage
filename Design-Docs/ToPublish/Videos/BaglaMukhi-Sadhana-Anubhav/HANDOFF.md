@@ -10,7 +10,7 @@ Update it whenever a new pattern is confirmed or a dead end is discovered — th
 ---
 
 ## Current Focus
-Scene-1 narration recorded and render done (Scene-1-test.mp4). GarageBand EQ for the narration track is in progress — "Devotional-Narration" preset not yet saved. Audio needs EQ applied and re-exported before final Scene-1 render. Continue Scene-4 with Image 5 after audio is settled.
+Scene-1 render complete with EQ and vintage effect (`Scene-1-test-preview.mp4`). render_scene.py wrapup done — vintage dust, Ken Burns, narration EQ all baked in. Next: continue Scene-4 Image 5, then write outcome scenes (6–8).
 
 ## In Progress
 - `Bagla-Sadhana-Anubhav.md`: Scenes 1–5 fully prompted in GPT-4o format, character refs locked
@@ -57,18 +57,18 @@ Scene-1 narration recorded and render done (Scene-1-test.mp4). GarageBand EQ for
 - `render_scene.py` refactored: added `--critic` pacing analysis table, cached regex patterns, pre-computed glob for generated image counts, `## Critique State` auto-write
 - Scene-1 renamed: `Scene-1-1.png` → `Scene-1-1a.png` + `Scene-1-1b.png`; `Scene-1-2.png` → `Scene-1-2-1.png`
 - `Scene-1.mp3` recorded (GarageBand) — narration 76.1s, 10 images → 7.6s/image (good pacing)
-- `Scene-1-test.mp4` rendered (Render/) — uses pre-EQ audio, re-render needed after EQ
+- `Scene-1-test-preview.mp4` rendered with narration EQ + vintage + Ken Burns (verified clean)
 - Courtroom assets added: `courtroom-1.jpeg`, `crowded-courtroom.png`, `Thumbnail.png`
 - `Scene-4-3.png`, `Scene-4-4.png` added (diya lighting + flower offering inserts)
+- `render_scene.py` wrapup: `--vintage` flag (4-layer sin-hash dust: H/V/diagonal/speck), narration EQ baked into mux (5-band), non-uniform Ken Burns (1.15 zoom + 3% pan drift, random direction per card); code simplified — `PAN_DRIFT` constant, merged zoom branches, renamed dust constants to `_DUST_*`
 
 ## Next Steps
-1. **Finish GarageBand EQ** — apply Devotional-Narration preset (high-pass 90 Hz, cut 120 Hz -2.5 dB, cut 320 Hz -1.5 dB, boost 2500 Hz +2.5 dB, high shelf 10k +2 dB), save preset, re-export `Scene-1.mp3`
-2. **Re-render Scene-1** — `render-scene --scene 1 --narration Scene-1.mp3` after EQ export
-3. **Continue Scene-4 Image 5** — close top-down ritual insert of hands shaping exactly seven incense mounds on the Baglamukhi Yantra, cloves waiting in a copper dish.
-4. **Generate/verify Scene-4 Image 6** — close detail of exactly seven incense mounds total, one clove each, smoke trails, diya, framed Maa softly blurred.
-5. **Review Scene-5 existing files** — `Scene-5-1.png` and `Scene-5-2.png` exist; decide if they are final enough or need regeneration.
-6. **Write remaining outcome scenes** (Hindi + English) — court case crisis, Maa's grace, resolution, adversaries rendered helpless, devotee's gratitude.
+1. **Continue Scene-4 Image 5** — close top-down ritual insert of hands shaping exactly seven incense mounds on the Baglamukhi Yantra, cloves waiting in a copper dish.
+2. **Generate/verify Scene-4 Image 6** — close detail of exactly seven incense mounds total, one clove each, smoke trails, diya, framed Maa softly blurred.
+3. **Review Scene-5 existing files** — `Scene-5-1.png` and `Scene-5-2.png` exist; decide if they are final enough or need regeneration.
+4. **Write remaining outcome scenes** (Hindi + English) — court case crisis, Maa's grace, resolution, adversaries rendered helpless, devotee's gratitude (Beats 6–8).
 5. **Place courtroom/thumbnail assets into final scene numbering** once outcome scenes are written.
+6. **Final Scene-1 render** — `render-scene --scene 1 --narration Scene-1.mp3 --vintage` once all assets confirmed.
 
 <!-- HANDOFF-SNAPSHOT:START 2026-05-05 18:47 branch:main -->
 **Modified files:**
