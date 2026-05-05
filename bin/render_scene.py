@@ -15,6 +15,7 @@ import argparse
 import datetime
 import glob
 import os
+import random
 import re
 import shutil
 import subprocess
@@ -358,16 +359,22 @@ def image_sort_key(path):
         return 0
 
 
-def render_card(img, out, duration, w, h, fps, fade_in, fade_out, preview, glow=False):
+def render_card(img, out, duration, w, h, fps, fade_in, fade_out, preview, glow=False, zoom_in=True):
     frames = max(int(duration * fps), 1)
     zoom_step = (ZOOM_TARGET - 1.0) / frames
 
-    zoompan = (
-        f"zoompan=z='min(zoom+{zoom_step:.6f},{ZOOM_TARGET})'"
-        f":x='iw/2-(iw/zoom/2)'"
-        f":y='ih/2-(ih/zoom/2)'"
-        f":d={frames}:s={w}x{h}:fps={fps}"
-    )
+    if zoom_in:
+        zoompan = (
+            f"zoompan=z='min(zoom+{zoom_step:.6f},{ZOOM_TARGET})'"
+            f":x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
+            f":d={frames}:s={w}x{h}:fps={fps}"
+        )
+    else:
+        zoompan = (
+            f"zoompan=z='if(eq(on,1),{ZOOM_TARGET},max(zoom-{zoom_step:.6f},1.0))'"
+            f":x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
+            f":d={frames}:s={w}x{h}:fps={fps}"
+        )
 
     fades = ""
     if fade_in:
@@ -471,11 +478,13 @@ def main():
             prompt = image_prompts.get(img_idx, "")
             use_glow = args.glow or (bool(prompt) and bool(deity_keywords)
                                      and image_has_deity(prompt, deity_keywords))
+            zoom_in = random.random() > 0.4  # ~60% zoom-in, 40% zoom-out
             label = " [glow]" if use_glow else ""
+            label += " [out]" if not zoom_in else ""
             print(f"  [{i+1}/{n}] {os.path.basename(img)}{label}")
             render_card(img, clip, dur, w, h, fps,
                         fade_in=(i == 0), fade_out=(i == n - 1),
-                        preview=args.preview, glow=use_glow)
+                        preview=args.preview, glow=use_glow, zoom_in=zoom_in)
             clips.append(clip)
 
         concat_txt = os.path.join(tmp, "concat.txt")
