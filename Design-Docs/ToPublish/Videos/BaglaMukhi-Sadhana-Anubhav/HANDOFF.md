@@ -60,7 +60,7 @@ Expanded visual-card generation pass for Scenes 1-5 plus courtroom crisis/thumbn
 4. **Write remaining outcome scenes** (Hindi + English) — court case crisis, Maa's grace, court case resolution, adversaries rendered helpless, devotee's gratitude.
 5. **Place courtroom/thumbnail assets into final scene numbering** once outcome scenes are written.
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-05 14:42 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-05 14:43 branch:main -->
 **Modified files:**
 ```
  M ../../../Competitors/Competitor-Analysis.md
@@ -71,6 +71,7 @@ Expanded visual-card generation pass for Scenes 1-5 plus courtroom crisis/thumbn
 ?? ../../../Start-Content.md
 ?? Scene-1-1a.png
 ?? Scene-1-1b.png
+?? Scene-1-New.mp3
 ?? Scene-1.mp3
 ?? Scene-4-3.png
 ?? Scene-4-4.png
@@ -81,11 +82,11 @@ Expanded visual-card generation pass for Scenes 1-5 plus courtroom crisis/thumbn
 
 **Recent commits:**
 ```
+a867551 chore: auto-update handoff snapshot [2026-05-05 14:42]
 7efa217 chore: auto-update handoff snapshot [2026-05-05 14:42]
 b6f29dc chore: auto-update handoff snapshot [2026-05-05 14:41]
 129aebc chore: auto-update handoff snapshot [2026-05-05 14:40]
 007c7eb chore: auto-update handoff snapshot [2026-05-05 14:37]
-dd1fba9 chore: auto-update handoff snapshot [2026-05-05 14:36]
 ```
 
 **In-progress tickets:**
@@ -115,11 +116,11 @@ Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
 
 **Recent commits:**
 ```
+7efa217 chore: auto-update handoff snapshot [2026-05-05 14:42]
 b6f29dc chore: auto-update handoff snapshot [2026-05-05 14:41]
 129aebc chore: auto-update handoff snapshot [2026-05-05 14:40]
 007c7eb chore: auto-update handoff snapshot [2026-05-05 14:37]
 dd1fba9 chore: auto-update handoff snapshot [2026-05-05 14:36]
-5d4048d chore: auto-update handoff snapshot [2026-05-05 14:35]
 ```
 
 **In-progress tickets:**
