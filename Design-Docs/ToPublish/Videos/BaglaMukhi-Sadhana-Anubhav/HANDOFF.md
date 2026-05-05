@@ -70,6 +70,27 @@ Scene-1 narration recorded and render done (Scene-1-test.mp4). GarageBand EQ for
 6. **Write remaining outcome scenes** (Hindi + English) — court case crisis, Maa's grace, resolution, adversaries rendered helpless, devotee's gratitude.
 5. **Place courtroom/thumbnail assets into final scene numbering** once outcome scenes are written.
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-05 18:14 branch:main -->
+**Modified files:**
+```
+?? Scene-1-eq.mp3
+```
+
+**Recent commits:**
+```
+dd68705 feat: add --vintage film grain + dust spot effect
+c00feba chore: auto-update handoff snapshot [2026-05-05 18:06]
+f889899 feat: bake Devotional-Narration EQ into render pipeline
+f76930a chore: auto-update handoff snapshot [2026-05-05 18:03]
+1cffe00 feat: Scene-1 narration + image pass, render_scene critic mode
+```
+
+**In-progress tickets:**
+```
+Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-05 18:06 branch:main -->
 **Modified files:**
 ```
@@ -83,27 +104,6 @@ f76930a chore: auto-update handoff snapshot [2026-05-05 18:03]
 1cffe00 feat: Scene-1 narration + image pass, render_scene critic mode
 7c9cde9 chore: auto-update handoff snapshot [2026-05-05 16:35]
 a81d263 chore: auto-update handoff snapshot [2026-05-05 15:39]
-```
-
-**In-progress tickets:**
-```
-Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-05 18:03 branch:main -->
-**Modified files:**
-```
-?? Scene-1-eq.mp3
-```
-
-**Recent commits:**
-```
-1cffe00 feat: Scene-1 narration + image pass, render_scene critic mode
-7c9cde9 chore: auto-update handoff snapshot [2026-05-05 16:35]
-a81d263 chore: auto-update handoff snapshot [2026-05-05 15:39]
-3b09209 chore: auto-update handoff snapshot [2026-05-05 15:37]
-affc84e chore: auto-update handoff snapshot [2026-05-05 15:36]
 ```
 
 **In-progress tickets:**
