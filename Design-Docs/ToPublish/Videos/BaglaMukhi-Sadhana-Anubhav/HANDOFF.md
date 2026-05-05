@@ -70,6 +70,27 @@ Scene-1 narration recorded and render done (Scene-1-test.mp4). GarageBand EQ for
 6. **Write remaining outcome scenes** (Hindi + English) — court case crisis, Maa's grace, resolution, adversaries rendered helpless, devotee's gratitude.
 5. **Place courtroom/thumbnail assets into final scene numbering** once outcome scenes are written.
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-05 18:03 branch:main -->
+**Modified files:**
+```
+?? Scene-1-eq.mp3
+```
+
+**Recent commits:**
+```
+1cffe00 feat: Scene-1 narration + image pass, render_scene critic mode
+7c9cde9 chore: auto-update handoff snapshot [2026-05-05 16:35]
+a81d263 chore: auto-update handoff snapshot [2026-05-05 15:39]
+3b09209 chore: auto-update handoff snapshot [2026-05-05 15:37]
+affc84e chore: auto-update handoff snapshot [2026-05-05 15:36]
+```
+
+**In-progress tickets:**
+```
+Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-05 16:35 branch:main -->
 **Modified files:**
 ```
@@ -98,42 +119,6 @@ a81d263 chore: auto-update handoff snapshot [2026-05-05 15:39]
 affc84e chore: auto-update handoff snapshot [2026-05-05 15:36]
 2ba3e5d chore: auto-update handoff snapshot [2026-05-05 15:31]
 eb524df chore: auto-update handoff snapshot [2026-05-05 15:29]
-```
-
-**In-progress tickets:**
-```
-Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-05 15:39 branch:main -->
-**Modified files:**
-```
- M ../../../Competitors/Competitor-Analysis.md
- M Bagla-Sadhana-Anubhav.md
- M PROMPT-LEARNINGS.md
- M Scene-1-2.png
- M Scene-1-3.png
- M ../../../../bin/render_scene.py
-?? ../../../Bagla-Sadhana-Anubhav-Design.md
-?? ../../../Start-Content.md
-?? Scene-1-1a.png
-?? Scene-1-1b.png
-?? Scene-1.mp3
-?? Scene-4-3.png
-?? Scene-4-4.png
-?? Thumbnail.png
-?? courtroom-1.jpeg
-?? crowded-courtroom.png
-```
-
-**Recent commits:**
-```
-3b09209 chore: auto-update handoff snapshot [2026-05-05 15:37]
-affc84e chore: auto-update handoff snapshot [2026-05-05 15:36]
-2ba3e5d chore: auto-update handoff snapshot [2026-05-05 15:31]
-eb524df chore: auto-update handoff snapshot [2026-05-05 15:29]
-78e7f65 chore: auto-update handoff snapshot [2026-05-05 15:27]
 ```
 
 **In-progress tickets:**
