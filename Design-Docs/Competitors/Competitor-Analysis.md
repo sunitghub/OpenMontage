@@ -43,6 +43,22 @@ Production implication:
 - deity-helped-devotee and aatma tales should be `medium render effort`: still anchors plus `2-3` hero I2V/VFX moments
 - generic ghost tales are not worth prioritizing unless rewritten into a devotional or spiritual teaching frame
 
+## Channel Performance Stats
+
+Captured 2026-05-05. Use for benchmarking view velocity and production ROI.
+
+| Video | Runtime | Views | Posted | Views/Month | Card Hold | Audio Mean | Audio Max |
+|---|---|---|---|---|---|---|---|
+| Charava-Bhootni.mp4 | 21:59 | 1.1M | 7 months ago (~Oct 2025) | ~157K/month | 4.2s | -21.7 dB | -5.5 dB |
+| Kumar-Aur-Chudail.mp4 | 21:39 | 529K | 2 months ago (~Mar 2026) | ~265K/month | 5–8s | -20.9 dB | -4.8 dB |
+| JInn-Masoom.mp4 | 19:03 | 727K | 10 months ago (~Jul 2025) | ~73K/month | 6.0s | -20.1 dB | -0.0 dB ⚠ clipping |
+
+**Audio target for our videos:** mean `-20 to -22 dB`, max `-4 to -6 dB`. Jinn-Masoom clips at 0 dB — a production defect; still gets 727K views but avoid it.
+
+Key takeaway: Kumar Aur Chudail is the fastest view-velocity competitor (~265K/month, 2 months old, zero I2V) despite having the lowest production cost. Comic illustration + zero I2V is outperforming photoreal + selective I2V on a per-month basis right now.
+
+---
+
 ## Current Reference Case: Shiva Crow
 
 Reference studied:
@@ -86,10 +102,16 @@ Important conclusion:
 Reference studied:
 - `/Users/sunitjoshi/Developer/TryOuts/OpenMontage/Design-Docs/Competitors/Charava-Bhootni.mp4`
 
+Channel stats:
+- views: `1.1M` | posted: ~Oct 2025 (7 months ago) | view velocity: ~157K/month
+
 Measured notes:
 - runtime: `1319.75s` (`21:59`)
 - format: `640x360`, `16:9`, `30fps`
 - video bitrate: about `48 kb/s`
+- audio: AAC stereo, `44100 Hz`, `~128 kb/s`
+- audio mean volume: `-21.7 dB`
+- audio max volume: `-5.5 dB` (clean, conservative mix — well within headroom)
 - detected visual beats at practical threshold: `293`
 - average visual beat length: about `4.5s`
 - median visual beat length: about `4.2s`
@@ -209,9 +231,15 @@ Reference studied:
 
 Channel: **STORY FICTION** (watermark top-left every frame)
 
+Channel stats:
+- views: `727K` | posted: ~Jul 2025 (10 months ago) | view velocity: ~73K/month
+
 Measured notes:
 - runtime: `1143.5s` (`19:03`)
 - format: `640x360`, `16:9`
+- audio: AAC stereo, `44100 Hz`, `~128 kb/s`
+- audio mean volume: `-20.1 dB`
+- audio max volume: `-0.0 dB` ⚠ clipping — production defect, avoid
 - detected scene changes: `126` (subsampled to 24 for analysis)
 - estimated scene cards: `230-280` at avg `4-5s` per card
 - genre: supernatural romance / Islamic Jinn folk story, Hindi narration
@@ -305,10 +333,13 @@ Important conclusion:
 - for BaglaMukhi-Sadhana and similar long-form devotional videos, generate Character Bible reference images first, then use them as `--cref` anchors throughout all scene generation
 - do not attempt to solve character consistency through prompt text alone — `--cref` is the correct tool
 
-## Fifth Reference Case: Jinn Masoom
+## Fifth Reference Case: Jinn Masoom (detailed measurement pass)
 
 Reference studied:
 - `/Users/sunitjoshi/Developer/TryOuts/OpenMontage/Design-Docs/Competitors/JInn-Masoom.mp4`
+
+Channel stats:
+- views: `727K` | posted: ~Jul 2025 (10 months ago) | view velocity: ~73K/month
 
 Measured notes:
 - runtime: `1143.51s` (`19:03`)
@@ -391,6 +422,9 @@ Reference studied:
 - `/Users/sunitjoshi/Developer/TryOuts/OpenMontage/Design-Docs/Competitors/Kumar-Aur-Chudail.mp4`
 
 Channel: **قديم قصص** (Qadeem Qissay = "Old Stories") — watermark top-left, gold/black ornamental badge, Hindi/Urdu folk story channel
+
+Channel stats:
+- views: `529K` | posted: ~Mar 2026 (2 months ago) | view velocity: ~265K/month
 
 Measured notes:
 - runtime: `1298.4s` (`21:38`)

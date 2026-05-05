@@ -99,10 +99,40 @@ After 14 rounds of iteration, what finally produced an approved thumbnail:
 - No special syntax needed — just describe what the reference is for in the prompt or a brief note.
 - Notes in script file use `**Ref:** Upload \`filename.png\`` to flag which reference to attach.
 
+## Thumbnail Composition — Courtroom Hook (Confirmed Working)
+
+**Approved image:** `Courtroom-1.png`
+
+What worked:
+- Semi-realistic painterly style (not folk illustration) — more cinematic, stronger thumbnail impact
+- Wide courtroom establishing shot with sadhak in foreground at the railing, head bowed
+- Maa rendered fully visible and prominent in upper-left, golden glow and gada clearly readable
+- Police officer, judge, lawyer, stacked files — authentic Indian district court vocabulary in one frame
+- Golden particle scatter as connective tissue between Maa and the courtroom floor
+
+**For the thumbnail variation (`Courtroom-2.png`):**
+The key change from the approved image is the sadhak's gaze — head bowed reads "defeat" for in-video use, but a thumbnail needs the desperate-upward-look that creates a curiosity gap ("will she help him?"). Use the edit prompt in Scene-1 Image 1b to generate this via ChatGPT's "Describe edits" button.
+
+**Competitor thumbnail pattern to match:**
+- Deity fills upper 35-40% of frame — large, immediately recognizable
+- Protagonist looking UP toward deity with desperation or hope
+- Background darker than foreground — high contrast between divine glow and courtroom shadow
+- Leave lower quarter clear for title text overlay added in post
+
+---
+
+## Courtroom & Secular Settings
+
+- **Courtroom architectural vocabulary** for Indian district/sessions court: `colonial-era wooden judge's bench elevated at the far end, worn wooden benches and railing dividers, lawyers in black coats, stacks of thick document files tied with red ribbon, ceiling fans, faded framed portraits on yellowed walls, high windows with grey daytime light`. This gives GPT-4o a complete, specific room without ambiguity.
+- **Subtle / translucent Maa for non-ritual scenes**: When Maa appears as a hint of divine protection (not a full apparition), describe her as `extremely faint barely-visible translucent golden haze, ghostlike outline of a female divine form in a sari barely discernible as golden mist, soft luminous golden shimmer, no crown visible, no solid figure`. Do NOT upload `Maa-Baglamukhi.png` as reference — the solid reference will override the translucency instruction and render her too defined. Text alone carries the ghost quality.
+- **Sadhak in secular attire** (court, home, casual): always State A (`plain white kurta`). State B (yellow dhoti) only in ritual scenes (Scene 3 onward). Upload `Sadhak_A_Ref.png` whenever sadhak's face is visible.
+
 ### Per-scene reference map (GPT-4o)
 
 | Scene | Image | Reference to upload | Reason |
 |---|---|---|---|
+| Scene-1 | Img 0a (courtroom wide) | `Sadhak_A_Ref.png` | Sadhak's worried face visible |
+| Scene-1 | Img 0b (courtroom close + translucent Maa) | `Sadhak_A_Ref.png` | Sadhak's face close; NO Maa ref — text carries translucency |
 | Scene-1 | Img 1 (folk back-facing) | `Mata-Baglamukhi.png` | Floating Maa above sadhak |
 | Scene-1 | Img 2 (guru in cave) | `Sadhak_A_Ref.png` | Sadhak faces viewer |
 | Scene-1 | Img 3 (thumbnail) | None | Text alone worked best |

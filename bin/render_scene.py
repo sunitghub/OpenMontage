@@ -12,6 +12,7 @@ Effects baked in (from competitor research):
 """
 
 import argparse
+import datetime
 import glob
 import os
 import re
@@ -21,8 +22,15 @@ import tempfile
 
 ZOOM_TARGET = 1.04
 FADE_DUR = 0.8
+WPM = 85  # Hindi devotional narration benchmark (80–90 WPM range)
+_CRITIQUE_TRUNC = 100
 
 HONORIFICS = {"maa", "shri", "sri", "mata", "devi", "shree"}
+
+_RE_SCENE_HEADER = re.compile(r"^## Scene-\d+[:\s].*\n")
+_RE_SUBSECTION = re.compile(r"^###", re.MULTILINE)
+_RE_BLOCKQUOTE = re.compile(r"^>.*$", re.MULTILINE)
+_RE_MD_MARKUP = re.compile(r"[*_`#]")
 
 
 def find_script_md(base):
@@ -81,7 +89,165 @@ def image_has_deity(prompt, deity_keywords):
     return any(kw in low for kw in deity_keywords)
 
 
-def print_critic_summary(script_path):
+def count_script_words(scene_block):
+    """Count Hindi/Hinglish words in the script text (before ### English)."""
+    text = _RE_SCENE_HEADER.sub("", scene_block, count=1)
+    sub_match = _RE_SUBSECTION.search(text)
+    if sub_match:
+        text = text[:sub_match.start()]
+    text = _RE_BLOCKQUOTE.sub("", text)
+    text = _RE_MD_MARKUP.sub(" ", text)
+    return len(text.split())
+
+
+def count_prompted_images(scene_block):
+    """Count numbered image entries (1., 2., 1a., 1b., etc.) in #### Images section."""
+    images_match = re.search(r"#### Images", scene_block)
+    if not images_match:
+        return 0
+    images_block = scene_block[images_match.start():]
+    next_section = re.search(r"^### ", images_block, re.MULTILINE)
+    if next_section:
+        images_block = images_block[:next_section.start()]
+    return len(re.findall(r"^\d+[a-z]?\.\s*$", images_block, re.MULTILINE))
+
+
+
+def pacing_status(hold_s):
+    if hold_s < 5.0:
+        return "❌ Too fast"
+    if hold_s < 6.0:
+        return "⚠  Below target"
+    if hold_s <= 8.0:
+        return "✓  Good"
+    if hold_s <= 10.0:
+        return "⚠  Slightly slow"
+    return "❌ Too slow"
+
+
+def extract_critique_rows(content, scenes):
+    """Return list of (scene_num, level, issues_str, fix_str, status) tuples."""
+    rows = []
+    for i, scene_match in enumerate(scenes):
+        scene_num = scene_match.group(1)
+        start = scene_match.start()
+        end = scenes[i + 1].start() if i + 1 < len(scenes) else len(content)
+        block = content[start:end]
+
+        level_match = re.search(r"\*\*Level:\*\*\s*(High|Medium|Low|N/A)", block)
+        level = level_match.group(1).strip() if level_match else "NOT CRITIQUED"
+
+        issues, fixes = [], []
+        critique_match = re.search(r"### Critique", block)
+        if critique_match:
+            c_block = block[critique_match.start():]
+            next_sec = re.search(r"^#### ", c_block, re.MULTILINE)
+            if next_sec:
+                c_block = c_block[:next_sec.start()]
+            for m in re.finditer(r"^- \*\*(.+?)\*\*:\s*(.+)$", c_block, re.MULTILINE):
+                label, text = m.group(1).strip(), m.group(2).strip()
+                if re.match(r"^Fix(\s*\(.*\))?$", label):
+                    fixes.append(text[:_CRITIQUE_TRUNC] + "…" if len(text) > _CRITIQUE_TRUNC else text)
+                else:
+                    issues.append(label)
+
+        status = "Fixed" if level == "Low" else "ToDo"
+        rows.append((
+            scene_num, level,
+            "; ".join(issues) if issues else "—",
+            "; ".join(fixes) if fixes else "—",
+            status,
+        ))
+    return rows
+
+
+_PACING_LABEL = re.compile(r"^Pacing\b", re.IGNORECASE)
+
+
+def build_critique_summary(critique_rows, pacing_rows):
+    """Build indented bullet format: scene header, one issue per line, fix inline on last."""
+    pacing_notes = {}
+    for scene_num, _w, narr_s, prompted, _g, hold, _m in pacing_rows:
+        if not prompted:
+            continue
+        if hold > 8.0:
+            needed = max(1, round(narr_s / 7) - prompted)
+            pacing_notes[scene_num] = f"add ~{needed} image(s) — hold is {hold}s/img"
+        elif hold < 6.0:
+            pacing_notes[scene_num] = f"trim images or expand narration — hold is {hold}s/img"
+
+    todo_items, fixed_items = [], []
+    for scene_num, level, issues, fix, status in critique_rows:
+        has_pacing = scene_num in pacing_notes
+        if status == "ToDo" or has_pacing:
+            issue_list = [
+                i.strip() for i in issues.split(";")
+                if issues != "—" and not _PACING_LABEL.match(i.strip())
+            ]
+            todo_items.append((scene_num, level, issue_list, fix, has_pacing))
+        else:
+            fixed_items.append(scene_num)
+
+    lines = [f"_Last updated: {datetime.date.today()}_\n"]
+
+    if todo_items:
+        lines.append("**ToDo**")
+        for scene_num, level, issue_list, fix, has_pacing in todo_items:
+            lines.append(f"- **Scene-{scene_num} ({level})**:")
+            if issue_list:
+                for issue in issue_list[:-1]:
+                    lines.append(f"  · {issue}")
+                last = issue_list[-1]
+                if fix and fix != "—":
+                    lines.append(f"  · {last} → {fix}")
+                else:
+                    lines.append(f"  · {last}")
+            elif fix and fix != "—":
+                lines.append(f"  · → {fix}")
+            if has_pacing:
+                lines.append(f"  · Pacing: {pacing_notes[scene_num]}")
+            lines.append("")
+
+    if fixed_items:
+        lines.append("**Fixed:** " + " · ".join(f"Scene-{sn}" for sn in fixed_items))
+
+    return "\n".join(lines)
+
+
+def write_critique_state(script_path, table_md):
+    with open(script_path, encoding="utf-8") as f:
+        content = f.read()
+
+    section_header = "## Critique State\n"
+
+    if section_header not in content:
+        # Insert before the first ## Scene- heading
+        first_scene = re.search(r"\n## Scene-\d+", content)
+        if not first_scene:
+            return
+        insert_at = first_scene.start()
+        content = (
+            content[:insert_at]
+            + f"\n\n{section_header}\n{table_md}\n"
+            + content[insert_at:]
+        )
+    else:
+        def _replace(m):
+            return m.group(1) + "\n" + table_md + "\n" + m.group(2)
+
+        content = re.sub(
+            r"(## Critique State\n).*?(\n## )",
+            _replace,
+            content,
+            flags=re.DOTALL,
+        )
+
+    with open(script_path, "w", encoding="utf-8") as f:
+        f.write(content)
+    print(f"  Updated ## Critique State in {os.path.basename(script_path)}")
+
+
+def print_critic_summary(script_path, base):
     with open(script_path, encoding="utf-8", errors="ignore") as f:
         content = f.read()
 
@@ -90,7 +256,15 @@ def print_critic_summary(script_path):
         print("No scenes found in script.")
         return
 
-    rows = []
+    beat_rows = []
+    pacing_rows = []
+
+    generated_counts = {}
+    for png in glob.glob(os.path.join(base, "Scene-*-*.png")):
+        m = re.match(r"Scene-(\d+)-", os.path.basename(png))
+        if m:
+            sn = m.group(1)
+            generated_counts[sn] = generated_counts.get(sn, 0) + 1
 
     for i, scene_match in enumerate(scenes):
         scene_num = scene_match.group(1)
@@ -102,19 +276,55 @@ def print_critic_summary(script_path):
         level_match = re.search(r"\*\*Level:\*\*\s*(High|Medium|Low|N/A)", block)
         beat = beat_match.group(1).strip() if beat_match else "—"
         level = level_match.group(1).strip() if level_match else "NOT CRITIQUED"
-        rows.append((scene_num, beat, level))
+        beat_rows.append((scene_num, beat, level))
 
-    print(f"\n{'Scene':<8} {'Level':<10} Story Beat")
-    print("-" * 60)
-    for scene_num, beat, level in rows:
-        print(f"  {scene_num:<6} {level:<10} {beat}")
+        words = count_script_words(block)
+        narr_s = round(words / WPM * 60) if words else 0
+        prompted = count_prompted_images(block)
+        generated = generated_counts.get(scene_num, 0)
+        hold = round(narr_s / prompted, 1) if prompted else 0.0
+        missing = max(0, prompted - generated)
+        pacing_rows.append((scene_num, words, narr_s, prompted, generated, hold, missing))
 
-    high = [r for r in rows if r[2] == "High"]
+    # Beat / level table
+    print(f"\n{'Scene':<8} {'Level':<14} Story Beat")
+    print("  " + "-" * 63)
+    for scene_num, beat, level in beat_rows:
+        print(f"  {scene_num:<6} {level:<14} {beat}")
+
+    high = [r for r in beat_rows if r[2] == "High"]
+    not_critiqued = [r for r in beat_rows if r[2] == "NOT CRITIQUED"]
     if high:
-        print(f"\n  {len(high)} scene(s) need attention (Level: High):")
+        print(f"\n  ⚠  {len(high)} scene(s) flagged High — critique needed:")
         for r in high:
-            print(f"    Scene-{r[0]}: {r[1]}")
-    print()
+            print(f"       Scene-{r[0]}: {r[1]}")
+    if not_critiqued:
+        print(f"\n  ○  {len(not_critiqued)} scene(s) not yet critiqued: "
+              + ", ".join(f"Scene-{r[0]}" for r in not_critiqued))
+
+    # Pacing table
+    print(f"\n  ─── Pacing Analysis (target 6–8s/image at {WPM} WPM) {'─' * 16}")
+    hdr = f"  {'Scene':<7} {'Words':<7} {'Narr':<7} {'Prompted':<10} {'Generated':<11} {'Hold':<8} Status"
+    print(hdr)
+    print("  " + "-" * 66)
+    tw = tn = tp = tg = 0
+    for scene_num, words, narr_s, prompted, generated, hold, missing in pacing_rows:
+        note = f"  ({missing} to generate)" if missing else ""
+        status = pacing_status(hold) if prompted else "—"
+        print(f"  {scene_num:<7} {words:<7} {narr_s}s{'':<4} {prompted:<10} {generated:<11} {hold}s{'':<3} {status}{note}")
+        tw += words; tn += narr_s; tp += prompted; tg += generated
+    print("  " + "-" * 66)
+    avg_hold = round(tn / tp, 1) if tp else 0.0
+    print(f"  {'Total':<7} {tw:<7} {tn}s{'':<4} {tp:<10} {tg:<11} {avg_hold}s   avg planned hold")
+    total_dur_min = tn // 60
+    total_dur_sec = tn % 60
+    print(f"\n  Script so far: {tw} words → ~{total_dur_min}m {total_dur_sec}s narration across {tp} planned images")
+    print(f"  Benchmark: Charava-Bhootni 4.2s · Kumar-Aur-Chudail 5–8s · Jinn-Masoom 6.0s")
+    print(f"  Flag: <5s too fast  5–6s below target  6–8s good  8–10s slightly slow  >10s too slow\n")
+
+    critique_rows = extract_critique_rows(content, scenes)
+    summary_md = build_critique_summary(critique_rows, pacing_rows)
+    write_critique_state(script_path, summary_md)
 
 
 def narration_duration(path):
@@ -198,7 +408,7 @@ def main():
         if not script_md:
             print("No script MD found in project directory.")
             return 1
-        print_critic_summary(script_md)
+        print_critic_summary(script_md, base)
         return 0
 
     if not args.scene:
