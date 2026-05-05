@@ -81,11 +81,11 @@ Expanded visual-card generation pass for Scenes 1-5 plus courtroom crisis/thumbn
 
 **Recent commits:**
 ```
+7efa217 chore: auto-update handoff snapshot [2026-05-05 14:42]
 b6f29dc chore: auto-update handoff snapshot [2026-05-05 14:41]
 129aebc chore: auto-update handoff snapshot [2026-05-05 14:40]
 007c7eb chore: auto-update handoff snapshot [2026-05-05 14:37]
 dd1fba9 chore: auto-update handoff snapshot [2026-05-05 14:36]
-5d4048d chore: auto-update handoff snapshot [2026-05-05 14:35]
 ```
 
 **In-progress tickets:**
@@ -94,7 +94,7 @@ Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-05 14:41 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-05 14:42 branch:main -->
 **Modified files:**
 ```
  M ../../../Competitors/Competitor-Analysis.md
@@ -105,6 +105,7 @@ Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
 ?? ../../../Start-Content.md
 ?? Scene-1-1a.png
 ?? Scene-1-1b.png
+?? Scene-1.mp3
 ?? Scene-4-3.png
 ?? Scene-4-4.png
 ?? Thumbnail.png
@@ -114,11 +115,11 @@ Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
 
 **Recent commits:**
 ```
+b6f29dc chore: auto-update handoff snapshot [2026-05-05 14:41]
 129aebc chore: auto-update handoff snapshot [2026-05-05 14:40]
 007c7eb chore: auto-update handoff snapshot [2026-05-05 14:37]
 dd1fba9 chore: auto-update handoff snapshot [2026-05-05 14:36]
 5d4048d chore: auto-update handoff snapshot [2026-05-05 14:35]
-6277ed9 chore: auto-update handoff snapshot [2026-05-05 14:33]
 ```
 
 **In-progress tickets:**
