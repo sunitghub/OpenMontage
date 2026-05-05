@@ -54,6 +54,37 @@ Expanded visual-card generation pass for Scenes 1-5. Scene-1 support cards 5, 6,
 4. **Write remaining outcome scenes** (Hindi + English) — court case resolution, adversaries helpless, devotee's gratitude.
 5. **Review full script arc** — hook strength, pacing, tension beats, payoff.
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-05 07:58 branch:main -->
+**Modified files:**
+```
+ M ../../../Competitors/Competitor-Analysis.md
+ M Bagla-Sadhana-Anubhav.md
+ M PROMPT-LEARNINGS.md
+ M ../../../../bin/render_scene.py
+?? ../../../Bagla-Sadhana-Anubhav-Design.md
+?? ../../../Start-Content.md
+?? .#Bagla-Sadhana-Anubhav.md
+?? Scene-4-3.png
+?? Scene-4-4.png
+?? courtroom-1.jpeg
+?? crowded-courtroom.png
+```
+
+**Recent commits:**
+```
+acd6b32 chore: auto-update handoff snapshot [2026-05-05 07:47]
+4b23c31 chore: auto-update handoff snapshot [2026-05-05 07:41]
+03ae832 chore: auto-update handoff snapshot [2026-05-05 07:30]
+ecc0801 chore: auto-update handoff snapshot [2026-05-04 18:11]
+d511641 feat: render-scene pipeline with critic, deity glow, and scene critiques
+```
+
+**In-progress tickets:**
+```
+Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-05 07:47 branch:main -->
 **Modified files:**
 ```
@@ -75,31 +106,6 @@ Expanded visual-card generation pass for Scenes 1-5. Scene-1 support cards 5, 6,
 ecc0801 chore: auto-update handoff snapshot [2026-05-04 18:11]
 d511641 feat: render-scene pipeline with critic, deity glow, and scene critiques
 9c947aa chore: auto-update handoff snapshot [2026-05-04 18:07]
-```
-
-**In-progress tickets:**
-```
-Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-05 07:41 branch:main -->
-**Modified files:**
-```
- M ../../../Competitors/Competitor-Analysis.md
- M Bagla-Sadhana-Anubhav.md
- M PROMPT-LEARNINGS.md
-?? ../../../Bagla-Sadhana-Anubhav-Design.md
-?? Scene-4-3.png
-```
-
-**Recent commits:**
-```
-03ae832 chore: auto-update handoff snapshot [2026-05-05 07:30]
-ecc0801 chore: auto-update handoff snapshot [2026-05-04 18:11]
-d511641 feat: render-scene pipeline with critic, deity glow, and scene critiques
-9c947aa chore: auto-update handoff snapshot [2026-05-04 18:07]
-f4da1d2 chore: auto-update handoff snapshot [2026-05-04 18:07]
 ```
 
 **In-progress tickets:**
