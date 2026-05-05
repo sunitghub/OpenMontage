@@ -65,6 +65,39 @@ Expanded visual-card generation pass for Scenes 1-5 plus courtroom crisis/thumbn
 ```
  M ../../../Competitors/Competitor-Analysis.md
  M Bagla-Sadhana-Anubhav.md
+ M PROMPT-LEARNINGS.md
+ M ../../../../bin/render_scene.py
+?? ../../../Bagla-Sadhana-Anubhav-Design.md
+?? ../../../Start-Content.md
+?? Scene-1-1a.png
+?? Scene-1-1b.png
+?? Scene-4-3.png
+?? Scene-4-4.png
+?? Thumbnail.png
+?? courtroom-1.jpeg
+?? crowded-courtroom.png
+```
+
+**Recent commits:**
+```
+4ba4d03 chore: auto-update handoff snapshot [2026-05-05 13:15]
+ddced30 chore: auto-update handoff snapshot [2026-05-05 08:22]
+d74ebb8 chore: auto-update handoff snapshot [2026-05-05 08:16]
+f9d17cb chore: auto-update handoff snapshot [2026-05-05 08:14]
+ef3b474 chore: auto-update handoff snapshot [2026-05-05 08:07]
+```
+
+**In-progress tickets:**
+```
+Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
+<!-- HANDOFF-SNAPSHOT:START 2026-05-05 13:15 branch:main -->
+**Modified files:**
+```
+ M ../../../Competitors/Competitor-Analysis.md
+ M Bagla-Sadhana-Anubhav.md
  M HANDOFF.md
  M PROMPT-LEARNINGS.md
  M ../../../../bin/render_scene.py
@@ -86,38 +119,6 @@ d74ebb8 chore: auto-update handoff snapshot [2026-05-05 08:16]
 f9d17cb chore: auto-update handoff snapshot [2026-05-05 08:14]
 ef3b474 chore: auto-update handoff snapshot [2026-05-05 08:07]
 7982c03 chore: auto-update handoff snapshot [2026-05-05 08:03]
-```
-
-**In-progress tickets:**
-```
-Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-05 08:22 branch:main -->
-**Modified files:**
-```
- M ../../../Competitors/Competitor-Analysis.md
- M Bagla-Sadhana-Anubhav.md
- M PROMPT-LEARNINGS.md
- M ../../../../bin/render_scene.py
-?? ../../../Bagla-Sadhana-Anubhav-Design.md
-?? ../../../Start-Content.md
-?? .#Bagla-Sadhana-Anubhav.md
-?? Courtroom-1.png
-?? Scene-4-3.png
-?? Scene-4-4.png
-?? courtroom-1.jpeg
-?? crowded-courtroom.png
-```
-
-**Recent commits:**
-```
-d74ebb8 chore: auto-update handoff snapshot [2026-05-05 08:16]
-f9d17cb chore: auto-update handoff snapshot [2026-05-05 08:14]
-ef3b474 chore: auto-update handoff snapshot [2026-05-05 08:07]
-7982c03 chore: auto-update handoff snapshot [2026-05-05 08:03]
-ee1a244 chore: auto-update handoff snapshot [2026-05-05 07:59]
 ```
 
 **In-progress tickets:**
