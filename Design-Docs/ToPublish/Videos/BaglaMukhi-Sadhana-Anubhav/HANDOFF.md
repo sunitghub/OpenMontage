@@ -78,11 +78,11 @@ Scene-1 narration recorded and render done (Scene-1-test.mp4). GarageBand EQ for
 
 **Recent commits:**
 ```
+1c61f45 chore: auto-update handoff snapshot [2026-05-05 18:16]
 c0b167a feat: randomised per-card zoom direction (in/out)
 adfb24d chore: auto-update handoff snapshot [2026-05-05 18:14]
 dd68705 feat: add --vintage film grain + dust spot effect
 c00feba chore: auto-update handoff snapshot [2026-05-05 18:06]
-f889899 feat: bake Devotional-Narration EQ into render pipeline
 ```
 
 **In-progress tickets:**
@@ -91,7 +91,7 @@ Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-05 18:14 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-05 18:16 branch:main -->
 **Modified files:**
 ```
 ?? Scene-1-eq.mp3
@@ -99,11 +99,11 @@ Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
 
 **Recent commits:**
 ```
+c0b167a feat: randomised per-card zoom direction (in/out)
+adfb24d chore: auto-update handoff snapshot [2026-05-05 18:14]
 dd68705 feat: add --vintage film grain + dust spot effect
 c00feba chore: auto-update handoff snapshot [2026-05-05 18:06]
 f889899 feat: bake Devotional-Narration EQ into render pipeline
-f76930a chore: auto-update handoff snapshot [2026-05-05 18:03]
-1cffe00 feat: Scene-1 narration + image pass, render_scene critic mode
 ```
 
 **In-progress tickets:**
