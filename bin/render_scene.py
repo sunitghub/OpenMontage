@@ -37,7 +37,8 @@ NARRATION_EQ = (
 # at 1080p. Lum-only keeps spots pure black without chroma shift.
 VINTAGE_VF = (
     "noise=alls=8:allf=t+u,"
-    "geq=lum='if(lt(random(0),0.0001),0,lum(X,Y))'"
+    "geq=lum='if(lt(mod(abs(sin(X*127.1+Y*311.7+N*74.7)*43758.5),1.0),0.0001),0,lum(X,Y))'"
+    ":cb='cb(X,Y)':cr='cr(X,Y)'"
 )
 
 HONORIFICS = {"maa", "shri", "sri", "mata", "devi", "shree"}
