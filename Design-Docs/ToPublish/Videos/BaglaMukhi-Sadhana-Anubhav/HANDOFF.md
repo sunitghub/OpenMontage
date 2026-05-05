@@ -70,6 +70,29 @@ Scene-1 narration recorded and render done (Scene-1-test.mp4). GarageBand EQ for
 6. **Write remaining outcome scenes** (Hindi + English) — court case crisis, Maa's grace, resolution, adversaries rendered helpless, devotee's gratitude.
 5. **Place courtroom/thumbnail assets into final scene numbering** once outcome scenes are written.
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-05 18:31 branch:main -->
+**Modified files:**
+```
+ M Bagla-Sadhana-Anubhav.md
+ M ../../../../bin/render_scene.py
+?? Scene-1-eq.mp3
+```
+
+**Recent commits:**
+```
+d992082 chore: auto-update handoff snapshot [2026-05-05 18:24]
+6cab3b7 chore: auto-update handoff snapshot [2026-05-05 18:22]
+951fceb fix: correct chroma corruption in vintage geq filter
+f1005a2 chore: auto-update handoff snapshot [2026-05-05 18:18]
+32dbe44 chore: auto-update handoff snapshot [2026-05-05 18:16]
+```
+
+**In-progress tickets:**
+```
+Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-05 18:24 branch:main -->
 **Modified files:**
 ```
@@ -85,28 +108,6 @@ Scene-1 narration recorded and render done (Scene-1-test.mp4). GarageBand EQ for
 f1005a2 chore: auto-update handoff snapshot [2026-05-05 18:18]
 32dbe44 chore: auto-update handoff snapshot [2026-05-05 18:16]
 1c61f45 chore: auto-update handoff snapshot [2026-05-05 18:16]
-```
-
-**In-progress tickets:**
-```
-Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-05 18:22 branch:main -->
-**Modified files:**
-```
- M Bagla-Sadhana-Anubhav.md
-?? Scene-1-eq.mp3
-```
-
-**Recent commits:**
-```
-951fceb fix: correct chroma corruption in vintage geq filter
-f1005a2 chore: auto-update handoff snapshot [2026-05-05 18:18]
-32dbe44 chore: auto-update handoff snapshot [2026-05-05 18:16]
-1c61f45 chore: auto-update handoff snapshot [2026-05-05 18:16]
-c0b167a feat: randomised per-card zoom direction (in/out)
 ```
 
 **In-progress tickets:**
