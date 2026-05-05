@@ -21,7 +21,7 @@ import shutil
 import subprocess
 import tempfile
 
-ZOOM_TARGET = 1.04
+ZOOM_TARGET = 1.15
 FADE_DUR = 0.8
 WPM = 85  # Hindi devotional narration benchmark (80–90 WPM range)
 _CRITIQUE_TRUNC = 100
@@ -32,12 +32,15 @@ NARRATION_EQ = (
     "equalizer=f=2500:width_type=q:width=1.2:g=2.5,"
     "treble=g=2:f=10000"
 )
-# Film dust: subtle grain + sparse black spots that change each frame.
-# random(0) evolves per-pixel per-frame; probability tuned for ~15-25 spots
-# at 1080p. Lum-only keeps spots pure black without chroma shift.
+# Film dust: H strokes (8x2px), V strokes (2x8px), diagonal (4x2px rotated), tiny specks.
+# Four layers keep total ~15 marks/frame at 720p; H/V trimmed to make room for diagonal.
+_D_H = "lt(mod(abs(sin(floor(X/8)*127.1+floor(Y/2)*311.7+floor(N/8)*74.7)*43758.5),1.0),0.00008)"
+_D_V = "lt(mod(abs(sin(floor(X/2)*211.7+floor(Y/8)*173.1+floor(N/8)*97.3)*43758.5),1.0),0.00008)"
+_D_D = "lt(mod(abs(sin(floor((X+Y)/4)*157.3+floor((X-Y)/2)*271.9+floor(N/8)*83.1)*43758.5),1.0),0.00005)"
+_D_T = "lt(mod(abs(sin(floor(X/2)*331.1+floor(Y/2)*271.7+floor(N/8)*51.9)*43758.5),1.0),0.00001)"
 VINTAGE_VF = (
     "noise=alls=8:allf=t+u,"
-    "geq=lum='if(lt(mod(abs(sin(X*127.1+Y*311.7+N*74.7)*43758.5),1.0),0.0001),0,lum(X,Y))'"
+    f"geq=lum='if(gt({_D_H}+{_D_V}+{_D_D}+{_D_T},0),0,lum(X,Y))'"
     ":cb='cb(X,Y)':cr='cr(X,Y)'"
 )
 
@@ -364,16 +367,21 @@ def render_card(img, out, duration, w, h, fps, fade_in, fade_out, preview, glow=
     frames = max(int(duration * fps), 1)
     zoom_step = (ZOOM_TARGET - 1.0) / frames
 
+    # Absolute on-based positioning (reliable, avoids initial-state bugs).
+    # Pan drifts 3% of frame width toward opposite corner for perceptible motion.
+    drift = 0.03
     if zoom_in:
         zoompan = (
-            f"zoompan=z='min(zoom+{zoom_step:.6f},{ZOOM_TARGET})'"
-            f":x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
+            f"zoompan=z='min(1.0+on*{zoom_step:.6f},{ZOOM_TARGET})'"
+            f":x='iw/2-(iw/zoom/2)+iw*{drift}*(1-on/{frames})'"
+            f":y='ih/2-(ih/zoom/2)+ih*{drift}*(1-on/{frames})'"
             f":d={frames}:s={w}x{h}:fps={fps}"
         )
     else:
         zoompan = (
-            f"zoompan=z='if(eq(on,1),{ZOOM_TARGET},max(zoom-{zoom_step:.6f},1.0))'"
-            f":x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'"
+            f"zoompan=z='max({ZOOM_TARGET}-on*{zoom_step:.6f},1.0)'"
+            f":x='iw/2-(iw/zoom/2)-iw*{drift}*(1-on/{frames})'"
+            f":y='ih/2-(ih/zoom/2)-ih*{drift}*(1-on/{frames})'"
             f":d={frames}:s={w}x{h}:fps={fps}"
         )
 

@@ -1,6 +1,22 @@
 # Diety: Maa Balgamukhi
 # Title: Maa Balgamukhi Helps With Court Case
 
+## Render Commands
+
+```bash
+# Standard render (EQ baked in, random zoom per card)
+render-scene --scene 1 --narration Scene-1.mp3
+
+# With vintage film grain + dust spots
+render-scene --scene 1 --narration Scene-1.mp3 --vintage
+
+# Fast 720p draft
+render-scene --scene 1 --narration Scene-1.mp3 --preview
+
+# Critic / pacing audit (no render)
+render-scene --critic
+```
+
 ## Character Bible
 
 Generate these reference images first. All scene prompts should visually match these anchors.
