@@ -74,6 +74,27 @@ Render CLI defaults updated for current workflow. `render-scene --scene N` now u
 ```
  M Bagla-Sadhana-Anubhav.md
  M Scene-3-6.png
+?? .#Bagla-Sadhana-Anubhav.md
+?? Scene-3-7.png
+?? Scene-3-8.png
+?? Scene-3.mp3
+```
+
+**Recent commits:**
+```
+0aec8bb chore: auto-update handoff snapshot [2026-05-06 13:11]
+6a7d67c chore: auto-update handoff snapshot [2026-05-06 13:10]
+9229ad8 chore(Ope-oqbu): checkpoint BaglaMukhi render workflow
+2102631 chore: auto-update handoff snapshot [2026-05-06 09:57]
+cdb6f12 chore: auto-update handoff snapshot [2026-05-06 09:55]
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
+<!-- HANDOFF-SNAPSHOT:START 2026-05-06 13:11 branch:main -->
+**Modified files:**
+```
+ M Bagla-Sadhana-Anubhav.md
+ M Scene-3-6.png
 ?? Scene-3-7.png
 ?? Scene-3-8.png
 ?? Scene-3.mp3
@@ -86,25 +107,5 @@ Render CLI defaults updated for current workflow. `render-scene --scene N` now u
 2102631 chore: auto-update handoff snapshot [2026-05-06 09:57]
 cdb6f12 chore: auto-update handoff snapshot [2026-05-06 09:55]
 95a44aa chore: auto-update handoff snapshot [2026-05-06 09:46]
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-06 13:10 branch:main -->
-**Modified files:**
-```
- M Bagla-Sadhana-Anubhav.md
- M Scene-3-6.png
-?? Scene-3-7.png
-?? Scene-3-8.png
-?? Scene-3.mp3
-```
-
-**Recent commits:**
-```
-9229ad8 chore(Ope-oqbu): checkpoint BaglaMukhi render workflow
-2102631 chore: auto-update handoff snapshot [2026-05-06 09:57]
-cdb6f12 chore: auto-update handoff snapshot [2026-05-06 09:55]
-95a44aa chore: auto-update handoff snapshot [2026-05-06 09:46]
-1aaaa7b chore: auto-update handoff snapshot [2026-05-06 09:45]
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
