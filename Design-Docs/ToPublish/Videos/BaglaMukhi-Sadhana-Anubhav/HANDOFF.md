@@ -70,6 +70,27 @@ Scene-1 render complete with EQ and vintage effect (`Scene-1-test-preview.mp4`).
 5. **Place courtroom/thumbnail assets into final scene numbering** once outcome scenes are written.
 6. **Final Scene-1 render** — `render-scene --scene 1 --narration Scene-1.mp3 --vintage` once all assets confirmed.
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-05 19:29 branch:main -->
+**Modified files:**
+```
+?? Scene-1-eq.mp3
+```
+
+**Recent commits:**
+```
+70bdf52 chore: auto-update handoff snapshot [2026-05-05 18:56]
+5fe6de4 refactor: simplify render_scene.py after wrapup review
+3b443fd chore: auto-update handoff snapshot [2026-05-05 18:47]
+a7d558a feat: add vintage film-dust effect and non-uniform Ken Burns zoom
+2135e1b chore: auto-update handoff snapshot [2026-05-05 18:36]
+```
+
+**In-progress tickets:**
+```
+Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-05 18:56 branch:main -->
 **Modified files:**
 ```
@@ -83,27 +104,6 @@ Scene-1 render complete with EQ and vintage effect (`Scene-1-test-preview.mp4`).
 a7d558a feat: add vintage film-dust effect and non-uniform Ken Burns zoom
 2135e1b chore: auto-update handoff snapshot [2026-05-05 18:36]
 6afe531 chore: auto-update handoff snapshot [2026-05-05 18:31]
-```
-
-**In-progress tickets:**
-```
-Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-05 18:47 branch:main -->
-**Modified files:**
-```
-?? Scene-1-eq.mp3
-```
-
-**Recent commits:**
-```
-a7d558a feat: add vintage film-dust effect and non-uniform Ken Burns zoom
-2135e1b chore: auto-update handoff snapshot [2026-05-05 18:36]
-6afe531 chore: auto-update handoff snapshot [2026-05-05 18:31]
-d992082 chore: auto-update handoff snapshot [2026-05-05 18:24]
-6cab3b7 chore: auto-update handoff snapshot [2026-05-05 18:22]
 ```
 
 **In-progress tickets:**
