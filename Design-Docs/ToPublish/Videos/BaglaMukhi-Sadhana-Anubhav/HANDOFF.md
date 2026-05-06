@@ -72,6 +72,22 @@ Render CLI defaults updated for current workflow. `render-scene --scene N` now u
 <!-- HANDOFF-SNAPSHOT:START 2026-05-06 16:44 branch:main -->
 **Modified files:**
 ```
+?? .#Bagla-Sadhana-Anubhav.md
+```
+
+**Recent commits:**
+```
+3195b5a feat: delete intermediate scene files after successful --all concat
+9568fd8 chore: auto-update handoff snapshot [2026-05-06 16:44]
+2c16834 chore: auto-update handoff snapshot [2026-05-06 16:43]
+bdba460 chore: auto-update handoff snapshot [2026-05-06 16:42]
+3f43edc chore: auto-update handoff snapshot [2026-05-06 16:41]
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
+<!-- HANDOFF-SNAPSHOT:START 2026-05-06 16:44 branch:main -->
+**Modified files:**
+```
  M ../../../../bin/render_scene.py
 ?? .#Bagla-Sadhana-Anubhav.md
 ```
@@ -83,21 +99,5 @@ bdba460 chore: auto-update handoff snapshot [2026-05-06 16:42]
 3f43edc chore: auto-update handoff snapshot [2026-05-06 16:41]
 0921ad4 chore(baglamukhi): add Scene-3 images and narration
 1b93b4d feat: add zoom-burst transition and organic ellipse dust marks
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-06 16:43 branch:main -->
-**Modified files:**
-```
-?? .#Bagla-Sadhana-Anubhav.md
-```
-
-**Recent commits:**
-```
-bdba460 chore: auto-update handoff snapshot [2026-05-06 16:42]
-3f43edc chore: auto-update handoff snapshot [2026-05-06 16:41]
-0921ad4 chore(baglamukhi): add Scene-3 images and narration
-1b93b4d feat: add zoom-burst transition and organic ellipse dust marks
-840da2b chore: auto-update handoff snapshot [2026-05-06 15:50]
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
