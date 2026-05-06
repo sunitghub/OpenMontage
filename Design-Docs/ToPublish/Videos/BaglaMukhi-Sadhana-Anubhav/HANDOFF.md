@@ -88,15 +88,15 @@ Render CLI defaults updated for current workflow. `render-scene --scene N` now u
 
 **Recent commits:**
 ```
+2f30c33 chore: auto-update handoff snapshot [2026-05-06 13:39]
 772d961 chore: auto-update handoff snapshot [2026-05-06 13:37]
 1e668eb chore: auto-update handoff snapshot [2026-05-06 13:11]
 0aec8bb chore: auto-update handoff snapshot [2026-05-06 13:11]
 6a7d67c chore: auto-update handoff snapshot [2026-05-06 13:10]
-9229ad8 chore(Ope-oqbu): checkpoint BaglaMukhi render workflow
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-06 13:37 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-06 13:39 branch:main -->
 **Modified files:**
 ```
  M Bagla-Sadhana-Anubhav.md
@@ -115,10 +115,10 @@ Render CLI defaults updated for current workflow. `render-scene --scene N` now u
 
 **Recent commits:**
 ```
+772d961 chore: auto-update handoff snapshot [2026-05-06 13:37]
 1e668eb chore: auto-update handoff snapshot [2026-05-06 13:11]
 0aec8bb chore: auto-update handoff snapshot [2026-05-06 13:11]
 6a7d67c chore: auto-update handoff snapshot [2026-05-06 13:10]
 9229ad8 chore(Ope-oqbu): checkpoint BaglaMukhi render workflow
-2102631 chore: auto-update handoff snapshot [2026-05-06 09:57]
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
