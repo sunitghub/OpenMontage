@@ -681,6 +681,9 @@ def main():
                 )
                 size_mb = os.path.getsize(full_out) / 1024 / 1024
                 print(f"\nFull video: {full_out} ({size_mb:.1f} MB)")
+                for r in rendered:
+                    os.remove(r)
+                    print(f"  removed {os.path.basename(r)}")
             finally:
                 shutil.rmtree(tmp)
 
