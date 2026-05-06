@@ -411,9 +411,92 @@ def render_card(img, out, duration, w, h, fps, fade_in, fade_out, preview, glow=
     subprocess.run(cmd, check=True, capture_output=True)
 
 
+def discover_scenes(base):
+    """Return sorted scene numbers that have at least one Scene-N-*.png."""
+    seen = set()
+    for path in glob.glob(os.path.join(base, "Scene-*-*.png")):
+        parts = os.path.splitext(os.path.basename(path))[0].split("-")
+        if len(parts) >= 3:
+            try:
+                seen.add(int(parts[1]))
+            except ValueError:
+                pass
+    return sorted(seen)
+
+
+def render_one_scene(args, scene_num, narration_path, base, renders_dir, script_md):
+    """Render a single scene to its output MP4. Returns output path or None on failure."""
+    deity_keywords = get_deity_keywords(script_md) if script_md else []
+    image_prompts = extract_image_prompts(script_md, str(scene_num)) if script_md else {}
+
+    w, h, fps = (1280, 720, 24) if args.preview else (1920, 1080, 30)
+
+    images = sorted(glob.glob(os.path.join(base, f"Scene-{scene_num}-*.png")), key=image_sort_key)
+    if not images:
+        print(f"  Scene {scene_num}: no images found — skipping")
+        return None
+
+    n = len(images)
+    if narration_path:
+        total = narration_duration(narration_path)
+        dur = total / n
+        print(f"\nScene {scene_num}: {n} images, narration {total:.1f}s → {dur:.1f}s/image")
+    else:
+        dur = args.duration
+        print(f"\nScene {scene_num}: {n} images × {dur}s = {n * dur:.0f}s total")
+
+    os.makedirs(renders_dir, exist_ok=True)
+    tmp = tempfile.mkdtemp()
+    try:
+        clips = []
+        for i, img in enumerate(images):
+            clip = os.path.join(tmp, f"card_{i:03d}.mp4")
+            img_idx = image_sort_key(img)
+            prompt = image_prompts.get(img_idx, "")
+            use_glow = args.glow or (bool(prompt) and bool(deity_keywords)
+                                     and image_has_deity(prompt, deity_keywords))
+            zoom_in = random.random() > 0.4
+            label = " [glow]" if use_glow else ""
+            label += " [out]" if not zoom_in else ""
+            print(f"  [{i+1}/{n}] {os.path.basename(img)}{label}")
+            render_card(img, clip, dur, w, h, fps,
+                        fade_in=(i == 0), fade_out=(i == n - 1),
+                        preview=args.preview, glow=use_glow, zoom_in=zoom_in)
+            clips.append(clip)
+
+        concat_txt = os.path.join(tmp, "concat.txt")
+        with open(concat_txt, "w") as f:
+            for c in clips:
+                f.write(f"file '{c}'\n")
+
+        suffix = "-preview" if args.preview else ""
+        output = os.path.join(renders_dir, f"Scene-{scene_num}-test{suffix}.mp4")
+
+        base_cmd = ["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", concat_txt]
+        video_opts = (
+            ["-vf", VINTAGE_VF, "-c:v", "libx264", "-crf", "18",
+             "-preset", "veryfast" if args.preview else "medium", "-pix_fmt", "yuv420p"]
+            if args.vintage else ["-c:v", "copy"]
+        )
+        if narration_path:
+            cmd = base_cmd + ["-i", narration_path] + video_opts + [
+                "-af", NARRATION_EQ, "-c:a", "aac", "-b:a", "192k", "-shortest", output]
+        else:
+            cmd = base_cmd + video_opts + (["-c:a", "copy"] if args.vintage else ["-c", "copy"]) + [output]
+
+        subprocess.run(cmd, check=True)
+        size_mb = os.path.getsize(output) / 1024 / 1024
+        print(f"  → {output} ({size_mb:.1f} MB)")
+        return output
+    finally:
+        shutil.rmtree(tmp)
+
+
 def main():
     ap = argparse.ArgumentParser(add_help=False)
     ap.add_argument("--scene", default=None)
+    ap.add_argument("--all", action="store_true",
+                    help="Render all scenes that have a matching Scene-N.mp3, then concat")
     ap.add_argument("--duration", type=float, default=7.0)
     ap.add_argument("--narration", default=None)
     ap.add_argument("--preview", action="store_true")
@@ -438,87 +521,77 @@ def main():
         print_critic_summary(script_md, base)
         return 0
 
-    if not args.scene:
-        print("Error: --scene is required for rendering. Use --critic for script analysis.")
+    if not args.scene and not args.all:
+        print("Error: --scene N or --all is required. Use --critic for script analysis.")
         return 1
 
     script_md = find_script_md(base)
-    deity_keywords = get_deity_keywords(script_md) if script_md else []
-    image_prompts = extract_image_prompts(script_md, args.scene) if script_md else {}
 
-    if deity_keywords:
-        print(f"  Deity keywords: {', '.join(deity_keywords)}")
+    if args.all:
+        scenes = discover_scenes(base)
+        if not scenes:
+            print("No Scene-N-*.png files found.")
+            return 1
 
-    w, h, fps = (1280, 720, 24) if args.preview else (1920, 1080, 30)
+        rows = []
+        for s in scenes:
+            mp3 = os.path.join(base, f"Scene-{s}.mp3")
+            img_count = len(glob.glob(os.path.join(base, f"Scene-{s}-*.png")))
+            has_narr = os.path.exists(mp3)
+            rows.append((s, img_count, mp3 if has_narr else None, has_narr))
 
-    pattern = os.path.join(base, f"Scene-{args.scene}-*.png")
-    images = sorted(glob.glob(pattern), key=image_sort_key)
+        print("\nPre-check:")
+        print(f"  {'Scene':<6}  {'Images':<7}  {'Narration':<18}  Action")
+        print(f"  {'─'*6}  {'─'*7}  {'─'*18}  {'─'*18}")
+        for s, img_count, mp3_path, has_narr in rows:
+            narr_col = f"Scene-{s}.mp3 ✓" if has_narr else "—"
+            action = "RENDER" if has_narr else "SKIP — no narration"
+            print(f"  {s:<6}  {img_count:<7}  {narr_col:<18}  {action}")
 
-    if not images:
-        print(f"No images found: {pattern}")
-        return 1
+        to_render = [(s, mp3) for s, _, mp3, has_narr in rows if has_narr]
+        skipped = [s for s, _, _, has_narr in rows if not has_narr]
+        if not to_render:
+            print("\nNothing to render — add Scene-N.mp3 files first.")
+            return 1
+        if skipped:
+            print(f"\nSkipping: Scene {', '.join(str(s) for s in skipped)}")
+        print(f"\nRendering {len(to_render)} of {len(scenes)} scenes...")
 
-    n = len(images)
+        rendered = []
+        for s, mp3_path in to_render:
+            out = render_one_scene(args, s, mp3_path, base, renders_dir, script_md)
+            if out:
+                rendered.append(out)
 
+        if len(rendered) > 1:
+            suffix = "-preview" if args.preview else ""
+            full_out = os.path.join(renders_dir, f"Full-test{suffix}.mp4")
+            tmp = tempfile.mkdtemp()
+            try:
+                concat_txt = os.path.join(tmp, "concat.txt")
+                with open(concat_txt, "w") as f:
+                    for r in rendered:
+                        f.write(f"file '{r}'\n")
+                subprocess.run(
+                    ["ffmpeg", "-y", "-f", "concat", "-safe", "0",
+                     "-i", concat_txt, "-c", "copy", full_out],
+                    check=True
+                )
+                size_mb = os.path.getsize(full_out) / 1024 / 1024
+                print(f"\nFull video: {full_out} ({size_mb:.1f} MB)")
+            finally:
+                shutil.rmtree(tmp)
+
+        return 0
+
+    # Single scene mode
+    narration_path = None
     if args.narration:
         narration_path = args.narration if os.path.isabs(args.narration) \
             else os.path.join(base, args.narration)
-        total = narration_duration(narration_path)
-        dur = total / n
-        print(f"Scene {args.scene}: {n} images, narration {total:.1f}s → {dur:.1f}s/image")
-    else:
-        narration_path = None
-        dur = args.duration
-        print(f"Scene {args.scene}: {n} images × {dur}s = {n * dur:.0f}s total")
 
-    os.makedirs(renders_dir, exist_ok=True)
-    tmp = tempfile.mkdtemp()
-
-    try:
-        clips = []
-        for i, img in enumerate(images):
-            clip = os.path.join(tmp, f"card_{i:03d}.mp4")
-            img_idx = image_sort_key(img)
-            prompt = image_prompts.get(img_idx, "")
-            use_glow = args.glow or (bool(prompt) and bool(deity_keywords)
-                                     and image_has_deity(prompt, deity_keywords))
-            zoom_in = random.random() > 0.4  # ~60% zoom-in, 40% zoom-out
-            label = " [glow]" if use_glow else ""
-            label += " [out]" if not zoom_in else ""
-            print(f"  [{i+1}/{n}] {os.path.basename(img)}{label}")
-            render_card(img, clip, dur, w, h, fps,
-                        fade_in=(i == 0), fade_out=(i == n - 1),
-                        preview=args.preview, glow=use_glow, zoom_in=zoom_in)
-            clips.append(clip)
-
-        concat_txt = os.path.join(tmp, "concat.txt")
-        with open(concat_txt, "w") as f:
-            for c in clips:
-                f.write(f"file '{c}'\n")
-
-        suffix = "-preview" if args.preview else ""
-        output = os.path.join(renders_dir, f"Scene-{args.scene}-test{suffix}.mp4")
-
-        base_cmd = ["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", concat_txt]
-        video_opts = (
-            ["-vf", VINTAGE_VF, "-c:v", "libx264", "-crf", "18",
-             "-preset", "veryfast" if args.preview else "medium", "-pix_fmt", "yuv420p"]
-            if args.vintage else ["-c:v", "copy"]
-        )
-        if narration_path:
-            cmd = base_cmd + ["-i", narration_path] + video_opts + [
-                "-af", NARRATION_EQ, "-c:a", "aac", "-b:a", "192k", "-shortest", output]
-        else:
-            cmd = base_cmd + video_opts + (["-c:a", "copy"] if args.vintage else ["-c", "copy"]) + [output]
-
-        subprocess.run(cmd, check=True)
-        size_mb = os.path.getsize(output) / 1024 / 1024
-        print(f"\nDone: {output} ({size_mb:.1f} MB)")
-
-    finally:
-        shutil.rmtree(tmp)
-
-    return 0
+    out = render_one_scene(args, args.scene, narration_path, base, renders_dir, script_md)
+    return 0 if out else 1
 
 
 if __name__ == "__main__":
