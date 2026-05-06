@@ -69,6 +69,23 @@ Render CLI defaults updated for current workflow. `render-scene --scene N` now u
 5. **Review Scene-5 files** — `Scene-5-1.png` and `Scene-5-2.png` exist; confirm sufficient or regenerate.
 6. **Place courtroom/thumbnail assets** into final scene numbering once outcome scenes are written.
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-06 18:02 branch:main -->
+**Modified files:**
+```
+?? .#Bagla-Sadhana-Anubhav.md
+?? Render/
+```
+
+**Recent commits:**
+```
+a391455 chore: auto-update handoff snapshot [2026-05-06 17:08]
+69743a4 fix: zoom-burst boxblur radius floor and trim/zoompan frame mismatch
+6f327bc chore: auto-update handoff snapshot [2026-05-06 16:48]
+9679373 chore: auto-update handoff snapshot [2026-05-06 16:48]
+5fd0f24 feat: make --zoom-burst default, add --no-zoom-burst to disable
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-06 17:08 branch:main -->
 **Modified files:**
 ```
@@ -82,21 +99,5 @@ Render CLI defaults updated for current workflow. `render-scene --scene N` now u
 9679373 chore: auto-update handoff snapshot [2026-05-06 16:48]
 5fd0f24 feat: make --zoom-burst default, add --no-zoom-burst to disable
 8eecc8d chore: auto-update handoff snapshot [2026-05-06 16:48]
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-06 16:48 branch:main -->
-**Modified files:**
-```
-?? .#Bagla-Sadhana-Anubhav.md
-```
-
-**Recent commits:**
-```
-9679373 chore: auto-update handoff snapshot [2026-05-06 16:48]
-5fd0f24 feat: make --zoom-burst default, add --no-zoom-burst to disable
-8eecc8d chore: auto-update handoff snapshot [2026-05-06 16:48]
-1b4807c chore: auto-update handoff snapshot [2026-05-06 16:44]
-3195b5a feat: delete intermediate scene files after successful --all concat
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
