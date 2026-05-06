@@ -164,6 +164,7 @@ A Sadhak's court case was turning against him. Every door was closing. In desper
 
 
 
+
 ## Scene-2:
 
 ### Script Hindi
@@ -269,11 +270,14 @@ With the court date looming, the Sadhak gave himself a deadline — he would beg
 
 
 
+
 ## Scene-3
 
-Guru ka aadesh thaa, ki Sadhana, roz, raatri 10 baje se shuron kar, subah 5 baje ko sampann karna tha. Saath hi, use har ratri ko, naha kar, peeli dhoti pehan kar, peeli chadhar oodh kar, ek peele asaan main bathana thaa. Iske saath he, Sadhak to saamne ek lakdi ke bajot par, peela kapda lagana thaa aur uspar peele chawal se Baglamukhi yantra bana kar uske beech main Baglamukhi Mata ki tasveer staphit karni thi. Guru ka sakht aadesh tha; Sadhana pooran samarpan aur himmat ke saath karni thi. Guru ne kaha tha, Maa Baglamkuhi ki kripa use hi milti hai jime nishta aur himmat hoti hai.
+### Script Hindi
 
-### English
+Sridhar ke Guru ka aadesh thaa, ki Sadhana, prati-raatri 10 baje ko shuron karni thi, aur subah 5 baje ko sampann karni thi. Saath hi, Sadhanase se phele, naha kar, peeli dhoti pehan kar, peeli chadhar oodh kar, ek peele asaan main baeth kar, mantra jaap karna tha. Aasan ke saamne, ek lakdi ke bajot par, peela kapda lagana thaa aur uspar peele chawal se Baglamukhi yantra bana kar, uske beech main Baglamukhi Mata ki tasveer staphit karni thi. Guru ka sakht aadesh tha; Sadhana pooran samarpan aur himmat ke saath karni thi. Guru ne kaha tha, Maa Baglamkuhi ki kripa, use hi milti hai, jime nishta aur himmat hoti hai.
+
+### Script English
 
 Sridhar's Guru had instructed him to commence his spiritual practice (Sadhana) daily, precisely at 10:00 PM, and to conclude it at 5:00 AM. Furthermore, he was required to bathe daily, drape himself in a yellow dhoti and a yellow shawl, and sit upon a yellow seat. Additionally, the seeker was to spread a yellow cloth over a wooden altar placed before him; upon this cloth, he was to construct a Baglamukhi Yantra using yellow rice grains and, within its center, install an image of Mother Baglamukhi. The Guru's command was strict: the Sadhana was to be performed with absolute surrender and courage. The Guru had declared that the grace of Mother Baglamukhi is bestowed only upon those who possess both unwavering devotion and courage.
 
@@ -288,7 +292,7 @@ Sridhar's Guru had instructed him to commence his spiritual practice (Sadhana) d
 
 #### Images
 
-1.
+1b.
 
    **Ref:** Upload `Sadhak_B_Ref.png`
 
@@ -332,11 +336,11 @@ Sridhar's Guru had instructed him to commence his spiritual practice (Sadhana) d
 
    `painterly AI devotional illustration, Hindustani folk-story art style, close medium shot of young Indian male sadhak in yellow dhoti and yellow shawl standing still in the yellow room before beginning Sadhana, eyes focused ahead with quiet determination, yellow walls and yellow curtain behind him, brass oil lamp in hand, the moment of resolve before sitting down on the asan, Guru's command resonating in his expression, motion-friendly slow push-in on his steady composed face, wide 16:9 composition, no text, no watermark`
 
-10.
+*10.
 
    `painterly AI devotional illustration, Hindustani folk-story art style, wide quiet shot from the yellow room doorway looking inward at the prepared sadhana space before the sadhak sits, yellow asan unrolled on the clean floor, wooden bajot at center with yellow cloth and unlit brass diya, yellow walls glowing in warm lamplight, long yellow curtain parting slightly, full sacred space ready and waiting, no people, atmosphere of reverence and readiness before the first ritual, motion-friendly slow push-in composition, wide 16:9 composition, no text, no watermark`
 
-11.
+*11.
 
    `painterly AI devotional illustration, Hindustani folk-story art style, extreme close devotional detail of a small wall clock in the yellow sadhana room at five o'clock in the morning, pale dawn light beginning to show through the small window, brass diya still flickering low after a full night of Sadhana, yellow asan visible on the floor, incense smoke barely drifting, the silent completion of one night of strict discipline, atmosphere of exhausted peace and surrender, motion-friendly slow fade-to-pale composition, wide 16:9 composition, no readable text, no watermark`
 
