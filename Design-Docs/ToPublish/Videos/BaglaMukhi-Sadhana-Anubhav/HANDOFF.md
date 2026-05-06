@@ -78,11 +78,11 @@ Scene-1 render complete with EQ and vintage effect (`Scene-1-test-preview.mp4`).
 
 **Recent commits:**
 ```
+058f5dc chore: auto-update handoff snapshot [2026-05-05 19:40]
 5584a68 chore: auto-update handoff snapshot [2026-05-05 19:39]
 65d5432 chore: auto-update handoff snapshot [2026-05-05 19:38]
 da6dd8a feat: add --all flag to render all scenes with matching narration
 78b8136 chore: auto-update handoff snapshot [2026-05-05 19:30]
-d11b75e chore: auto-update handoff snapshot [2026-05-05 19:29]
 ```
 
 **In-progress tickets:**
@@ -91,7 +91,7 @@ Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-05 19:39 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-05 19:40 branch:main -->
 **Modified files:**
 ```
 ?? Scene-1-eq.mp3
@@ -99,11 +99,11 @@ Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
 
 **Recent commits:**
 ```
+5584a68 chore: auto-update handoff snapshot [2026-05-05 19:39]
 65d5432 chore: auto-update handoff snapshot [2026-05-05 19:38]
 da6dd8a feat: add --all flag to render all scenes with matching narration
 78b8136 chore: auto-update handoff snapshot [2026-05-05 19:30]
 d11b75e chore: auto-update handoff snapshot [2026-05-05 19:29]
-70bdf52 chore: auto-update handoff snapshot [2026-05-05 18:56]
 ```
 
 **In-progress tickets:**
