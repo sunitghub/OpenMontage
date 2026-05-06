@@ -4,14 +4,15 @@
 ## Render Commands
 
 ```bash
-# Standard render (EQ baked in, random zoom per card)
+# Single scene (EQ baked in, random zoom per card)
 render-scene --scene 1 --narration Scene-1.mp3
+render-scene --scene 1 --narration Scene-1.mp3 --vintage   # + film grain/dust
+render-scene --scene 1 --narration Scene-1.mp3 --preview   # fast 720p draft
 
-# With vintage film grain + dust spots
-render-scene --scene 1 --narration Scene-1.mp3 --vintage
-
-# Fast 720p draft
-render-scene --scene 1 --narration Scene-1.mp3 --preview
+# All scenes — pre-checks each scene for Scene-N.mp3, skips missing, concats to Full-test.mp4
+render-scene --all
+render-scene --all --vintage
+render-scene --all --vintage --preview
 
 # Critic / pacing audit (no render)
 render-scene --critic

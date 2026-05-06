@@ -412,20 +412,15 @@ def render_card(img, out, duration, w, h, fps, fade_in, fade_out, preview, glow=
 
 
 def discover_scenes(base):
-    """Return sorted scene numbers that have at least one Scene-N-*.png."""
     seen = set()
     for path in glob.glob(os.path.join(base, "Scene-*-*.png")):
-        parts = os.path.splitext(os.path.basename(path))[0].split("-")
-        if len(parts) >= 3:
-            try:
-                seen.add(int(parts[1]))
-            except ValueError:
-                pass
+        m = re.match(r"Scene-(\d+)-", os.path.basename(path))
+        if m:
+            seen.add(int(m.group(1)))
     return sorted(seen)
 
 
 def render_one_scene(args, scene_num, narration_path, base, renders_dir, script_md):
-    """Render a single scene to its output MP4. Returns output path or None on failure."""
     deity_keywords = get_deity_keywords(script_md) if script_md else []
     image_prompts = extract_image_prompts(script_md, str(scene_num)) if script_md else {}
 
