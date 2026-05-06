@@ -599,8 +599,10 @@ def main():
                     help="Add film grain + dust spots (default)")
     ap.add_argument("--no-vintage", dest="vintage", action="store_false",
                     help="Disable film grain + dust spots")
-    ap.add_argument("--zoom-burst", dest="zoom_burst", action="store_true",
-                    help="Apply radial zoom-burst at scene end (random 40%% with --all)")
+    ap.add_argument("--zoom-burst", dest="zoom_burst", action="store_true", default=True,
+                    help="Apply radial zoom-burst at scene end (default)")
+    ap.add_argument("--no-zoom-burst", dest="zoom_burst", action="store_false",
+                    help="Disable zoom-burst transition")
     ap.add_argument("--critic", action="store_true",
                     help="Print critique summary from script MD (no render)")
     ap.add_argument("--project", default=None,
