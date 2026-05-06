@@ -69,6 +69,22 @@ Render CLI defaults updated for current workflow. `render-scene --scene N` now u
 5. **Review Scene-5 files** — `Scene-5-1.png` and `Scene-5-2.png` exist; confirm sufficient or regenerate.
 6. **Place courtroom/thumbnail assets** into final scene numbering once outcome scenes are written.
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-06 16:48 branch:main -->
+**Modified files:**
+```
+?? .#Bagla-Sadhana-Anubhav.md
+```
+
+**Recent commits:**
+```
+1b4807c chore: auto-update handoff snapshot [2026-05-06 16:44]
+3195b5a feat: delete intermediate scene files after successful --all concat
+9568fd8 chore: auto-update handoff snapshot [2026-05-06 16:44]
+2c16834 chore: auto-update handoff snapshot [2026-05-06 16:43]
+bdba460 chore: auto-update handoff snapshot [2026-05-06 16:42]
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-06 16:44 branch:main -->
 **Modified files:**
 ```
@@ -82,22 +98,5 @@ Render CLI defaults updated for current workflow. `render-scene --scene N` now u
 2c16834 chore: auto-update handoff snapshot [2026-05-06 16:43]
 bdba460 chore: auto-update handoff snapshot [2026-05-06 16:42]
 3f43edc chore: auto-update handoff snapshot [2026-05-06 16:41]
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-06 16:44 branch:main -->
-**Modified files:**
-```
- M ../../../../bin/render_scene.py
-?? .#Bagla-Sadhana-Anubhav.md
-```
-
-**Recent commits:**
-```
-2c16834 chore: auto-update handoff snapshot [2026-05-06 16:43]
-bdba460 chore: auto-update handoff snapshot [2026-05-06 16:42]
-3f43edc chore: auto-update handoff snapshot [2026-05-06 16:41]
-0921ad4 chore(baglamukhi): add Scene-3 images and narration
-1b93b4d feat: add zoom-burst transition and organic ellipse dust marks
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
