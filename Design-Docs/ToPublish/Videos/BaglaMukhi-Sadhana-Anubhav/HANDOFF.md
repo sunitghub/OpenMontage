@@ -69,6 +69,34 @@ Render CLI defaults updated for current workflow. `render-scene --scene N` now u
 5. **Review Scene-5 files** — `Scene-5-1.png` and `Scene-5-2.png` exist; confirm sufficient or regenerate.
 6. **Place courtroom/thumbnail assets** into final scene numbering once outcome scenes are written.
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-06 13:52 branch:main -->
+**Modified files:**
+```
+ M Bagla-Sadhana-Anubhav.md
+ M Scene-3-1a.png
+ M Scene-3-1b.png
+ M Scene-3-2.png
+ M Scene-3-3.png
+ M Scene-3-4.png
+ M Scene-3-5.png
+ M Scene-3-6.png
+ M ../../../../bin/render_scene.py
+?? .#Bagla-Sadhana-Anubhav.md
+?? Scene-3-1aa.png
+?? Scene-3-1c.png
+?? Scene-3.mp3
+```
+
+**Recent commits:**
+```
+ec7a34f chore: auto-update handoff snapshot [2026-05-06 13:41]
+dc68f02 chore: auto-update handoff snapshot [2026-05-06 13:39]
+2f30c33 chore: auto-update handoff snapshot [2026-05-06 13:39]
+772d961 chore: auto-update handoff snapshot [2026-05-06 13:37]
+1e668eb chore: auto-update handoff snapshot [2026-05-06 13:11]
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-06 13:41 branch:main -->
 **Modified files:**
 ```
@@ -93,32 +121,5 @@ dc68f02 chore: auto-update handoff snapshot [2026-05-06 13:39]
 772d961 chore: auto-update handoff snapshot [2026-05-06 13:37]
 1e668eb chore: auto-update handoff snapshot [2026-05-06 13:11]
 0aec8bb chore: auto-update handoff snapshot [2026-05-06 13:11]
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-06 13:39 branch:main -->
-**Modified files:**
-```
- M Bagla-Sadhana-Anubhav.md
- M Scene-3-1a.png
- M Scene-3-1b.png
- M Scene-3-2.png
- M Scene-3-3.png
- M Scene-3-4.png
- M Scene-3-5.png
- M Scene-3-6.png
- M ../../../../bin/render_scene.py
-?? Scene-3-1aa.png
-?? Scene-3-1c.png
-?? Scene-3.mp3
-```
-
-**Recent commits:**
-```
-2f30c33 chore: auto-update handoff snapshot [2026-05-06 13:39]
-772d961 chore: auto-update handoff snapshot [2026-05-06 13:37]
-1e668eb chore: auto-update handoff snapshot [2026-05-06 13:11]
-0aec8bb chore: auto-update handoff snapshot [2026-05-06 13:11]
-6a7d67c chore: auto-update handoff snapshot [2026-05-06 13:10]
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
