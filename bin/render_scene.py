@@ -27,11 +27,13 @@ FADE_DUR = 0.8
 WPM = 85  # Hindi devotional narration benchmark (80–90 WPM range)
 _CRITIQUE_TRUNC = 100
 NARRATION_EQ = (
+    "volume=-4dB,"
     "highpass=f=90:poles=2,"
     "equalizer=f=120:width_type=q:width=1.5:g=-2.5,"
     "equalizer=f=320:width_type=q:width=1.5:g=-1.5,"
     "equalizer=f=2500:width_type=q:width=1.2:g=2.5,"
-    "treble=g=2:f=10000"
+    "treble=g=2:f=10000,"
+    "alimiter=level_in=1:level_out=0.7:limit=0.7:attack=5:release=50"
 )
 # Film dust: H strokes (8x2px), V strokes (2x8px), diagonal (4x2px rotated), tiny specks.
 # Four layers keep total ~15 marks/frame at 720p; H/V trimmed to make room for diagonal.
@@ -110,11 +112,23 @@ def image_has_deity(prompt, deity_keywords):
 
 
 def count_script_words(scene_block):
-    """Count Hindi/Hinglish words in the script text (before ### English)."""
-    text = _RE_SCENE_HEADER.sub("", scene_block, count=1)
-    sub_match = _RE_SUBSECTION.search(text)
-    if sub_match:
-        text = text[:sub_match.start()]
+    """Count Hindi/Hinglish words in the script text.
+
+    Supports two formats:
+      New: ### Script Hindi ... ### Script English
+      Old: plain text before first ### subsection
+    """
+    hindi_match = re.search(r"^### Script Hindi\s*\n", scene_block, re.MULTILINE)
+    if hindi_match:
+        text = scene_block[hindi_match.end():]
+        next_sec = _RE_SUBSECTION.search(text)
+        if next_sec:
+            text = text[:next_sec.start()]
+    else:
+        text = _RE_SCENE_HEADER.sub("", scene_block, count=1)
+        sub_match = _RE_SUBSECTION.search(text)
+        if sub_match:
+            text = text[:sub_match.start()]
     text = _RE_BLOCKQUOTE.sub("", text)
     text = _RE_MD_MARKUP.sub(" ", text)
     return len(text.split())
@@ -357,11 +371,18 @@ def narration_duration(path):
 
 
 def image_sort_key(path):
-    parts = os.path.splitext(os.path.basename(path))[0].split("-")
+    """Sort Scene-N-<num>[<suffix>].png correctly: (num, suffix).
+    Handles 1a, 1b, 3a, 3b, 3c as well as plain integers.
+    """
+    stem = os.path.splitext(os.path.basename(path))[0]
+    parts = stem.split("-")
     try:
-        return int(parts[2])
-    except (IndexError, ValueError):
-        return 0
+        m = re.match(r"(\d+)([a-z]*)", parts[2])
+        if m:
+            return (int(m.group(1)), m.group(2))
+    except IndexError:
+        pass
+    return (0, "")
 
 
 def render_card(img, out, duration, w, h, fps, fade_in, fade_out, preview, glow=False, zoom_in=True):
@@ -418,6 +439,16 @@ def discover_scenes(base):
         if m:
             seen.add(int(m.group(1)))
     return sorted(seen)
+
+
+def default_narration_path(base, scene_num):
+    return os.path.join(base, f"Scene-{scene_num}.mp3")
+
+
+def resolve_narration_path(base, scene_num, narration_arg):
+    if narration_arg:
+        return narration_arg if os.path.isabs(narration_arg) else os.path.join(base, narration_arg)
+    return default_narration_path(base, scene_num)
 
 
 def render_one_scene(args, scene_num, narration_path, base, renders_dir, script_md):
@@ -497,8 +528,10 @@ def main():
     ap.add_argument("--preview", action="store_true")
     ap.add_argument("--glow", action="store_true",
                     help="Force bloom glow on all images (auto-detected per image if omitted)")
-    ap.add_argument("--vintage", action="store_true",
-                    help="Add film grain + dust spots (competitor-style vintage effect)")
+    ap.add_argument("--vintage", dest="vintage", action="store_true", default=True,
+                    help="Add film grain + dust spots (default)")
+    ap.add_argument("--no-vintage", dest="vintage", action="store_false",
+                    help="Disable film grain + dust spots")
     ap.add_argument("--critic", action="store_true",
                     help="Print critique summary from script MD (no render)")
     ap.add_argument("--project", default=None,
@@ -530,7 +563,7 @@ def main():
 
         rows = []
         for s in scenes:
-            mp3 = os.path.join(base, f"Scene-{s}.mp3")
+            mp3 = default_narration_path(base, s)
             img_count = len(glob.glob(os.path.join(base, f"Scene-{s}-*.png")))
             has_narr = os.path.exists(mp3)
             rows.append((s, img_count, mp3 if has_narr else None, has_narr))
@@ -580,10 +613,11 @@ def main():
         return 0
 
     # Single scene mode
-    narration_path = None
-    if args.narration:
-        narration_path = args.narration if os.path.isabs(args.narration) \
-            else os.path.join(base, args.narration)
+    narration_path = resolve_narration_path(base, args.scene, args.narration)
+    if not os.path.exists(narration_path):
+        print(f"Error: narration file not found: {narration_path}")
+        print("Pass --narration FILE to override the default Scene-N.mp3 path.")
+        return 1
 
     out = render_one_scene(args, args.scene, narration_path, base, renders_dir, script_md)
     return 0 if out else 1

@@ -27,14 +27,16 @@ Generate these reference images first. All scene prompts should visually match t
 
 ## Critique State
 
-_Last updated: 2026-05-05_
+_Last updated: 2026-05-06_
 
 **ToDo**
 - **Scene-1 (Medium)**:
-  · Hook now has stakes
-  · Fix the spoken Hindi polish
-  · Beat 3 is present but brief → Use the English suggested hook as the structure and keep the Hindi opening in this order: court case…
-  · Pacing: add ~4 image(s) — hold is 9.8s/img
+  · Hook has stakes
+  · Beat 3 now fuller
+  · Pending — spoken Hindi polish
+  · Pending — narration order
+  · Pacing: 11 images @ 7.5s/img ✓ (3c done · 5b not needed)
+  · Pending — generate 7b (sadhak pranam to guru)
 
 - **Scene-5 (Medium)**:
   · Prayer text is the emotional peak of Act 1
@@ -47,7 +49,13 @@ _Last updated: 2026-05-05_
 
 ## Scene-1:
 
-Sridhar naam ke ek vyakti par court case lago ho aya. Dekhte hi dekhte, case usake khilaaph main jane laga. Sridhar ko laga, har daravaaza band hota ja raha tha. Kahin se koi rah nahin dik rahi thee. Hataash hokar, vah apane guru ke paas gaya. Guru ne usakee baat sunee, aur phir dheere se kaha: *"ab bas ek hee raasta bacha hai — maan bagalaamukhee kee saadhana. ise kisee bhee chaudas ke din shuroo karo, aur apane hee ghar mein karo. Maa Baglamukhi mukadme ke silsale main, attyant phaldayak sabit hoti hai"* Sridhar ne apne Guru ko pranam kiya aur nishchay kar liya. To pesh hai yeh anubhav, jisme Mata Baglamukhi ne, apne ek Sadhak ki raksha karke uske zindagi ko nayi disha dikhayi. 
+### Script Hindi 
+
+	Sridhar naam ke ek vyakti par court case lago ho gaya. Dekhte hi dekhte, case usake khilaaph main jane laga. Sridhar ko laga, ki har daravaaza band hota ja raha tha. Kahin se koi rah dikai nahin de rahi thee. Hataash hokar, vah apane guru ke paas gaya. Guru ne usakee saari baat sunee, aur phir gambhir vicahr kar dheere se kaha: *"Sridhar, ab bas ek hee raasta bacha hai — Maa Bagalaamukhi kee saadhana. Maa Baglamukhi mukadme ke silsale main, attyant phaldayak sabit hoti hai. Tum ise kisee bhee chaudas ki raat se shuroo karna, aur apane hee ghar mein karna."* Guru ne Sridahar aur bhi kuch janakari de aur phir Sridhar ne apne Guru ko pranam kiya aur nishchay kar liya is sadhana ko sampaan karne ka. To pesh hai doston, ek bhakt ka anubhav, jisme Mata Baglamukhi ne, apne Sadhak ki raksha karke uske zindagi ko nayi disha dikahyi. 
+ 
+### Script English
+	
+	A court case was filed against a man named Sridhar. Before he knew it, the case began to turn against him. Sridhar felt as though every door was closing before him; nowhere could he see a way out. Despairing, he went to his Guru. The Guru listened to his entire story, and after deep contemplation, spoke softly: *"Sridhar, only one path remains now—the spiritual practice (*sadhana*) of Mother Baglamukhi. Mother Baglamukhi proves to be immensely efficacious in matters concerning lawsuits. You must commence this practice on the night of any *Chauda*s (the fourteenth lunar day), and perform it within the confines of your own home."* The Guru imparted further instructions to Sridhar; Sridhar then paid his obeisance to his Guru and resolved to undertake this spiritual practice. And so, devotees, presented here is a true experience—one in which Mother Baglamukhi, by protecting her devotee, guided his life toward a new direction.
 
 ### Artifacts
 
@@ -60,7 +68,7 @@ Sridhar naam ke ek vyakti par court case lago ho aya. Dekhte hi dekhte, case usa
 
 #### Images
 
-> Images 1–2 are new hook beats (generate as `Scene-1-0a.png`, `Scene-1-0b.png` to keep existing image numbering intact). Place these first in timeline order before existing images.
+> Images 1–2 are new hook beats (generate as `Scene-1-0a.png`, `Scene-1-0b.png` to keepffmpe existing image numbering intact). Place these first in timeline order before existing images.
 
 1a.
 
@@ -81,13 +89,23 @@ Sridhar naam ke ek vyakti par court case lago ho aya. Dekhte hi dekhte, case usa
 
    `painterly AI devotional illustration, Hindustani folk-story art style, young Indian male sadhak Sridhar in plain white kurta seated alone on the bare floor of a dim sparse home room, knees drawn up, head bowed low into his hands, court papers and legal documents scattered around him on the floor, dark room with only a small window showing night outside, no lamp lit, no warm light, atmosphere of complete exhaustion and hopelessness, every path blocked, no relief visible anywhere, pure human despair before seeking divine help, no divine figure no glow, narrative scene-card composition, polished folk illustration, wide 16:9 composition, no text, no watermark`
 
-
-3.
+3a.
 
    **Ref:** Upload `Sadhak_A_Ref.png`
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, elderly Indian guru with white beard and dark teal turban seated on cave rock, one finger raised upward gesturing toward the moon indicating a sacred date, young male sadhak in plain white kurta standing attentively with hands clasped in respect, oil lamp glowing beside them, dark night sky faintly visible at cave mouth, cracked stone walls, warm amber inner glow, intimate instruction moment, narrative scene-card composition, polished folk illustration, wide 16:9 composition, no text, no watermark`
+   `painterly AI devotional illustration, Hindustani folk-story art style, wide night landscape shot of young Indian male sadhak in plain white kurta walking alone along a dirt path toward a rocky hillside, head bowed, shoulders slightly slumped but feet moving purposefully forward, moonlit sky above, sparse trees on either side, faint warm oil lamp glow visible at a cave mouth in the distance, exhausted determination, no dialogue, pure journey, motion-friendly slow push from wide path toward the distant cave light, wide 16:9 composition, no text, no watermark`
 
+3b.
+
+   **Ref:** Upload `Sadhak_A_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, elderly Indian guru with white beard and dark teal turban seated on cave rock, eyes half-closed in attentive focus, listening intently, young Indian male sadhak in plain white kurta seated opposite with hands slightly raised as he describes his court troubles, warm oil lamp glowing between them, cracked stone cave walls, amber interior light, two-figure scene of speaking and careful listening before the guru has given his answer, motion-friendly slow pull-back to reveal both figures, wide 16:9 composition, no text, no watermark`
+
+3c.
+
+   **Ref:** Upload `Sadhak_A_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, elderly Indian guru with white beard and dark teal turban seated on cave rock, one finger raised upward toward the cave mouth gesturing at the bright Chaudas moon visible in the night sky, indicating the auspicious date to begin sadhana, young male sadhak in plain white kurta seated before him with hands clasped in respectful attention, oil lamp glowing between them, cracked stone walls, warm amber inner glow, moonlight framing the guru's raised finger, narrative scene-card composition, polished folk illustration, wide 16:9 composition, no text, no watermark`
 
 4.
 
@@ -101,31 +119,42 @@ Sridhar naam ke ek vyakti par court case lago ho aya. Dekhte hi dekhte, case usa
 
    `painterly AI devotional illustration, Hindustani folk-story art style, close intimate shot of young Indian male sadhak in plain white kurta listening to his guru, his hands folded near his chest in respectful namaste, warm oil lamp glow moving across his focused face, cave wall and guru's raised hand softly blurred in background, dark night visible beyond cave mouth, devotional instruction mood, strong foreground face for slow push-in, wide 16:9 composition, no text, no watermark, no distorted hands`
 
-6.
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, symbolic close view of a dark night sky seen from a cave opening, bright Chaudas moon glowing above soft clouds, faint golden aura around the moon, small brass oil lamp flame in lower foreground, cracked cave rock framing the scene, quiet sacred timing motif, no people, motion-friendly smoke drift and slow tilt upward composition, wide 16:9 composition, no text, no watermark`
+6.
+	**Ref:** Upload `Sadhak_A_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, elderly Indian guru with long white beard and dark teal turban standing beside a small oil lamp, one hand raised in firm instruction, young Indian male sadhak in plain white kurta standing before him with hands joined respectfully, warm amber cave light, dark stone wall and moonlit opening behind them, spiritual command moment, motion-friendly slow push from guru hand to sadhak face, wide 16:9 composition, no text, no watermark, no distorted hands`
 
 7.
 
    **Ref:** Upload `Sadhak_A_Ref.png`
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, elderly Indian guru with long white beard and dark teal turban standing beside a small oil lamp, one hand raised in firm instruction, young Indian male sadhak in plain white kurta standing before him with hands joined respectfully, warm amber cave light, dark stone wall and moonlit opening behind them, spiritual command moment, motion-friendly slow push from guru hand to sadhak face, wide 16:9 composition, no text, no watermark, no distorted hands`
+   `painterly AI devotional illustration, Hindustani folk-story art style, young Indian male sadhak in plain white kurta sitting alone after receiving his guru's instruction, pensive thoughtful expression, hands resting together near his lap, small oil lamp flickering beside him, cave wall and faint moonlight behind him, quiet decision moment before beginning Baglamukhi Sadhana at home, warm amber shadows, motion-friendly slow push-in on his face, wide 16:9 composition, no text, no watermark`
+
+*7b.
+
+   **Ref:** Upload `Sadhak_A_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, young Indian male sadhak in plain white kurta bowing deeply before elderly Indian guru with white beard and dark teal turban, sadhak's head lowered and palms pressed firmly together in deep namaste close to his chest, guru's right hand raised gently above the bowed head in blessing, warm oil lamp light, cave interior, moment of complete surrender and acceptance of the sankalp, motion-friendly slow push-in on bowed head and blessing hand, wide 16:9 composition, no text, no watermark, no distorted hands`
 
 8.
 
    **Ref:** Upload `Sadhak_A_Ref.png`
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, young Indian male sadhak in plain white kurta sitting alone after receiving his guru's instruction, pensive thoughtful expression, hands resting together near his lap, small oil lamp flickering beside him, cave wall and faint moonlight behind him, quiet decision moment before beginning Baglamukhi Sadhana at home, warm amber shadows, motion-friendly slow push-in on his face, wide 16:9 composition, no text, no watermark`
+   `painterly AI devotional illustration, Hindustani folk-story art style, young Indian male sadhak in plain white kurta standing at the mouth of the guru's cave, silhouetted slightly against the open moonlit night beyond, face turned forward with quiet resolve and new purpose, cave interior warm and amber behind him, moonlit sky and distant landscape visible ahead, the moment of sankalp — decision made, journey back home about to begin, motion-friendly slow push from cave warmth toward the sadhak silhouette against the moonlit night, wide 16:9 composition, no text, no watermark`
+
+
 
 ### Critique
 
 **Story Beat:** Hook (Beat 1) — Devotee + Crisis (Beat 2) — Guru / Practice (Beat 3)
 **Level:** Medium
 
-- **Hook now has stakes**: The court case is clearly named, and "Har daravaaza band hota ja raha tha" gives the viewer immediate crisis pressure.
-- **Fix the spoken Hindi polish**: The line "yah kahaanee hai..." should be cleaned before recording: *"Yeh kahani hai ki jab usne is sadhana ka sankalp liya, tab uski zindagi mein kaise parivartan aaya."*
-- **Beat 3 is present but brief**: The guru gives the Baglamukhi Sadhana instruction and Chaudas timing, but the transition should stay tight so the hook does not become procedural.
-- **Fix**: Use the English suggested hook as the structure and keep the Hindi opening in this order: court case losing, all doors closing, guru instruction, then sankalp.
+- **Hook has stakes**: The court case is clearly named and "Har daravaaza band hota ja raha tha" gives immediate crisis pressure.
+- **Beat 3 now fuller**: Journey to guru (image 3a ✓), guru listening (image 3b ✓), pranam (image 9), and departure with sankalp (image 10) added — Beat 3 coverage is no longer brief.
+- **Pacing resolved**: 13 images at 88s narration → ~6.8s/image (was 9.8s at 9 images).
+- **Pending — spoken Hindi polish**: Clean before recording: *"Yeh kahani hai ki jab usne is sadhana ka sankalp liya, tab uski zindagi mein kaise parivartan aaya."*
+- **Pending — narration order**: Keep structure as: court case losing → all doors closing → guru instruction → sankalp. Do not open with the narrator frame — open with the crisis.
 
 #### English (Suggested)
 
@@ -134,27 +163,33 @@ A Sadhak's court case was turning against him. Every door was closing. In desper
 ---
 
 
+
 ## Scene-2:
 
-Adalat ki tarikh nazdeek aate dekh, sadhak ne khud ke liye ek samay tay kar lee — wah aane wali amavasya se theek ek din pehle apna kaam shuru karega. Usne apne ghar ka ek kamra puri tarah se khali kar diya — kamre mein rakhi har cheez, furniture ka har tukda bahar nikaal diya gaya. Phir usne un khali diwaron par gehra sunahra-pila rang pot diya aur darwaze par ek lamba-sa peela parda taang diya। Aab yes kamara, Sadhana ke liye poori tarah se tayar tha. Aab wah kamra ek kamra nahin rah gaya tha - Wah ek Maa ko samarpit ek vishesh sthan ban gaya tha.
+### Script Hindi
 
+	Adalat ki agli tarikh nazdeek aate dekh, Sridhar ne Sadhana shuro karne ke liye ek samay tay kar lee — Aane wali amavasya se theek ek din pehle. Usne apne ghar ka, ek kamra puri tarah se khali kar diya. Kamre mein rakhi har cheez: table, kursi, palang,  sab kuch bahar nikaal diya gaya. Phir jaise uske Guru ne aadesh diya tha, usne khali diwaron par gehra pila rang paint kar diya, aur darwaze par ek lamba peela parda taang diya. Aab uska kamara, Sadhana ke liye poori tarah se tayar tha. Aab wah kamra, sirph ek kamra nahin thaa - Wah Maa Baglamukhi ko, samarpit, ek vishesh sthan ban gaya tha.
 
-### English
+### Script English
+
+	As the court date drew near, Sridhar set a specific time to commence his *sadhana*—precisely one day before the upcoming New Moon. He completely emptied one of the rooms in his house. Everything kept in the room—the table, the chair, the bed—absolutely everything was removed. Then, just as his Guru had instructed, he painted the bare walls a deep yellow and hung a long yellow curtain over the doorway. Now, his room was fully prepared for the *sadhana*. It was no longer merely a room; it had transformed into a sacred space dedicated to Mother Baglamukhi.
+
+#### English
 
 This Sadhak decided that he would commence his spiritual practice one day prior to the New Moon of the coming month. He selected a room in his home specifically for this practice. After removing all the furnishings from the room, he painted it entirely yellow. He also hung a long yellow curtain over the doorway.
+	
+#### Artifacts
 
-### Artifacts
-
-#### Video
+##### Video
 
 - Type: Animated still
 - Purpose: Show the room becoming a dedicated yellow sadhana space.
 - Motion: Slow lateral pan across the empty yellow room, curtain moving slightly, faint dust and light particles in the air.
 - Generate now: No
 
-#### Images
+##### Images
 
-1.
+1b.
 
    **Ref:** Upload `Sadhak_A_Ref.png`
 
@@ -216,7 +251,7 @@ This Sadhak decided that he would commence his spiritual practice one day prior 
 
    `painterly AI devotional illustration, Hindustani folk-story art style, final wide shot of the fully prepared yellow sadhana room at night, empty clean floor, long yellow curtain over doorway, folded yellow asan centered before a small space reserved for the bajot, brass diya flame glowing, faint moonlight through a small window, atmosphere of a domestic room transformed into a sacred space for Maa Baglamukhi, no people, slow push-in composition, wide 16:9 composition, no text, no watermark`
 
-### Critique
+#### Critique
 
 **Story Beat:** Ritual Setup (Beat 4)
 **Level:** Low
@@ -226,19 +261,21 @@ This Sadhak decided that he would commence his spiritual practice one day prior 
 - **Pacing slightly slow at 8 images**: 78s over 8 prompts is 9.8s/image. Added four prompts so the preparation sequence can hold the expanded narration at a better rhythm.
 - **Fix**: Clean the last Hindi sentence before recording: *"Ab yeh kamra ek aam kamra nahin raha tha; Maa ke liye samarpit ek vishesh sthan ban chuka tha."*
 
-#### English (Suggested)
+##### English (Suggested)
 
 With the court date looming, the Sadhak gave himself a deadline — he would begin one day before the coming Amavasya. He emptied a room in his home completely — every object, every piece of furniture removed. Then he painted the bare walls a deep golden yellow and hung a long yellow curtain over the doorway. He stepped back and looked. The room was no longer just a room. It was a space set apart for Maa.
 
 ---
 
+
+
 ## Scene-3
 
-Sadhak ke guru ne usko kaha thaa ki Sadhana, pratidin, theek 10 baje raat se shuron kare aur subah 5 baje ko khatam kare. Iske saath, use roaz naha kar, ek peel dhoti pehan kar, peeli chadhar oodh kar, peele asaan main bathana thaa. Iske saath he, Sadhak to saamne ek lakdi ke bajot par, peela kapda lagana thaa aur uspar peele chawal se Baglamukhi yantra bana kar uske beech main Baglamukhi Mata ki tasveer staphit karni thi. Guru ka sakht aadesh tha; Sadhana pooran samarpan aur himmat ke saath karni thi. Guru ne kaha tha, Maa Baglamkuhi ki kripa use hi milti hai jime nishta aur himmat hoti hai.
+Guru ka aadesh thaa, ki Sadhana, roz, raatri 10 baje se shuron kar, subah 5 baje ko sampann karna tha. Saath hi, use har ratri ko, naha kar, peeli dhoti pehan kar, peeli chadhar oodh kar, ek peele asaan main bathana thaa. Iske saath he, Sadhak to saamne ek lakdi ke bajot par, peela kapda lagana thaa aur uspar peele chawal se Baglamukhi yantra bana kar uske beech main Baglamukhi Mata ki tasveer staphit karni thi. Guru ka sakht aadesh tha; Sadhana pooran samarpan aur himmat ke saath karni thi. Guru ne kaha tha, Maa Baglamkuhi ki kripa use hi milti hai jime nishta aur himmat hoti hai.
 
 ### English
 
-The seeker's Guru had instructed him to commence his spiritual practice (Sadhana) daily, precisely at 10:00 PM, and to conclude it at 5:00 AM. Furthermore, he was required to bathe daily, drape himself in a yellow dhoti and a yellow shawl, and sit upon a yellow seat. Additionally, the seeker was to spread a yellow cloth over a wooden altar placed before him; upon this cloth, he was to construct a Baglamukhi Yantra using yellow rice grains and, within its center, install an image of Mother Baglamukhi. The Guru's command was strict: the Sadhana was to be performed with absolute surrender and courage. The Guru had declared that the grace of Mother Baglamukhi is bestowed only upon those who possess both unwavering devotion and courage.
+Sridhar's Guru had instructed him to commence his spiritual practice (Sadhana) daily, precisely at 10:00 PM, and to conclude it at 5:00 AM. Furthermore, he was required to bathe daily, drape himself in a yellow dhoti and a yellow shawl, and sit upon a yellow seat. Additionally, the seeker was to spread a yellow cloth over a wooden altar placed before him; upon this cloth, he was to construct a Baglamukhi Yantra using yellow rice grains and, within its center, install an image of Mother Baglamukhi. The Guru's command was strict: the Sadhana was to be performed with absolute surrender and courage. The Guru had declared that the grace of Mother Baglamukhi is bestowed only upon those who possess both unwavering devotion and courage.
 
 ### Artifacts
 
@@ -318,6 +355,7 @@ The seeker's Guru had instructed him to commence his spiritual practice (Sadhana
 The Guru's instructions were exact — and the Sadhak understood that exactness was the practice. Every night at precisely 10 PM, after bathing, he would dress in a yellow dhoti and yellow shawl and seat himself on a yellow asan. Before him on a wooden bajot, covered in yellow cloth, he would lay out a Baglamukhi Yantra drawn in individual yellow rice grains — and at its very center, place Maa's image. *"Not one rule can be broken,"* the Guru had said. The Sadhak had every intention of keeping each one.
 
 ---
+
 
 ## Scene-4
 
@@ -405,6 +443,7 @@ Adhering to the rules prescribed by his Guru, the sadhak commenced his spiritual
 On the first night, his hands trembled as he lit the ghee diya — the wick dyed yellow, just as the Guru had said. He offered yellow flowers around Maa's image, one by one. Then carefully, deliberately, he shaped seven small mounds of incense and placed a single clove on each. His heart was pounding. But as the diya flame steadied and the first thread of incense smoke rose toward the ceiling, something inside him steadied too.
 
 ---
+
 
 ## Scene-5
 

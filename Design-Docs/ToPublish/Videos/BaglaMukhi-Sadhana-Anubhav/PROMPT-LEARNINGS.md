@@ -143,3 +143,28 @@ The key change from the approved image is the sadhak's gaze — head bowed reads
 | Scene-2 | Img 2 (empty room) | None | No characters |
 | Scenes 3–5 | Sadhak scenes | `Sadhak_B_Ref.png` | Yellow dhoti ritual attire |
 | Scenes 3–5 | Detail/object-only shots | None | No characters |
+
+---
+
+## Image File Naming Convention
+
+### Rule: `Scene-N-<num>[<suffix>].png`
+
+Image files must follow this pattern exactly for `render-scene` to sort them correctly:
+
+| Example | Meaning |
+|---|---|
+| `Scene-1-1a.png` | Scene 1, image 1a |
+| `Scene-1-1b.png` | Scene 1, image 1b |
+| `Scene-1-2.png` | Scene 1, image 2 |
+| `Scene-1-3a.png` | Scene 1, image 3a |
+| `Scene-1-3c.png` | Scene 1, image 3c |
+
+**Sort key** is `(integer, suffix)` — e.g. `1a` → `(1, 'a')`, `3c` → `(3, 'c')`, `4` → `(4, '')`. This is handled by `image_sort_key()` in `render_scene.py`.
+
+### Why this matters
+The original `image_sort_key` did `int(parts[2])` which threw `ValueError` on any suffix letter (`1a`, `3a`, `3b`, `3c`) and collapsed all of them to sort key `0`. They then rendered in arbitrary filesystem order — causing the video to start mid-sequence (e.g. `3a` before `1a`). Fixed 2026-05-06.
+
+### Do not use
+- `Scene-1-2-1.png` style (extra hyphen-number) — the third segment `"2"` parses fine but the convention is inconsistent. Rename to `Scene-1-2.png`.
+- Non-numeric prefixes or scene-level folders — the glob is flat: `Scene-N-*.png` in the project root.

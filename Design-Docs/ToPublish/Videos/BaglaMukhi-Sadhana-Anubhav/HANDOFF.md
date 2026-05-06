@@ -1,6 +1,6 @@
 # Handoff
 
-_Last updated: 2026-05-05 by Claude (claude-sonnet-4-6)_
+_Last updated: 2026-05-06 by Claude (claude-sonnet-4-6)_
 
 ## Prompt Rules
 
@@ -10,14 +10,13 @@ Update it whenever a new pattern is confirmed or a dead end is discovered — th
 ---
 
 ## Current Focus
-Scene-1 render complete with EQ and vintage effect (`Scene-1-test-preview.mp4`). render_scene.py wrapup done — vintage dust, Ken Burns, narration EQ all baked in. Next: continue Scene-4 Image 5, then write outcome scenes (6–8).
+Render CLI defaults updated for current workflow. `render-scene --scene N` now uses `Scene-N.mp3` automatically, vintage is on by default, and `render-scene --all` renders discovered scenes in numeric order with matching narration. Next production task: generate image 7b (pranam), then write outcome scenes (6–8).
 
 ## In Progress
-- `Bagla-Sadhana-Anubhav.md`: Scenes 1–5 fully prompted in GPT-4o format, character refs locked
-- `Bagla-Sadhana-Anubhav-Design.md`: updated to prefer competitor-style visual card density for long-form story pacing instead of only 1-2 stills per scene
-- `PROMPT-LEARNINGS.md`: updated with new ChatGPT image model surgical-edit rules for framed Maa portraits, seven incense mounds, clove counts, four-arm layout, and gada side
-- Courtroom crisis / thumbnail visual lane has started, but final outcome scenes are still not written into the script
-- Script incomplete — outcome scenes (court case resolution, adversaries rendered helpless, devotee's gratitude) not yet written
+- `Bagla-Sadhana-Anubhav.md`: Scene-1 images 1a–8 on disk (11 images, 7.5s hold ✓); image 7b (sadhak pranam) still to generate
+- Script incomplete — outcome scenes (Beats 6–8: vision/experience, court resolution, teaching close) not yet written
+- Courtroom/thumbnail assets exist but not yet placed into final scene numbering
+- Scene-4 images 5–6 not yet generated
 
 ## Recent Decisions
 - **Switched from MidJourney to GPT-4o (ChatGPT)** — GPT-4o solves two-arm constraint, female deity face, and domestic architecture in one shot. MidJourney required 14+ rounds and still failed on key constraints. See PROMPT-LEARNINGS.md → GPT-4o section.
@@ -53,22 +52,22 @@ Scene-1 render complete with EQ and vintage effect (`Scene-1-test-preview.mp4`).
 - Court/thumbnail: `courtroom-1.jpeg`, `crowded-courtroom.png`, `Thumbnail.png`
 - Videos: `Scene-1-1-Vid.mp4`, `Scene-1-2-Vid.mp4`, `Scene-2-1.mp4`, `Scene-2-3.mp4`
 
-## Recent Changes (2026-05-05)
-- `render_scene.py` refactored: added `--critic` pacing analysis table, cached regex patterns, pre-computed glob for generated image counts, `## Critique State` auto-write
-- Scene-1 renamed: `Scene-1-1.png` → `Scene-1-1a.png` + `Scene-1-1b.png`; `Scene-1-2.png` → `Scene-1-2-1.png`
-- `Scene-1.mp3` recorded (GarageBand) — narration 76.1s, 10 images → 7.6s/image (good pacing)
-- `Scene-1-test-preview.mp4` rendered with narration EQ + vintage + Ken Burns (verified clean)
-- Courtroom assets added: `courtroom-1.jpeg`, `crowded-courtroom.png`, `Thumbnail.png`
-- `Scene-4-3.png`, `Scene-4-4.png` added (diya lighting + flower offering inserts)
-- `render_scene.py` wrapup: `--vintage` flag (4-layer sin-hash dust: H/V/diagonal/speck), narration EQ baked into mux (5-band), non-uniform Ken Burns (1.15 zoom + 3% pan drift, random direction per card); code simplified — `PAN_DRIFT` constant, merged zoom branches, renamed dust constants to `_DUST_*`
+## Recent Changes (2026-05-06)
+- **Render CLI workflow simplified** — `render-scene --scene 2 --preview` now auto-resolves `Scene-2.mp3`; `--narration` remains an override; `--vintage` is default with `--no-vintage` as the opt-out; `--all` renders/concats scenes in numeric order when matching narration exists.
+- **Image sort bug fixed** — `image_sort_key()` now parses `(int, suffix)` tuple via regex; previously `int("1a")` crashed → all keys collapsed to 0 → render started with wrong image. Documented in `PROMPT-LEARNINGS.md`.
+- **Script format updated** — scenes now use `### Script Hindi` / `### Script English` sections; `count_script_words()` in `render_scene.py` updated to parse new format with backward-compat fallback.
+- **Scene-1 image sequence reordered** — 1a, 1b, 2, 3a, 3b, 3c, 4, 5, 6, 7, 8 (11 on disk); 5b dropped (not needed); 7b pending.
+- **EQ chain tuned** — `volume=-5dB` → `volume=-4dB` + `alimiter(limit=0.7, attack=5, release=50)` to match competitor benchmark: target mean -20.9 dB / max -4.8 dB. Current render: mean -22.7 dB / max -2.2 dB (pre-limiter render; re-render pending).
+- **Audio benchmarked vs Kumar-Aur-Chudail** — competitor: 638×360, mean -20.9 dB, max -4.8 dB, median frame diff 26.1. Ours: 1280×720, mean -22.7 dB, max -2.2 dB, median diff 7.8. Resolution and motion style differences are intentional; audio gap is closed by new EQ settings.
+- **Critique State / ToDo updated** — Scene-1 pacing marked resolved (7.5s/img ✓, 5b not needed); 7b pranam still pending.
 
 ## Next Steps
-1. **Continue Scene-4 Image 5** — close top-down ritual insert of hands shaping exactly seven incense mounds on the Baglamukhi Yantra, cloves waiting in a copper dish.
-2. **Generate/verify Scene-4 Image 6** — close detail of exactly seven incense mounds total, one clove each, smoke trails, diya, framed Maa softly blurred.
-3. **Review Scene-5 existing files** — `Scene-5-1.png` and `Scene-5-2.png` exist; decide if they are final enough or need regeneration.
-4. **Write remaining outcome scenes** (Hindi + English) — court case crisis, Maa's grace, resolution, adversaries rendered helpless, devotee's gratitude (Beats 6–8).
-5. **Place courtroom/thumbnail assets into final scene numbering** once outcome scenes are written.
-6. **Final Scene-1 render** — `render-scene --scene 1 --narration Scene-1.mp3 --vintage` once all assets confirmed.
+1. **Generate image 7b** — sadhak pranam to guru (cave interior, warm lamp, bowed head). Needs `Sadhak_A_Ref.png`. Prompt already written in `Bagla-Sadhana-Anubhav.md`.
+2. **Re-render Scene-1** — `render-scene --scene 1 --narration Scene-1.mp3 --vintage --preview` to verify new EQ (alimiter added) hits ~-21 dB mean / ~-4.5 dB max.
+3. **Write outcome scenes 6–8** (Hindi + English) — vision/divine experience, court resolution, teaching close. These are the payoff beats; script is incomplete without them.
+4. **Continue Scene-4 images 5–6** — close top-down ritual insert (seven incense mounds, cloves in copper dish), then smoke/diya detail.
+5. **Review Scene-5 files** — `Scene-5-1.png` and `Scene-5-2.png` exist; confirm sufficient or regenerate.
+6. **Place courtroom/thumbnail assets** into final scene numbering once outcome scenes are written.
 
 <!-- HANDOFF-SNAPSHOT:START 2026-05-06 09:57 branch:main -->
 **Modified files:**
