@@ -70,6 +70,33 @@ Scene-1 render complete with EQ and vintage effect (`Scene-1-test-preview.mp4`).
 5. **Place courtroom/thumbnail assets into final scene numbering** once outcome scenes are written.
 6. **Final Scene-1 render** — `render-scene --scene 1 --narration Scene-1.mp3 --vintage` once all assets confirmed.
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-06 08:50 branch:main -->
+**Modified files:**
+```
+ M ../../../../.tickets/Ope-oqbu.md
+ M Bagla-Sadhana-Anubhav.md
+ D Scene-1-2-1.png
+ D Scene-1-3.png
+ M Scene-1-6.png
+ M Scene-1-7.png
+ M Scene-1-8.png
+ D Scene-1-eq.mp3
+?? Scene-1-2.png
+?? Scene-1-3a.png
+?? Scene-1-3b.png
+?? "\303\247.png"
+```
+
+**Recent commits:**
+```
+6290196 chore: auto-update handoff snapshot [2026-05-06 08:44]
+8d31d54 chore: auto-update handoff snapshot [2026-05-06 08:37]
+8e374c4 chore: auto-update handoff snapshot [2026-05-06 08:36]
+eb70b04 chore: auto-update handoff snapshot [2026-05-06 08:34]
+1bc1b9c chore: auto-update handoff snapshot [2026-05-06 08:20]
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-06 08:44 branch:main -->
 **Modified files:**
 ```
@@ -94,31 +121,5 @@ Scene-1 render complete with EQ and vintage effect (`Scene-1-test-preview.mp4`).
 eb70b04 chore: auto-update handoff snapshot [2026-05-06 08:34]
 1bc1b9c chore: auto-update handoff snapshot [2026-05-06 08:20]
 2a810b1 chore: auto-update handoff snapshot [2026-05-06 08:09]
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-06 08:37 branch:main -->
-**Modified files:**
-```
- M ../../../../.tickets/Ope-oqbu.md
- M Bagla-Sadhana-Anubhav.md
- D Scene-1-2-1.png
- D Scene-1-3.png
- M Scene-1-6.png
- M Scene-1-7.png
- D Scene-1-8.png
-?? Scene-1-2.png
-?? Scene-1-3a.png
-?? Scene-1-3b.png
-?? "\303\247.png"
-```
-
-**Recent commits:**
-```
-8e374c4 chore: auto-update handoff snapshot [2026-05-06 08:36]
-eb70b04 chore: auto-update handoff snapshot [2026-05-06 08:34]
-1bc1b9c chore: auto-update handoff snapshot [2026-05-06 08:20]
-2a810b1 chore: auto-update handoff snapshot [2026-05-06 08:09]
-ed3a5cb chore: auto-update handoff snapshot [2026-05-06 08:02]
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
