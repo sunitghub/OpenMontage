@@ -77,15 +77,15 @@ Render CLI defaults updated for current workflow. `render-scene --scene N` now u
 
 **Recent commits:**
 ```
+5fd0f24 feat: make --zoom-burst default, add --no-zoom-burst to disable
+8eecc8d chore: auto-update handoff snapshot [2026-05-06 16:48]
 1b4807c chore: auto-update handoff snapshot [2026-05-06 16:44]
 3195b5a feat: delete intermediate scene files after successful --all concat
 9568fd8 chore: auto-update handoff snapshot [2026-05-06 16:44]
-2c16834 chore: auto-update handoff snapshot [2026-05-06 16:43]
-bdba460 chore: auto-update handoff snapshot [2026-05-06 16:42]
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-06 16:44 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-06 16:48 branch:main -->
 **Modified files:**
 ```
 ?? .#Bagla-Sadhana-Anubhav.md
@@ -93,10 +93,10 @@ bdba460 chore: auto-update handoff snapshot [2026-05-06 16:42]
 
 **Recent commits:**
 ```
+1b4807c chore: auto-update handoff snapshot [2026-05-06 16:44]
 3195b5a feat: delete intermediate scene files after successful --all concat
 9568fd8 chore: auto-update handoff snapshot [2026-05-06 16:44]
 2c16834 chore: auto-update handoff snapshot [2026-05-06 16:43]
 bdba460 chore: auto-update handoff snapshot [2026-05-06 16:42]
-3f43edc chore: auto-update handoff snapshot [2026-05-06 16:41]
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
