@@ -69,6 +69,22 @@ Render CLI defaults updated for current workflow. `render-scene --scene N` now u
 5. **Review Scene-5 files** — `Scene-5-1.png` and `Scene-5-2.png` exist; confirm sufficient or regenerate.
 6. **Place courtroom/thumbnail assets** into final scene numbering once outcome scenes are written.
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-06 16:43 branch:main -->
+**Modified files:**
+```
+?? .#Bagla-Sadhana-Anubhav.md
+```
+
+**Recent commits:**
+```
+bdba460 chore: auto-update handoff snapshot [2026-05-06 16:42]
+3f43edc chore: auto-update handoff snapshot [2026-05-06 16:41]
+0921ad4 chore(baglamukhi): add Scene-3 images and narration
+1b93b4d feat: add zoom-burst transition and organic ellipse dust marks
+840da2b chore: auto-update handoff snapshot [2026-05-06 15:50]
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-06 16:42 branch:main -->
 **Modified files:**
 ```
@@ -82,21 +98,5 @@ Render CLI defaults updated for current workflow. `render-scene --scene N` now u
 1b93b4d feat: add zoom-burst transition and organic ellipse dust marks
 840da2b chore: auto-update handoff snapshot [2026-05-06 15:50]
 36abd21 chore: auto-update handoff snapshot [2026-05-06 15:42]
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-06 16:41 branch:main -->
-**Modified files:**
-```
-?? .#Bagla-Sadhana-Anubhav.md
-```
-
-**Recent commits:**
-```
-0921ad4 chore(baglamukhi): add Scene-3 images and narration
-1b93b4d feat: add zoom-burst transition and organic ellipse dust marks
-840da2b chore: auto-update handoff snapshot [2026-05-06 15:50]
-36abd21 chore: auto-update handoff snapshot [2026-05-06 15:42]
-f2f98cc chore: auto-update handoff snapshot [2026-05-06 15:40]
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
