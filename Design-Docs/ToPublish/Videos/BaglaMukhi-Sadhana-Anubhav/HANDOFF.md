@@ -70,7 +70,7 @@ Scene-1 render complete with EQ and vintage effect (`Scene-1-test-preview.mp4`).
 5. **Place courtroom/thumbnail assets into final scene numbering** once outcome scenes are written.
 6. **Final Scene-1 render** — `render-scene --scene 1 --narration Scene-1.mp3 --vintage` once all assets confirmed.
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-05 19:40 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-05 19:47 branch:main -->
 **Modified files:**
 ```
 ?? Scene-1-eq.mp3
@@ -78,11 +78,11 @@ Scene-1 render complete with EQ and vintage effect (`Scene-1-test-preview.mp4`).
 
 **Recent commits:**
 ```
+4215926 refactor: simplify discover_scenes; update render commands doc
+1b4a82d chore: auto-update handoff snapshot [2026-05-05 19:40]
 058f5dc chore: auto-update handoff snapshot [2026-05-05 19:40]
 5584a68 chore: auto-update handoff snapshot [2026-05-05 19:39]
 65d5432 chore: auto-update handoff snapshot [2026-05-05 19:38]
-da6dd8a feat: add --all flag to render all scenes with matching narration
-78b8136 chore: auto-update handoff snapshot [2026-05-05 19:30]
 ```
 
 **In-progress tickets:**
@@ -99,11 +99,11 @@ Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
 
 **Recent commits:**
 ```
+058f5dc chore: auto-update handoff snapshot [2026-05-05 19:40]
 5584a68 chore: auto-update handoff snapshot [2026-05-05 19:39]
 65d5432 chore: auto-update handoff snapshot [2026-05-05 19:38]
 da6dd8a feat: add --all flag to render all scenes with matching narration
 78b8136 chore: auto-update handoff snapshot [2026-05-05 19:30]
-d11b75e chore: auto-update handoff snapshot [2026-05-05 19:29]
 ```
 
 **In-progress tickets:**
