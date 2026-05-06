@@ -66,6 +66,22 @@ right-side action icons.
 - I2V tool: `tools/video/seedance_replicate.py`
 - Test clip output: `Design-Docs/ToPublish/Shorts/Maa-Kali-5-Unknown-Facts/Renders/test-replicate-i2v.mp4`
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-06 08:02 branch:main -->
+**Modified files:**
+```
+ M .tickets/Ope-oqbu.md
+```
+
+**Recent commits:**
+```
+96cd4a3 chore: add Scene-1 equalized audio for Baglamukhi Anubhav video
+1d76976 chore: auto-update handoff snapshot [2026-05-06 08:00]
+764fd5a chore: auto-update handoff snapshot [2026-05-06 07:47]
+2807899 chore: auto-update handoff snapshot [2026-05-05 19:48]
+a7b524d chore: auto-update handoff snapshot [2026-05-05 19:47]
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-06 08:00 branch:main -->
 **Modified files:**
 ```
@@ -79,27 +95,6 @@ right-side action icons.
 a7b524d chore: auto-update handoff snapshot [2026-05-05 19:47]
 4215926 refactor: simplify discover_scenes; update render commands doc
 1b4a82d chore: auto-update handoff snapshot [2026-05-05 19:40]
-```
-
-**In-progress tickets:**
-```
-Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-06 07:47 branch:main -->
-**Modified files:**
-```
-?? Design-Docs/ToPublish/Videos/BaglaMukhi-Sadhana-Anubhav/Scene-1-eq.mp3
-```
-
-**Recent commits:**
-```
-2807899 chore: auto-update handoff snapshot [2026-05-05 19:48]
-a7b524d chore: auto-update handoff snapshot [2026-05-05 19:47]
-4215926 refactor: simplify discover_scenes; update render commands doc
-1b4a82d chore: auto-update handoff snapshot [2026-05-05 19:40]
-058f5dc chore: auto-update handoff snapshot [2026-05-05 19:40]
 ```
 
 **In-progress tickets:**
