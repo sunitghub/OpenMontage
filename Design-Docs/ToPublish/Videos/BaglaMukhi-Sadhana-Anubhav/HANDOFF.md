@@ -70,6 +70,23 @@ Scene-1 render complete with EQ and vintage effect (`Scene-1-test-preview.mp4`).
 5. **Place courtroom/thumbnail assets into final scene numbering** once outcome scenes are written.
 6. **Final Scene-1 render** — `render-scene --scene 1 --narration Scene-1.mp3 --vintage` once all assets confirmed.
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-06 08:09 branch:main -->
+**Modified files:**
+```
+ M ../../../../.tickets/Ope-oqbu.md
+ M Bagla-Sadhana-Anubhav.md
+```
+
+**Recent commits:**
+```
+ed3a5cb chore: auto-update handoff snapshot [2026-05-06 08:02]
+96cd4a3 chore: add Scene-1 equalized audio for Baglamukhi Anubhav video
+1d76976 chore: auto-update handoff snapshot [2026-05-06 08:00]
+764fd5a chore: auto-update handoff snapshot [2026-05-06 07:47]
+2807899 chore: auto-update handoff snapshot [2026-05-05 19:48]
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-05 19:48 branch:main -->
 **Modified files:**
 ```
@@ -83,27 +100,6 @@ a7b524d chore: auto-update handoff snapshot [2026-05-05 19:47]
 1b4a82d chore: auto-update handoff snapshot [2026-05-05 19:40]
 058f5dc chore: auto-update handoff snapshot [2026-05-05 19:40]
 5584a68 chore: auto-update handoff snapshot [2026-05-05 19:39]
-```
-
-**In-progress tickets:**
-```
-Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-05 19:47 branch:main -->
-**Modified files:**
-```
-?? Scene-1-eq.mp3
-```
-
-**Recent commits:**
-```
-4215926 refactor: simplify discover_scenes; update render commands doc
-1b4a82d chore: auto-update handoff snapshot [2026-05-05 19:40]
-058f5dc chore: auto-update handoff snapshot [2026-05-05 19:40]
-5584a68 chore: auto-update handoff snapshot [2026-05-05 19:39]
-65d5432 chore: auto-update handoff snapshot [2026-05-05 19:38]
 ```
 
 **In-progress tickets:**
