@@ -551,18 +551,21 @@ def zoom_burst_end(mp4_path, fps, preview):
         capture_output=True, text=True, check=True,
     )
     w, h = map(int, dim_out.stdout.strip().split("x"))
-    split_t = total_dur - ZOOM_BURST_DUR
-    # Use a fixed frame count with fps filter to avoid trim/zoompan d mismatch
+    # Start burst before the fade-to-black so it zooms into visible content
+    split_t = total_dur - FADE_DUR - ZOOM_BURST_DUR
     burst_frames = max(int(ZOOM_BURST_DUR * fps), 1)
+    fade_frames = max(int(FADE_DUR * fps), 1)
+    total_frames = burst_frames + fade_frames  # zoompan covers burst + fade
 
-    # zoom ramps 1.0 → 2.5; blur ramps 1px → 10px (radius must stay ≥ 1)
-    zoom_expr = f"1+1.5*on/{burst_frames}"
-    blur_expr = f"1+n/{burst_frames}*9"
+    # zoom ramps 1.0 → 2.5 over burst_frames, holds at 2.5 through fade
+    # blur ramps 1px → 10px over burst_frames, holds at 10px through fade
+    zoom_expr = f"min(1+1.5*on/{burst_frames},2.5)"
+    blur_expr = f"1+min(n,{burst_frames})/{burst_frames}*9"
     fc = (
         f"[0:v]split=2[va][vb];"
         f"[va]trim=0:{split_t:.3f},setpts=PTS-STARTPTS[v1];"
         f"[vb]trim={split_t:.3f},setpts=PTS-STARTPTS,fps={fps},"
-        f"zoompan=z='{zoom_expr}':d={burst_frames}"
+        f"zoompan=z='{zoom_expr}':d={total_frames}"
         f":x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={w}x{h}:fps={fps},"
         f"boxblur=luma_radius='{blur_expr}':luma_power=1[v2];"
         f"[v1][v2]concat=n=2:v=1:a=0[vout]"
