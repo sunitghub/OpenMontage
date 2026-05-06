@@ -35,16 +35,28 @@ NARRATION_EQ = (
     "treble=g=2:f=10000,"
     "alimiter=level_in=1:level_out=0.7:limit=0.7:attack=5:release=50"
 )
-# Film dust: H strokes (8x2px), V strokes (2x8px), diagonal (4x2px rotated), tiny specks.
-# Four layers keep total ~15 marks/frame at 720p; H/V trimmed to make room for diagonal.
-_DUST_H = "lt(mod(abs(sin(floor(X/8)*127.1+floor(Y/2)*311.7+floor(N/8)*74.7)*43758.5),1.0),0.00008)"
-_DUST_V = "lt(mod(abs(sin(floor(X/2)*211.7+floor(Y/8)*173.1+floor(N/8)*97.3)*43758.5),1.0),0.00008)"
-_DUST_D = "lt(mod(abs(sin(floor((X+Y)/4)*157.3+floor((X-Y)/2)*271.9+floor(N/8)*83.1)*43758.5),1.0),0.00005)"
-_DUST_T = "lt(mod(abs(sin(floor(X/2)*331.1+floor(Y/2)*271.7+floor(N/8)*51.9)*43758.5),1.0),0.00001)"
+# Film dust: per-block shape randomized by a position-only hash (h2).
+# h1 (time+position) gates activation; h2 picks shape: 40% V-streak, 30% diagonal, 30% circle.
+# Streaks are 4×11px ellipses; circle is r=3.5px. Marks change every 8 frames.
+_DUST = (
+    "if("
+    "lt(mod(abs(sin(floor(X/15)*211.7+floor(Y/15)*173.1+floor(N/8)*97.3)*43758.5),1.0),0.0008),"
+    "if(lt(mod(abs(sin(floor(X/15)*431.3+floor(Y/15)*613.7)*43758.5),1.0),0.40),"
+    "lt(pow(mod(X,15)-7,2)/4+pow(mod(Y,15)-7,2)/30.25,1),"
+    "if(lt(mod(abs(sin(floor(X/15)*431.3+floor(Y/15)*613.7)*43758.5),1.0),0.70),"
+    "lt(pow(mod(X+Y,15)-7,2)/4+pow(mod(X-Y,15)-7,2)/30.25,1),"
+    "lt(pow(mod(X,15)-7,2)+pow(mod(Y,15)-7,2),12.25))),"
+    "0)"
+)
+_DUST_S = (  # small specks: r=2px circle
+    "if("
+    "lt(mod(abs(sin(floor(X/8)*331.1+floor(Y/8)*271.7+floor(N/8)*51.9)*43758.5),1.0),0.0002),"
+    "lt(pow(mod(X,8)-4,2)+pow(mod(Y,8)-4,2),4),"
+    "0)"
+)
 VINTAGE_VF = (
     "noise=alls=8:allf=t+u,"
-    f"geq=lum='if(gt({_DUST_H}+{_DUST_V}+{_DUST_D}+{_DUST_T},0),0,lum(X,Y))'"
-    ":cb='cb(X,Y)':cr='cr(X,Y)'"
+    f"geq=lum='if(gt({_DUST}+{_DUST_S},0),0,lum(X,Y))':cb='cb(X,Y)':cr='cr(X,Y)'"
 )
 
 HONORIFICS = {"maa", "shri", "sri", "mata", "devi", "shree"}
@@ -518,6 +530,61 @@ def render_one_scene(args, scene_num, narration_path, base, renders_dir, script_
         shutil.rmtree(tmp)
 
 
+ZOOM_BURST_DUR = 0.7   # seconds of zoom-burst at scene end
+ZOOM_BURST_PROB = 0.4  # probability per scene when using --all
+
+
+def zoom_burst_end(mp4_path, fps, preview):
+    """Apply radial zoom-burst + increasing blur to the last ZOOM_BURST_DUR seconds in-place."""
+    dur_out = subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+         "-of", "default=noprint_wrappers=1:nokey=1", mp4_path],
+        capture_output=True, text=True, check=True,
+    )
+    total_dur = float(dur_out.stdout.strip())
+    if total_dur < ZOOM_BURST_DUR * 2:
+        return  # scene too short — skip
+
+    dim_out = subprocess.run(
+        ["ffprobe", "-v", "error", "-select_streams", "v:0",
+         "-show_entries", "stream=width,height", "-of", "csv=s=x:p=0", mp4_path],
+        capture_output=True, text=True, check=True,
+    )
+    w, h = map(int, dim_out.stdout.strip().split("x"))
+    split_t = total_dur - ZOOM_BURST_DUR
+    burst_frames = max(int(ZOOM_BURST_DUR * fps), 1)
+
+    # zoom ramps 1.0 → 2.5 over burst_frames; blur ramps 0 → 10px
+    zoom_expr = f"1+1.5*on/{burst_frames}"
+    fc = (
+        f"[0:v]split=2[va][vb];"
+        f"[va]trim=0:{split_t:.3f},setpts=PTS-STARTPTS[v1];"
+        f"[vb]trim={split_t:.3f},setpts=PTS-STARTPTS,"
+        f"zoompan=z='{zoom_expr}':d={burst_frames}"
+        f":x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={w}x{h}:fps={fps},"
+        f"boxblur=luma_radius='n/{burst_frames}*10':luma_power=1[v2];"
+        f"[v1][v2]concat=n=2:v=1:a=0[vout]"
+    )
+    audio_probe = subprocess.run(
+        ["ffprobe", "-v", "error", "-select_streams", "a:0",
+         "-show_entries", "stream=codec_type",
+         "-of", "default=noprint_wrappers=1", mp4_path],
+        capture_output=True, text=True,
+    )
+    has_audio = bool(audio_probe.stdout.strip())
+
+    tmp = mp4_path + ".zburst.mp4"
+    cmd = ["ffmpeg", "-y", "-i", mp4_path, "-filter_complex", fc, "-map", "[vout]"]
+    if has_audio:
+        cmd += ["-map", "0:a", "-c:a", "copy"]
+    cmd += ["-c:v", "libx264", "-crf", "18",
+            "-preset", "veryfast" if preview else "medium",
+            "-pix_fmt", "yuv420p", tmp]
+    subprocess.run(cmd, check=True, capture_output=True)
+    os.replace(tmp, mp4_path)
+    print(f"  ↳ zoom-burst applied")
+
+
 def main():
     ap = argparse.ArgumentParser(add_help=False)
     ap.add_argument("--scene", default=None)
@@ -532,6 +599,8 @@ def main():
                     help="Add film grain + dust spots (default)")
     ap.add_argument("--no-vintage", dest="vintage", action="store_false",
                     help="Disable film grain + dust spots")
+    ap.add_argument("--zoom-burst", dest="zoom_burst", action="store_true",
+                    help="Apply radial zoom-burst at scene end (random 40%% with --all)")
     ap.add_argument("--critic", action="store_true",
                     help="Print critique summary from script MD (no render)")
     ap.add_argument("--project", default=None,
@@ -585,15 +654,20 @@ def main():
             print(f"\nSkipping: Scene {', '.join(str(s) for s in skipped)}")
         print(f"\nRendering {len(to_render)} of {len(scenes)} scenes...")
 
+        fps = 24 if args.preview else 30
         rendered = []
         for s, mp3_path in to_render:
             out = render_one_scene(args, s, mp3_path, base, renders_dir, script_md)
             if out:
+                if args.zoom_burst and random.random() < ZOOM_BURST_PROB:
+                    zoom_burst_end(out, fps, args.preview)
                 rendered.append(out)
 
         if len(rendered) > 1:
             suffix = "-preview" if args.preview else ""
-            full_out = os.path.join(renders_dir, f"Full-test{suffix}.mp4")
+            scene_nums = [s for s, _ in to_render]
+            range_tag = f"Scene-{min(scene_nums)}-{max(scene_nums)}"
+            full_out = os.path.join(renders_dir, f"{range_tag}-test{suffix}.mp4")
             tmp = tempfile.mkdtemp()
             try:
                 concat_txt = os.path.join(tmp, "concat.txt")
@@ -619,7 +693,10 @@ def main():
         print("Pass --narration FILE to override the default Scene-N.mp3 path.")
         return 1
 
+    fps = 24 if args.preview else 30
     out = render_one_scene(args, args.scene, narration_path, base, renders_dir, script_md)
+    if out and args.zoom_burst:
+        zoom_burst_end(out, fps, args.preview)
     return 0 if out else 1
 
 

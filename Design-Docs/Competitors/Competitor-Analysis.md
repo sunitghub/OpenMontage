@@ -52,10 +52,11 @@ Captured 2026-05-05. Use for benchmarking view velocity and production ROI.
 | Charava-Bhootni.mp4 | 21:59 | 1.1M | 7 months ago (~Oct 2025) | ~157K/month | 4.2s | -21.7 dB | -5.5 dB |
 | Kumar-Aur-Chudail.mp4 | 21:39 | 529K | 2 months ago (~Mar 2026) | ~265K/month | 5–8s | -20.9 dB | -4.8 dB |
 | JInn-Masoom.mp4 | 19:03 | 727K | 10 months ago (~Jul 2025) | ~73K/month | 6.0s | -20.1 dB | -0.0 dB ⚠ clipping |
+| Insaan-Aatma.mp4 | 27:27 | 614K | 3 months ago (~Feb 2026) | ~205K/month | n/a (real video) | -13.4 dB ⚠ loud | -0.0 dB ⚠ clipping |
 
-**Audio target for our videos:** mean `-20 to -22 dB`, max `-4 to -6 dB`. Jinn-Masoom clips at 0 dB — a production defect; still gets 727K views but avoid it.
+**Audio target for our videos:** mean `-20 to -22 dB`, max `-4 to -6 dB`. Jinn-Masoom and Insaan-Aatma both clip at 0 dB — production defect; avoid.
 
-Key takeaway: Kumar Aur Chudail is the fastest view-velocity competitor (~265K/month, 2 months old, zero I2V) despite having the lowest production cost. Comic illustration + zero I2V is outperforming photoreal + selective I2V on a per-month basis right now.
+Key takeaway: Kumar Aur Chudail is the fastest view-velocity competitor (~265K/month, 2 months old, zero I2V) despite having the lowest production cost. Comic illustration + zero I2V is outperforming photoreal + selective I2V on a per-month basis right now. Insaan-Aatma (~205K/month) confirms the atma/soul story lane is strong but is a fundamentally different production type (real video).
 
 ---
 
@@ -501,6 +502,42 @@ Important conclusion:
 - the comic illustration style + fade-to-black transitions + costume-continuity is a complete, replicable production system
 - for OpenMontage, the winning extraction from this reference is: `style-lock your image generator` + `apply fade-to-black globally` + `let costume carry character identity` + `reserve speech bubbles for 2–3 dramatic dialogue beats`
 - audio mixing target confirmed: `-20 to -21 dB` mean, `-5 dB` max, stereo AAC 96 kbps for web delivery
+
+## Seventh Reference Case: Insaan Aatma
+
+Reference:
+- `/Users/sunitjoshi/Developer/TryOuts/OpenMontage/Design-Docs/Competitors/Insaan-Aatma.mp4`
+- Channel: **Mitti Se Judi Kahani** (watermark visible on every frame)
+- 614K views, ~3 months old (~Feb 2026), ~205K views/month
+
+### Production type — fundamentally different from all prior references
+
+This is **not a still-image montage**. Insaan-Aatma uses **real actors filmed at real locations** (river ghats, forests, village interiors) as its primary visual content. AI-generated photoreal stills appear selectively — only at supernatural/pivotal moments (torch ceremony at ghat, man standing in water at night). Every other competitor we analyzed uses AI stills exclusively. This is a hybrid production model.
+
+- **No vintage grain** — frames are clean and modern, zero film grain
+- **No text overlays / caption cards** — pure visual storytelling, narration carries all meaning
+- **Runtime: 27.5 minutes** — longest analyzed (others ~20–22 min)
+- **Resolution:** 640×360 (same delivery standard as all other competitors)
+
+### Transition signature: radial zoom-burst
+
+The single most distinctive visual element is a **heavy radial zoom-burst** used as scene transitions — rapid zoom toward center combined with full motion blur, creating a "rushing through space" feel. Used at ~40–60% of transitions (not every cut). Other competitors use fade-to-black or hard cuts exclusively.
+
+Applied to our pipeline as `--zoom-burst` flag in `render-scene`: randomly applied at 40% of scene-ends in `--all` mode (matches competitor frequency), always applied when `--scene N --zoom-burst`.
+
+### Audio
+- **Mean: -13.4 dB** — 7.5 dB louder than our -20.9 dB target
+- **Max: 0.0 dB** — hard clipping, same defect as Jinn-Masoom
+- Audio defect has not hurt view velocity; audience tolerates it
+- **No change to our audio target** — stay at -20 to -21 dB mean, -4 to -6 dB max
+
+### What this confirms for our pipeline
+- Atma/soul story lane: ~205K/month validates the content type even without real video
+- Our AI-still + Ken Burns + vintage grain approach is a distinct lane from theirs — no collision
+- Zoom-burst transition is worth adding as a production tool (done — `render-scene --zoom-burst`)
+- Real video production is not relevant to our current stack; the AI-still hybrid works at comparable velocity (Kumar Aur Chudail ~265K/month)
+
+---
 
 ## Prototype Findings: Maa Kali Yantra Short
 
