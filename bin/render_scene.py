@@ -552,17 +552,19 @@ def zoom_burst_end(mp4_path, fps, preview):
     )
     w, h = map(int, dim_out.stdout.strip().split("x"))
     split_t = total_dur - ZOOM_BURST_DUR
+    # Use a fixed frame count with fps filter to avoid trim/zoompan d mismatch
     burst_frames = max(int(ZOOM_BURST_DUR * fps), 1)
 
-    # zoom ramps 1.0 → 2.5 over burst_frames; blur ramps 0 → 10px
+    # zoom ramps 1.0 → 2.5; blur ramps 1px → 10px (radius must stay ≥ 1)
     zoom_expr = f"1+1.5*on/{burst_frames}"
+    blur_expr = f"1+n/{burst_frames}*9"
     fc = (
         f"[0:v]split=2[va][vb];"
         f"[va]trim=0:{split_t:.3f},setpts=PTS-STARTPTS[v1];"
-        f"[vb]trim={split_t:.3f},setpts=PTS-STARTPTS,"
+        f"[vb]trim={split_t:.3f},setpts=PTS-STARTPTS,fps={fps},"
         f"zoompan=z='{zoom_expr}':d={burst_frames}"
         f":x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={w}x{h}:fps={fps},"
-        f"boxblur=luma_radius='n/{burst_frames}*10':luma_power=1[v2];"
+        f"boxblur=luma_radius='{blur_expr}':luma_power=1[v2];"
         f"[v1][v2]concat=n=2:v=1:a=0[vout]"
     )
     audio_probe = subprocess.run(
@@ -580,7 +582,12 @@ def zoom_burst_end(mp4_path, fps, preview):
     cmd += ["-c:v", "libx264", "-crf", "18",
             "-preset", "veryfast" if preview else "medium",
             "-pix_fmt", "yuv420p", tmp]
-    subprocess.run(cmd, check=True, capture_output=True)
+    result = subprocess.run(cmd, capture_output=True)
+    if result.returncode != 0:
+        print(f"  ↳ zoom-burst failed, skipping:\n{result.stderr.decode()[-500:]}")
+        if os.path.exists(tmp):
+            os.remove(tmp)
+        return
     os.replace(tmp, mp4_path)
     print(f"  ↳ zoom-burst applied")
 
