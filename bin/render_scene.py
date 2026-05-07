@@ -530,7 +530,7 @@ def render_one_scene(args, scene_num, narration_path, base, renders_dir, script_
         shutil.rmtree(tmp)
 
 
-ZOOM_BURST_DUR = 0.7   # seconds of zoom-burst at scene end
+ZOOM_BURST_DUR = 0.5   # seconds of zoom-burst at scene end
 ZOOM_BURST_PROB = 0.4  # probability per scene when using --all
 
 
@@ -559,8 +559,8 @@ def zoom_burst_end(mp4_path, fps, preview):
 
     # zoom ramps 1.0 → 2.5 over burst_frames, holds at 2.5 through fade
     # blur ramps 1px → 10px over burst_frames, holds at 10px through fade
-    zoom_expr = f"min(1+1.5*on/{burst_frames},2.5)"
-    blur_expr = f"1+min(n,{burst_frames})/{burst_frames}*9"
+    zoom_expr = f"min(1+2.5*on/{burst_frames},3.5)"
+    blur_expr = f"1+min(n,{burst_frames})/{burst_frames}*14"
     fc = (
         f"[0:v]split=2[va][vb];"
         f"[va]trim=0:{split_t:.3f},setpts=PTS-STARTPTS[v1];"
