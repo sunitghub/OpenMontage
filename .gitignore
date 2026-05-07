@@ -71,6 +71,10 @@ pixabay_music_*
 .DS_Store
 Thumbs.db
 
+# Emacs
+\#*\#
+.\#*
+
 # Node (for remotion-composer/)
 node_modules/
 
