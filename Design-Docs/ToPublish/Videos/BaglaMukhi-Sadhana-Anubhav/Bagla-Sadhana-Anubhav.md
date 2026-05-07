@@ -47,6 +47,7 @@ _Last updated: 2026-05-06_
 
 **Fixed:** Scene-2 · Scene-3 · Scene-4
 
+
 ## Scene-1:
 
 ### Script Hindi 
@@ -165,6 +166,7 @@ A Sadhak's court case was turning against him. Every door was closing. In desper
 
 
 
+
 ## Scene-2:
 
 ### Script Hindi
@@ -279,7 +281,7 @@ Sridhar ke Guru ka aadesh thaa, ki Sadhana, prati-raatri 10 baje ko shuron karni
 
 ### Script English
 
-Sridhar's Guru had instructed him to commence his spiritual practice (Sadhana) daily, precisely at 10:00 PM, and to conclude it at 5:00 AM. Furthermore, he was required to bathe daily, drape himself in a yellow dhoti and a yellow shawl, and sit upon a yellow seat. Additionally, the seeker was to spread a yellow cloth over a wooden altar placed before him; upon this cloth, he was to construct a Baglamukhi Yantra using yellow rice grains and, within its center, install an image of Mother Baglamukhi. The Guru's command was strict: the Sadhana was to be performed with absolute surrender and courage. The Guru had declared that the grace of Mother Baglamukhi is bestowed only upon those who possess both unwavering devotion and courage.
+Sridhar's Guru had instructed him to commence his spiritual practice (Sadhana) daily, precisely at 10:00 PM, and to conclude it at 5:00 AM. Furthermore, he was required to bathe daily, drape himself in a yellow dhoti and a yellow shawl,Grea and sit upon a yellow seat. Additionally, the seeker was to spread a yellow cloth over a wooden altar placed before him; upon this cloth, he was to construct a Baglamukhi Yantra using yellow rice grains and, within its center, install an image of Mother Baglamukhi. The Guru's command was strict: the Sadhana was to be performed with absolute surrender and Ok, courage. The Guru had declared that the grace of Mother Baglamukhi is bestowed only upon those who possess both unwavering devotion and courage.
 
 ### Artifacts
 
@@ -289,7 +291,7 @@ Sridhar's Guru had instructed him to commence his spiritual practice (Sadhana) d
 - Purpose: Present the complete ritual arrangement and the strict nightly discipline.
 - Motion: Slow push from the sadhak toward the bajot, soft clock-light suggestion, yantra glow growing gently from the center.
 - Generate now: No
-
+I think
 #### Images
 
 1b.
@@ -361,13 +363,18 @@ The Guru's instructions were exact — and the Sadhak understood that exactness 
 ---
 
 
+
 ## Scene-4
+	
+### Script Hindi
 
-Guru ke bataye hue niyamon ka palan kar Sadhak ne apni sadhana shuri ki. Dakshin ki tarpah muh kar ke, woh apne peele asan pe baeth gaya. Usne bajoat pe, ek ghee diyaho jalaya jiski batti bhi pele rang main rangi hui thi. Phir usne Mata ki tasveer ke charon aur peele phol samarpit kiye. Phir usne agarbatti ke saat dher banaye aur har ek par ek long rakha. Man hi man, Sadhak ka hridya vichalit tha, ek dar sa bhi tha. Par, man main ek shanti bhi thi ki, aab sari pareshaniyan Maa ko samarpit karne wala tha.
+	Guru ke bataye hue, niyamon ka anusar, Sridhar ne apni sadhana shuri kar li. Dakshin ki tarpah, muh kar ke, woh apne peele asan pe baeth gaya. Usne bajoat par, ek ghee ka diya jalaya, jiski batti bhi pele rang main rangi hui thi. Phir usne Mata ki tasveer ke charon aur peele phol samarpit kiye. Iske baad usne agarbatti ke, 7 dher banaye, aur har ke oopar ek long rakha. Man hi man, Sridahr ka hridya vichalit tha, ek dar sa bhi tha. Par, man main ek shanti bhi thi ki, kyonki woh aapni sari pareshaniyan, Maa Baglamukhi ko samarpit karne jaa raha tha.  
 
-### English
 
-Adhering to the rules prescribed by his Guru, the sadhak commenced his spiritual practice. Facing south, he seated himself upon his yellow mat. On a small wooden stool, he lit a ghee lamp, the wick of which had also been dyed yellow. Next, he offered yellow flowers all around the image of the Mother Goddess. Then, he arranged seven small mounds of incense, placing a clove atop each one.
+### Script English
+
+	Adhering to the rules prescribed by his Guru, Sridhar commenced his spiritual practice. Facing south, he seated himself upon his yellow mat. On a small wooden stool, he lit a ghee lamp, the wick of which had also been dyed yellow. Next, he offered yellow flowers around the image of the Mother Goddess. Following this, he arranged seven small piles of incense sticks, placing a clove atop each one. Deep within, Sridhar’s heart was restless, tinged even with a sense of fear. Yet, there was also a profound peace within his mind—the assurance that he was about to surrender all his troubles to Mother Baglamukhi.
+	
 
 ### Artifacts
 
@@ -406,27 +413,18 @@ Adhering to the rules prescribed by his Guru, the sadhak commenced his spiritual
 
    `painterly AI devotional illustration, Hindustani folk-story art style, close top-down ritual insert of male hands shaping exactly seven small incense mounds on the Baglamukhi Yantra, each mound separate and evenly spaced, small bowl of loose incense powder nearby, cloves waiting in a copper dish, yellow cloth and rice-grain geometry visible, warm golden diya light, no face visible, motion-friendly hand-arranging composition, wide 16:9 composition, no text, no watermark, no extra mounds`
 
+
 6.
-
-   `painterly AI devotional illustration, Hindustani folk-story art style, close detail of exactly seven incense mounds total on the Baglamukhi Yantra, each mound topped with exactly one clove, thin smoke trails rising from the mounds, glowing ghee diya flame in foreground, framed Maa Baglamukhi image softly blurred in background as yellow-clad goddess with golden gada and no trident, yellow marigold petals, warm amber devotional lighting, motion-friendly smoke-and-flame insert shot, wide 16:9 composition, no text, no watermark`
-
-7.
-
-   **Ref:** Upload `Sadhak_B_Ref.png`
-
-   `painterly AI devotional illustration, Hindustani folk-story art style, medium devotional shot of young Indian male sadhak in yellow dhoti and yellow shawl sitting perfectly still after completing the first offerings, hands resting on knees, eyes closed, brass diya flame and exactly seven smoking incense mounds glowing on the bajot before him, yellow room at night, expression fearful but becoming steady, warm amber light, motion-friendly slow push toward calm face, wide 16:9 composition, no text, no watermark`
-
-8.
 
    **Ref:** Upload `Sadhak_B_Ref.png`
 
    `painterly AI devotional illustration, Hindustani folk-story art style, close emotional portrait of young Indian male sadhak in yellow dhoti and yellow shawl in the moment after lighting the ghee diya and completing the offerings, head slightly bowed, eyes just closing, expression carrying both the trembling nervousness of a troubled man and the first arriving stillness of surrender to Maa, warm diya glow casting golden light across his face from below, offerings softly blurred behind him, motion-friendly slow push-in on his settling expression, wide 16:9 composition, no text, no watermark`
 
-9.
+7.
 
    `painterly AI devotional illustration, Hindustani folk-story art style, close medium shot of the wooden bajot as seen from the sadhak's eye level, all seven incense mounds now lit and smoking steadily, seven thin smoke trails rising together toward the ceiling, ghee diya flame bright at center, framed Maa Baglamukhi image in background with yellow marigolds at base, yellow cloth glowing in amber light, complete altar as it appears from the kneeling devotee's view, sacred and complete, motion-friendly smoke-rise composition, wide 16:9 composition, no text, no watermark`
 
-10.
+8.
 
    **Ref:** Upload `Sadhak_B_Ref.png`
 
@@ -449,70 +447,69 @@ On the first night, his hands trembled as he lit the ghee diya — the wick dyed
 ---
 
 
+
+
 ## Scene-5
 
-Iske baad usne bajot pe ek paani ka lota rakha jo bhi peele rang ka thaa. Phir achaman karke usne thoda sa paani aur kaner ke phool apne dahine hatheli me liye aur prathana ki "Hai Mata Baglamukhi, main aaj se ye anushtan shoro kara rah hon. Is ke phal swarop, mere khilaaph jo bhi mukadme hai, woh saab mere anukool saabit ho. Mere pratidvandi kisi bhi vad-vivad main mujhse jeet na saken aur bebas ho jaye. Meri aap pooran taraph se raksha karen."
+### Script Hindi
 
-### English
+	Iske baad, Sridhar ne, bajot pe, ek paani ka lota rakha, jo bhi peele rang ka thaa. Phir achaman aur shudhi karke, usne thoda sa paani aur kaner ke phool apne dahine hatheli me liye. Aab use sankalpa kehna than. Mata ke tasveer ko dhyaan se dekhte hue, usne ke gehri saans li aur kaha: "Hai Mata Baglamukhi, main aaj se ye anushtan shoro kar rah hon. Is ke phal swarop, mere khilaaph jo bhi mukadme hai, wah khareej kar diye jaye. Mujh par aarop lagane wale, kisi bhi vad-vivad main mujhse jeet na saken aur bebas ho jaye. Meri aap pooran roop se raksha karna." Yeh keh karna, usne jaal to Maa ki tasveer pe arpit kar diya aur Guru ke aadesh anusar, Maa ka kuch der dhyaan kiya.
+	
+	
+### Script English
 
-Subsequently, he placed a water pot, which too was yellow in color, next to Mata's picture. Then, having performed the water cleansing ritual of the place, he gathered a small amount of water and some Oleander flowers in his right palm and prayed: "O Mother Baglamukhi, may all the lawsuits filed against me turn out in my favor. May my adversaries be unable to defeat me in any dispute and be rendered helpless."
+    Subsequently, he placed a water pot—which was also yellow in color—upon the low wooden stool. Then, having performed the ritual sipping of water (Achaman), he took a small amount of water and some Oleander flowers into his right palm and offered this prayer: "O Mother Baglamukhi, I am commencing this ritual observance today. As a result of this, may all legal cases currently pending against me be resolved in my favor. May my adversaries be unable to defeat me in any dispute or argument, and may they be rendered helpless. Please grant me your complete and absolute protection."
 
-### Artifacts
+#### Artifacts
 
-#### Video
-
-- Type: Animated still
-- Purpose: Land the prayer beat with the sadhak asking Maa Baglamukhi for victory in disputes and legal matters.
-- Motion: Slow push toward the sadhak's cupped right palm, gentle glow around the flowers and Mata image, soft smoke drift.
-- Generate now: No
-
-#### Images
+##### Images
 
 1.
 
    **Ref:** Upload `Sadhak_B_Ref.png`
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, young Indian male sadhak in yellow dhoti and yellow shawl, carefully placing a yellow brass water lota beside framed Maa Baglamukhi image on wooden bajot, hands deliberate and reverent, Baglamukhi Yantra of yellow rice visible, marigold petals, brass diya flame, incense smoke, yellow room interior at night, warm amber glow, focused devotional act, narrative scene-card composition, polished folk illustration, wide 16:9 composition, no text, no watermark`
+	`painterly AI devotional illustration, Hindustani folk-story art style, young Indian male sadhak in yellow dhoti and yellow shawl, carefully placing a yellow brass water lota beside framed Maa Baglamukhi image on wooden bajot, hands deliberate and reverent, Baglamukhi Yantra of yellow rice visible, marigold petals, brass diya flame, incense smoke, yellow room interior at night, warm amber glow, focused devotional act, narrative scene-card composition, polished folk illustration, wide 16:9 composition, no text, no watermark`
 
 2.
 
    **Ref:** Upload `Sadhak_B_Ref.png`
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, close shot of Indian male sadhak's cupped right palm holding water and yellow oleander flowers, droplets of water glistening, eyes closed in deep prayer, yellow dhoti and yellow shawl visible, Baglamukhi Yantra and framed Maa image softly visible behind on bajot, brass diya flame, warm golden amber light, peaceful surrendered expression, narrative scene-card composition, polished folk illustration, wide 16:9 composition, no text, no watermark`
+	`painterly AI devotional illustration, Hindustani folk-story art style, close shot of Indian male sadhak's cupped right palm holding water and yellow oleander flowers, droplets of water glistening, eyes closed in deep prayer, yellow dhoti and yellow shawl visible, Baglamukhi Yantra and framed Maa image softly visible behind on bajot, brass diya flame, warm golden amber light, peaceful surrendered expression, narrative scene-card composition, polished folk illustration, wide 16:9 composition, no text, no watermark`
 
 3.
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, close ritual insert of a yellow brass water lota being set down beside the framed Maa Baglamukhi image on a wooden bajot, male hand releasing the lota handle, Baglamukhi Yantra made from yellow rice beneath, marigold petals, glowing diya, exactly seven incense mounds in soft background, warm golden light, motion-friendly object-placement composition, wide 16:9 composition, no text, no watermark, no distorted hands`
+	`painterly AI devotional illustration, Hindustani folk-story art style, close ritual insert of a yellow brass water lota being set down beside the framed Maa Baglamukhi image on a wooden bajot, male hand releasing the lota handle, Baglamukhi Yantra made from yellow rice beneath, marigold petals, glowing diya, exactly seven incense mounds in soft background, warm golden light, motion-friendly object-placement composition, wide 16:9 composition, no text, no watermark, no distorted hands`
 
 4.
 
    **Ref:** Upload `Sadhak_B_Ref.png`
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, young Indian male sadhak in yellow dhoti and yellow shawl performing achaman beside the bajot, one hand near his lips with a small amount of water, other hand resting near the yellow lota, eyes lowered in concentration, framed Maa Baglamukhi image, diya flame, incense smoke, yellow room at night, solemn purification moment, motion-friendly slow push-in composition, wide 16:9 composition, no text, no watermark, no distorted hands`
+	`painterly AI devotional illustration, Hindustani folk-story art style, young Indian male sadhak in yellow dhoti and yellow shawl performing achaman beside the bajot, one hand near his lips with a small amount of water, other hand resting near the yellow lota, eyes lowered in concentration, framed Maa Baglamukhi image, diya flame, incense smoke, yellow room at night, solemn purification moment, motion-friendly slow push-in composition, wide 16:9 composition, no text, no watermark, no distorted hands`
 
 5.
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, extreme close detail of fresh yellow oleander flowers and a few drops of water being gathered into a male right palm, yellow petals glossy with water, brass lota rim and diya flame softly blurred, sacred offering focus, warm amber devotional light, motion-friendly macro rack-focus insert shot, wide 16:9 composition, no text, no watermark, no distorted fingers`
+	`painterly AI devotional illustration, Hindustani folk-story art style, extreme close detail of fresh yellow oleander flowers and a few drops of water being gathered into a male right palm, yellow petals glossy with water, brass lota rim and diya flame softly blurred, sacred offering focus, warm amber devotional light, motion-friendly macro rack-focus insert shot, wide 16:9 composition, no text, no watermark, no distorted fingers`
 
 6.
 
    **Ref:** Upload `Sadhak_B_Ref.png`
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, medium close devotional shot of young Indian male sadhak in yellow dhoti and yellow shawl praying with his cupped right palm lifted toward the framed Maa Baglamukhi image, water and yellow oleander flowers visible in the palm, eyes closed, warm diya glow on his face, incense smoke drifting between him and the bajot, framed Maa as yellow-clad female goddess with golden crown blessing hand and golden gada mace on viewer-left, no trident no Shiva symbols, peaceful surrendered atmosphere, wide 16:9 composition, no text, no watermark, no extra limbs, no distorted hands`
+	`painterly AI devotional illustration, Hindustani folk-story art style, medium close devotional shot of young Indian male sadhak in yellow dhoti and yellow shawl praying with his cupped right palm lifted toward the framed Maa Baglamukhi image, water and yellow oleander flowers visible in the palm, eyes closed, warm diya glow on his face, incense smoke drifting between him and the bajot, framed Maa as yellow-clad female goddess with golden crown blessing hand and golden gada mace on viewer-left, no trident no Shiva symbols, peaceful surrendered atmosphere, wide 16:9 composition, no text, no watermark, no extra limbs, no distorted hands`
 
 7.
 
    **Ref:** Upload `Sadhak_B_Ref.png`
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, time-passage devotional montage of young Indian male sadhak in yellow dhoti and yellow shawl seated before the bajot across three successive nights inside the same yellow room, repeated faint diya flames and Maa Baglamukhi image in the background, incense smoke drifting upward, folded court papers near the wall as a reminder of the crisis, disciplined repetition without missing a night, warm amber glow, motion-friendly dissolve montage composition, wide 16:9 composition, no text, no watermark`
+	`painterly AI devotional illustration, Hindustani folk-story art style, time-passage devotional montage of young Indian male sadhak in yellow dhoti and yellow shawl seated before the bajot across three successive nights inside the same yellow room, repeated faint diya flames and Maa Baglamukhi image in the background, incense smoke drifting upward, folded court papers near the wall as a reminder of the crisis, disciplined repetition of mantras coming out of the devotees mouths, with eye closed in reverence, warm amber glow, motion-friendly dissolve montage composition, wide 16:9 composition, no text, no watermark`
 
 8.
 
    **Ref:** Upload `Sadhak_B_Ref.png`
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, medium devotional shot of young Indian male sadhak in yellow dhoti and yellow shawl seated cross-legged before the complete bajot at the close of the first night's prayer, head slightly raised in quiet resolve, both hands resting loosely in his lap after releasing the prayer, water droplets still faintly visible on his palm, brass diya flame steady, seven incense mounds still smoking softly, framed Maa Baglamukhi image before him, expression of surrender mixed with the faintest beginning of trust, warm amber yellow room, motion-friendly slow pull-back to reveal the full ritual scene, wide 16:9 composition, no text, no watermark`
+	`painterly AI devotional illustration, Hindustani folk-story art style, medium devotional shot of young Indian male sadhak in yellow dhoti and yellow shawl seated cross-legged before the complete bajot at the close of the first night's prayer, head slightly raised in quiet resolve, both hands resting loosely in his lap after releasing the prayer, water droplets still faintly visible on his palm, brass diya flame steady, seven incense mounds still smoking softly, framed Maa Baglamukhi image before him, expression of surrender mixed with the faintest beginning of trust, warm amber yellow room, motion-friendly slow pull-back to reveal the full ritual scene, wide 16:9 composition, no text, no watermark`
 
-### Critique
+
+#### Critique
 
 **Story Beat:** Active Sadhana (Beat 5) — Prayer
 **Level:** Medium
@@ -525,6 +522,6 @@ Subsequently, he placed a water pot, which too was yellow in color, next to Mata
 - **Fix**: Add one closing line to Scene-5 — *"Yeh kram roz raat ko bina naagaa kiye jaari raha — ek raat, do raat, teen raat..."*
 - **Next**: Write Scene-6 (the supernatural experience — vision, dream, or sign), Scene-7 (court case turns, adversaries helpless), Scene-8 (teaching close with mantra/practice for viewers).
 
-#### English (Suggested)
+##### English (Suggested)
 
 He placed the yellow lota of water beside Maa's image, performed the achaman, and then gathered water and fresh oleander flowers into his cupped right palm. Eyes closed, he prayed: *"O Maa Baglamukhi — every case filed against me, let it turn in my favor. Let my adversaries find no footing against me. Render them helpless."* He held that prayer in his palm for a long, still moment. Then he released it. Night after night, without a single exception, this became his ritual — one night, two nights, three nights passing in the amber glow of that yellow room.
