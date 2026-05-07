@@ -1,104 +1,43 @@
 # Handoff
 
-_Last updated: 2026-04-23 by Codex (gpt-5)_
+_Last updated: 2026-05-06 by Claude (claude-sonnet-4-6)_
 
 ## Current Focus
-Remotion vertical caption safe-zone adjustment is implemented, committed, and pushed.
-Vertical captions now default narrower so they do not compete with Shorts/TikTok-style
-right-side action icons.
+Baglamukhi Sadhana Anubhav long-form video — `render_scene.py` pipeline enhancements complete. Scenes 1–3 have narration and images. Next: render Scene-3 and work toward a full stitch.
 
 ## In Progress
-- Ope-oqbu [in_progress] — Adjust vertical caption width safe zone
+- `BaglaMukhi-Sadhana-Anubhav` — image generation for Scene-3 (Scene-3-7.png, Scene-3-8.png exist untracked)
+- Scene-3 narration: `Scene-3.mp3` exists untracked
 
 ## Recent Decisions
-- **Vertical caption width** — `CaptionOverlay` now defaults to `68%` max width on vertical
-  compositions and keeps `80%` on landscape. Render configs can still override `maxWidth`.
-- **Follow-up handoff commit** — `HANDOFF.md` was updated for session continuity and
-  `.agents/skills/synthetic-screen-recording/SKILL.md` received skill metadata frontmatter.
-- **Replicate over Kling subscription** — Kling $10/mo burned credits too fast on 10s generations. Replicate pay-per-use at ~$1.50/clip (standard Seedance 2.0) is better for low volume.
-- **seedance-2.0-fast is unavailable** on standard Replicate billing tier. `seedance_replicate.py` now hardcoded to `bytedance/seedance-2.0` (standard). Fast variant gave 402 Payment Required.
-- **Stack confirmed**: MidJourney $10/mo for stills + Replicate pay-per-use for I2V hero clips. Target $5/Short = 3 I2V clips at 5s each.
-- **Motion-light montage** is the format — 70-80% animated stills (free in HyperFrames), 2-3 Seedance I2V hero clips per Short.
-
-## Last Completed
-- Commit pushed to `origin/main`: `f0d970f Ope-oqbu: adjust vertical caption width`
-- Files changed:
-  - `remotion-composer/src/components/CaptionOverlay.tsx`
-  - `remotion-composer/src/Explainer.tsx`
-  - `remotion-composer/src/CinematicRenderer.tsx`
-  - `remotion-composer/src/cinematic/types.ts`
-  - `.tickets/Ope-oqbu.md`
-- Visual check rendered successfully:
-  `projects/maa-kali-5-yantra-facts-short/renders/caption-width-v15-check.png`
-
-## Verification
-- `git diff --check` passed for the caption source changes.
-- Remotion still render succeeded for the affected "It's much deeper..." caption frame.
-- `npx tsc --noEmit` still fails on pre-existing unrelated type errors in
-  `ProviderChip`, `Root`, `TitledVideo`, and existing `Explainer` overlay props.
-
-## Current Working Tree
-- Expected clean after the handoff follow-up commit is pushed.
-- The ignored generated project artifact
-  `projects/maa-kali-5-yantra-facts-short/artifacts/edit_decisions.voiceover-english-captions-v1.json`
-  has local `captionsConfig.maxWidth = "68%"`, but `projects/` is gitignored. The
-  committed source now carries the same vertical default.
+- **Vintage dust marks** — switched from block-hash rectangles to per-pixel ellipse distance formula with per-block shape selection (40% V-streak, 30% diagonal, 30% circle). Organic look matches competitor reference.
+- **Zoom-burst effect** — `zoom_burst_end()` added to `render_scene.py`. Fires in last 0.5s before fade-to-black: 3.5x zoom, 15px blur ramp. Split at `total_dur - FADE_DUR - ZOOM_BURST_DUR` so burst fires on visible content. Enabled by default; disable with `--no-zoom-burst`.
+- **Zoom-burst probability in `--all`** — 40% per scene (`ZOOM_BURST_PROB = 0.4`).
+- **`--all` cleanup** — intermediate per-scene MP4s deleted after successful concat.
+- **Insaan-Aatma competitor analysis** — real video hybrid (not pure AI), radial zoom-burst at 40–60% of cuts, audio clips at 0 dB (avoid). Added to `Competitor-Analysis.md`.
+- **Replicate over Kling** — Kling subscription burns credits too fast. Replicate pay-per-use ~$0.90/5s clip via `bytedance/seedance-2.0`.
+- **Stack confirmed**: MidJourney/GPT-4o for stills + Replicate Seedance for I2V hero clips.
 
 ## Dead Ends
 - `seedance-2.0-fast` on Replicate → 402 on standard billing tier, don't use
-- Kling $10/mo subscription → credits exhausted too fast for 10s generations
+- Kling $10/mo subscription → credits exhausted too fast
+- `boxblur luma_radius` starting at 0 → ffmpeg abort; must start ≥ 1
 
 ## Next Steps
-1. Resume by checking `git status --short`.
-2. If the caption task is approved, run the ticket approve workflow for `Ope-oqbu`
-   rather than closing it directly.
-3. If rendering the final Short again, use the pushed Remotion source; no generated
-   project artifact needs to be committed.
+1. Commit untracked `Scene-3-7.png`, `Scene-3-8.png`, `Scene-3.mp3` if they're final.
+2. Run `render-scene --scene 3` to render Scene-3.
+3. Run `render-scene --all 1-3` to stitch Scenes 1–3 into a single preview.
+4. Continue image generation for Scenes 4–8 (check `--critic` for pacing targets).
 
 ## Setup
-- `REPLICATE_API_TOKEN` is in `OpenMontage/.env` (rotated 2026-04-23, $10 credits loaded)
-- MidJourney: manual workflow — run prompts in web, drop files into Shorts folder
-- HyperFrames TTS: free voiceover — `npx hyperframes tts script.txt --voice af_nova --output Renders/narration.wav`
+- `REPLICATE_API_TOKEN` in `OpenMontage/.env`
+- MidJourney / GPT-4o: manual workflow — run prompts, drop files into project folder
+- `render-scene` symlinked to `~/bin` — callable from anywhere
+- Narration audio EQ applied via `NARRATION_EQ` constant in `render_scene.py`
 
 ## Key Files
-- Blissful strategy guide: `Design-Docs/Blissful-Strategy.md`
-- Canon skill (scene rules + prompt templates): `~/Developer/canon/skills/shorts-director.md`
-- I2V tool: `tools/video/seedance_replicate.py`
-- Test clip output: `Design-Docs/ToPublish/Shorts/Maa-Kali-5-Unknown-Facts/Renders/test-replicate-i2v.mp4`
+- Render script: `bin/render_scene.py`
+- Script + image prompts: `Design-Docs/ToPublish/Videos/BaglaMukhi-Sadhana-Anubhav/Bagla-Sadhana-Anubhav.md`
+- Prompt learnings: `Design-Docs/ToPublish/Videos/BaglaMukhi-Sadhana-Anubhav/PROMPT-LEARNINGS.md`
+- Competitor analysis: `Design-Docs/Competitors/Competitor-Analysis.md`
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-06 08:02 branch:main -->
-**Modified files:**
-```
- M .tickets/Ope-oqbu.md
-```
-
-**Recent commits:**
-```
-96cd4a3 chore: add Scene-1 equalized audio for Baglamukhi Anubhav video
-1d76976 chore: auto-update handoff snapshot [2026-05-06 08:00]
-764fd5a chore: auto-update handoff snapshot [2026-05-06 07:47]
-2807899 chore: auto-update handoff snapshot [2026-05-05 19:48]
-a7b524d chore: auto-update handoff snapshot [2026-05-05 19:47]
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-06 08:00 branch:main -->
-**Modified files:**
-```
-?? Design-Docs/ToPublish/Videos/BaglaMukhi-Sadhana-Anubhav/Scene-1-eq.mp3
-```
-
-**Recent commits:**
-```
-764fd5a chore: auto-update handoff snapshot [2026-05-06 07:47]
-2807899 chore: auto-update handoff snapshot [2026-05-05 19:48]
-a7b524d chore: auto-update handoff snapshot [2026-05-05 19:47]
-4215926 refactor: simplify discover_scenes; update render commands doc
-1b4a82d chore: auto-update handoff snapshot [2026-05-05 19:40]
-```
-
-**In-progress tickets:**
-```
-Ope-oqbu [in_progress] - Adjust vertical caption width safe zone
-```
-<!-- HANDOFF-SNAPSHOT:END -->
