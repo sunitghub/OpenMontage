@@ -80,26 +80,29 @@ Render CLI defaults updated for current workflow. `render-scene --scene N` now u
 
 **Recent commits:**
 ```
+1e0639b feat: zoom-burst faster and more aggressive (0.5s, 3.5x, blur 15px)
+eb3f85c chore: auto-update handoff snapshot [2026-05-06 19:36]
 56f7bdc chore: auto-update handoff snapshot [2026-05-06 18:08]
 c525d16 chore: auto-update handoff snapshot [2026-05-06 18:06]
 ba7c1f8 fix: apply zoom-burst before fade-to-black, not over it
-1e1fe54 chore: auto-update handoff snapshot [2026-05-06 18:02]
-a391455 chore: auto-update handoff snapshot [2026-05-06 17:08]
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-06 18:08 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-06 19:36 branch:main -->
 **Modified files:**
 ```
+ M Scene-1.mp3
+ M Scene-2.mp3
+ M Scene-3.mp3
 ?? .#Bagla-Sadhana-Anubhav.md
 ```
 
 **Recent commits:**
 ```
+56f7bdc chore: auto-update handoff snapshot [2026-05-06 18:08]
 c525d16 chore: auto-update handoff snapshot [2026-05-06 18:06]
 ba7c1f8 fix: apply zoom-burst before fade-to-black, not over it
 1e1fe54 chore: auto-update handoff snapshot [2026-05-06 18:02]
 a391455 chore: auto-update handoff snapshot [2026-05-06 17:08]
-69743a4 fix: zoom-burst boxblur radius floor and trim/zoompan frame mismatch
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
