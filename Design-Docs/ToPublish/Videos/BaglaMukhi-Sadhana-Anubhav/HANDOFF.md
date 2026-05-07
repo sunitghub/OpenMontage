@@ -69,6 +69,25 @@ Render CLI defaults updated for current workflow. `render-scene --scene N` now u
 5. **Review Scene-5 files** — `Scene-5-1.png` and `Scene-5-2.png` exist; confirm sufficient or regenerate.
 6. **Place courtroom/thumbnail assets** into final scene numbering once outcome scenes are written.
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-06 20:01 branch:main -->
+**Modified files:**
+```
+ M Scene-1.mp3
+ M Scene-2.mp3
+ M Scene-3.mp3
+?? .#Bagla-Sadhana-Anubhav.md
+```
+
+**Recent commits:**
+```
+2cee3cb chore: update handoff for render_scene pipeline session (2026-05-06)
+bf747b9 chore: auto-update handoff snapshot [2026-05-06 19:59]
+58d129a refactor: simplify zoom_burst_end and fix stale comments
+6f38184 chore: auto-update handoff snapshot [2026-05-06 19:36]
+1e0639b feat: zoom-burst faster and more aggressive (0.5s, 3.5x, blur 15px)
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-06 19:59 branch:main -->
 **Modified files:**
 ```
@@ -85,24 +104,5 @@ Render CLI defaults updated for current workflow. `render-scene --scene N` now u
 1e0639b feat: zoom-burst faster and more aggressive (0.5s, 3.5x, blur 15px)
 eb3f85c chore: auto-update handoff snapshot [2026-05-06 19:36]
 56f7bdc chore: auto-update handoff snapshot [2026-05-06 18:08]
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-06 19:36 branch:main -->
-**Modified files:**
-```
- M Scene-1.mp3
- M Scene-2.mp3
- M Scene-3.mp3
-?? .#Bagla-Sadhana-Anubhav.md
-```
-
-**Recent commits:**
-```
-1e0639b feat: zoom-burst faster and more aggressive (0.5s, 3.5x, blur 15px)
-eb3f85c chore: auto-update handoff snapshot [2026-05-06 19:36]
-56f7bdc chore: auto-update handoff snapshot [2026-05-06 18:08]
-c525d16 chore: auto-update handoff snapshot [2026-05-06 18:06]
-ba7c1f8 fix: apply zoom-burst before fade-to-black, not over it
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
