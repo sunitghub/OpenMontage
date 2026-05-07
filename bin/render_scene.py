@@ -536,14 +536,9 @@ ZOOM_BURST_PROB = 0.4  # probability per scene when using --all
 
 def zoom_burst_end(mp4_path, fps, preview):
     """Apply radial zoom-burst + increasing blur to the last ZOOM_BURST_DUR seconds in-place."""
-    dur_out = subprocess.run(
-        ["ffprobe", "-v", "error", "-show_entries", "format=duration",
-         "-of", "default=noprint_wrappers=1:nokey=1", mp4_path],
-        capture_output=True, text=True, check=True,
-    )
-    total_dur = float(dur_out.stdout.strip())
+    total_dur = narration_duration(mp4_path)
     if total_dur < ZOOM_BURST_DUR * 2:
-        return  # scene too short — skip
+        return
 
     dim_out = subprocess.run(
         ["ffprobe", "-v", "error", "-select_streams", "v:0",
@@ -555,10 +550,10 @@ def zoom_burst_end(mp4_path, fps, preview):
     split_t = total_dur - FADE_DUR - ZOOM_BURST_DUR
     burst_frames = max(int(ZOOM_BURST_DUR * fps), 1)
     fade_frames = max(int(FADE_DUR * fps), 1)
-    total_frames = burst_frames + fade_frames  # zoompan covers burst + fade
+    total_frames = burst_frames + fade_frames
 
-    # zoom ramps 1.0 → 2.5 over burst_frames, holds at 2.5 through fade
-    # blur ramps 1px → 10px over burst_frames, holds at 10px through fade
+    # zoom ramps 1.0 → 3.5 over burst_frames, holds at 3.5 through fade
+    # blur ramps 1px → 15px over burst_frames, holds at 15px through fade
     zoom_expr = f"min(1+2.5*on/{burst_frames},3.5)"
     blur_expr = f"1+min(n,{burst_frames})/{burst_frames}*14"
     fc = (
@@ -592,7 +587,7 @@ def zoom_burst_end(mp4_path, fps, preview):
             os.remove(tmp)
         return
     os.replace(tmp, mp4_path)
-    print(f"  ↳ zoom-burst applied")
+    print("  ↳ zoom-burst applied")
 
 
 def main():
