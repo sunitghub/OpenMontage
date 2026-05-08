@@ -552,17 +552,19 @@ def zoom_burst_end(mp4_path, fps, preview):
     fade_frames = max(int(FADE_DUR * fps), 1)
     total_frames = burst_frames + fade_frames
 
-    # zoom ramps 1.0 → 3.5 over burst_frames, holds at 3.5 through fade
-    # blur ramps 1px → 15px over burst_frames, holds at 15px through fade
-    zoom_expr = f"min(1+2.5*on/{burst_frames},3.5)"
-    blur_expr = f"1+min(n,{burst_frames})/{burst_frames}*14"
+    # zoom ramps in (1.0→3.5) or out (3.5→1.0) randomly
+    # boxblur: constant 8px — 'n' is not in boxblur's expression context so ramp would NaN
+    if random.random() > 0.5:
+        zoom_expr = f"min(1+2.5*on/{burst_frames},3.5)"
+    else:
+        zoom_expr = f"max(3.5-2.5*on/{burst_frames},1.0)"
     fc = (
         f"[0:v]split=2[va][vb];"
         f"[va]trim=0:{split_t:.3f},setpts=PTS-STARTPTS[v1];"
         f"[vb]trim={split_t:.3f},setpts=PTS-STARTPTS,fps={fps},"
         f"zoompan=z='{zoom_expr}':d={total_frames}"
         f":x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={w}x{h}:fps={fps},"
-        f"boxblur=luma_radius='{blur_expr}':luma_power=1[v2];"
+        f"boxblur=luma_radius=8:luma_power=1[v2];"
         f"[v1][v2]concat=n=2:v=1:a=0[vout]"
     )
     audio_probe = subprocess.run(
