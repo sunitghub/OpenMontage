@@ -453,7 +453,7 @@ On the first night, his hands trembled as he lit the ghee diya — the wick dyed
 
 ### Script Hindi
 
-	Iske baad, Sridhar ne, bajot pe, ek paani ka lota rakha, jo bhi peele rang ka thaa. Phir achaman aur shudhi karke, usne thoda sa paani aur kaner ke phool apne dahine hatheli me liye. Aab use sankalpa kehna than. Mata ke tasveer ko dhyaan se dekhte hue, usne ke gehri saans li aur kaha: "Hai Mata Baglamukhi, main aaj se ye anushtan shoro kar rah hon. Is ke phal swarop, mere khilaaph jo bhi mukadme hai, wah khareej kar diye jaye. Mujh par aarop lagane wale, kisi bhi vad-vivad main mujhse jeet na saken aur bebas ho jaye. Meri aap pooran roop se raksha karna." Yeh keh karna, usne jaal to Maa ki tasveer pe arpit kar diya aur Guru ke aadesh anusar, Maa ka kuch der dhyaan kiya.
+	Iske baad, Sridhar ne, bajot pe, ek paani ka lota rakha. Phir achaman aur shudhi karke, usne thoda sa paani aur kaner ke phool, apne dahine hatheli me rakeh. Phir, Mata ke tasveer ko dhyaan se dekhte hue, usne ke gehri saans li aur apna Sanakalpa kaha: "Hai Mata Baglamukhi, main aaj se ye anushtan shoro kar rah hon. Is ke phal swarop, mere khilaaph jo bhi mukadma hai, wah khareej kar diye jaye. Mujh par aarop lagane wale, kisi bhi vad-vivad main mujhse jeet na saken. Meri aap pooran roop se raksha karna." Yeh keh kar, usne jaal Maa ki tasveer pe arpit kar diya aur pane Guru ko aur  Maa ka dhyaan kiya.
 	
 	
 ### Script English
