@@ -50,6 +50,27 @@ Scene-4 complete (1a–8 + mp3 committed). Scene-5 images and narration generate
 4. **Render Scenes 1–5** — `render-scene --all` once Scene-5 is final
 5. **Place courtroom/thumbnail assets** into scene numbering once 6–8 are written
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-08 08:32 branch:main -->
+**Modified files:**
+```
+ M Scene-5-5b.png
+ D Scene-5-6.png
+ M ../../../../bin/render_scene.py
+?? Scene-5-5c.png
+?? Scene-5-6a.png
+?? Scene-5-6b.png
+```
+
+**Recent commits:**
+```
+045d076 chore: auto-update handoff snapshot [2026-05-08 08:21]
+8604f60 chore: Scene-5 updates and session handoff
+0587866 chore: add Scene-4 full set (1a–8) and Scene-5 images 3–8
+4560608 chore: ignore Emacs lock files (#* and .#*)
+46ddb91 chore: auto-update handoff snapshot [2026-05-06 20:01]
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-08 08:21 branch:main -->
 **Modified files:**
 ```
