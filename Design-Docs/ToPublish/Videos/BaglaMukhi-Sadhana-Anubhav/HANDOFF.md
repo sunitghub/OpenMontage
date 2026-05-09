@@ -55,15 +55,15 @@ Scene-5 fully committed (5a–5c, 6a–6d, mp3). Next: write outcome scenes 6–
 
 **Recent commits:**
 ```
+0886966 chore: auto-update handoff snapshot [2026-05-09 09:28]
 d609429 chore: auto-update handoff snapshot [2026-05-09 09:25]
 2c784c9 chore: auto-update handoff snapshot [2026-05-09 09:25]
 0b20893 chore: auto-update handoff snapshot [2026-05-09 08:37]
 70492e3 chore: update handoff — zoom-burst v2 fix documented
-8132259 chore: auto-update handoff snapshot [2026-05-09 08:37]
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-09 09:25 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-09 09:28 branch:main -->
 **Modified files:**
 ```
  M Bagla-Sadhana-Anubhav.md
@@ -71,10 +71,10 @@ d609429 chore: auto-update handoff snapshot [2026-05-09 09:25]
 
 **Recent commits:**
 ```
+d609429 chore: auto-update handoff snapshot [2026-05-09 09:25]
 2c784c9 chore: auto-update handoff snapshot [2026-05-09 09:25]
 0b20893 chore: auto-update handoff snapshot [2026-05-09 08:37]
 70492e3 chore: update handoff — zoom-burst v2 fix documented
 8132259 chore: auto-update handoff snapshot [2026-05-09 08:37]
-ee253f0 fix: zoom-burst corrupt PTS — use still-image approach
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
