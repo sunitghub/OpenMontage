@@ -535,7 +535,15 @@ ZOOM_BURST_PROB = 0.4  # probability per scene when using --all
 
 
 def zoom_burst_end(mp4_path, fps, preview):
-    """Apply radial zoom-burst + increasing blur to the last ZOOM_BURST_DUR seconds in-place."""
+    """Apply radial zoom-burst + blur at scene end, replacing the last ~1.3s in-place.
+
+    Zoompan is designed for still-image input (one frame → d frames at fps).
+    Applying it to a multi-frame video segment produces corrupt PTS. Instead:
+      1. Extract one still frame at split_t.
+      2. Run zoompan on that still → clean d-frame clip with correct PTS.
+      3. Re-encode the first segment (0..split_t), concat with the burst clip.
+      4. Re-attach original audio with -shortest to keep A/V in sync.
+    """
     total_dur = narration_duration(mp4_path)
     if total_dur < ZOOM_BURST_DUR * 2:
         return
@@ -546,27 +554,18 @@ def zoom_burst_end(mp4_path, fps, preview):
         capture_output=True, text=True, check=True,
     )
     w, h = map(int, dim_out.stdout.strip().split("x"))
-    # Start burst before the fade-to-black so it zooms into visible content
+
     split_t = total_dur - FADE_DUR - ZOOM_BURST_DUR
     burst_frames = max(int(ZOOM_BURST_DUR * fps), 1)
     fade_frames = max(int(FADE_DUR * fps), 1)
     total_frames = burst_frames + fade_frames
+    burst_end_dur = ZOOM_BURST_DUR + FADE_DUR
 
-    # zoom ramps in (1.0→3.5) or out (3.5→1.0) randomly
-    # boxblur: constant 8px — 'n' is not in boxblur's expression context so ramp would NaN
     if random.random() > 0.5:
         zoom_expr = f"min(1+2.5*on/{burst_frames},3.5)"
     else:
         zoom_expr = f"max(3.5-2.5*on/{burst_frames},1.0)"
-    fc = (
-        f"[0:v]split=2[va][vb];"
-        f"[va]trim=0:{split_t:.3f},setpts=PTS-STARTPTS[v1];"
-        f"[vb]trim={split_t:.3f},setpts=PTS-STARTPTS,fps={fps},"
-        f"zoompan=z='{zoom_expr}':d={total_frames}"
-        f":x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={w}x{h}:fps={fps},"
-        f"boxblur=luma_radius=8:luma_power=1[v2];"
-        f"[v1][v2]concat=n=2:v=1:a=0[vout]"
-    )
+
     audio_probe = subprocess.run(
         ["ffprobe", "-v", "error", "-select_streams", "a:0",
          "-show_entries", "stream=codec_type",
@@ -575,21 +574,75 @@ def zoom_burst_end(mp4_path, fps, preview):
     )
     has_audio = bool(audio_probe.stdout.strip())
 
-    tmp = mp4_path + ".zburst.mp4"
-    cmd = ["ffmpeg", "-y", "-i", mp4_path, "-filter_complex", fc, "-map", "[vout]"]
-    if has_audio:
-        cmd += ["-map", "0:a", "-c:a", "copy"]
-    cmd += ["-c:v", "libx264", "-crf", "18",
-            "-preset", "veryfast" if preview else "medium",
-            "-pix_fmt", "yuv420p", tmp]
-    result = subprocess.run(cmd, capture_output=True)
-    if result.returncode != 0:
-        print(f"  ↳ zoom-burst failed, skipping:\n{result.stderr.decode()[-500:]}")
-        if os.path.exists(tmp):
-            os.remove(tmp)
-        return
-    os.replace(tmp, mp4_path)
-    print("  ↳ zoom-burst applied")
+    preset = "veryfast" if preview else "medium"
+    tmp_dir = tempfile.mkdtemp()
+    try:
+        # Step 1 — extract one still frame at split_t
+        still = os.path.join(tmp_dir, "still.png")
+        r = subprocess.run(
+            ["ffmpeg", "-y", "-ss", f"{split_t:.3f}", "-i", mp4_path, "-vframes", "1", still],
+            capture_output=True,
+        )
+        if r.returncode != 0 or not os.path.exists(still):
+            print("  ↳ zoom-burst: still extraction failed, skipping")
+            return
+
+        # Step 2 — zoom-burst clip from the still (zoompan's intended still-image mode)
+        zburst = os.path.join(tmp_dir, "zburst.mp4")
+        fc_still = (
+            f"[0:v]zoompan=z='{zoom_expr}':d={total_frames}"
+            f":x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={w}x{h}:fps={fps},"
+            f"boxblur=luma_radius=8:luma_power=1,"
+            f"fade=t=out:st={ZOOM_BURST_DUR:.3f}:d={FADE_DUR:.3f}[vout]"
+        )
+        r = subprocess.run(
+            ["ffmpeg", "-y", "-loop", "1", "-i", still,
+             "-filter_complex", fc_still,
+             "-map", "[vout]", "-t", f"{burst_end_dur:.3f}",
+             "-c:v", "libx264", "-crf", "18", "-preset", preset,
+             "-pix_fmt", "yuv420p", zburst],
+            capture_output=True,
+        )
+        if r.returncode != 0:
+            print(f"  ↳ zoom-burst: clip generation failed, skipping:\n{r.stderr.decode()[-300:]}")
+            return
+
+        # Step 3 — re-encode the v1 segment (0..split_t, video only)
+        v1 = os.path.join(tmp_dir, "v1.mp4")
+        r = subprocess.run(
+            ["ffmpeg", "-y", "-i", mp4_path, "-t", f"{split_t:.3f}",
+             "-c:v", "libx264", "-crf", "18", "-preset", preset,
+             "-pix_fmt", "yuv420p", "-an", v1],
+            capture_output=True,
+        )
+        if r.returncode != 0:
+            print("  ↳ zoom-burst: v1 encoding failed, skipping")
+            return
+
+        # Step 4 — concat v1 + zburst, re-attach original audio
+        concat_txt = os.path.join(tmp_dir, "concat.txt")
+        with open(concat_txt, "w") as f:
+            f.write(f"file '{v1}'\nfile '{zburst}'\n")
+
+        tmp_out = mp4_path + ".zburst.mp4"
+        cmd = ["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", concat_txt]
+        if has_audio:
+            cmd += ["-i", mp4_path, "-map", "0:v", "-map", "1:a",
+                    "-c:v", "copy", "-c:a", "copy", "-shortest", tmp_out]
+        else:
+            cmd += ["-c:v", "copy", tmp_out]
+
+        r = subprocess.run(cmd, capture_output=True)
+        if r.returncode != 0:
+            print(f"  ↳ zoom-burst: final concat failed, skipping:\n{r.stderr.decode()[-300:]}")
+            if os.path.exists(tmp_out):
+                os.remove(tmp_out)
+            return
+
+        os.replace(tmp_out, mp4_path)
+        print("  ↳ zoom-burst applied")
+    finally:
+        shutil.rmtree(tmp_dir)
 
 
 def main():

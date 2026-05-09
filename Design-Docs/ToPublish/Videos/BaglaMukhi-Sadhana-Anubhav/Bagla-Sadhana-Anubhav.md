@@ -48,6 +48,7 @@ _Last updated: 2026-05-06_
 **Fixed:** Scene-2 · Scene-3 · Scene-4
 
 
+
 ## Scene-1:
 
 ### Script Hindi 
@@ -474,7 +475,7 @@ On the first night, his hands trembled as he lit the ghee diya — the wick dyed
 
    **Ref:** Upload `Sadhak_B_Ref.png`
 
-	`painterly AI devotional illustration, Hindustani folk-story art style, close shot of Indian male sadhak's cupped right palm holding water and yellow oleander flowers, droplets of water glistening, eyes closed in deep prayer, yellow dhoti and yellow shawl visible, Baglamukhi Yantra and framed Maa image softly visible behind on bajot, brass diya flame, warm golden amber light, peaceful surrendered expression, narrative scene-card composition, polished folk illustration, wide 16:9 composition, no text, no watermark`
+	`painterly AI devotional illustration, Hindustani folk-story art style, close shot of Indian male sadhak's cupped right palm holding water and yellow oleander flowers, droplets of water glistening, eyes closed in deep prayer, yellow dhoti and 4;24;19Myellow shawl visible, Baglamukhi Yantra and framed Maa image softly visible behind on bajot, brass diya flame, warm golden amber light, peaceful surrendered expression, narrative scene-card composition, polished folk illustration, wide 16:9 composition, no text, no watermark`
 
 3.
 
@@ -525,3 +526,15 @@ On the first night, his hands trembled as he lit the ghee diya — the wick dyed
 ##### English (Suggested)
 
 He placed the yellow lota of water beside Maa's image, performed the achaman, and then gathered water and fresh oleander flowers into his cupped right palm. Eyes closed, he prayed: *"O Maa Baglamukhi — every case filed against me, let it turn in my favor. Let my adversaries find no footing against me. Render them helpless."* He held that prayer in his palm for a long, still moment. Then he released it. Night after night, without a single exception, this became his ritual — one night, two nights, three nights passing in the amber glow of that yellow room.
+
+
+## Scene-6 
+
+### Script Hindi
+
+### Script English
+
+#### Artifacts
+
+##### Images
+
