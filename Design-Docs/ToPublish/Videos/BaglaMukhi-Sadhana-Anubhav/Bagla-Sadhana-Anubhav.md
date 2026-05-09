@@ -475,7 +475,7 @@ On the first night, his hands trembled as he lit the ghee diya — the wick dyed
 
    **Ref:** Upload `Sadhak_B_Ref.png`
 
-	`painterly AI devotional illustration, Hindustani folk-story art style, close shot of Indian male sadhak's cupped right palm holding water and yellow oleander flowers, droplets of water glistening, eyes closed in deep prayer, yellow dhoti and 4;24;19Myellow shawl visible, Baglamukhi Yantra and framed Maa image softly visible behind on bajot, brass diya flame, warm golden amber light, peaceful surrendered expression, narrative scene-card composition, polished folk illustration, wide 16:9 composition, no text, no watermark`
+	`painterly AI devotional illustration, Hindustani folk-story art style, close shot of Indian male sadhak's cupped right palm holding water and yellow oleander flowers, droplets of water glistening, eyes closed in deep prayer, yellow dhoti and yellow shawl visible, Baglamukhi Yantra and framed Maa image softly visible behind on bajot, brass diya flame, warm golden amber light, peaceful surrendered expression, narrative scene-card composition, polished folk illustration, wide 16:9 composition, no text, no watermark`
 
 3.
 
