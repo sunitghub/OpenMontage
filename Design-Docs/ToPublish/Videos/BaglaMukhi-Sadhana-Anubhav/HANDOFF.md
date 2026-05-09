@@ -1,6 +1,6 @@
 # Handoff
 
-_Last updated: 2026-05-08 by Claude (claude-sonnet-4-6)_
+_Last updated: 2026-05-09 by Claude (claude-sonnet-4-6)_
 
 ## Prompt Rules
 
@@ -24,7 +24,7 @@ Scene-5 fully committed (5a–5c, 6a–6d, mp3). Next: write outcome scenes 6–
   - `Sadhak_A_Ref.png` → Sadhak State A (white kurta — Scenes 1–2)
   - `Sadhak_B_Ref.png` → Sadhak State B (yellow dhoti — Scenes 3–5)
 - **EQ chain tuned** — `volume=-4dB` + `alimiter(limit=0.7, attack=5, release=50)`. Target mean -21 dB / max -4.5 dB.
-- **zoom-burst fixed** — `boxblur` doesn't expose `n`; constant 8px now. Direction randomized (zoom-in 1.0→3.5 or zoom-out 3.5→1.0).
+- **zoom-burst fixed (v2)** — zoompan on a multi-frame video segment produces corrupt PTS (video duration inflated to hours). Fix: extract one still frame at `split_t`, run zoompan on that still (its intended mode), concat back with original audio via `-shortest`. Direction still randomized (zoom-in 1.0→3.5 or zoom-out 3.5→1.0).
 
 ## Dead Ends
 - See `PROMPT-LEARNINGS.md` → MidJourney sections for full record.
