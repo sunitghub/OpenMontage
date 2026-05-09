@@ -47,6 +47,23 @@ Scene-5 fully committed (5a–5c, 6a–6d, mp3). Next: write outcome scenes 6–
 3. **Place courtroom/thumbnail assets** into scene numbering once 6–8 are written
 4. **Render Scenes 1–5** — `render-scene --all` once Scene-5 image count is final
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-09 08:21 branch:main -->
+**Modified files:**
+```
+ M Bagla-Sadhana-Anubhav.md
+ M ../../../../bin/render_scene.py
+```
+
+**Recent commits:**
+```
+070978d chore: auto-update handoff snapshot [2026-05-09 08:03]
+9a8e3fe chore: auto-update handoff snapshot [2026-05-09 07:08]
+3eb47fe chore: update handoff — Scene-5 complete, zoom-burst fix noted
+a783361 chore: Scene-5 image updates — 5b/5c and 6a–6d variants
+830868d chore: auto-update handoff snapshot [2026-05-08 17:07]
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-09 08:03 branch:main -->
 **Modified files:**
 ```
@@ -61,22 +78,5 @@ Scene-5 fully committed (5a–5c, 6a–6d, mp3). Next: write outcome scenes 6–
 a783361 chore: Scene-5 image updates — 5b/5c and 6a–6d variants
 830868d chore: auto-update handoff snapshot [2026-05-08 17:07]
 ea525e6 fix: zoom-burst boxblur crash + add zoom-out direction
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-09 07:08 branch:main -->
-**Modified files:**
-```
- M Bagla-Sadhana-Anubhav.md
- M ../../../../bin/render_scene.py
-```
-
-**Recent commits:**
-```
-3eb47fe chore: update handoff — Scene-5 complete, zoom-burst fix noted
-a783361 chore: Scene-5 image updates — 5b/5c and 6a–6d variants
-830868d chore: auto-update handoff snapshot [2026-05-08 17:07]
-ea525e6 fix: zoom-burst boxblur crash + add zoom-out direction
-f8a6a34 chore: auto-update handoff snapshot [2026-05-08 08:35]
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
