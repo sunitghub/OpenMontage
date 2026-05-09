@@ -55,27 +55,26 @@ Scene-5 fully committed (5a–5c, 6a–6d, mp3). Next: write outcome scenes 6–
 
 **Recent commits:**
 ```
+70492e3 chore: update handoff — zoom-burst v2 fix documented
+8132259 chore: auto-update handoff snapshot [2026-05-09 08:37]
+ee253f0 fix: zoom-burst corrupt PTS — use still-image approach
+554e988 chore: auto-update handoff snapshot [2026-05-09 08:26]
+185eb64 chore: auto-update handoff snapshot [2026-05-09 08:21]
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
+<!-- HANDOFF-SNAPSHOT:START 2026-05-09 08:37 branch:main -->
+**Modified files:**
+```
+ M Bagla-Sadhana-Anubhav.md
+```
+
+**Recent commits:**
+```
 ee253f0 fix: zoom-burst corrupt PTS — use still-image approach
 554e988 chore: auto-update handoff snapshot [2026-05-09 08:26]
 185eb64 chore: auto-update handoff snapshot [2026-05-09 08:21]
 070978d chore: auto-update handoff snapshot [2026-05-09 08:03]
 9a8e3fe chore: auto-update handoff snapshot [2026-05-09 07:08]
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-09 08:26 branch:main -->
-**Modified files:**
-```
- M Bagla-Sadhana-Anubhav.md
- M ../../../../bin/render_scene.py
-```
-
-**Recent commits:**
-```
-185eb64 chore: auto-update handoff snapshot [2026-05-09 08:21]
-070978d chore: auto-update handoff snapshot [2026-05-09 08:03]
-9a8e3fe chore: auto-update handoff snapshot [2026-05-09 07:08]
-3eb47fe chore: update handoff — Scene-5 complete, zoom-burst fix noted
-a783361 chore: Scene-5 image updates — 5b/5c and 6a–6d variants
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
