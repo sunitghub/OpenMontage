@@ -535,11 +535,11 @@ He placed the yellow lota of water beside Maa's image, performed the achaman, an
 
 ### Script Hindi
 
-	Iske baad, Guru ke batay niyamon kee anusar, Sidhar ne pehle, Shree Ganesh ka dhyan kiya, aur Om Gam Ganapatye Namah ka 11 bar jaap kiya. Phir Shivji se anumati maang kar, Om Naham Shivay mantra ke 1 mala ki. Iske bad, haldi mala se usne, 101 mala jaap, apne asan maen sthir ho kar, is mantra ka kiya:
+	Iske baad, Guru ke batay niyamon ke anusar, Sidhar ne pehle, Shree Ganesh ka dhyan kiya, aur Om Gam Ganapatye Namah mantra ka 11 bar jaap kiya. Phir Bhagwan Shiv se, anumati maang kar, Om Naham Shivay mantra ki, 1 mala ki. Iske bad, haldi mala se usne, 101 mala jaap, apne asan maen sthir ho kar, is mantra ka kiya:
 	Om Hreem Baglamukhi, Srava Dushtanam Vaccham, Mukham Padam Stambhaya
 	Jivaham Keelaye, Buddhim Vinashaya, Hreem Om Swaha
 	
-	Jab uske 101 mala khatam hue, aur Sridhar ne apni ankhen kholi, aur dekah ki Suraj ki subah ki kinea, kamre main ek sunhari prakas daal raha thi. Usne apni hathon se ratri ki pooja and mantra jaap Maa Balgamukhi ko samarpit kiey aur unse ashirwaad manage. Diwal par tangi ghadi, lagbhag 5 baje ka time dikah rahi thi. Mantra ke dhyaan main, kaise waqt beeta, Sridhar ko khayal hi nahin tha.
+	Jab uske 101 mala khatam hue, aur Sridhar ne apni ankhen kholi, to usne dekah ki Suraj ki, subah ki kirnea, kamre main ek sunhari prakas daal raha thi. Usne apni hathon se ratri ki pooja and mantra jaap ko, Maa Balgamukhi ko samarpit kiya aur unse ashirwaad manage. Diwal par tangi ghadi, lagbhag 5 baje ka time dikah rahi thi. Mantra ke dhyaan main, kaise waqt beeta, Sridhar ko khayal hi nahin tha.
 
 	
 ### Script English
@@ -602,9 +602,86 @@ He placed the yellow lota of water beside Maa's image, performed the achaman, an
 
 9.
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, wide atmospheric shot of the yellow sadhana room at early dawn, long dramatic shafts of golden morning sunlight streaming through the small arched window and cutting visibly across the room — warm golden rays falling in broad beams across the yellow floor, the wooden bajot, and the yellow asan, dust motes floating and glowing in the light shafts, the low amber diya flame still burning at the center of the bajot almost swallowed by the stronger golden daylight, yellow walls lit up in rich warm gold, Maa Baglamukhi image at center of bajot, incense mounds reduced to ash, no people, the room transformed by both the night of devotion and the arriving morning, motion-friendly slow push-in along the golden light shafts toward the bajot, wide 16:9 composition, no text, no watermark`
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, medium wide shot of young Indian male sadhak in yellow dhoti and yellow shawl seated cross-legged on yellow asan inside a plain home room with yellow-painted walls and long yellow curtain over the doorway, turmeric haldi mala resting in his lap — 101 rounds just completed — his eyes slowly opening for the first time after the long night of chanting, face turning gently upward with an expression of quiet wonder and surprise as he notices the room filled with golden morning light, long warm shafts of early sunlight streaming through the small arched window and falling across his face and the yellow walls, wooden bajot before him covered with yellow cloth bearing the framed Maa Baglamukhi image — solitary female deity in yellow dress and golden crown, right hand in abhaya mudra, left hand holding golden gada mace, no other figure — diya flame still burning low before the frame, the sadhak's expression shifting from deep trance to gentle awe as the golden dawn light lands on him, dust motes glowing in the sunbeams around him, motion-friendly slow push-in on his wonder-filled upturned face in the golden light, wide 16:9 composition, no text, no watermark`
 
 10.
 
    `painterly AI devotional illustration, Hindustani folk-story art style, wide interior shot of the complete yellow sadhana room at five in the morning, yellow-painted walls glowing in early dawn light, a small wall clock on the yellow wall showing just after five AM — this clock must be clearly visible in the composition, long golden dawn rays streaming through the small arched window, wooden bajot at the center of the room covered with yellow cloth bearing the framed portrait of Maa Baglamukhi — solitary female deity in yellow dress and golden crown, right hand in abhaya mudra, left hand holding golden gada mace, no other figure — brass diya flame still burning low before the frame, turmeric haldi mala resting on the yellow asan on the floor before the bajot, incense mounds reduced to ash, yellow curtain over the doorway, no people, the room as a complete living witness to a full night of unbroken devotion, warm golden dawn light mixing with the last amber glow of the diya, motion-friendly slow push-in from the clock along the dawn-lit wall down toward the bajot and the still-burning diya, wide 16:9 composition, no readable text, no watermark`
+
+
+
+## Scene-7
+
+### Script Hindi
+
+	Sridhar ke Guru ka aadesh tha, ki 13 din ki Sadhana ke dauraan, sirph 1 gilaas doodh, grahan karna thaa. Aur saath hi, kaam baat-cheet aur adhiktam maun rehne ko kaha tha. Sridhar ne prati-din, in niyamo ka palan kiya.
+	Saatve din, ratri ko woh jaab jaap kar raha tha, use aisa laga ki, ek Stri, jiski ki aakrati Maa Kali ki tarah thi, kamare ke kaune main khadi hai. Woh uski tarpah dekh rah thi aur zor se, hans rahi thi. Uski hansi behad darawani thi aur uske chudiyon ke kahanak, sunkar Sridahat ke raongate khade ho gyae.
+	
+	
+### Script English
+
+	Sridhar's Guru had issued an instruction that, during the 13-day period of spiritual practice (*Sadhana*), he was to consume only one glass of milk. Furthermore, he was advised to minimize conversation and observe a state of maximum silence. Sridhar adhered to these rules every single day.
+
+	On the seventh night, while he was engaged in chanting (*Japa*), he perceived the presence of a woman—whose form resembled that of Mother Kali—standing in the corner of the room. She was gazing directly at him and laughing loudly. Her laughter was utterly terrifying, and upon hearing the clinking of her bangles, Sridhar's hair stood on end.
+
+### Artifacts
+
+#### Images
+
+1.
+
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, medium shot of young Indian male sadhak in yellow dhoti and yellow shawl seated quietly on the floor of a plain sparse room in soft daytime light, a single glass of milk placed before him on the bare floor — the only food permitted during the 13-day sadhana — his hands resting in his lap, expression of steady austere resolve, simple domestic interior, no ritual objects visible, atmosphere of deliberate deprivation and disciplined sacrifice, motion-friendly slow push-in on his composed but strained face, wide 16:9 composition, no text, no watermark`
+
+2.
+
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, medium shot of young Indian male sadhak in yellow dhoti and yellow shawl seated alone in a plain room during daylight, lips pressed deliberately together in silence, hands folded in his lap, eyes carrying the weight of enforced stillness, no activity around him, sparse interior, soft natural light through a small window, atmosphere of imposed quiet and inward focus — the days of silence before the seventh night, motion-friendly slow push-in on his quietly enduring face, wide 16:9 composition, no text, no watermark`
+
+3.
+
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, wide shot of young Indian male sadhak in yellow dhoti and yellow shawl seated cross-legged on yellow asan in the yellow sadhana room on the seventh night, deeply absorbed in japa with turmeric haldi mala in traditional japa grip — mala draped over middle finger, thumb poised to move each bead, index finger held away — wooden bajot before him covered with yellow cloth bearing the framed Maa Baglamukhi image and steady diya flame, yellow-painted walls and long yellow curtain, the room appears normal but shadows at the room corners are slightly deeper than usual, diya flame beginning to flicker faintly, atmosphere of the last calm moment before something enters, motion-friendly slow pull-back to reveal the full room with its darkening corners, wide 16:9 composition, no text, no watermark`
+
+4.
+
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, wide shot of the yellow sadhana room at deep midnight — Sridhar in yellow dhoti and yellow shawl seated at center in japa, and in the far corner of the room behind him a dark shadowy female form barely beginning to materialize out of the darkness, tall, dark complexion, long wild unbound black hair, barely visible like a shadow taking on shape, the sadhak has not yet noticed her, yellow walls that were warm and comforting now feel cold at the edges, diya flame flickering suddenly, atmosphere of supernatural dread entering the devotional space, motion-friendly slow pull-back to reveal both the sadhak and the emerging presence in the corner, wide 16:9 composition, no text, no watermark`
+
+5.
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, close-to-medium shot of a terrifying supernatural female figure standing in the shadowed corner of a yellow-walled room at deep midnight, tall dark complexion, long wild disheveled black hair cascading around her form, fierce blazing eyes fixed directly forward, numerous metal bangles glinting on both wrists in the flickering diya light, expression stretched between a laugh and a snarl, dark energy emanating from her presence, the yellow walls behind her seem to darken and recede around her, she stands partially in deep shadow with only her face and bangles catching the amber light, deeply unsettling supernatural atmosphere, no benevolent divine symbols, pure terrifying apparition, motion-friendly slow push-in on her glowing fierce eyes, wide 16:9 composition, no text, no watermark`
+
+6.
+
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, split-frame wide shot of the yellow sadhana room — Sridhar in yellow dhoti and yellow shawl on viewer's right, head turning toward the corner with dawning horror, japa mala stopping mid-movement in his hands — and the dark supernatural female figure on viewer's left in the room's corner, fierce blazing eyes locked directly onto the sadhak across the room, their gazes meeting across the amber-lit space, the air between them charged with supernatural dread, diya flame flickering wildly on the bajot, the warm devotional room transformed into a space of supernatural confrontation, motion-friendly slow zoom out to hold both figures in the frame, wide 16:9 composition, no text, no watermark`
+
+7.
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, close emotional portrait of the supernatural dark female figure mid-laugh — mouth wide open in loud terrifying laughter, fierce blazing eyes, dark complexion, wild black hair flying around her face, expression of overwhelming supernatural force directed at the sadhak, numerous metal bangles glinting on her wrists catching the flickering diya light, the laugh visually overwhelming and deeply unsettling, dark energy radiating from her open mouth and blazing eyes, atmosphere of primal supernatural terror, motion-friendly slow push-in on her open laughing mouth and fierce eyes, wide 16:9 composition, no text, no watermark`
+
+8.
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, extreme close-up of numerous metal bangles on a dark-complexioned female wrist in the flickering amber diya light, silver and dark metal bangles stacked densely, each one catching and throwing tiny fragments of amber light as the wrist shifts slightly, the visual suggestion of their clinking sound — the sound that makes hair stand on end — deeply unsettling detail, dark supernatural mood, shadows surrounding the wrist, motion-friendly slow push-in on the glinting bangles, wide 16:9 composition, no text, no watermark`
+
+9.
+
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, close emotional portrait of young Indian male sadhak in yellow dhoti and yellow shawl frozen in absolute primal terror — eyes wide open and locked on something just off-frame to viewer's left, face drained of color, body rigid with shock, turmeric haldi mala clutched tightly in both hands as the only anchor of safety, lips parted slightly in speechless fear, hair visibly raised on his arms and neck, the yellow room behind him plunged into deep shadow, diya flame nearly extinguished, the contrast between his yellow sadhana attire and the surrounding darkness intensifying his isolation and fear, motion-friendly slow push-in on his terror-filled face and white-knuckled mala, wide 16:9 composition, no text, no watermark`
+
+10.
+
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, wide shot of the complete yellow sadhana room at the height of the supernatural encounter — Sridhar in yellow dhoti and yellow shawl on viewer's right, body rigid and frozen mid-japa, mala clutched in trembling hands, face turned toward the corner in terror — the dark supernatural female figure on viewer's left in the far corner, wild hair, blazing eyes, mouth open in terrible laughter, bangles glinting, her dark presence seeming to consume the shadows around her, the warm yellow devotional room now split between the amber diya glow at center and deep cold darkness at the corners where she stands, the framed Maa Baglamukhi image on the bajot visible between them — the divine and the terrifying in the same frame, motion-friendly slow pull-back to reveal the full confrontation, wide 16:9 composition, no text, no watermark`
+
 
