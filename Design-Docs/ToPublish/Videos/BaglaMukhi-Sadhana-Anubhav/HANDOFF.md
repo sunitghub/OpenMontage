@@ -47,6 +47,29 @@ Scene-5 fully committed (5a–5c, 6a–6d, mp3). Next: write outcome scenes 6–
 3. **Place courtroom/thumbnail assets** into scene numbering once 6–8 are written
 4. **Render Scenes 1–5** — `render-scene --all` once Scene-5 image count is final
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-11 11:25 branch:main -->
+**Modified files:**
+```
+ M Bagla-Sadhana-Anubhav.md
+?? Scene-6-1.png
+?? Scene-6-2.png
+?? Scene-6-3.png
+?? Scene-6-4.png
+?? Scene-6-5.png
+?? Scene-6-6.png
+?? Scene-6-7.png
+```
+
+**Recent commits:**
+```
+72a6415 chore: auto-update handoff snapshot [2026-05-11 10:20]
+f286a6f chore: auto-update handoff snapshot [2026-05-11 10:19]
+0b27d4d chore: auto-update handoff snapshot [2026-05-11 10:11]
+540a352 chore: auto-update handoff snapshot [2026-05-11 10:05]
+bea63d2 chore: auto-update handoff snapshot [2026-05-11 10:04]
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-11 10:20 branch:main -->
 **Modified files:**
 ```
@@ -65,26 +88,5 @@ f286a6f chore: auto-update handoff snapshot [2026-05-11 10:19]
 540a352 chore: auto-update handoff snapshot [2026-05-11 10:05]
 bea63d2 chore: auto-update handoff snapshot [2026-05-11 10:04]
 a090995 chore: auto-update handoff snapshot [2026-05-11 10:02]
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-11 10:19 branch:main -->
-**Modified files:**
-```
- M Bagla-Sadhana-Anubhav.md
-?? Scene-6-1.png
-?? Scene-6-2.png
-?? Scene-6-3.png
-?? Scene-6-4.png
-?? Scene-6-5.png
-```
-
-**Recent commits:**
-```
-0b27d4d chore: auto-update handoff snapshot [2026-05-11 10:11]
-540a352 chore: auto-update handoff snapshot [2026-05-11 10:05]
-bea63d2 chore: auto-update handoff snapshot [2026-05-11 10:04]
-a090995 chore: auto-update handoff snapshot [2026-05-11 10:02]
-05ffcf3 chore: auto-update handoff snapshot [2026-05-11 09:58]
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
