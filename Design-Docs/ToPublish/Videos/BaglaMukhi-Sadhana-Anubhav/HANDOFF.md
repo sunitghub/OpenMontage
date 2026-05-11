@@ -58,15 +58,15 @@ Scene-5 fully committed (5a–5c, 6a–6d, mp3). Next: write outcome scenes 6–
 
 **Recent commits:**
 ```
+3ed17da chore: auto-update handoff snapshot [2026-05-11 09:58]
 11e34a4 chore: auto-update handoff snapshot [2026-05-11 09:56]
 223a2f7 chore: auto-update handoff snapshot [2026-05-11 09:56]
 ace8ef0 chore: auto-update handoff snapshot [2026-05-11 09:54]
 4a8e4d0 chore: auto-update handoff snapshot [2026-05-11 09:50]
-51d282a chore: auto-update handoff snapshot [2026-05-11 09:48]
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-11 09:56 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-11 09:58 branch:main -->
 **Modified files:**
 ```
  M Bagla-Sadhana-Anubhav.md
@@ -77,10 +77,10 @@ ace8ef0 chore: auto-update handoff snapshot [2026-05-11 09:54]
 
 **Recent commits:**
 ```
+11e34a4 chore: auto-update handoff snapshot [2026-05-11 09:56]
 223a2f7 chore: auto-update handoff snapshot [2026-05-11 09:56]
 ace8ef0 chore: auto-update handoff snapshot [2026-05-11 09:54]
 4a8e4d0 chore: auto-update handoff snapshot [2026-05-11 09:50]
 51d282a chore: auto-update handoff snapshot [2026-05-11 09:48]
-c5ed0d4 chore: auto-update handoff snapshot [2026-05-11 09:48]
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
