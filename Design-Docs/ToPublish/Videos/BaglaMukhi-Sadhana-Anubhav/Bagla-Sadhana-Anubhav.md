@@ -528,13 +528,83 @@ On the first night, his hands trembled as he lit the ghee diya — the wick dyed
 He placed the yellow lota of water beside Maa's image, performed the achaman, and then gathered water and fresh oleander flowers into his cupped right palm. Eyes closed, he prayed: *"O Maa Baglamukhi — every case filed against me, let it turn in my favor. Let my adversaries find no footing against me. Render them helpless."* He held that prayer in his palm for a long, still moment. Then he released it. Night after night, without a single exception, this became his ritual — one night, two nights, three nights passing in the amber glow of that yellow room.
 
 
+
+
+
 ## Scene-6 
 
 ### Script Hindi
 
+	Iske baad, Guru ke batay niyamon kee anusar, Sidhar ne pehle, Shree Ganesh ka dhyan kiya, aur Om Gam Ganapatye Namah ka 11 bar jaap kiya. Phir Shivji se anumati maang kar, Om Naham Shivay mantra ke 1 mala ki. Iske bad, haldi mala se usne, 101 mala jaap, apne asan maen sthir ho kar, is mantra ka kiya:
+	Om Hreem Baglamukhi, Srava Dushtanam Vaccham, Mukham Padam Stambhaya
+	Jivaham Keelaye, Buddhim Vinashaya, Hreem Om Swaha
+	
+	Jab uske 101 mala khatam hue, aur Sridhar ne apni ankhen kholi, aur dekah ki Suraj ki subah ki kinea, kamre main ek sunhari prakas daal raha thi. Usne apni hathon se ratri ki pooja and mantra jaap Maa Balgamukhi ko samarpit kiey aur unse ashirwaad manage. Diwal par tangi ghadi, lagbhag 5 baje ka time dikah rahi thi. Mantra ke dhyaan main, kaise waqt beeta, Sridhar ko khayal hi nahin tha.
+
+	
 ### Script English
 
-#### Artifacts
+	Subsequently, in accordance with the rules prescribed by his Guru, Sridhar first meditated upon Lord Ganesha and chanted "Om Gam Ganapataye Namah" eleven times. Then, seeking permission from Lord Shiva, he completed one *mala* (round of 108 repetitions) of the mantra "Om Namah Shivaya." Following this, remaining steady in his seated posture, he performed 101 rounds of this mantra using a turmeric rosary:
 
-##### Images
+	Om Hreem Baglamukhi, Sarva Dushtanam Vaccham, Mukham Padam Stambhaya
+	Jivaham Keelaye, Buddhim Vinashaya, Hreem Om Swaha
+
+	When he completed his 101 rounds of the rosary, Sridhar opened his eyes and saw that the morning rays of the sun were casting a golden glow across the room. With his hands folded in reverence, he dedicated his nightly worship and mantra chanting to Mother Bagalamukhi and sought her blessings. The clock hanging on the wall showed the time to be approximately 5:00 AM. So deeply immersed was Sridhar in the meditation of the mantra that he had remained completely oblivious to the passage of time.
+	
+### Artifacts
+
+#### Images
+
+1.
+
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, young Indian male sadhak in yellow dhoti and yellow shawl seated cross-legged on yellow asan inside a plain home room with yellow-painted walls and long yellow curtain over the doorway, eyes gently closed, hands pressed in soft anjali mudra near his chest, lips barely moving, expression of deep inward devotion, wooden bajot before him covered with yellow cloth bearing the framed Maa Baglamukhi image and steady diya flame, high above his head in the air a very faint barely-visible golden-orange translucent form of Lord Ganesha — elephant head, rotund body, soft glow — like a vision forming in the sadhak's mind, not a solid figure but a gentle luminous impression dissolving into the warm amber air, the sadhak himself eyes closed unaware, warm amber oil lamp glow, yellow room at night, motion-friendly slow push-in on his serene face with the ethereal Ganesha shimmer above, wide 16:9 composition, no text, no watermark`
+
+2.
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, close ritual insert of male hands in yellow cloth carefully counting beads on a rudraksha mala, thumb pressing each bead with deliberate reverence, preparatory invocation before the main Baglamukhi sadhana, framed portrait of Maa Baglamukhi softly blurred in background on wooden bajot — not Ganesha, not Shiva — only Maa Baglamukhi's image visible, brass diya flame and yellow bajot cloth in warm amber background, devotional precision, motion-friendly bead-counting hand composition, wide 16:9 composition, no text, no watermark, no distorted fingers`
+
+3.
+
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, young Indian male sadhak in yellow dhoti and yellow shawl seated cross-legged on yellow asan inside a plain home room with yellow-painted walls and long yellow curtain over the doorway, eyes half-closed in Shiva dhyana, hands holding mala near his chest, a faint cool silver shimmer barely visible above the warm amber diya glow — the subtle felt presence of Shiva's permission — lips moving in Om Namah Shivaya, expression of respectful petition before beginning the main Baglamukhi mantra, wooden bajot before him covered with yellow cloth bearing the framed Maa Baglamukhi image and steady diya flame, deep night, motion-friendly slow push-in on his softly lit face, wide 16:9 composition, no text, no watermark`
+
+4.
+
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, side-profile medium shot of young Indian male sadhak in yellow dhoti and yellow shawl seated upright cross-legged on yellow asan inside a plain home room with yellow-painted walls and long yellow curtain over the doorway, hands steadily working a mala in his lap, lips moving in measured rhythm, eyes gently lowered, completing one full mala of Om Namah Shivaya before beginning the Baglamukhi mantra, wooden bajot covered with yellow cloth bearing the framed Maa image and diya flame softly visible in background, warm amber light, deep night, motion-friendly slow lateral push composition, wide 16:9 composition, no text, no watermark`
+
+5.
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, extreme close devotional detail of a turmeric haldi mala resting across a male palm, round warm yellow-ochre beads glowing in diya light, each bead smooth and deeply golden, yellow thread strung with intention, brass oil lamp flame warmly reflected in the nearest bead, the sacred instrument of the Baglamukhi sadhana, motion-friendly macro rack-focus insert shot, wide 16:9 composition, no text, no watermark, no distorted fingers`
+
+6.
+
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, close medium shot of young Indian male sadhak in yellow dhoti and yellow shawl inside a plain home room with yellow-painted walls and long yellow curtain over the doorway, right hand holding the turmeric haldi mala in the traditional japa grip — mala draped over the middle finger, thumb gently poised to move each bead, index finger held away from the mala, yellow beads hanging naturally downward, this is the correct Vedic japa mala holding technique, eyes just closing, expression poised with absolute resolve at the threshold of beginning 101 rounds of the Baglamukhi mantra, faint golden Devanagari syllables of Om Hreem Baglamukhi ONLY beginning to form ethereally in the warm air around the raised mala — like the first breath of the mantra awakening, barely legible, dissolving into amber glow, wooden bajot covered with yellow cloth bearing a framed portrait of Maa Baglamukhi — solitary female deity seated on lotus throne in yellow dress and golden crown, right hand raised in abhaya blessing mudra, left hand holding a golden gada mace, radiant golden light behind her, no other figure beside her, no trident, no Shiva symbols — with steady diya flame glowing before the frame, warm golden glow, deep night, motion-friendly slow push-in on the mala and settling eyelids, wide 16:9 composition, no watermark, no distorted hands`
+
+7.
+
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, wide shot of young Indian male sadhak in yellow dhoti and yellow shawl seated immovably cross-legged on yellow asan inside a plain home room with yellow-painted walls and long yellow curtain over the doorway, both hands working the turmeric haldi mala steadily in his lap, head slightly bowed in deep absorption, face faintly perspiring in warm diya light, golden Devanagari mantra syllables of Om Hreem Baglamukhi flowing in a slow ethereal arc through the air above him — like sacred sound filling the room, luminous and barely legible, dissolving upward into amber darkness, wooden bajot covered with yellow cloth bearing the framed Maa Baglamukhi image and steady diya flame before him, seven incense mounds softly smoking, a small arched window on the far wall showing the deep night sky outside with a bright full moon clearly visible — cool silver moonlight falling through the window and meeting the warm amber diya glow inside, atmosphere of sustained unwavering resolve during 101 mala chanting, motion-friendly slow pull-back to reveal the full steadfast scene with the moonlit window in the background, wide 16:9 composition, no watermark`
+
+8.
+
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, medium shot of young Indian male sadhak in yellow dhoti and yellow shawl seated on yellow asan inside a plain home room with yellow-painted walls, both palms open and held out together in samarpan offering gesture — hands flat and slightly cupped, tilted forward and downward toward the framed Maa Baglamukhi image on the wooden bajot, as if placing the entire night's mantra jaap into her hands and asking her to accept it and bless him, turmeric mala resting in the open palms being offered forward, eyes lowered in humble surrender, expression of complete devotional offering after completing 101 malas, framed portrait of Maa Baglamukhi — solitary female deity in yellow dress and golden crown, right hand in abhaya mudra, left hand holding golden gada mace, no other figure — softly glowing on the bajot before him, diya flame warm between his outstretched hands and her image, long yellow curtain in background, deep night, motion-friendly slow push-in from the offered open palms toward the glowing Maa image, wide 16:9 composition, no text, no watermark, no distorted hands`
+
+
+9.
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, wide atmospheric shot of the yellow sadhana room at early dawn, long dramatic shafts of golden morning sunlight streaming through the small arched window and cutting visibly across the room — warm golden rays falling in broad beams across the yellow floor, the wooden bajot, and the yellow asan, dust motes floating and glowing in the light shafts, the low amber diya flame still burning at the center of the bajot almost swallowed by the stronger golden daylight, yellow walls lit up in rich warm gold, Maa Baglamukhi image at center of bajot, incense mounds reduced to ash, no people, the room transformed by both the night of devotion and the arriving morning, motion-friendly slow push-in along the golden light shafts toward the bajot, wide 16:9 composition, no text, no watermark`
+
+10.
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, wide interior shot of the complete yellow sadhana room at five in the morning, yellow-painted walls glowing in early dawn light, a small wall clock on the yellow wall showing just after five AM — this clock must be clearly visible in the composition, long golden dawn rays streaming through the small arched window, wooden bajot at the center of the room covered with yellow cloth bearing the framed portrait of Maa Baglamukhi — solitary female deity in yellow dress and golden crown, right hand in abhaya mudra, left hand holding golden gada mace, no other figure — brass diya flame still burning low before the frame, turmeric haldi mala resting on the yellow asan on the floor before the bajot, incense mounds reduced to ash, yellow curtain over the doorway, no people, the room as a complete living witness to a full night of unbroken devotion, warm golden dawn light mixing with the last amber glow of the diya, motion-friendly slow push-in from the clock along the dawn-lit wall down toward the bajot and the still-burning diya, wide 16:9 composition, no readable text, no watermark`
 
