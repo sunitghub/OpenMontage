@@ -47,6 +47,22 @@ Scene-5 fully committed (5a–5c, 6a–6d, mp3). Next: write outcome scenes 6–
 3. **Place courtroom/thumbnail assets** into scene numbering once 6–8 are written
 4. **Render Scenes 1–5** — `render-scene --all` once Scene-5 image count is final
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-11 09:44 branch:main -->
+**Modified files:**
+```
+ M Bagla-Sadhana-Anubhav.md
+```
+
+**Recent commits:**
+```
+78465a3 chore: auto-update handoff snapshot [2026-05-11 09:35]
+7aa1483 chore: auto-update handoff snapshot [2026-05-11 08:45]
+03dec39 chore: auto-update handoff snapshot [2026-05-11 08:36]
+2e1e558 fix: remove garbled escape sequence from Scene-5 image prompt
+e899fee chore: auto-update handoff snapshot [2026-05-09 09:40]
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-11 09:35 branch:main -->
 **Modified files:**
 ```
@@ -60,21 +76,5 @@ Scene-5 fully committed (5a–5c, 6a–6d, mp3). Next: write outcome scenes 6–
 2e1e558 fix: remove garbled escape sequence from Scene-5 image prompt
 e899fee chore: auto-update handoff snapshot [2026-05-09 09:40]
 804ca87 chore: auto-update handoff snapshot [2026-05-09 09:38]
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-11 08:45 branch:main -->
-**Modified files:**
-```
- M Bagla-Sadhana-Anubhav.md
-```
-
-**Recent commits:**
-```
-03dec39 chore: auto-update handoff snapshot [2026-05-11 08:36]
-2e1e558 fix: remove garbled escape sequence from Scene-5 image prompt
-e899fee chore: auto-update handoff snapshot [2026-05-09 09:40]
-804ca87 chore: auto-update handoff snapshot [2026-05-09 09:38]
-8b60ce2 chore: auto-update handoff snapshot [2026-05-09 09:38]
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
