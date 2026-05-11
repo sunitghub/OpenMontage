@@ -55,15 +55,15 @@ Scene-5 fully committed (5a–5c, 6a–6d, mp3). Next: write outcome scenes 6–
 
 **Recent commits:**
 ```
+b1922d2 chore: auto-update handoff snapshot [2026-05-11 09:46]
 8c33afa chore: auto-update handoff snapshot [2026-05-11 09:44]
 c33a341 chore: auto-update handoff snapshot [2026-05-11 09:44]
 78465a3 chore: auto-update handoff snapshot [2026-05-11 09:35]
 7aa1483 chore: auto-update handoff snapshot [2026-05-11 08:45]
-03dec39 chore: auto-update handoff snapshot [2026-05-11 08:36]
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-11 09:44 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-11 09:46 branch:main -->
 **Modified files:**
 ```
  M Bagla-Sadhana-Anubhav.md
@@ -71,10 +71,10 @@ c33a341 chore: auto-update handoff snapshot [2026-05-11 09:44]
 
 **Recent commits:**
 ```
+8c33afa chore: auto-update handoff snapshot [2026-05-11 09:44]
 c33a341 chore: auto-update handoff snapshot [2026-05-11 09:44]
 78465a3 chore: auto-update handoff snapshot [2026-05-11 09:35]
 7aa1483 chore: auto-update handoff snapshot [2026-05-11 08:45]
 03dec39 chore: auto-update handoff snapshot [2026-05-11 08:36]
-2e1e558 fix: remove garbled escape sequence from Scene-5 image prompt
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
