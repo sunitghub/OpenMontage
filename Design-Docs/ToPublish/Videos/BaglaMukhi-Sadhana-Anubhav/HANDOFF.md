@@ -55,15 +55,15 @@ Scene-5 fully committed (5a–5c, 6a–6d, mp3). Next: write outcome scenes 6–
 
 **Recent commits:**
 ```
+b6309cc chore: auto-update handoff snapshot [2026-05-11 19:57]
 16d29cc chore: auto-update handoff snapshot [2026-05-11 19:55]
 3015c9b chore: auto-update handoff snapshot [2026-05-11 19:44]
 d2bc958 feat: add Scene-7 prompts, remaining Scene-6 images, and narration
 a79439c chore: auto-update handoff snapshot [2026-05-11 18:40]
-4c96525 chore: auto-update handoff snapshot [2026-05-11 14:32]
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-11 19:55 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-11 19:57 branch:main -->
 **Modified files:**
 ```
  M Bagla-Sadhana-Anubhav.md
@@ -71,10 +71,10 @@ a79439c chore: auto-update handoff snapshot [2026-05-11 18:40]
 
 **Recent commits:**
 ```
+16d29cc chore: auto-update handoff snapshot [2026-05-11 19:55]
 3015c9b chore: auto-update handoff snapshot [2026-05-11 19:44]
 d2bc958 feat: add Scene-7 prompts, remaining Scene-6 images, and narration
 a79439c chore: auto-update handoff snapshot [2026-05-11 18:40]
 4c96525 chore: auto-update handoff snapshot [2026-05-11 14:32]
-65a4a98 chore: auto-update handoff snapshot [2026-05-11 14:31]
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
