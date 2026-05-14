@@ -44,11 +44,11 @@ Baglamukhi Sadhana Anubhav long-form video. Scenes 1–4 complete with narration
 
 **Recent commits:**
 ```
+597d23e chore: auto-update handoff snapshot [2026-05-14 17:15]
 1d1dd10 chore: auto-update handoff snapshot [2026-05-14 17:11]
 c686e8d chore: auto-update handoff snapshot [2026-05-14 17:09]
 c859a8c chore: auto-update handoff snapshot [2026-05-12 17:45]
 a55b98f chore: auto-update handoff snapshot [2026-05-12 17:45]
-129bd44 fix: remove two-arms-only constraint from Maa Baglamukhi portrait prompts
 ```
 
 **In-progress tickets:**
@@ -57,7 +57,7 @@ BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-14 17:11 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-14 17:15 branch:main -->
 **Modified files:**
 ```
  M AGENTS.md
@@ -69,11 +69,11 @@ BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
 
 **Recent commits:**
 ```
+1d1dd10 chore: auto-update handoff snapshot [2026-05-14 17:11]
 c686e8d chore: auto-update handoff snapshot [2026-05-14 17:09]
 c859a8c chore: auto-update handoff snapshot [2026-05-12 17:45]
 a55b98f chore: auto-update handoff snapshot [2026-05-12 17:45]
 129bd44 fix: remove two-arms-only constraint from Maa Baglamukhi portrait prompts
-a8fee54 chore: auto-update handoff snapshot [2026-05-12 17:44]
 ```
 
 **In-progress tickets:**
