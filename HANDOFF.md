@@ -31,3 +31,28 @@ Baglamukhi Sadhana Anubhav long-form video. Scenes 1–4 complete with narration
 - Prompt learnings: `Design-Docs/ToPublish/Videos/BaglaMukhi-Sadhana-Anubhav/PROMPT-LEARNINGS.md`
 - Scene-level handoff: `Design-Docs/ToPublish/Videos/BaglaMukhi-Sadhana-Anubhav/HANDOFF.md`
 - Competitor analysis: `Design-Docs/Competitors/Competitor-Analysis.md`
+
+<!-- HANDOFF-SNAPSHOT:START 2026-05-14 17:09 branch:main -->
+**Modified files:**
+```
+ M AGENTS.md
+ M CLAUDE.md
+ M Design-Docs/ToPublish/Videos/BaglaMukhi-Sadhana-Anubhav/Bagla-Sadhana-Anubhav.md
+?? .tickets/BSA-yhol.md
+?? Design-Docs/ToPublish/Videos/BaglaMukhi-Sadhana-Anubhav/Scene-7.mp3
+```
+
+**Recent commits:**
+```
+c859a8c chore: auto-update handoff snapshot [2026-05-12 17:45]
+a55b98f chore: auto-update handoff snapshot [2026-05-12 17:45]
+129bd44 fix: remove two-arms-only constraint from Maa Baglamukhi portrait prompts
+a8fee54 chore: auto-update handoff snapshot [2026-05-12 17:44]
+990a84a feat: add Scene-7 images and refine prompts for apparition sequence
+```
+
+**In-progress tickets:**
+```
+BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
