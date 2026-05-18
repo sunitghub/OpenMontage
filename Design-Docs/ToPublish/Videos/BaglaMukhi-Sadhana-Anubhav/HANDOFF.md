@@ -47,19 +47,23 @@ Scene-5 fully committed (5a–5c, 6a–6d, mp3). Next: write outcome scenes 6–
 3. **Place courtroom/thumbnail assets** into scene numbering once 6–8 are written
 4. **Render Scenes 1–5** — `render-scene --all` once Scene-5 image count is final
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-12 17:45 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-18 12:07 branch:main -->
 **Modified files:**
 ```
+ M ../../../../AGENTS.md
+ M ../../../../CLAUDE.md
+ M Bagla-Sadhana-Anubhav.md
 ?? ../../../../.tickets/BSA-yhol.md
+?? Scene-7.mp3
 ```
 
 **Recent commits:**
 ```
-a55b98f chore: auto-update handoff snapshot [2026-05-12 17:45]
-129bd44 fix: remove two-arms-only constraint from Maa Baglamukhi portrait prompts
-a8fee54 chore: auto-update handoff snapshot [2026-05-12 17:44]
-990a84a feat: add Scene-7 images and refine prompts for apparition sequence
-2646146 chore: auto-update handoff snapshot [2026-05-12 17:34]
+5a5dfa5 chore: auto-update handoff snapshot [2026-05-14 17:15]
+597d23e chore: auto-update handoff snapshot [2026-05-14 17:15]
+1d1dd10 chore: auto-update handoff snapshot [2026-05-14 17:11]
+c686e8d chore: auto-update handoff snapshot [2026-05-14 17:09]
+c859a8c chore: auto-update handoff snapshot [2026-05-12 17:45]
 ```
 
 **In-progress tickets:**
@@ -76,11 +80,11 @@ BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
 
 **Recent commits:**
 ```
+a55b98f chore: auto-update handoff snapshot [2026-05-12 17:45]
 129bd44 fix: remove two-arms-only constraint from Maa Baglamukhi portrait prompts
 a8fee54 chore: auto-update handoff snapshot [2026-05-12 17:44]
 990a84a feat: add Scene-7 images and refine prompts for apparition sequence
 2646146 chore: auto-update handoff snapshot [2026-05-12 17:34]
-18330f5 chore: auto-update handoff snapshot [2026-05-12 17:34]
 ```
 
 **In-progress tickets:**
