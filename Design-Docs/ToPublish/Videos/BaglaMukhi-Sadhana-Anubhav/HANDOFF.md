@@ -51,6 +51,35 @@ Scene-8 images complete (1–11). Next: record voiceover for Scene-8, then commi
 3. **Commit** — `Scene-7.mp3` + all `Scene-8-*.png` + `Scene-8.mp3` together
 4. **Close ticket BSA-yhol** — after Scene-7 voiceover recorded and rendered
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-19 18:31 branch:main -->
+**Modified files:**
+```
+ M Bagla-Sadhana-Anubhav.md
+ M Scene-9.mp3
+?? Scene-10-1.png
+?? Scene-10-2.png
+?? Scene-10-3.png
+?? Scene-10-4.png
+?? Scene-10-5.png
+?? Scene-10-6.png
+?? Scene-10-7.png
+```
+
+**Recent commits:**
+```
+1811423 chore: auto-update handoff snapshot [2026-05-19 18:30]
+9e40cb3 chore: auto-update handoff snapshot [2026-05-19 18:29]
+e5811b7 chore: auto-update handoff snapshot [2026-05-19 18:28]
+05047f1 chore: auto-update handoff snapshot [2026-05-19 18:27]
+6dafbb1 chore: auto-update handoff snapshot [2026-05-19 18:27]
+```
+
+**In-progress tickets:**
+```
+BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-19 18:30 branch:main -->
 **Modified files:**
 ```
@@ -71,34 +100,6 @@ e5811b7 chore: auto-update handoff snapshot [2026-05-19 18:28]
 05047f1 chore: auto-update handoff snapshot [2026-05-19 18:27]
 6dafbb1 chore: auto-update handoff snapshot [2026-05-19 18:27]
 667920d chore: auto-update handoff snapshot [2026-05-19 18:26]
-```
-
-**In-progress tickets:**
-```
-BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-19 18:29 branch:main -->
-**Modified files:**
-```
- M Bagla-Sadhana-Anubhav.md
- M Scene-9.mp3
-?? Scene-10-1.png
-?? Scene-10-2.png
-?? Scene-10-3.png
-?? Scene-10-4.png
-?? Scene-10-5.png
-?? Scene-10-6.png
-```
-
-**Recent commits:**
-```
-e5811b7 chore: auto-update handoff snapshot [2026-05-19 18:28]
-05047f1 chore: auto-update handoff snapshot [2026-05-19 18:27]
-6dafbb1 chore: auto-update handoff snapshot [2026-05-19 18:27]
-667920d chore: auto-update handoff snapshot [2026-05-19 18:26]
-eae965f chore: auto-update handoff snapshot [2026-05-19 18:23]
 ```
 
 **In-progress tickets:**
