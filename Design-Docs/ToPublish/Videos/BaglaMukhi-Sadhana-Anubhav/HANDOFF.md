@@ -47,6 +47,41 @@ Scene-5 fully committed (5a–5c, 6a–6d, mp3). Next: write outcome scenes 6–
 3. **Place courtroom/thumbnail assets** into scene numbering once 6–8 are written
 4. **Render Scenes 1–5** — `render-scene --all` once Scene-5 image count is final
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-18 19:11 branch:main -->
+**Modified files:**
+```
+ M ../../../../AGENTS.md
+ M ../../../../CLAUDE.md
+ M Bagla-Sadhana-Anubhav.md
+?? ../../../../.tickets/BSA-yhol.md
+?? Scene-7.mp3
+?? Scene-8-1.png
+?? Scene-8-10.png
+?? Scene-8-2.png
+?? Scene-8-3.png
+?? Scene-8-4.png
+?? Scene-8-5.png
+?? Scene-8-6.png
+?? Scene-8-7.png
+?? Scene-8-8.png
+?? Scene-8-9.png
+```
+
+**Recent commits:**
+```
+b7b0548 chore: auto-update handoff snapshot [2026-05-18 18:35]
+85025db chore: auto-update handoff snapshot [2026-05-18 18:32]
+e840a99 chore: auto-update handoff snapshot [2026-05-18 18:30]
+012bd0e chore: auto-update handoff snapshot [2026-05-18 16:10]
+0f0beec chore: auto-update handoff snapshot [2026-05-18 16:06]
+```
+
+**In-progress tickets:**
+```
+BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-18 18:35 branch:main -->
 **Modified files:**
 ```
@@ -73,40 +108,6 @@ e840a99 chore: auto-update handoff snapshot [2026-05-18 18:30]
 012bd0e chore: auto-update handoff snapshot [2026-05-18 16:10]
 0f0beec chore: auto-update handoff snapshot [2026-05-18 16:06]
 7d4bea6 chore: auto-update handoff snapshot [2026-05-18 16:05]
-```
-
-**In-progress tickets:**
-```
-BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-18 18:32 branch:main -->
-**Modified files:**
-```
- M ../../../../AGENTS.md
- M ../../../../CLAUDE.md
- M Bagla-Sadhana-Anubhav.md
-?? ../../../../.tickets/BSA-yhol.md
-?? Scene-7.mp3
-?? Scene-8-1.png
-?? Scene-8-2.png
-?? Scene-8-3.png
-?? Scene-8-4.png
-?? Scene-8-5.png
-?? Scene-8-6.png
-?? Scene-8-7.png
-?? Scene-8-8.png
-?? Scene-8-9.png
-```
-
-**Recent commits:**
-```
-e840a99 chore: auto-update handoff snapshot [2026-05-18 18:30]
-012bd0e chore: auto-update handoff snapshot [2026-05-18 16:10]
-0f0beec chore: auto-update handoff snapshot [2026-05-18 16:06]
-7d4bea6 chore: auto-update handoff snapshot [2026-05-18 16:05]
-5db5a9f chore: auto-update handoff snapshot [2026-05-18 15:51]
 ```
 
 **In-progress tickets:**
