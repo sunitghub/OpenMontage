@@ -51,6 +51,33 @@ Scene-8 images complete (1–11). Next: record voiceover for Scene-8, then commi
 3. **Commit** — `Scene-7.mp3` + all `Scene-8-*.png` + `Scene-8.mp3` together
 4. **Close ticket BSA-yhol** — after Scene-7 voiceover recorded and rendered
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-19 10:15 branch:main -->
+**Modified files:**
+```
+ M Bagla-Sadhana-Anubhav.md
+ D Scene-8-3.png
+?? Scene-8.mp3
+?? Scene-9-1.png
+?? Scene-9-2.png
+?? Scene-9-3.png
+?? Scene-9-4.png
+```
+
+**Recent commits:**
+```
+7328050 chore: auto-update handoff snapshot [2026-05-19 10:14]
+0985ea1 chore: auto-update handoff snapshot [2026-05-19 10:10]
+a902b57 chore: auto-update handoff snapshot [2026-05-19 10:09]
+005f87a chore: auto-update handoff snapshot [2026-05-19 10:08]
+36df801 chore: auto-update handoff snapshot [2026-05-19 10:08]
+```
+
+**In-progress tickets:**
+```
+BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-19 10:14 branch:main -->
 **Modified files:**
 ```
@@ -70,33 +97,6 @@ a902b57 chore: auto-update handoff snapshot [2026-05-19 10:09]
 005f87a chore: auto-update handoff snapshot [2026-05-19 10:08]
 36df801 chore: auto-update handoff snapshot [2026-05-19 10:08]
 34e89a0 chore: auto-update handoff snapshot [2026-05-19 10:07]
-```
-
-**In-progress tickets:**
-```
-BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-19 10:10 branch:main -->
-**Modified files:**
-```
- M Bagla-Sadhana-Anubhav.md
- D Scene-8-3.png
-?? Scene-8.mp3
-?? Scene-9-1.png
-?? Scene-9-2.png
-?? Scene-9-3.png
-?? Scene-9-4.png
-```
-
-**Recent commits:**
-```
-a902b57 chore: auto-update handoff snapshot [2026-05-19 10:09]
-005f87a chore: auto-update handoff snapshot [2026-05-19 10:08]
-36df801 chore: auto-update handoff snapshot [2026-05-19 10:08]
-34e89a0 chore: auto-update handoff snapshot [2026-05-19 10:07]
-e2db178 chore: auto-update handoff snapshot [2026-05-19 10:07]
 ```
 
 **In-progress tickets:**
