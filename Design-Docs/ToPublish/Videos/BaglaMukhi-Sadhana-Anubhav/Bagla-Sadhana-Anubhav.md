@@ -686,7 +686,7 @@ He placed the yellow lota of water beside Maa's image, performed the achaman, an
 
 ### Script Hindi
 
-	Iske baad, agle 2 din tak, Sridhar ko koi bhi anubhav nahin hua. Teesre raat, whohi aurat ek vikraal, Maal Kali ke roop main, phir se prakat hui, aur woh nazdeek aakar Sridhar ke bagal main baeth gai. Uska, baya ghutna, Sridhar ke dahine jaang, ko choo raha thaa. Sridahar mantra jaap karta raha. Usne jaab aurat ko dhyaan se dekhe, to uske hosh hi udh gaye. Woh aurat Maa Kali ki tarah, apne galen maiin mundmala dharan kiye hui thee. Uske haath maine ek katora thaa, jo rakt se bhara thaa aur woh rah kar usme se chuski le rahi thi. Sridhar ko, ek paal ke liy laga, jaise ki woh saans nahin le raha hai. Phir, mushkil ke saath, usne mantra jaap phir se aarambh kiya. Woh aurat wahin baethi rahi, aur use, etak dekhti rahi.
+	Iske baad, agle 2 dinon tak, Sridhar ko koi bhi, anubhav nahin hua. Teesre raat, Wohi aurat ek vikraal, Maal Kali ke roop main, phir se prakat hui, aur woh nazdeek aakar Sridhar ke bagal main baeth gai. Uska, baya ghutna, Sridhar ke dahine jaang, ko choo raha thaa. Sridahar mantra jaap karta raha. Usne jaab aurat ko dhyaan se dekhe, to uske hosh hi udh gaye. Woh aurat Maa Kali ki tarah, apne galen maiin mundmala dharan kiye hui thee. Uske haath maine ek katora thaa, jo rakt se bhara thaa aur woh rah kar usme se chuski le rahi thi. Sridhar ko, ek paal ke liy laga, jaise ki woh saans nahin le raha hai. Phir, mushkil ke saath, usne mantra jaap phir se aarambh kiya. Woh aurat wahin baethi rahi, aur use, etak dekhti rahi.
 	
 ### Script English
 
@@ -701,7 +701,7 @@ He placed the yellow lota of water beside Maa's image, performed the achaman, an
 
    **Ref:** Upload `Sadhak_B_Ref.png`
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, wide shot of young Indian male sadhak in yellow dhoti and yellow shawl seated cross-legged on yellow asan inside the yellow sadhana room across two quiet undisturbed nights, turmeric haldi mala in traditional japa grip — mala draped over middle finger, thumb counting each bead, index finger held away — wooden bajot before him covered with yellow cloth bearing the framed Maa Baglamukhi image and steady diya flame, seven incense mounds softly smoking, yellow walls and long yellow curtain, the room serene and completely empty except for him, no apparition no shadow no presence, pure undisturbed solitary practice, small arched window showing deep night sky and a faint crescent moon, atmosphere of two nights of waiting in calm devotion, motion-friendly slow pull-back to reveal the quiet complete scene, wide 16:9 composition, no text, no watermark`
+   `painterly AI devotional illustration, Hindustani folk-story art style, wide shot of young Indian male sadhak in yellow dhoti and yellow shawl — shawl draped over both shoulders covering his chest — seated cross-legged on yellow asan inside a plain home room with yellow-painted walls and long yellow curtain over the doorway, turmeric haldi mala in traditional japa grip — mala draped over middle finger, thumb counting each bead, index finger held away — wooden bajot before him covered with yellow cloth bearing the framed Maa Baglamukhi image and steady diya flame, seven incense mounds softly smoking, small arched window showing deep night sky and a faint crescent moon, the room completely empty — no other figure, no dark form, no woman, no shadow in any corner, every corner of the room plainly visible and bare — pure solitary undisturbed practice, atmosphere of calm sustained devotion across two uneventful nights, motion-friendly slow pull-back to reveal the full quiet empty room, wide 16:9 composition, no text, no watermark`
 
 2.
 
@@ -831,6 +831,25 @@ He placed the yellow lota of water beside Maa's image, performed the achaman, an
    **Ref:** Upload `Sadhak_B_Ref.png`
 
    `painterly AI devotional illustration, Hindustani folk-story art style, close medium shot of young Indian male sadhak in yellow dhoti and yellow shawl seated back upright on the yellow asan — the woman gone, the room empty — his right hand lifting the turmeric haldi mala back into the traditional japa grip, mala draped over middle finger, thumb finding the first bead, index finger held away, the hand trembling visibly but not stopping, face carrying every mark of the night — pale, exhausted, hair slightly disheveled — but jaw set and eyes fixed on Maa Baglamukhi's framed image on the bajot with a look of iron quiet resolve, diya flame beside the frame burning low but steady, the faintest grey pre-dawn light at the window behind him, 101 rounds to finish, and he will finish them, atmosphere of the most hard-won devotion, motion-friendly slow push-in on his resolute trembling hand returning to the mala and his steady unflinching gaze forward, wide 16:9 composition, no text, no watermark`
+
+---
+
+
+## Scene-10
+
+### Script Hindi
+
+	
+
+### Script English
+
+	
+
+### Artifacts
+
+#### Images
+
+	1.
 
 ---
 
