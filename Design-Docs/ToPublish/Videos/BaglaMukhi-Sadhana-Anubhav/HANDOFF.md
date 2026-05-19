@@ -51,7 +51,7 @@ Scene-8 images complete (1–11). Next: record voiceover for Scene-8, then commi
 3. **Commit** — `Scene-7.mp3` + all `Scene-8-*.png` + `Scene-8.mp3` together
 4. **Close ticket BSA-yhol** — after Scene-7 voiceover recorded and rendered
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-18 19:28 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-18 19:29 branch:main -->
 **Modified files:**
 ```
  M ../../../../AGENTS.md
@@ -74,11 +74,11 @@ Scene-8 images complete (1–11). Next: record voiceover for Scene-8, then commi
 
 **Recent commits:**
 ```
+369c47f chore: auto-update handoff snapshot [2026-05-18 19:28]
 c892bad chore: auto-update handoff snapshot [2026-05-18 19:28]
 f2d5f77 chore: auto-update handoff snapshot [2026-05-18 19:23]
 8e716b1 chore: auto-update handoff snapshot [2026-05-18 19:17]
 8edfe9c chore: auto-update handoff snapshot [2026-05-18 19:11]
-b7b0548 chore: auto-update handoff snapshot [2026-05-18 18:35]
 ```
 
 **In-progress tickets:**
@@ -110,11 +110,11 @@ BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
 
 **Recent commits:**
 ```
+c892bad chore: auto-update handoff snapshot [2026-05-18 19:28]
 f2d5f77 chore: auto-update handoff snapshot [2026-05-18 19:23]
 8e716b1 chore: auto-update handoff snapshot [2026-05-18 19:17]
 8edfe9c chore: auto-update handoff snapshot [2026-05-18 19:11]
 b7b0548 chore: auto-update handoff snapshot [2026-05-18 18:35]
-85025db chore: auto-update handoff snapshot [2026-05-18 18:32]
 ```
 
 **In-progress tickets:**
