@@ -51,6 +51,32 @@ Scene-8 images complete (1–11). Next: record voiceover for Scene-8, then commi
 3. **Commit** — `Scene-7.mp3` + all `Scene-8-*.png` + `Scene-8.mp3` together
 4. **Close ticket BSA-yhol** — after Scene-7 voiceover recorded and rendered
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-19 18:21 branch:main -->
+**Modified files:**
+```
+ M Bagla-Sadhana-Anubhav.md
+ M Scene-9.mp3
+?? Scene-10-1.png
+?? Scene-10-2.png
+?? Scene-10-3.png
+?? Scene-10-4.png
+```
+
+**Recent commits:**
+```
+6941e54 chore: auto-update handoff snapshot [2026-05-19 18:20]
+428311d chore: auto-update handoff snapshot [2026-05-19 18:19]
+a808661 chore: auto-update handoff snapshot [2026-05-19 18:17]
+7152e96 chore: auto-update handoff snapshot [2026-05-19 18:16]
+1c23c58 chore: auto-update handoff snapshot [2026-05-19 17:56]
+```
+
+**In-progress tickets:**
+```
+BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-19 18:20 branch:main -->
 **Modified files:**
 ```
@@ -69,31 +95,6 @@ a808661 chore: auto-update handoff snapshot [2026-05-19 18:17]
 7152e96 chore: auto-update handoff snapshot [2026-05-19 18:16]
 1c23c58 chore: auto-update handoff snapshot [2026-05-19 17:56]
 6720fa3 chore: auto-update handoff snapshot [2026-05-19 17:56]
-```
-
-**In-progress tickets:**
-```
-BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-19 18:19 branch:main -->
-**Modified files:**
-```
- M Bagla-Sadhana-Anubhav.md
- M Scene-9.mp3
-?? Scene-10-1.png
-?? Scene-10-2.png
-?? Scene-10-3.png
-```
-
-**Recent commits:**
-```
-a808661 chore: auto-update handoff snapshot [2026-05-19 18:17]
-7152e96 chore: auto-update handoff snapshot [2026-05-19 18:16]
-1c23c58 chore: auto-update handoff snapshot [2026-05-19 17:56]
-6720fa3 chore: auto-update handoff snapshot [2026-05-19 17:56]
-4c5642a chore: auto-update handoff snapshot [2026-05-19 17:55]
 ```
 
 **In-progress tickets:**
