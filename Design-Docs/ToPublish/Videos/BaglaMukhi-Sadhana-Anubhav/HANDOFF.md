@@ -51,6 +51,28 @@ Scene-8 images complete (1–11). Next: record voiceover for Scene-8, then commi
 3. **Commit** — `Scene-7.mp3` + all `Scene-8-*.png` + `Scene-8.mp3` together
 4. **Close ticket BSA-yhol** — after Scene-7 voiceover recorded and rendered
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-19 14:12 branch:main -->
+**Modified files:**
+```
+ M Bagla-Sadhana-Anubhav.md
+?? Scene-9.mp3
+```
+
+**Recent commits:**
+```
+2e2fb22 feat: add Scene-9 generated images and Scene-8 narration
+4e385e2 chore: auto-update handoff snapshot [2026-05-19 10:25]
+0c27dbf chore: auto-update handoff snapshot [2026-05-19 10:24]
+355f38f chore: auto-update handoff snapshot [2026-05-19 10:23]
+f81149a chore: auto-update handoff snapshot [2026-05-19 10:21]
+```
+
+**In-progress tickets:**
+```
+BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-19 10:25 branch:main -->
 **Modified files:**
 ```
@@ -73,36 +95,6 @@ Scene-8 images complete (1–11). Next: record voiceover for Scene-8, then commi
 f81149a chore: auto-update handoff snapshot [2026-05-19 10:21]
 087cd75 chore: auto-update handoff snapshot [2026-05-19 10:21]
 2b5b4ae chore: auto-update handoff snapshot [2026-05-19 10:19]
-```
-
-**In-progress tickets:**
-```
-BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-19 10:24 branch:main -->
-**Modified files:**
-```
- M Bagla-Sadhana-Anubhav.md
- D Scene-8-3.png
-?? Scene-8.mp3
-?? Scene-9-1.png
-?? Scene-9-2.png
-?? Scene-9-3.png
-?? Scene-9-4.png
-?? Scene-9-5.png
-?? Scene-9-6.png
-?? Scene-9-7.png
-```
-
-**Recent commits:**
-```
-355f38f chore: auto-update handoff snapshot [2026-05-19 10:23]
-f81149a chore: auto-update handoff snapshot [2026-05-19 10:21]
-087cd75 chore: auto-update handoff snapshot [2026-05-19 10:21]
-2b5b4ae chore: auto-update handoff snapshot [2026-05-19 10:19]
-c6bfe43 chore: auto-update handoff snapshot [2026-05-19 10:19]
 ```
 
 **In-progress tickets:**
