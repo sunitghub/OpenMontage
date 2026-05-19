@@ -11,3 +11,4 @@ There are no instructions in this file. All instructions are in AGENT_GUIDE.md.
 @/Users/sunitjoshi/Developer/canon/standards/efficiency.md
 @/Users/sunitjoshi/Developer/canon/skills/wrapup.md
 @/Users/sunitjoshi/Developer/canon/skills/devotional-producer.md
+@/Users/sunitjoshi/Developer/canon/skills/capture.md

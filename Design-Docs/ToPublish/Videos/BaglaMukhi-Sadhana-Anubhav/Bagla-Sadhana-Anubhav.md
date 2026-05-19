@@ -529,8 +529,6 @@ He placed the yellow lota of water beside Maa's image, performed the achaman, an
 
 
 
-
-
 ## Scene-6 
 
 ### Script Hindi
@@ -616,11 +614,11 @@ He placed the yellow lota of water beside Maa's image, performed the achaman, an
 
 ### Script Hindi
 
-	Sridhar ke Guru ka aadesh tha, ki 13 din ki Sadhana ke dauraan, sirph 1 gilaas doodh, grahan karna thaa. Aur saath hi, kaam baat-cheet aur adhiktam maun rehne ko kaha tha. Sridhar ne prati-din, in niyamo ka palan kiya.
+	Sridhar ke Guru ka aadesh tha, ki 13 din ki Sadhana ke dauraan, sirph 1 gilaas doodh, grahan karna thaa. Aur saath hi, adhiktam maun rehna tha. Sridhar ne prati-din, in niyamo ka palan kiya.
 	
-	Saatve din, ratri ko woh jaab jaap kar raha tha, use aisa laga ki, ek Stri, jiski ki aakrati Maa Kali ki tarah thi, kamare ke kaune main khadi hai. Woh uski tarpah dekh rah thi aur zor se, hans rahi thi. Uski hansi behad darawani thi aur uske chudiyon ke kahanak, sunkar Sridahat ke raongate khade ho gyae.
+	Saatve din, ratri ko, jaab woh jaap kar raha tha, use aisa laga ki, ek Stri, jiski ki aakrati Maa Kali ki tarah thi, kamare ke kaune main khadi hai. Woh uski tarpah dekh rah thi, aur phir zor se, hansne lagi. Uski hansi behad darawani thi. Uske chudiyon ke kahanak, sunkar, Sridahar ke raongate khade ho gyae.
 	
-	Sridhar apna dy baglamukhi mantra ka jaap karte raha. Uski aankhen apne samne rakhi Mata ki tasveer par tiki rahi. Apni aankhon ke kone se, use mahsoos hua, ki wah aurat, abhi bhi use dekh rahe thee.
+	Sridhar, Maa Baglamukhi mantra ka jaap karte raha. Uski aankhen, apne samne rakhi, Mata ki tasveer par tiki rahi. Apni aankhon ke kone se, use mahsoos hua, ki wah aurat, abhi bhi use dekh rahe thee.
 	
 	
 ### Script English
@@ -682,10 +680,157 @@ He placed the yellow lota of water beside Maa's image, performed the achaman, an
    `painterly AI devotional illustration, Hindustani folk-story art style, folk illustration style painted brushwork not photoreal, wide shot of the complete yellow sadhana room with yellow-painted walls — Sridhar in yellow dhoti and yellow shawl at center-right, seated upright in japa, eyes fixed directly forward on the framed Maa Baglamukhi image on the bajot, lips moving in continuous mantra, right hand holding haldi mala in japa grip — mala draped over middle finger, thumb on a bead, index finger held away — deliberately refusing to turn and look at viewer's left — but on viewer's left near the window the fierce supernatural female figure still standing, dark complexion, wild unbound black hair, blazing eyes now narrowed to an unwavering stare fixed on the sadhak's profile, no longer laughing but watching with still intensity, Kali-like divine fierce presence — awe-inducing not demonic, window behind her with cool moonlight partially framing her — the framed portrait of Maa Baglamukhi at center glowing warm in diya light: female deity in yellow dress and golden crown, right front hand in abhaya mudra, left front hand holding golden gada mace, no trident — like a shield between the two figures, atmosphere of an invisible tug-of-war between devotion and awe, motion-friendly slow pull-back to hold the full scene, wide 16:9 composition, no text, no watermark`
 
 
+
+
 ## Scene-8
 
 ### Script Hindi
 
+	Iske baad, agle 2 din tak, Sridhar ko koi bhi anubhav nahin hua. Teesre raat, whohi aurat ek vikraal, Maal Kali ke roop main, phir se prakat hui, aur woh nazdeek aakar Sridhar ke bagal main baeth gai. Uska, baya ghutna, Sridhar ke dahine jaang, ko choo raha thaa. Sridahar mantra jaap karta raha. Usne jaab aurat ko dhyaan se dekhe, to uske hosh hi udh gaye. Woh aurat Maa Kali ki tarah, apne galen maiin mundmala dharan kiye hui thee. Uske haath maine ek katora thaa, jo rakt se bhara thaa aur woh rah kar usme se chuski le rahi thi. Sridhar ko, ek paal ke liy laga, jaise ki woh saans nahin le raha hai. Phir, mushkil ke saath, usne mantra jaap phir se aarambh kiya. Woh aurat wahin baethi rahi, aur use, etak dekhti rahi.
+	
+### Script English
+
+	Subsequently, for the next two days, Sridhar experienced nothing whatsoever. On the third night, that very same woman reappeared—this time in the terrifying form of Mother Kali—and, drawing near, she sat down right beside Sridhar. Her left knee was touching Sridhar's right thigh. Sridhar continued to chant his mantra. When he looked at the woman closely, he was utterly petrified. Resembling Mother Kali, the woman wore a garland of skulls around her neck. In her hands, she held a bowl filled with blood, from which she took occasional sips. For a fleeting moment, Sridhar felt as though he had stopped breathing. Then, with great difficulty, he resumed chanting the mantra. The woman remained seated right there, gazing unblinkingly at him.
+	
+
+### Artifacts
+
+#### Images
+
+1.
+
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, wide shot of young Indian male sadhak in yellow dhoti and yellow shawl seated cross-legged on yellow asan inside the yellow sadhana room across two quiet undisturbed nights, turmeric haldi mala in traditional japa grip — mala draped over middle finger, thumb counting each bead, index finger held away — wooden bajot before him covered with yellow cloth bearing the framed Maa Baglamukhi image and steady diya flame, seven incense mounds softly smoking, yellow walls and long yellow curtain, the room serene and completely empty except for him, no apparition no shadow no presence, pure undisturbed solitary practice, small arched window showing deep night sky and a faint crescent moon, atmosphere of two nights of waiting in calm devotion, motion-friendly slow pull-back to reveal the quiet complete scene, wide 16:9 composition, no text, no watermark`
+
+2.
+
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, close devotional insert of a brass diya flame on the wooden bajot covered in yellow cloth, the flame burning with an unusual restless flicker — not steady as on previous nights — small tongues of light bending left and right without wind, warm amber glow on the yellow cloth and the base of the framed Maa Baglamukhi image, the sadhak's yellow-draped knee and haldi mala just visible in soft blur at the lower frame edge, no apparition no shadow, only the flame behaving differently as if sensing what the third night holds, atmosphere of a subtle shift — ordinary surface, something stirring beneath, motion-friendly slow push-in on the restless flame, wide 16:9 composition, no text, no watermark`
+
+3.
+
+   **Ref:** Upload `Sadhak_B_Ref.png` + `Mahakali-1.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, folk illustration style painted brushwork not photoreal, wide shot of the yellow sadhana room at deep midnight — young Indian male sadhak in yellow dhoti and yellow shawl seated cross-legged on yellow asan at center-right absorbed in japa, haldi mala in traditional japa grip — mala draped over middle finger, thumb counting each bead, index finger held away — in the far corner on viewer's left a tall supernatural female figure is materializing more fully than before, dark complexion, long wild unbound black hair streaming behind her, dark ancient garland at her chest, dark raiment, eyes blazing with an unearthly intensity, a dark vessel held at her side, fully present and awe-inspiring, not merely a shadow, the diya flame on the bajot flickering violently, yellow walls looking cold at their edges, cool moonlight through the small window framing her from behind, fierce divine feminine presence awe-inducing not threatening, atmosphere of return — more solid more real more vivid than before, match the appearance of the reference image uploaded, motion-friendly slow pull-back to hold both figures in frame, wide 16:9 composition, no text, no watermark`
+
+4.
+
+   **Ref:** Upload `Sadhak_B_Ref.png` + `Mahakali-1.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, folk illustration style painted brushwork not photoreal, medium-wide shot of the yellow sadhana room — young Indian male sadhak in yellow dhoti and yellow shawl at center-right, body rigidly upright in japa, eyes fixed forward on the framed Maa Baglamukhi image on the bajot, lips still moving in mantra, the Kali apparition on viewer's left is now visibly moving — gliding with deliberate slowness from the corner toward where the sadhak sits, tall dark fierce female form, long wild unbound black hair, mundmala skull garland catching the diya light as she moves, blood-filled dark bowl held at her side, eyes fixed unwaveringly on the sadhak's profile, the diya flame flickering violently between them, yellow walls cold and pressed by darkness, Kali-like divine fierce presence awe-inducing not demonic, atmosphere of inevitable slow terrifying advance, motion-friendly slow push-in from wide room toward both figures, wide 16:9 composition, no text, no watermark`
+
+5.
+
+   **Ref:** Upload `Sadhak_B_Ref.png` + `Mahakali-1.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, folk illustration style painted brushwork not photoreal, medium shot of the yellow sadhana room — the Kali apparition has now sat down directly beside young Indian male sadhak in yellow dhoti and yellow shawl, she is seated to his left, both figures now at the same floor level, her presence overwhelming the frame, tall dark fierce female form, long wild unbound black hair, skull garland mundmala hanging at her chest, blood-filled dark bowl resting in her lap, her left side physically adjacent to his right side, the sadhak's body rigid and faintly trembling, eyes still locked forward on the framed Maa Baglamukhi image on the wooden bajot before them both, haldi mala still in his right hand in japa grip, lips barely moving in mantra, yellow room at deep midnight, diya flame on the bajot burning unsteadily casting sharp shadows across both figures, atmosphere of unbearable proximity between devotee and divine fierce force, motion-friendly slow pull-back to hold both seated figures in the same frame, wide 16:9 composition, no text, no watermark`
+
+6.
+
+   **Ref:** Upload `Sadhak_B_Ref.png` + `Mahakali-1.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, extreme close-up detail at floor level — only the laps and knees of two seated figures visible, no faces in frame, the dark-complexioned knee of a supernatural female figure in dark fabric pressed firmly against the bare right thigh of a young male figure in yellow dhoti, the contact point between them the sole focus of the composition, yellow woven asan visible beneath them, dark ancient skull garland barely visible at the very upper edge of frame, warm amber diya glow from the right, no bowl no vessel visible anywhere in frame, the physical reality of supernatural contact undeniable and unavoidable, motion-friendly rack-focus from the contact point outward, wide 16:9 composition, no text, no watermark, no distorted limbs`
+
+7.
+
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, close medium shot of young Indian male sadhak in yellow dhoti and yellow shawl — his face seen in three-quarter profile facing viewer's right toward the framed Maa Baglamukhi image on the bajot, eyes wide open and locked with desperate intensity on Maa's portrait, jaw set, face carrying the full weight of terror held down by iron determination, lips still moving in mantra, haldi mala gripped in his right hand at the frame edge, the apparition on viewer's left barely at the corner of frame — her wild hair and the faint ivory gleam of skull garland just visible — he refuses to fully turn his gaze, Maa's warm diya-lit portrait his only anchor, warm amber light on his face from the bajot side, cold shadow on the side facing the apparition, atmosphere of a man holding together by a thread, motion-friendly slow push-in on his set expression and Maa's image to viewer's right, wide 16:9 composition, no text, no watermark`
+
+8.
+
+   **Ref:** Upload `Mahakali-1.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, folk illustration style painted brushwork not photoreal, close devotional portrait of the Kali apparition as seen in frightening detail — dark complexion, long wild unbound black hair framing a fierce beautiful face with blazing narrowed eyes, a full garland of human skulls hung around her neck — the mundmala with each skull distinct and grinning — dark raiment, lips slightly parted in an expression of absolute primordial power, she is awe-inspiring and fierce not demonic, a manifestation of divine force, warm diya light from one side catching the ivory of the skulls and the gleam of her eyes, deep shadow on the other side deepening her terrifying presence, Kali-like female deity portrait in folk illustration style, motion-friendly slow push-in on her face and the skull garland, wide 16:9 composition, no text, no watermark`
+
+9.
+
+   **Ref:** Upload `Mahakali-1.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, close detail insert of the apparition's hands holding a wide dark earthen bowl filled with deep red blood — dark-complexioned hands cupping the bowl from below, the surface of the blood catching the diya flame in a dark red shimmer, her head tilted slightly as she raises it to her lips to sip, lips just touching the rim of the bowl, the mundmala skull garland hanging forward as she bends, warm amber light from one side and deep shadow from the other, the sadhak's yellow garment visible at the right edge of frame — he is right there beside her — no faces visible in this close insert, the supernatural dread made viscerally real, motion-friendly rack-focus from the bowl surface to her lips, wide 16:9 composition, no text, no watermark, no distorted fingers`
+
+10.
+
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, extreme close medium shot of young Indian male sadhak in yellow dhoti and yellow shawl — the moment of near-paralysis — face seen fully from the front, eyes wide and glassy, face drained of color in the amber diya light, mouth slightly open but no words coming out, the mantra interrupted for one terrible frozen instant, right hand still gripping the haldi mala but motionless — not counting beads, just holding on — the barely visible dark form of the apparition at his left in soft blur at the frame edge, framed Maa Baglamukhi image glowing on the bajot in the background to viewer's right, the distance between his anchor and his terror visible in his face, atmosphere of a man who for one instant cannot breathe cannot chant cannot move, motion-friendly slow push-in on his stricken frozen face, wide 16:9 composition, no text, no watermark`
+
+11.
+
+   **Ref:** Upload `Sadhak_B_Ref.png` + `Mahakali-1.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, folk illustration style painted brushwork not photoreal, wide shot of the complete yellow sadhana room — young Indian male sadhak in yellow dhoti and yellow shawl at center-right, seated upright in japa once more, haldi mala moving again in his right hand in traditional japa grip — mala draped over middle finger, thumb counting each bead, index finger held away — lips moving in resumed mantra, face showing the cost of what it took to restart, expression of exhausted fierce devotion, wooden bajot before him with framed Maa Baglamukhi image glowing in diya light — solitary female deity in yellow dress and golden crown, right hand in abhaya mudra, left hand holding golden gada mace, no other figure — the Kali apparition on viewer's left seated directly beside him, her dark fierce form at rest, skull garland mundmala across her chest, blood bowl in her lap, blazing eyes fixed with absolute unblinking intensity on his face, she shows no sign of leaving, he shows no sign of stopping, two presences locked in a devotional standoff, diya flame steady between the three points — sadhak, Maa's image, apparition, atmosphere of terrible sustained presence, motion-friendly slow pull-back to reveal the full scene, wide 16:9 composition, no text, no watermark`
+
+
+	
+
+
+
+
+
+## Scene-9
+
+### Script Hindi
+
+	Kuch samay ke liye, Sridhar saans bhi theek se le na sakah. Kisi tarsh, mushkil se, woh mantra jaap, karta raha. Woh aurat wahi, baeth kar, use abhi bhe dekh rahi thee. Phir, lagbagh raat ke 3 baje, us aurat ne Sridhar ke baal, zooron se apne bai haath se keeche. Sridhar ko laga, ki uske aankhon ke saamne, andhera cha gaya. Kamre main, jaise mare hua janwar ki durgand phel se gaii. Sridahr dar ke maare, behoosh ho gaya. Jaab uski ankhen khuli, to woh aurat jaa chuki thi. Iske baad, usne kisi tarah, 101 mala ka jaap, pooran kiya.
 
 ### Script English
+
+	For a while, Sridhar could not even breathe properly. Somehow—with great difficulty—he continued chanting the mantra. The woman remained seated right there, watching him all the while. Then, at approximately 3:00 AM, the woman violently yanked Sridhar's hair with her left hand. Sridhar felt as though darkness had descended before his eyes. A foul stench—like that of a dead animal—seemed to permeate the room. Overcome by terror, Sridhar lost consciousness. When he finally opened his eyes, the woman was gone. Thereafter, he somehow managed to complete the full recitation of 101 rounds of the rosary.
+	
+	
+
+### Artifacts
+
+#### Images
+
+1.
+
+   **Ref:** Upload `Sadhak_B_Ref.png` + `Mahakali-1.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, folk illustration style painted brushwork not photoreal, medium close shot of young Indian male sadhak in yellow dhoti and yellow shawl seated on yellow asan — chest barely rising and falling, face drained and ashen, jaw clenched, nostrils slightly flared as he fights for each breath, lips still moving in mantra with enormous effort, right hand gripping the turmeric haldi mala — mala draped over middle finger, thumb pressed on a bead, index finger held away — knuckles white from the grip, the Kali apparition seated to his left still visible at frame edge, dark form unmoving and patient, warm amber diya light from the bajot falling across his struggle-wracked face, framed Maa Baglamukhi image glowing steadily on the bajot before him, atmosphere of a man fighting to keep consciousness and devotion together, motion-friendly slow push-in on his strained face and the white-knuckled mala grip, wide 16:9 composition, no text, no watermark`
+
+2.
+
+   **Ref:** Upload `Sadhak_B_Ref.png` + `Mahakali-1.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, folk illustration style painted brushwork not photoreal, wide medium shot of the complete yellow sadhana room holding both figures — young Indian male sadhak in yellow dhoti and yellow shawl at center-right, body rigid and trembling as he forces mantra through clenched lips, haldi mala still moving in his right hand in traditional japa grip — mala draped over middle finger, thumb pushing each bead, index finger held away — and the Kali apparition seated directly to his left, dark complexion, long wild unbound black hair, skull garland across her chest, blood bowl in her lap, blazing unwavering eyes fixed on his profile with absolute predatory patience, diya flame on the bajot flickering between them, yellow-painted walls pressing close, deep midnight atmosphere, the room holding both a man barely surviving and an ancient force watching him with total stillness, motion-friendly slow pull-back to hold both figures equally in frame, wide 16:9 composition, no text, no watermark`
+
+3.
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, close detail shot of a small wall clock in the yellow sadhana room showing just past three o'clock in the morning — clock face must be clearly readable — yellow-painted wall behind it, warm amber diya glow from one side bleeding into the surrounding darkness, the clock the only point of precise terrible clarity in a room full of supernatural terror, atmosphere of the deepest and most dangerous hour, motion-friendly slow push-in on the clock face, wide 16:9 composition, no readable text except the clock numerals, no watermark`
+
+4.
+
+   **Ref:** Upload `Sadhak_B_Ref.png` + `Mahakali-1.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, folk illustration style painted brushwork not photoreal, close dramatic shot — the Kali apparition's left hand is seen from behind, dark-complexioned arm reaching in from viewer's left with sudden violent intent, fingers gripping a fistful of the sadhak's black hair from behind his head, his head jerked sharply upward and to the left by the force of it, face snapping sideways with a look of shock and agony, mouth open, eyes wide and disoriented, haldi mala momentarily slipping but still clutched in his right hand at the frame edge, the bajot with Maa's image glowing in the deep background, diya flame reacting — bending hard in the sudden disruption of air, yellow walls, deep midnight, the violence sudden and overwhelming after the long sustained stillness, motion-friendly freeze-frame impact composition, wide 16:9 composition, no text, no watermark, no distorted hands`
+
+5.
+
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, extreme close shot of young Indian male sadhak's face at the moment of darkness descending — eyes rolled slightly back, irises half-disappearing under the upper lids, face gone slack and colorless in the amber diya light, mouth slightly open and still, a thick oppressive shadow bleeding in from the upper frame edges toward his face as if the room itself is closing over him, the diya flame's amber glow shrinking and dimming in the corners of the composition, the faintest outline of Maa's image still visible in the deep background as a last point of light, atmosphere of consciousness collapsing — a man at the absolute edge, motion-friendly slow push-in on his failing face as the shadow closes in, wide 16:9 composition, no text, no watermark`
+
+6.
+
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, medium wide shot of young Indian male sadhak in yellow dhoti and yellow shawl slumped forward on the yellow asan — upper body collapsed forward, forehead nearly touching the floor, turmeric haldi mala fallen loose from his open right hand onto the asan beside him, yellow cloth and floor around him undisturbed, the Kali apparition's position on his left now visibly empty — only the faint impression of where she sat, diya flame on the bajot burning very low, barely alive, Maa Baglamukhi's framed image still upright before him, the room silent and still around the fallen sadhak, atmosphere of complete physical collapse into unconsciousness, motion-friendly slow pull-back to reveal the full empty room and the fallen figure, wide 16:9 composition, no text, no watermark`
+
+7.
+
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, medium shot of young Indian male sadhak in yellow dhoti and yellow shawl — eyes just opening, heavy-lidded and dazed, lifting his head from near the floor, face showing the raw aftermath of terror and unconsciousness, gaze moving first toward the corner of the room on viewer's left where the apparition had been seated — now completely empty, only bare yellow wall and shadow, no dark form, no blazing eyes, nothing — then his gaze settling forward on the framed Maa Baglamukhi image on the bajot before him, diya flame still burning low, the turmeric mala lying loose on the asan beside his open hand, pale beginning of pre-dawn light barely suggesting itself through the small arched window, atmosphere of absolute solitude after the storm, motion-friendly slow push from the empty corner across to his stunned slowly-steadying face, wide 16:9 composition, no text, no watermark`
+
+8.
+
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, close medium shot of young Indian male sadhak in yellow dhoti and yellow shawl seated back upright on the yellow asan — the woman gone, the room empty — his right hand lifting the turmeric haldi mala back into the traditional japa grip, mala draped over middle finger, thumb finding the first bead, index finger held away, the hand trembling visibly but not stopping, face carrying every mark of the night — pale, exhausted, hair slightly disheveled — but jaw set and eyes fixed on Maa Baglamukhi's framed image on the bajot with a look of iron quiet resolve, diya flame beside the frame burning low but steady, the faintest grey pre-dawn light at the window behind him, 101 rounds to finish, and he will finish them, atmosphere of the most hard-won devotion, motion-friendly slow push-in on his resolute trembling hand returning to the mala and his steady unflinching gaze forward, wide 16:9 composition, no text, no watermark`
+
+---
 
