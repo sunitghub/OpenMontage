@@ -1,6 +1,6 @@
 # Handoff
 
-_Last updated: 2026-05-18 by Claude (claude-sonnet-4-6)_
+_Last updated: 2026-05-19 by Claude (claude-sonnet-4-6)_
 
 ## Prompt Rules
 
@@ -10,111 +10,42 @@ Update it whenever a new pattern is confirmed or a dead end is discovered — th
 ---
 
 ## Current Focus
-Scene-8 images complete (1–11). Next: record voiceover for Scene-8, then commit all Scene-8 assets.
+Scene-10 images complete. Next: record voiceover for Scene-10, then move to Scene-11.
 
 ## In Progress
-- `Scene-8-11.png` — save Image #11 (final standoff wide shot, generated today)
-- Voiceover for Scene-8 — record tomorrow
-- Voiceover for Scene-7 — ticket BSA-yhol still open
+- Voiceover for Scene-10 — record tomorrow
+- Ticket BSA-yhol still open (Scene-7 voiceover check)
 
 ## Recent Decisions
-- **Switched from MidJourney to GPT-4o (ChatGPT)** — GPT-4o solves two-arm constraint, female deity face, domestic architecture. See PROMPT-LEARNINGS.md → GPT-4o section.
-- **Surgical GPT-4o edit prompts** — use `Edit only...`, `Do not change anything else`, `viewer's left/right`, exact ritual counts, explicit anti-Shiva symbol negatives.
+- **Switched from MidJourney to GPT-4o (ChatGPT)** — solves two-arm constraint, female deity face, domestic architecture. See PROMPT-LEARNINGS.md.
 - **Three character refs locked:**
   - `Maa-Baglamukhi.png` → Maa reference (blessing pose, golden gada, no trident)
   - `Sadhak_A_Ref.png` → Sadhak State A (white kurta — Scenes 1–2)
-  - `Sadhak_B_Ref.png` → Sadhak State B (yellow dhoti — Scenes 3–8)
-- **GPT-4o guardrail pattern** — "skull garland", "mundmala", "blood-filled bowl" together trigger violence block. Fix: replace with "dark ancient garland" and "dark vessel" in text; let `Mahakali-1.png` reference carry the visual. Works consistently.
-- **Scene-8 image #9 swap** — generated image mapped to blood bowl (Image #9 slot), not knee contact (Image #6 slot). Image #6 prompt updated to knee-only close-up with no bowl visible.
+  - `Sadhak_B_Ref.png` → Sadhak State B (yellow dhoti — Scenes 3–10)
+  - `Mahakali-1.png` → Kali apparition (Scenes 7–10)
+- **GPT-4o guardrail** — "skull garland/mundmala/blood-filled bowl" triggers violence block. Use "dark ancient garland" + "dark vessel" in text; let `Mahakali-1.png` carry the visual.
+- **Sadhak gaze problem** — GPT-4o locks sadhak facing left when any leftward presence is mentioned. Fix: strip all mention of presence/darkness from the prompt; describe only the sadhak facing Maa's portrait. Accept the result if it still drifts — narration carries the subtext.
+- **Scene-10 garland** — the garland flung at Sridhar is a flower haar (marigold + jasmine), not prayer beads. "Mala" in the Hindi source = flower garland in this context.
 - **EQ chain tuned** — `volume=-4dB` + `alimiter(limit=0.7, attack=5, release=50)`. Target mean -21 dB / max -4.5 dB.
 
 ## Dead Ends
-- See `PROMPT-LEARNINGS.md` → MidJourney sections for full record.
 - `viewer's left/right` must be explicit — "Maa's left hand" confuses GPT-4o.
-- When correcting gada: always include `exactly four arms total`.
-- When correcting altar: always repeat `exactly seven incense mounds total, each with one clove`.
+- Empty-room shots: never upload Mahakali ref — model adds her even with negatives.
+- Wide shot with 3 elements (Kali blowing + breath puff + Sridhar watching) = too crowded; split into separate shots instead.
 
-## Generated so far (committed unless noted)
+## Generated & Committed
 - Scene-1: 1a, 1b, 2, 3a, 3b, 3c, 4, 5, 6, 7, 8 + `Scene-1.mp3`
 - Scene-2: 1–8 + `Scene-2.mp3`
 - Scene-3: 1–6 + `Scene-3.mp3`
 - Scene-4: 1a, 1b, 2–8 + `Scene-4.mp3`
-- Scene-5: 1–4, 5a, 5b, 5c, 6a, 6b, 6c, 6d, 7, 8 + `Scene-5.mp3`
-- Scene-7: images committed + `Scene-7.mp3` (untracked — commit with Scene-8)
-- Scene-8: 1–11 images (untracked — commit after saving Scene-8-11.png)
+- Scene-5: 1–8 + `Scene-5.mp3`
+- Scene-7: images + `Scene-7.mp3`
+- Scene-8: 1–11 images + `Scene-8.mp3`
+- Scene-9: 1–8 images + `Scene-9.mp3`
+- Scene-10: 1–13 images (voiceover pending)
 - Court/thumbnail: `courtroom-1.jpeg`, `crowded-courtroom.png`, `Thumbnail.png`
-- Videos: `Scene-1-1-Vid.mp4`, `Scene-1-2-Vid.mp4`, `Scene-2-1.mp4`, `Scene-2-3.mp4`
 
 ## Next Steps
-1. **Save `Scene-8-11.png`** — Image #11 generated today, not yet on disk
-2. **Record Scene-8 voiceover** — tomorrow
-3. **Commit** — `Scene-7.mp3` + all `Scene-8-*.png` + `Scene-8.mp3` together
-4. **Close ticket BSA-yhol** — after Scene-7 voiceover recorded and rendered
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-19 18:48 branch:main -->
-**Modified files:**
-```
- M Bagla-Sadhana-Anubhav.md
- M Scene-9.mp3
-?? Scene-10-1.png
-?? Scene-10-10.png
-?? Scene-10-11.png
-?? Scene-10-12.png
-?? Scene-10-2.png
-?? Scene-10-3.png
-?? Scene-10-4.png
-?? Scene-10-5.png
-?? Scene-10-6.png
-?? Scene-10-7.png
-?? Scene-10-8.png
-?? Scene-10-9.png
-```
-
-**Recent commits:**
-```
-e4065a8 chore: auto-update handoff snapshot [2026-05-19 18:48]
-7b7b0f6 chore: auto-update handoff snapshot [2026-05-19 18:46]
-47d536d chore: auto-update handoff snapshot [2026-05-19 18:45]
-7a76282 chore: auto-update handoff snapshot [2026-05-19 18:44]
-6907691 chore: auto-update handoff snapshot [2026-05-19 18:43]
-```
-
-**In-progress tickets:**
-```
-BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-19 18:48 branch:main -->
-**Modified files:**
-```
- M Bagla-Sadhana-Anubhav.md
- M Scene-9.mp3
-?? Scene-10-1.png
-?? Scene-10-10.png
-?? Scene-10-11.png
-?? Scene-10-12.png
-?? Scene-10-2.png
-?? Scene-10-3.png
-?? Scene-10-4.png
-?? Scene-10-5.png
-?? Scene-10-6.png
-?? Scene-10-7.png
-?? Scene-10-8.png
-?? Scene-10-9.png
-```
-
-**Recent commits:**
-```
-7b7b0f6 chore: auto-update handoff snapshot [2026-05-19 18:46]
-47d536d chore: auto-update handoff snapshot [2026-05-19 18:45]
-7a76282 chore: auto-update handoff snapshot [2026-05-19 18:44]
-6907691 chore: auto-update handoff snapshot [2026-05-19 18:43]
-81a02e0 chore: auto-update handoff snapshot [2026-05-19 18:41]
-```
-
-**In-progress tickets:**
-```
-BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
-```
-<!-- HANDOFF-SNAPSHOT:END -->
+1. **Record Scene-10 voiceover** — tomorrow
+2. **Write Scene-11 script + prompts** — next session
+3. **Close ticket BSA-yhol** — after Scene-7 render verified
