@@ -840,9 +840,9 @@ He placed the yellow lota of water beside Maa's image, performed the achaman, an
 
 ### Script Hindi
 
-	Agle, kai dino kuch vchitra nahi hua. Phire, 11ve din, Sridhar ko laga, ki woh aurat, kamre main maujood thi, aur use dekh rahi thi. Sridhar, apna dhyaan, Maa Baglamukhi ki tasveer par, ekatrit karke mantra jaap karta raha. Us raat, Sridhar ko aise laga, ki Maa Baglamukhi ki tasveer main, woh aurat dikhai de rahi ho. Ab Sridhar ke liye, us tasveer ko dekhna bhi, bhay se kaam nahin thas. 12ve din, jaisa Sridhar raat ko, Sadhana karne baetha, use achanak apni chhati par ek zordar laat mahsoos hui। unhen chakkar aa gaya aur ve lagbhag behosh hi ho gaye। shridhar lagbhag 5 minute tak usi halat mein rahe। phir unhone khud ko sambhala aur apne aasan par laut aaya. Jab use us mahila ne dekha ki ve phir se shant ho gaye hai, to usne uski tarpah ek mala uchhali. Shridhar ne use apne haath mein le liya aur mantra ka jaap karte raha.
+	Agle, kai dino tak, kuch vchitra nahi hua. Phir, 11ve din, Sridhar ko laga, ki woh aurat, kamre main maujood thi, aur use dekh rahi thi. Sridhar, apna dhyaan, Maa Baglamukhi ki tasveer par, ekatrit karke, mantra jaap karta raha. Us raat, Kuch der baad, Sridhar ko aise laga, ki Maa Baglamukhi ki tasveer main, woh aurat dikhai de rahi ho. Ab, Sridhar ke liye, us tasveer ko dekhna bhi, bhay se kaam nahin thaa. 12ve din, jaisa hi Sridhar, raat ko, Sadhana karne baetha, use achanak, apni chhati par, ek zordar laat mahsoos hui. Sridhar ko chakkar aa gaya, aur woh, lagbhag behosh ho gaya. Sridhar kareeb, 5 minute tak, behoshi ki halat mein rahe. Phir usne, khud ko sambhala, aur apne aasan par laut aaya. Jab us mahila ne dekha, ki Sridhar, phir se shant ho gaye hai, to usne uski tarpah, zoor se ek mala uchhali. Sridhar ne use, apne haath mein le liya, aur mantra jaap karte raha.
 	
-	Lagbagh 1 baje, us aurat ne, apne daat pise. Phir usne zoor see, diye ke taraph phookah. Kamra andhere main, doob gaya. Chandrama ki deehme roshni ki alawa, aur koi roshni ab nahin thi. Wo zoron se chilayi - Rook do ye. Warna main tujhe maar dongi, aur tera rakt is katore main bhar kar, pee jaongi. Yeh keh kar woh zooron se hasne lagi.
+	Lagbagh 1 baje, us aurat ne, apne daat pise. Phir usne zooron se, diye ki taraph phook maari. Kamra, andhere main, doob gaya. Chandrama ki, deehme roshni ki alawa, aur koi roshni ab nahin thi. Wo aurat zoron se chilayi - Rook do yeh saab. Warna main tujhe maar dongi, aur tera rakt, is katori  main bhar kar, pee jaongi. Yeh keh kar woh zooron se hasne lagi.
 	
 
 ### Script English
@@ -915,9 +915,15 @@ He placed the yellow lota of water beside Maa's image, performed the achaman, an
 
    `painterly AI devotional illustration, Hindustani folk-story art style, folk illustration style painted brushwork not photoreal, close dramatic insert — the Kali apparition's dark face leaning forward in the darkness, lips pursed and cheeks hollow as she blows a long forceful breath directly toward the brass diya flame on the wooden bajot — the flame bending violently to the side, elongated and distorted by the force of her breath, hot wax scattering, the amber glow about to die, her dark eyes gleaming above the dying flame, yellow cloth on the bajot and Maa's portrait visible just behind the flame in the deep background, atmosphere of deliberate extinguishing — the sacred light being killed by supernatural breath, motion-friendly slow push-in on the bending almost-dying flame, wide 16:9 composition, no text, no watermark`
 
+10b.
+
+   **Ref:** Upload `Sadhak_B_Ref.png` + `Mahakali-1.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, folk illustration style painted brushwork not photoreal, medium wide shot of the yellow sadhana room — the Kali apparition on viewer's left leaning forward, lips pursed, cheeks hollow, a visible silvery-cool puff of supernatural breath streaming from her mouth toward the brass diya flame on the wooden bajot at center, the flame bending violently sideways under the force of the breath — the cool silver of her breath meeting the warm amber of the flame in a single dramatic collision point — young Indian male sadhak in yellow dhoti and yellow shawl seated on viewer's right, body frozen, eyes wide, watching the sacred flame he has tended for twelve nights being deliberately extinguished, face carrying both horror and helplessness, the flower garland still in his lap, yellow walls, deep midnight, atmosphere of the sacred being killed in front of the devotee who cannot stop it, motion-friendly slow push-in from Sridhar's watching face toward the dying flame at center, wide 16:9 composition, no text, no watermark`
+
 11.
 
-   `painterly AI devotional illustration, Hindustani folk-story art style, wide shot of the complete yellow sadhana room — plunged into near-total darkness, the brass diya on the bajot completely extinguished, only a faint cold blue-silver moonlight streaming through the small arched window and falling in a single pale shaft across the dark floor, the yellow walls now grey and cold in the moonlight, the wooden bajot and Maa's portrait dark and barely visible, the young Indian male sadhak in yellow dhoti visible as a dim silhouette seated on the asan in the moonlit shaft — the garland mala still in his hand, head bowed but not collapsed, still present, still seated, the room stripped of all warmth and all the sacred familiar amber glow it had held for twelve nights, atmosphere of absolute darkness after the death of the sacred flame, motion-friendly slow pull-back to reveal the full extinguished room, wide 16:9 composition, no text, no watermark`
+   `painterly AI devotional illustration, Hindustani folk-story art style, wide shot of the complete yellow sadhana room — plunged into near-total darkness, the brass diya on the bajot completely extinguished, only a faint cold blue-silver moonlight streaming through the small arched window and falling in a single pale shaft across the dark floor, the yellow walls now grey and cold in the moonlight, the wooden bajot and Maa's portrait dark and barely visible, the young Indian male sadhak in yellow dhoti visible as a dim silhouette seated on the asan in the moonlit shaft — the garland Is mala still in his hand, head bowed but not collapsed, still present, still seated, the room stripped of all warmth and all the sacred familiar amber glow it had held for twelve nights, atmosphere of absolute darkness after the death of the sacred flame, motion-friendly slow pull-back to reveal the full extinguished room, wide 16:9 composition, no text, no watermark`
 
 12.
 
@@ -930,6 +936,27 @@ He placed the yellow lota of water beside Maa's image, performed the achaman, an
    **Ref:** Upload `Mahakali-1.png`
 
    `painterly AI devotional illustration, Hindustani folk-story art style, folk illustration style painted brushwork not photoreal, close portrait of the Kali apparition in maniacal laughter — head thrown back, mouth wide open, dark complexion, long wild unbound black hair cascading back from the force of the laugh, dark ancient garland gleaming in cold moonlight, eyes wild and crescent-shaped with the laughter, the laugh the most terrifying thing in the room — not rage, not threat, but the absolute unhinged amusement of a force that has seen everything and fears nothing, cold blue-silver moonlight as the only light catching the whites of her eyes and the gleam of her garland, deep shadow everywhere else, no diya no amber warmth in this frame — only moonlight and darkness and the open laughing mouth, atmosphere of supernatural mockery at its most extreme, motion-friendly slow push-in on her thrown-back laughing face, wide 16:9 composition, no text, no watermark`
+
+---
+
+
+
+
+## Scene-11
+
+### Script Hindi
+
+	
+
+### Script English
+
+	
+
+### Artifacts
+
+#### Images
+
+	1.
 
 ---
 
