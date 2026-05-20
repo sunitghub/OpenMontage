@@ -54,6 +54,28 @@ Scene-10 images complete. Next: record voiceover for Scene-10, then move to Scen
 **Modified files:**
 ```
  M Bagla-Sadhana-Anubhav.md
+?? Render/
+```
+
+**Recent commits:**
+```
+2c85c06 chore: auto-update handoff snapshot [2026-05-20 16:11]
+a69c696 chore: auto-update handoff snapshot [2026-05-20 14:48]
+98ed943 feat: add Scene-10 alternate images, narration and prompt updates
+94f8674 chore: update HANDOFF — Scene-10 complete, prune stale entries
+62bf331 feat: add Scene-10 complete image set and Scene-9 narration
+```
+
+**In-progress tickets:**
+```
+BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
+<!-- HANDOFF-SNAPSHOT:START 2026-05-20 16:11 branch:main -->
+**Modified files:**
+```
+ M Bagla-Sadhana-Anubhav.md
 ```
 
 **Recent commits:**
@@ -63,27 +85,6 @@ a69c696 chore: auto-update handoff snapshot [2026-05-20 14:48]
 94f8674 chore: update HANDOFF — Scene-10 complete, prune stale entries
 62bf331 feat: add Scene-10 complete image set and Scene-9 narration
 4155fc3 chore: auto-update handoff snapshot [2026-05-19 18:48]
-```
-
-**In-progress tickets:**
-```
-BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-20 14:48 branch:main -->
-**Modified files:**
-```
- M Bagla-Sadhana-Anubhav.md
-```
-
-**Recent commits:**
-```
-98ed943 feat: add Scene-10 alternate images, narration and prompt updates
-94f8674 chore: update HANDOFF — Scene-10 complete, prune stale entries
-62bf331 feat: add Scene-10 complete image set and Scene-9 narration
-4155fc3 chore: auto-update handoff snapshot [2026-05-19 18:48]
-e4065a8 chore: auto-update handoff snapshot [2026-05-19 18:48]
 ```
 
 **In-progress tickets:**
