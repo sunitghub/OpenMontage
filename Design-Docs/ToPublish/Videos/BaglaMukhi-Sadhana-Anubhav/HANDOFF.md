@@ -49,3 +49,24 @@ Scene-10 images complete. Next: record voiceover for Scene-10, then move to Scen
 1. **Record Scene-10 voiceover** — tomorrow
 2. **Write Scene-11 script + prompts** — next session
 3. **Close ticket BSA-yhol** — after Scene-7 render verified
+
+<!-- HANDOFF-SNAPSHOT:START 2026-05-20 14:48 branch:main -->
+**Modified files:**
+```
+ M Bagla-Sadhana-Anubhav.md
+```
+
+**Recent commits:**
+```
+98ed943 feat: add Scene-10 alternate images, narration and prompt updates
+94f8674 chore: update HANDOFF — Scene-10 complete, prune stale entries
+62bf331 feat: add Scene-10 complete image set and Scene-9 narration
+4155fc3 chore: auto-update handoff snapshot [2026-05-19 18:48]
+e4065a8 chore: auto-update handoff snapshot [2026-05-19 18:48]
+```
+
+**In-progress tickets:**
+```
+BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
