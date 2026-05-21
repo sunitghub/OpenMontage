@@ -940,23 +940,96 @@ He placed the yellow lota of water beside Maa's image, performed the achaman, an
 ---
 
 
-
-
 ## Scene-11
 
 ### Script Hindi
 
+	Sridhar ne kisi tarah raat ka apna mantra jaap pura kiya. Agle din, use 103 degree bukhar ho gaya. Sridhar, doodh nahin pee saka, aur poore din, tarah-tarah ke bure vichar, use pareshan karte rahe. Pichli, raat ki ghatna, use pareshan kar rahi thi, aur ek bar, uske maan main, Sadhana rokne ka vichaar bhi aya.
 	
+	Phir bhi, kisi tarah 13ve din woh phir se, Sadhana main baetha. Raat 1 baje tak kuch nahin hua, phir aadhe ghante baad, achanak, ek behad khoobsorat stri, jo dekhne main Maa Bagalmukhi ki tarah thi, uske kamre main prakat hui. Usek paron main, sone ki payal thi. Woh, Sridhar ke paas, aa kar baeth gayi, aur use ek dheemi muskan se dekhne lagi. Sridhar mantra jaap karta raha, aur lagbag 5 baje uska jaap khatam hua.
+	
+	Jaise hi Sridhar utha, to usne kaha. Ek second, Mujhse baat nahi karoge. Main Bagla hoon. Muje kyoon bulaya?
+	Sridhar ne turant, Maa ke saame dandwat pranam kiya. Phir usne kaha, Hai Maa agar aap mujhse prasan ho, to mujhe vardan do, ki main apne shatrooon par vijai prapt karon aur mere jeean main sukh smiridhi aai.
+	
+	
+	Maa ne kaha, Main tujhse prasan hoon. Aaj se, main sada, teri raksha karongi. Aur yadi tumahri kisi se bahas hoti hai, to tumhare virodhi, chup ho jayega, unki buddhi kaam nahin karegi, aur tum jeet jaoge.
 
 ### Script English
 
-	
+		
+		Sridhar somehow managed to complete his nightly mantra chanting. The next day, he developed a fever of 103 degrees. Sridhar could not drink any milk, and throughout the entire day, various disturbing thoughts plagued his mind. The events of the previous night continued to trouble him, and at one point, the thought of abandoning his spiritual practice even crossed his mind.
+
+	Nevertheless, somehow, on the thirteenth day, he once again sat down to resume his spiritual practice. Nothing happened until 1:00 AM; then, half an hour later, a sudden apparition occurred—an exquisitely beautiful woman, bearing a striking resemblance to Mother Bagalamukhi, manifested within his room. She wore golden anklets upon her feet. She approached Sridhar, sat down beside him, and gazed at him with a gentle smile. Sridhar continued his mantra chanting, and his recitation finally concluded around 5:00 AM.
+
+	As soon as Sridhar rose to his feet, she spoke: "Wait a moment—will you not speak to me? I am Bagala. Why did you summon me?"
+
+	Sridhar immediately prostrated himself fully before the Mother in humble reverence. Then he spoke: "Oh Mother, if You are pleased with me, grant me this boon: that I may attain victory over my enemies, and that happiness and prosperity may flourish in my life."
+
+	The Mother replied: "I am indeed pleased with you. From this day forth, I shall forever stand as your protector. Furthermore, should you ever find yourself in a dispute or argument with anyone, your adversary shall be rendered speechless; their intellect will cease to function, and you shall emerge victorious."
+		
+		
 
 ### Artifacts
 
 #### Images
 
-	1.
+1.
+
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, medium shot of young Indian male sadhak in plain home clothes — not ritual yellow attire — lying on a thin mattress on the floor of a simple home room, one arm across his forehead, face flushed and pale with high fever, a damp cloth on his brow, a single steel glass of milk untouched beside him on the floor, court papers visible in the corner as a reminder of everything at stake, bright daytime light through a small window, atmosphere of physical collapse the morning after the most terrifying night of the sadhana, motion-friendly slow push-in on his fevered face and the untouched milk, wide 16:9 composition, no text, no watermark`
+
+2.
+
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, close medium shot of young Indian male sadhak seated on the floor of his home room in plain clothes, fevered and pale, head slightly bowed, eyes troubled and distant — the expression of a man whose mind is being pulled toward giving up, the yellow sadhana room doorway with its yellow curtain just visible in the background — the practice waiting, the question hanging: can he go back in there tonight, court papers on the floor beside him, afternoon light fading through the window, atmosphere of the darkest moment of doubt before the final decision, motion-friendly slow push-in on his haunted uncertain face, wide 16:9 composition, no text, no watermark`
+
+3.
+
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, medium shot of young Indian male sadhak in yellow dhoti and yellow shawl lowering himself carefully onto the yellow asan in the yellow sadhana room — the thirteenth night, the final night — face still carrying the pallor of the day's fever, body clearly not fully recovered, but jaw set with absolute determination, hands finding the turmeric haldi mala, wooden bajot before him covered with yellow cloth bearing the framed Maa Baglamukhi image and freshly lit diya flame, yellow walls and long yellow curtain, deep night outside, atmosphere of the most hard-won return — a man who almost quit and chose not to, motion-friendly slow push-in on his settling determined face, wide 16:9 composition, no text, no watermark`
+
+4.
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, close detail of a small wall clock on the yellow-painted wall showing just past one in the morning, the yellow sadhana room behind it completely calm and undisturbed — no dark presence, no shadow, no apparition — only the warm amber glow of the diya on the bajot below, the sadhak's yellow-draped form just visible seated in the background in steady japa, atmosphere of a quiet first hour passing without incident on the thirteenth night, something is different tonight, motion-friendly slow push-in on the clock face, wide 16:9 composition, no readable text except clock numerals, no watermark`
+
+5.
+
+   **Ref:** Upload `Maa-Baglamukhi.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, wide medium shot of the yellow sadhana room at one-thirty in the morning — young Indian male sadhak in yellow dhoti and yellow shawl seated in japa at center-right, and on viewer's left a luminous beautiful Indian woman is manifesting in the room — not terrifying, not dark, but exquisitely beautiful, warm golden light surrounding her, yellow-gold sari or dress, face serene and radiant with a slight gentle smile, her feet bare with delicate golden anklets — payal — catching the warm diya light, her form the complete opposite of everything that came before, the diya flame on the bajot burning steadily and warmly between them, atmosphere of something sacred and benevolent arriving after thirteen nights of trial, motion-friendly slow pull-back to reveal both figures in the warm golden room, wide 16:9 composition, no text, no watermark`
+
+6.
+
+   **Ref:** Upload `Sadhak_B_Ref.png` + `Maa-Baglamukhi.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, medium shot of the yellow sadhana room — the luminous beautiful Indian woman in yellow-gold sari has seated herself gently beside young Indian male sadhak in yellow dhoti and yellow shawl, both at the same floor level, she is seated to his left, her golden anklets — payal — resting on the yellow asan, her face turned toward him with a calm, warm, genuine smile — nothing threatening, nothing ambiguous, only divine recognition and affection, the sadhak continuing his mantra japa with eyes forward on the framed Maa Baglamukhi image, expression of deep absorbed peace rather than fear, diya flame on the bajot glowing warmly and steadily, yellow walls, warm amber light filling the room, the complete reversal of every previous night, motion-friendly slow push-in on her gentle smile and his peaceful japa, wide 16:9 composition, no text, no watermark`
+
+7.
+
+   **Ref:** Upload `Sadhak_B_Ref.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, medium close shot of young Indian male sadhak in yellow dhoti and yellow shawl — the last beads of the turmeric haldi mala moving through his fingers, the 101st round completing, lips still moving in mantra, face carrying exhaustion and peace in equal measure, pale morning light beginning at the small arched window — dawn of the thirteenth day — the diya still burning low before Maa's portrait on the bajot, the beautiful divine woman softly visible in warm golden light to his left, atmosphere of completion after thirteen nights of unwavering devotion, motion-friendly slow push-in on the last beads moving through his fingers and the arriving dawn light, wide 16:9 composition, no text, no watermark`
+
+8.
+
+   **Ref:** Upload `Sadhak_B_Ref.png` + `Maa-Baglamukhi.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, medium shot of the yellow sadhana room in early morning light — young Indian male sadhak in yellow dhoti and yellow shawl just risen to his feet, turning toward the luminous beautiful divine woman in yellow-gold sari still seated on the asan, her face alive with gentle expectation — she has just spoken to him, her lips having formed words, her eyes on his with warm directness, the sadhak's expression shifting from the absorption of japa to the stunned awe of the moment — she has said she is Bagala, the framed Maa Baglamukhi portrait on the bajot glowing warmly in the background as witness, early morning golden light, atmosphere of divine revelation, the moment a devotee realizes who has been sitting beside him, motion-friendly slow push-in on his awe-struck face and her calm expectant gaze, wide 16:9 composition, no text, no watermark`
+
+9.
+
+   **Ref:** Upload `Sadhak_B_Ref.png` + `Maa-Baglamukhi.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, medium shot of young Indian male sadhak in yellow dhoti and yellow shawl in full dandwat pranam — body completely prostrated, forehead pressed to the floor, both arms extended forward with palms flat, the most complete gesture of surrender and reverence, the luminous divine woman in yellow-gold sari seated before him, her golden anklets — payal — at eye level as he bows, her hands resting serenely in her lap, early morning golden light, diya flame still burning on the bajot in the background, the framed Maa portrait above, atmosphere of a devotee at the feet of the divine after thirteen nights of trial, motion-friendly slow push-in on his prostrated form and her golden anklets, wide 16:9 composition, no text, no watermark`
+
+10.
+
+   **Ref:** Upload `Sadhak_B_Ref.png` + `Maa-Baglamukhi.png`
+
+   `painterly AI devotional illustration, Hindustani folk-story art style, wide medium shot of the yellow sadhana room in early morning golden light — Maa Baglamukhi standing tall on viewer's left, luminous and divine, yellow-gold sari, a radiant golden halo surrounding her head, right palm raised open toward viewer's right in the abhaya blessing gesture — the boon being spoken and granted, her face serene with divine authority and warmth, golden anklets — payal — at her feet, her full standing height commanding the frame — young Indian male sadhak in yellow dhoti seated on his knees on viewer's right, head slightly raised, eyes wide with reverent awe and wonder, hands pressed together near his chest in namaste, expression of a man receiving something beyond what he dared hope for, Maa's framed portrait on the bajot in the background between them as witness, diya still burning, sunrise light through the arched window, atmosphere of the boon granted — protection, victory, prosperity — forever, motion-friendly slow pull-back to hold both figures in the full frame, wide 16:9 composition, no text, no watermark`
 
 ---
 
