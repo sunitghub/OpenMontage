@@ -50,6 +50,33 @@ Scene-10 images complete. Next: record voiceover for Scene-10, then move to Scen
 2. **Write Scene-11 script + prompts** — next session
 3. **Close ticket BSA-yhol** — after Scene-7 render verified
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-20 19:25 branch:main -->
+**Modified files:**
+```
+ M Bagla-Sadhana-Anubhav.md
+?? Scene-11-1.png
+?? Scene-11-2.png
+?? Scene-11-3.png
+?? Scene-11-4.png
+?? Scene-11-5.png
+?? Scene-11-6.png
+```
+
+**Recent commits:**
+```
+aa2d8ac chore: auto-update handoff snapshot [2026-05-20 19:15]
+4f0a57f chore: auto-update handoff snapshot [2026-05-20 19:11]
+4bdd02d chore: auto-update handoff snapshot [2026-05-20 19:06]
+cadab75 chore: auto-update handoff snapshot [2026-05-20 19:05]
+84288c1 chore: auto-update handoff snapshot [2026-05-20 19:05]
+```
+
+**In-progress tickets:**
+```
+BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-20 19:15 branch:main -->
 **Modified files:**
 ```
@@ -68,32 +95,6 @@ Scene-10 images complete. Next: record voiceover for Scene-10, then move to Scen
 cadab75 chore: auto-update handoff snapshot [2026-05-20 19:05]
 84288c1 chore: auto-update handoff snapshot [2026-05-20 19:05]
 0b23e24 chore: auto-update handoff snapshot [2026-05-20 19:03]
-```
-
-**In-progress tickets:**
-```
-BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-20 19:11 branch:main -->
-**Modified files:**
-```
- M Bagla-Sadhana-Anubhav.md
-?? Scene-11-1.png
-?? Scene-11-2.png
-?? Scene-11-3.png
-?? Scene-11-4.png
-?? Scene-11-5.png
-```
-
-**Recent commits:**
-```
-4bdd02d chore: auto-update handoff snapshot [2026-05-20 19:06]
-cadab75 chore: auto-update handoff snapshot [2026-05-20 19:05]
-84288c1 chore: auto-update handoff snapshot [2026-05-20 19:05]
-0b23e24 chore: auto-update handoff snapshot [2026-05-20 19:03]
-042c65d chore: auto-update handoff snapshot [2026-05-20 19:03]
 ```
 
 **In-progress tickets:**
