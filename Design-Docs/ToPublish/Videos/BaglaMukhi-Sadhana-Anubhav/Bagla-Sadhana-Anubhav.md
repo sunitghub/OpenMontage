@@ -946,7 +946,7 @@ He placed the yellow lota of water beside Maa's image, performed the achaman, an
 
 	Sridhar ne, kisi tarah, us raat, apna mantra jaap pura kiya. Agle din, use 103 degree bukhar ho gaya. Sridhar, doodh nahin pee saka, aur poore din, tarah-tarah ke bure vichar, use pareshan karte rahe. Pichli, raat ki ghatna, use sataa kar rahi thi, aur ek bar, uske maan main, Sadhana rokne ka vichaar bhi aya.
 	
-	Phir bhi, kisi tarah, 13ve din, woh phir se, Sadhana main baetha. Raat 1 baje tak, kuch nahin hua, phir aadhe ghante baad, ek behad, khoobsorat stri, jo dekhne main Maa Bagalmukhi ki tarah thi, uske kamre main achanak, prakat hui. Usek paron main, sone ki payal thi. Woh, Sridhar ke paas, aa kar baeth gayi, aur use ek dheemi muskan se dekhne lagi. Sridhar mantra jaap karta raha, aur lagbag 5 baje uska jaap khatam hua.
+	Phir bhi, kisi tarah, 13ve din, woh phir se, Sadhana main baetha. Raat 1 baje tak, kuch nahin hua, phir aadhe ghante baad, ek behad, akarshak stri, jo dekhne main Maa Bagalmukhi ki tarah thi, uske  kamre main achanak, prakat hui. Usek paron main, sone ki payal thi. Woh, Sridhar ke paas, aa kar baeth gayi, aur use ek dheemi muskan se dekhne lagi. Sridhar mantra jaap karta raha, aur lagbag 5 baje uska jaap khatam hua.
 	
 	Jaise hi Sridhar utha, to us stri ne kaha. Thaero, Mujhse baat nahi karoge. Main Bagla hoon. Muje kyoon bulaya?
 	Sridhar ne turant, Maa ke saame dandwat pranam kiya. Phir usne kaha, Hai Maa agar aap mujhse prasan ho, to mujhe vardan do, ki main apne shatrooon par vijai prapt karon aur mere jeean main sukh smiridhi aai.
@@ -1042,11 +1042,11 @@ He placed the yellow lota of water beside Maa's image, performed the achaman, an
 
 ### Script Hindi
 
-	Phir Maa baglamukhi, dhire-dhire, ek sunhare kohre mein, vilin ho gai. Sridhar, kuch minuton tak, zameen par baithe raha. Jo kuch bhi hua tha, usse vishwas nahi ho raha tha. uski aankhon se, khushi ke aansu. bah nikle. Uskc chehre pe ek gahri rahat ka dikhai de rahi thi.
+	Sridhar, kuch samay tak, zameen par, baithe raha. Jo kuch bhi, hua tha, usse vishwas hi, nahi ho raha tha. Uski aankhon se, khushi ke aansu, nikal pade. Uske chehre pe, ab ek rahat, dikhai de rahi thi.
 
 	Jald hi, case ki tarikh aa gai. Hairani ki baat, yah thi ki, Sridhar ke, vakil ke dalilon ka, viprit paksh ka, koi jawab nahin thaa. Aakhir, Adalat ne, Sridhar ke paksh mein, faisla sunaya. Us din, jab ve adalat mein baithe the, to Sridhar ko aisa laga, Maa Baglamukhi wahin upasthit thi.
 
-	Agle kuch mahinon men, Sridhar ko, aarthik safalta bhi prapt hui. Juch dino ke baad, Sridhar, apne guru ke paas, lauta, aur unhen pranam kiya.
+	Agle kuch mahinon men, Sridhar ko, aarthik safalta bhi, prapt hui. Kuch mahinon ke baad, Sridhar, wapis, apne Guru ke paas, lauta, aur unhen pranam kiya. Aab uske jeevan main, Maa Bagalmukhi, sada upasthit thi.
 
 	
 
@@ -1106,3 +1106,22 @@ He placed the yellow lota of water beside Maa's image, performed the achaman, an
 
 ---
 
+
+
+## Description
+	
+	  This is the true story of Sridhar — a man who, facing a desperate court case and the brink of financial ruin, turned to the grace of Maa Baglamukhi.
+  
+	Guided by his Guru, Sridhar undertook a 13-night sadhana — a path of unwavering devotion and surrender. The journey was not easy. Forces of darkness tested his resolve, his faith, and his courage in ways he could never have prepared for. Night after night, he held on.
+
+	What happened next changed his life forever.
+
+	This story is a testament to the power of sincere devotion and the truth that Maa Baglamukhi never abandons those who call upon her with a pure heart.
+
+	🙏 Jai Maa Baglamukhi 🙏
+
+  ---
+  
+	Disclaimer: This story is a personal spiritual experience, narrated as shared by the devotee. It is presented for devotional and inspirational purposes only. Spiritual experiences are personal and results vary. Viewers are encouraged to seek guidance from a qualified Guru before undertaking any sadhana or spiritual 
+	
+	#MaaBaglamukhi #TrueStory #Sadhana #CourtCase #DevotionalStory #Baglamukhi
