@@ -60,6 +60,28 @@ All 12 scenes scripted and imaged. Voiceovers for Scene-11 and Scene-12 are the 
 3. **Run full render** — `render-scene --all` once all voiceovers in place
 4. **Close ticket BSA-yhol** — after Scene-7 render verified
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-21 16:58 branch:main -->
+**Modified files:**
+```
+ M Bagla-Sadhana-Anubhav.md
+ D ../Scene-11-3.png
+```
+
+**Recent commits:**
+```
+22d5cc1 feat: add remaining Scene-11/12 assets, voiceovers, and final thumbnail
+ea7bcaa chore: auto-update handoff snapshot [2026-05-21 15:07]
+7490204 chore: auto-update handoff snapshot [2026-05-21 15:06]
+50684a0 chore: update HANDOFF — all 12 scenes complete, voiceovers pending
+a8d815a chore: auto-update handoff snapshot [2026-05-21 15:05]
+```
+
+**In-progress tickets:**
+```
+BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-21 15:07 branch:main -->
 **Modified files:**
 ```
@@ -85,38 +107,6 @@ All 12 scenes scripted and imaged. Voiceovers for Scene-11 and Scene-12 are the 
 a8d815a chore: auto-update handoff snapshot [2026-05-21 15:05]
 6383638 chore: auto-update handoff snapshot [2026-05-21 15:04]
 769940f chore: auto-update handoff snapshot [2026-05-21 14:22]
-```
-
-**In-progress tickets:**
-```
-BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-21 15:06 branch:main -->
-**Modified files:**
-```
- M Bagla-Sadhana-Anubhav.md
- M Scene-11-3.png
- D Scene-11-7.png
- M Scene-11.mp3
- D Scene-12-1.png
-?? Scene-11-10b.png
-?? Scene-11-10c.png
-?? Scene-12-1png.png
-?? Scene-12-5b.png
-?? Scene-12-8.png
-?? Scene-12.mp3
-?? ../Scene-11-3.png
-```
-
-**Recent commits:**
-```
-50684a0 chore: update HANDOFF — all 12 scenes complete, voiceovers pending
-a8d815a chore: auto-update handoff snapshot [2026-05-21 15:05]
-6383638 chore: auto-update handoff snapshot [2026-05-21 15:04]
-769940f chore: auto-update handoff snapshot [2026-05-21 14:22]
-961d80e feat: add Scene-12 images and Scene-11 voiceover
 ```
 
 **In-progress tickets:**
