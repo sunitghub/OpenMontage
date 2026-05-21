@@ -944,16 +944,18 @@ He placed the yellow lota of water beside Maa's image, performed the achaman, an
 
 ### Script Hindi
 
-	Sridhar ne kisi tarah raat ka apna mantra jaap pura kiya. Agle din, use 103 degree bukhar ho gaya. Sridhar, doodh nahin pee saka, aur poore din, tarah-tarah ke bure vichar, use pareshan karte rahe. Pichli, raat ki ghatna, use pareshan kar rahi thi, aur ek bar, uske maan main, Sadhana rokne ka vichaar bhi aya.
+	Sridhar ne, kisi tarah, us raat, apna mantra jaap pura kiya. Agle din, use 103 degree bukhar ho gaya. Sridhar, doodh nahin pee saka, aur poore din, tarah-tarah ke bure vichar, use pareshan karte rahe. Pichli, raat ki ghatna, use sataa kar rahi thi, aur ek bar, uske maan main, Sadhana rokne ka vichaar bhi aya.
 	
-	Phir bhi, kisi tarah 13ve din woh phir se, Sadhana main baetha. Raat 1 baje tak kuch nahin hua, phir aadhe ghante baad, achanak, ek behad khoobsorat stri, jo dekhne main Maa Bagalmukhi ki tarah thi, uske kamre main prakat hui. Usek paron main, sone ki payal thi. Woh, Sridhar ke paas, aa kar baeth gayi, aur use ek dheemi muskan se dekhne lagi. Sridhar mantra jaap karta raha, aur lagbag 5 baje uska jaap khatam hua.
+	Phir bhi, kisi tarah, 13ve din, woh phir se, Sadhana main baetha. Raat 1 baje tak, kuch nahin hua, phir aadhe ghante baad, ek behad, khoobsorat stri, jo dekhne main Maa Bagalmukhi ki tarah thi, uske kamre main achanak, prakat hui. Usek paron main, sone ki payal thi. Woh, Sridhar ke paas, aa kar baeth gayi, aur use ek dheemi muskan se dekhne lagi. Sridhar mantra jaap karta raha, aur lagbag 5 baje uska jaap khatam hua.
 	
-	Jaise hi Sridhar utha, to usne kaha. Ek second, Mujhse baat nahi karoge. Main Bagla hoon. Muje kyoon bulaya?
+	Jaise hi Sridhar utha, to us stri ne kaha. Thaero, Mujhse baat nahi karoge. Main Bagla hoon. Muje kyoon bulaya?
 	Sridhar ne turant, Maa ke saame dandwat pranam kiya. Phir usne kaha, Hai Maa agar aap mujhse prasan ho, to mujhe vardan do, ki main apne shatrooon par vijai prapt karon aur mere jeean main sukh smiridhi aai.
 	
 	
-	Maa ne kaha, Main tujhse prasan hoon. Aaj se, main sada, teri raksha karongi. Aur yadi tumahri kisi se bahas hoti hai, to tumhare virodhi, chup ho jayega, unki buddhi kaam nahin karegi, aur tum jeet jaoge.
+	Maa ne kaha, Main tujhse prasan hoon. Aaj se, main sada, teri raksha karongi. Aur yadi tumahri kisi se bahas hoti hai, to tumhare virodhi ki bhdhi ko stambhit kar dongi. Uskki buddhi kaam nahin karegi, aur avashya tum, jeet jaoge.
 
+	Yeh keh kar. Maa Baglamukhi, antardhyan ho gai.
+	
 ### Script English
 
 		
@@ -1030,6 +1032,77 @@ He placed the yellow lota of water beside Maa's image, performed the achaman, an
    **Ref:** Upload `Sadhak_B_Ref.png` + `Maa-Baglamukhi.png`
 
    `painterly AI devotional illustration, Hindustani folk-story art style, wide medium shot of the yellow sadhana room in early morning golden light — Maa Baglamukhi standing tall on viewer's left, luminous and divine, yellow-gold sari, a radiant golden halo surrounding her head, right palm raised open toward viewer's right in the abhaya blessing gesture — the boon being spoken and granted, her face serene with divine authority and warmth, golden anklets — payal — at her feet, her full standing height commanding the frame — young Indian male sadhak in yellow dhoti seated on his knees on viewer's right, head slightly raised, eyes wide with reverent awe and wonder, hands pressed together near his chest in namaste, expression of a man receiving something beyond what he dared hope for, Maa's framed portrait on the bajot in the background between them as witness, diya still burning, sunrise light through the arched window, atmosphere of the boon granted — protection, victory, prosperity — forever, motion-friendly slow pull-back to hold both figures in the full frame, wide 16:9 composition, no text, no watermark`
+
+---
+
+
+
+
+## Scene-12
+
+### Script Hindi
+
+	Phir Maa baglamukhi, dhire-dhire, ek sunhare kohre mein, vilin ho gai. Sridhar, kuch minuton tak, zameen par baithe raha. Jo kuch bhi hua tha, usse vishwas nahi ho raha tha. uski aankhon se, khushi ke aansu. bah nikle. Uskc chehre pe ek gahri rahat ka dikhai de rahi thi.
+
+	Jald hi, case ki tarikh aa gai. Hairani ki baat, yah thi ki, Sridhar ke, vakil ke dalilon ka, viprit paksh ka, koi jawab nahin thaa. Aakhir, Adalat ne, Sridhar ke paksh mein, faisla sunaya. Us din, jab ve adalat mein baithe the, to Sridhar ko aisa laga, Maa Baglamukhi wahin upasthit thi.
+
+	Agle kuch mahinon men, Sridhar ko, aarthik safalta bhi prapt hui. Juch dino ke baad, Sridhar, apne guru ke paas, lauta, aur unhen pranam kiya.
+
+	
+
+### Script English
+
+	Then, slowly, Mother Baglamukhi dissolved into a golden mist. Sridhar remained seated on the ground for a few minutes; he could scarcely believe what had just transpired. Tears of joy welled up and flowed from his eyes, and a look of profound relief was visible on his face.
+
+	Soon, the date for the court hearing arrived. Surprisingly, the opposing party had no rebuttal to the arguments presented by Sridhar's lawyer. Ultimately, the court delivered a verdict in Sridhar's favor. On that day, as he sat in the courtroom, Sridhar felt as though Mother Baglamukhi herself was present right there.
+
+	Over the next few months, Sridhar also achieved financial success. A few days later, Sridhar returned to his Guru and offered his respectful salutations.
+
+### Artifacts
+
+#### Images
+
+	1.
+
+	   **Ref:** Upload `Sadhak_B_Ref.png`
+
+	   `painterly AI devotional illustration, Hindustani folk-story art style, in a dimly lit home ritual room (ochre walls, small altar at viewer's right, single oil lamp flame), a young Indian man in yellow dhoti (Sridhar) is seated cross-legged on the floor facing viewer's left, head tilted upward, tears glistening on his cheeks, expression of awe and profound relief. Before him in the center-upper frame, a luminous female divine form is dissolving — her golden silhouette diffusing into cascading golden mist and radiant floating particles, her outline becoming translucent wisps rising upward. The golden dissolving light bathes the room warmly. No solid deity figure — only dissolving golden haze and shimmer. No other figures, wide 16:9 composition, no text, no watermark`
+
+	2.
+
+	   **Ref:** Upload `Sadhak_B_Ref.png`
+
+	   `painterly AI devotional illustration, Hindustani folk-story art style, tight portrait close-up of a young Indian man (Sridhar) seated on the floor, face tilted slightly upward, eyes glistening with tears, two glistening tear streaks running down both cheeks, a gentle overwhelmed smile of gratitude and relief on his lips. He wears a yellow dhoti. Warm golden ambient light falling on his face from above. Soft ochre blurred background with a faint golden shimmer fading behind him. No other figures, wide 16:9 composition, no text, no watermark`
+
+	3.
+
+	   **Ref:** Upload `Sadhak_A_Ref.png`
+
+	   `painterly AI devotional illustration, Hindustani folk-story art style, inside an Indian district courtroom — colonial-era wooden judge's bench elevated at the far end, worn wooden railing dividers, lawyers in black coats, stacks of thick document files tied with red ribbon on the tables, ceiling fans, faded framed portraits on yellowed walls, high windows with grey daytime light. At the petitioner's railing, a young Indian man in a plain white kurta (Sridhar) is seated looking forward attentively. His lawyer stands at the podium presenting arguments confidently. On the opposite side, the opposing party's lawyer sits silently, head bowed — no documents raised, no rebuttal papers open. Tense but hopeful atmosphere, wide 16:9 composition, no text, no watermark`
+
+	4.
+
+	   **Ref:** Upload `Sadhak_A_Ref.png`
+
+	   `painterly AI devotional illustration, Hindustani folk-story art style, inside an Indian district courtroom, the elevated wooden judge's bench at the far center, an elderly Indian judge in black robes and white collar, one hand raised pronouncing a verdict. At the petitioner's railing in the foreground, a young Indian man in a plain white kurta (Sridhar) stands beside his lawyer — Sridhar's face showing stunned disbelief dissolving into quiet joy, eyes wet, hands pressed together. The opposing party's bench visible in soft focus behind them, figures slumped and silent. A warm shaft of golden light falls from the high courtroom windows onto Sridhar. Atmosphere of quiet vindication, wide 16:9 composition, no text, no watermark`
+
+	5.
+
+	   **Ref:** Upload `Sadhak_A_Ref.png`
+
+	   `painterly AI devotional illustration, Hindustani folk-story art style, inside an Indian district courtroom, a young Indian man in a plain white kurta (Sridhar) sits in the petitioner's bench, head tilted upward with a serene knowing half-smile — as if sensing something others cannot see. In the upper portion of the frame, an extremely faint barely-visible translucent golden haze fills the air — a ghostlike shimmer barely discernible as the soft luminous outline of a female divine presence, no solid figure, no crown visible, no defined form, just warm golden mist diffused in the light. The courtroom walls and ceiling visible through the shimmer. No defined deity figure, wide 16:9 composition, no text, no watermark`
+
+	6.
+
+	   **Ref:** Upload `Sadhak_A_Ref.png`
+
+	   `painterly AI devotional illustration, Hindustani folk-story art style, a young Indian man (Sridhar) in a clean white kurta seated at a modest wooden desk in a simple well-lit Indian shop or small office interior — warm daylight through a window at viewer's right, a simple wooden counter, a ledger book open before him, modest stacked goods or bundled files behind him. His expression is calm, content, quietly prosperous — a gentle confidence that was not there before. A very small framed devotional image in the corner of the desk, barely visible. Warm amber morning light. Atmosphere of modest hard-earned success and inner peace, wide 16:9 composition, no text, no watermark`
+
+	7.
+
+	   **Ref:** Upload `Sadhak_A_Ref.png`
+
+	   `painterly AI devotional illustration, Hindustani folk-story art style, a young Indian man (Sridhar) in a clean white kurta kneeling in full pranam — forehead lowered toward the feet of a seated elderly Indian male guru. The guru is an old man with a long white beard, dark teal turban, and white-and-saffron shawl, seated on a simple wooden chair or low seat in a modest ashram room. The guru's right hand is raised in calm blessing over Sridhar, his expression compassionate and serene. Warm amber light, simple white walls, a small potted tulsi plant visible in the corner. Atmosphere of homecoming and gratitude — a circle completed. No other figures, wide 16:9 composition, no text, no watermark`
 
 ---
 
