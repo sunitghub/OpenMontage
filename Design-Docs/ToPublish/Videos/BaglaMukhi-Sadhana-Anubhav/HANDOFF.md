@@ -53,3 +53,24 @@ Scene-11 images complete. Next: record voiceovers for Scene-10 and Scene-11, the
 1. **Record Scene-10 and Scene-11 voiceovers**
 2. **Write Scene-12** — court case resolution + closing teaching with mantra for viewers
 3. **Close ticket BSA-yhol** — after Scene-7 render verified
+
+<!-- HANDOFF-SNAPSHOT:START 2026-05-21 09:40 branch:main -->
+**Modified files:**
+```
+ M Bagla-Sadhana-Anubhav.md
+```
+
+**Recent commits:**
+```
+bfd9c47 chore: update HANDOFF — Scene-11 complete, prune stale entries
+3a94b73 feat: add Scene-11 complete image set and prompt updates
+2d574ca chore: auto-update handoff snapshot [2026-05-20 19:46]
+72dbb3b chore: auto-update handoff snapshot [2026-05-20 19:42]
+3a5acec chore: auto-update handoff snapshot [2026-05-20 19:40]
+```
+
+**In-progress tickets:**
+```
+BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
