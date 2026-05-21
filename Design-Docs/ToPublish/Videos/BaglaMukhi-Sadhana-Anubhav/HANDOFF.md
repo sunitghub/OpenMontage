@@ -1,6 +1,6 @@
 # Handoff
 
-_Last updated: 2026-05-20 by Claude (claude-sonnet-4-6)_
+_Last updated: 2026-05-21 by Claude (claude-sonnet-4-6)_
 
 ## Prompt Rules
 
@@ -10,19 +10,20 @@ Update it whenever a new pattern is confirmed or a dead end is discovered — th
 ---
 
 ## Current Focus
-Scene-11 images complete. Next: record voiceovers for Scene-10 and Scene-11, then write Scene-12 (court resolution + closing teaching).
+All 12 scenes scripted and imaged. Voiceovers for Scene-11 and Scene-12 are the final blocker before full render.
 
 ## In Progress
-- Voiceover for Scene-10 — pending
 - Voiceover for Scene-11 — pending
+- Voiceover for Scene-12 — pending
+- Scene-11 Image 3 — retake prompt written (Sridhar at doorway, tired but resolute); not yet generated
 - Ticket BSA-yhol still open (Scene-7 voiceover check)
 
 ## Recent Decisions
 - **Switched from MidJourney to GPT-4o (ChatGPT)** — solves two-arm constraint, female deity face, domestic architecture. See PROMPT-LEARNINGS.md.
 - **Four character refs locked:**
   - `Maa-Baglamukhi.png` → Maa reference (blessing pose, golden gada, no trident)
-  - `Sadhak_A_Ref.png` → Sadhak State A (white kurta — Scenes 1–2)
-  - `Sadhak_B_Ref.png` → Sadhak State B (yellow dhoti — Scenes 3–11)
+  - `Sadhak_A_Ref.png` → Sadhak State A (white kurta — Scenes 1–2, court/secular scenes)
+  - `Sadhak_B_Ref.png` → Sadhak State B (yellow dhoti — Scenes 3–12 ritual)
   - `Mahakali-1.png` → Kali apparition (Scenes 7–10)
 - **GPT-4o guardrail** — "skull garland/mundmala/blood-filled bowl" triggers violence block. Use "dark ancient garland" + "dark vessel"; let `Mahakali-1.png` carry the visual.
 - **Sadhak gaze problem** — strip all mention of presence/darkness; describe only the sadhak facing Maa's portrait. Accept drift — narration carries subtext.
@@ -30,6 +31,9 @@ Scene-11 images complete. Next: record voiceovers for Scene-10 and Scene-11, the
 - **Scene-11 Maa form** — beautiful luminous woman in yellow-gold sari with golden anklets (payal). Standing with halo + abhaya mudra for closing blessing. Use `Maa-Baglamukhi.png` ref.
 - **Doubt/crisis shots** — remove ritual objects and ref entirely; model defaults to sadhana scene otherwise.
 - **EQ chain** — `volume=-4dB` + `alimiter(limit=0.7, attack=5, release=50)`. Target mean -21 dB / max -4.5 dB.
+- **Scene-12 Guru pranam** — use `Scene-1-3b.png` + `Sadhak_A_Ref.png` together; cave location from Scene-1 creates full-circle visual. Confirmed working.
+- **Translucent Maa in secular scenes** — never upload Maa ref; text alone carries the ghost quality. Confirmed working (Scene-12 Image 5).
+- **Thumbnail** — English text, all yellow, confirmed competitive against competitors. Saved as `Thumbnail.png`.
 
 ## Dead Ends
 - `viewer's left/right` must be explicit — "Maa's left hand" confuses GPT-4o.
@@ -46,13 +50,15 @@ Scene-11 images complete. Next: record voiceovers for Scene-10 and Scene-11, the
 - Scene-8: 1–11 images + `Scene-8.mp3`
 - Scene-9: 1–8 images + `Scene-9.mp3`
 - Scene-10: 1–13 images + `Scene-10.mp3`
-- Scene-11: 1–10 images (voiceover pending)
+- Scene-11: 1–11 images + `Scene-11.mp3` (voiceover committed; Image 3 retake pending)
+- Scene-12: 1–7 images (voiceover pending)
 - Court/thumbnail: `courtroom-1.jpeg`, `crowded-courtroom.png`, `Thumbnail.png`
 
 ## Next Steps
-1. **Record Scene-10 and Scene-11 voiceovers**
-2. **Write Scene-12** — court case resolution + closing teaching with mantra for viewers
-3. **Close ticket BSA-yhol** — after Scene-7 render verified
+1. **Regenerate Scene-11 Image 3** — doorway shot (prompt written, in Bagla-Sadhana-Anubhav.md)
+2. **Record Scene-11 and Scene-12 voiceovers**
+3. **Run full render** — `render-scene --all` once all voiceovers in place
+4. **Close ticket BSA-yhol** — after Scene-7 render verified
 
 <!-- HANDOFF-SNAPSHOT:START 2026-05-21 15:05 branch:main -->
 **Modified files:**
