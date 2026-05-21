@@ -1124,4 +1124,4 @@ He placed the yellow lota of water beside Maa's image, performed the achaman, an
   
 	Disclaimer: This story is a personal spiritual experience, narrated as shared by the devotee. It is presented for devotional and inspirational purposes only. Spiritual experiences are personal and results vary. Viewers are encouraged to seek guidance from a qualified Guru before undertaking any sadhana or spiritual 
 	
-	#MaaBaglamukhi #TrueStory #Sadhana #CourtCase #DevotionalStory #Baglamukhi
+	#MaaBaglamukhi #TrueStory #Sadhana #DevotionalStory #Baglamukhi #Kali
