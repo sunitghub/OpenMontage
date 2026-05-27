@@ -32,6 +32,29 @@ Baglamukhi Sadhana Anubhav long-form video. Scenes 1–4 complete with narration
 - Scene-level handoff: `Design-Docs/ToPublish/Videos/BaglaMukhi-Sadhana-Anubhav/HANDOFF.md`
 - Competitor analysis: `Design-Docs/Competitors/Competitor-Analysis.md`
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-27 13:37 branch:main -->
+**Modified files:**
+```
+ D ../BaglaMukhi-Sadhana-Anubhav/Thumbnail-Final.jpg
+?? ../BaglaMukhi-Sadhana-Anubhav/TrueStory-1.jpg
+?? ./
+```
+
+**Recent commits:**
+```
+a5329d7 chore: sync latest markdown and Scene-11-3 updates
+75d3f61 chore: auto-update handoff snapshot [2026-05-21 16:58]
+22d5cc1 feat: add remaining Scene-11/12 assets, voiceovers, and final thumbnail
+ea7bcaa chore: auto-update handoff snapshot [2026-05-21 15:07]
+7490204 chore: auto-update handoff snapshot [2026-05-21 15:06]
+```
+
+**In-progress tickets:**
+```
+BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-14 17:15 branch:main -->
 **Modified files:**
 ```
@@ -49,31 +72,6 @@ Baglamukhi Sadhana Anubhav long-form video. Scenes 1–4 complete with narration
 c686e8d chore: auto-update handoff snapshot [2026-05-14 17:09]
 c859a8c chore: auto-update handoff snapshot [2026-05-12 17:45]
 a55b98f chore: auto-update handoff snapshot [2026-05-12 17:45]
-```
-
-**In-progress tickets:**
-```
-BSA-yhol [in_progress] - Record voiceover for Scene-7 and check rendered video
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-14 17:15 branch:main -->
-**Modified files:**
-```
- M AGENTS.md
- M CLAUDE.md
- M Design-Docs/ToPublish/Videos/BaglaMukhi-Sadhana-Anubhav/Bagla-Sadhana-Anubhav.md
-?? .tickets/BSA-yhol.md
-?? Design-Docs/ToPublish/Videos/BaglaMukhi-Sadhana-Anubhav/Scene-7.mp3
-```
-
-**Recent commits:**
-```
-1d1dd10 chore: auto-update handoff snapshot [2026-05-14 17:11]
-c686e8d chore: auto-update handoff snapshot [2026-05-14 17:09]
-c859a8c chore: auto-update handoff snapshot [2026-05-12 17:45]
-a55b98f chore: auto-update handoff snapshot [2026-05-12 17:45]
-129bd44 fix: remove two-arms-only constraint from Maa Baglamukhi portrait prompts
 ```
 
 **In-progress tickets:**
