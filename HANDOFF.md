@@ -32,7 +32,7 @@ Baglamukhi Sadhana Anubhav long-form video. Scenes 1–4 complete with narration
 - Scene-level handoff: `Design-Docs/ToPublish/Videos/BaglaMukhi-Sadhana-Anubhav/HANDOFF.md`
 - Competitor analysis: `Design-Docs/Competitors/Competitor-Analysis.md`
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-27 13:42 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-27 18:11 branch:main -->
 **Modified files:**
 ```
  D ../BaglaMukhi-Sadhana-Anubhav/Thumbnail-Final.jpg
@@ -42,11 +42,11 @@ Baglamukhi Sadhana Anubhav long-form video. Scenes 1–4 complete with narration
 
 **Recent commits:**
 ```
+535a656 chore: auto-update handoff snapshot [2026-05-27 13:42]
 9d9813f chore: auto-update handoff snapshot [2026-05-27 13:42]
 fef8589 chore: auto-update handoff snapshot [2026-05-27 13:38]
 aae2e92 chore: auto-update handoff snapshot [2026-05-27 13:37]
 a5329d7 chore: sync latest markdown and Scene-11-3 updates
-75d3f61 chore: auto-update handoff snapshot [2026-05-21 16:58]
 ```
 
 **In-progress tickets:**
@@ -65,11 +65,11 @@ BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check r
 
 **Recent commits:**
 ```
+9d9813f chore: auto-update handoff snapshot [2026-05-27 13:42]
 fef8589 chore: auto-update handoff snapshot [2026-05-27 13:38]
 aae2e92 chore: auto-update handoff snapshot [2026-05-27 13:37]
 a5329d7 chore: sync latest markdown and Scene-11-3 updates
 75d3f61 chore: auto-update handoff snapshot [2026-05-21 16:58]
-22d5cc1 feat: add remaining Scene-11/12 assets, voiceovers, and final thumbnail
 ```
 
 **In-progress tickets:**
