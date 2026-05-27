@@ -32,6 +32,29 @@ Baglamukhi Sadhana Anubhav long-form video. Scenes 1–4 complete with narration
 - Scene-level handoff: `Design-Docs/ToPublish/Videos/BaglaMukhi-Sadhana-Anubhav/HANDOFF.md`
 - Competitor analysis: `Design-Docs/Competitors/Competitor-Analysis.md`
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-27 18:45 branch:main -->
+**Modified files:**
+```
+ D ../BaglaMukhi-Sadhana-Anubhav/Thumbnail-Final.jpg
+?? ../BaglaMukhi-Sadhana-Anubhav/TrueStory-1.jpg
+?? ./
+```
+
+**Recent commits:**
+```
+1368b1a chore: auto-update handoff snapshot [2026-05-27 18:28]
+2245ce6 chore: auto-update handoff snapshot [2026-05-27 18:27]
+521933a chore: auto-update handoff snapshot [2026-05-27 18:25]
+1bd9262 chore: auto-update handoff snapshot [2026-05-27 18:14]
+0e1e3de chore: auto-update handoff snapshot [2026-05-27 18:11]
+```
+
+**In-progress tickets:**
+```
+BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-27 18:28 branch:main -->
 **Modified files:**
 ```
@@ -47,29 +70,6 @@ Baglamukhi Sadhana Anubhav long-form video. Scenes 1–4 complete with narration
 1bd9262 chore: auto-update handoff snapshot [2026-05-27 18:14]
 0e1e3de chore: auto-update handoff snapshot [2026-05-27 18:11]
 535a656 chore: auto-update handoff snapshot [2026-05-27 13:42]
-```
-
-**In-progress tickets:**
-```
-BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-27 18:27 branch:main -->
-**Modified files:**
-```
- D ../BaglaMukhi-Sadhana-Anubhav/Thumbnail-Final.jpg
-?? ../BaglaMukhi-Sadhana-Anubhav/TrueStory-1.jpg
-?? ./
-```
-
-**Recent commits:**
-```
-521933a chore: auto-update handoff snapshot [2026-05-27 18:25]
-1bd9262 chore: auto-update handoff snapshot [2026-05-27 18:14]
-0e1e3de chore: auto-update handoff snapshot [2026-05-27 18:11]
-535a656 chore: auto-update handoff snapshot [2026-05-27 13:42]
-9d9813f chore: auto-update handoff snapshot [2026-05-27 13:42]
 ```
 
 **In-progress tickets:**
