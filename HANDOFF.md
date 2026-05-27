@@ -32,6 +32,29 @@ Baglamukhi Sadhana Anubhav long-form video. Scenes 1–4 complete with narration
 - Scene-level handoff: `Design-Docs/ToPublish/Videos/BaglaMukhi-Sadhana-Anubhav/HANDOFF.md`
 - Competitor analysis: `Design-Docs/Competitors/Competitor-Analysis.md`
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-27 18:55 branch:main -->
+**Modified files:**
+```
+ D ../BaglaMukhi-Sadhana-Anubhav/Thumbnail-Final.jpg
+?? ../BaglaMukhi-Sadhana-Anubhav/TrueStory-1.jpg
+?? ./
+```
+
+**Recent commits:**
+```
+3be8c0c chore: auto-update handoff snapshot [2026-05-27 18:54]
+05b1e0f chore: auto-update handoff snapshot [2026-05-27 18:52]
+de1f91a chore: auto-update handoff snapshot [2026-05-27 18:51]
+9533494 chore: auto-update handoff snapshot [2026-05-27 18:48]
+1ab0d56 chore: auto-update handoff snapshot [2026-05-27 18:47]
+```
+
+**In-progress tickets:**
+```
+BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-27 18:54 branch:main -->
 **Modified files:**
 ```
@@ -47,29 +70,6 @@ de1f91a chore: auto-update handoff snapshot [2026-05-27 18:51]
 9533494 chore: auto-update handoff snapshot [2026-05-27 18:48]
 1ab0d56 chore: auto-update handoff snapshot [2026-05-27 18:47]
 0bf9cdd chore: auto-update handoff snapshot [2026-05-27 18:46]
-```
-
-**In-progress tickets:**
-```
-BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-27 18:52 branch:main -->
-**Modified files:**
-```
- D ../BaglaMukhi-Sadhana-Anubhav/Thumbnail-Final.jpg
-?? ../BaglaMukhi-Sadhana-Anubhav/TrueStory-1.jpg
-?? ./
-```
-
-**Recent commits:**
-```
-de1f91a chore: auto-update handoff snapshot [2026-05-27 18:51]
-9533494 chore: auto-update handoff snapshot [2026-05-27 18:48]
-1ab0d56 chore: auto-update handoff snapshot [2026-05-27 18:47]
-0bf9cdd chore: auto-update handoff snapshot [2026-05-27 18:46]
-58e8248 chore: auto-update handoff snapshot [2026-05-27 18:45]
 ```
 
 **In-progress tickets:**
