@@ -42,11 +42,11 @@ Baglamukhi Sadhana Anubhav long-form video. Scenes 1–4 complete with narration
 
 **Recent commits:**
 ```
+b173dca chore: auto-update handoff snapshot [2026-05-27 19:02]
 7d418d6 chore: auto-update handoff snapshot [2026-05-27 18:58]
 6c2b329 chore: auto-update handoff snapshot [2026-05-27 18:56]
 c190e90 chore: auto-update handoff snapshot [2026-05-27 18:55]
 f810823 chore: auto-update handoff snapshot [2026-05-27 18:55]
-3be8c0c chore: auto-update handoff snapshot [2026-05-27 18:54]
 ```
 
 **In-progress tickets:**
@@ -55,7 +55,7 @@ BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check r
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-27 18:58 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-27 19:02 branch:main -->
 **Modified files:**
 ```
  D ../BaglaMukhi-Sadhana-Anubhav/Thumbnail-Final.jpg
@@ -65,11 +65,11 @@ BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check r
 
 **Recent commits:**
 ```
+7d418d6 chore: auto-update handoff snapshot [2026-05-27 18:58]
 6c2b329 chore: auto-update handoff snapshot [2026-05-27 18:56]
 c190e90 chore: auto-update handoff snapshot [2026-05-27 18:55]
 f810823 chore: auto-update handoff snapshot [2026-05-27 18:55]
 3be8c0c chore: auto-update handoff snapshot [2026-05-27 18:54]
-05b1e0f chore: auto-update handoff snapshot [2026-05-27 18:52]
 ```
 
 **In-progress tickets:**
