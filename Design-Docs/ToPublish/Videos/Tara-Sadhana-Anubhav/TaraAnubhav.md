@@ -65,7 +65,7 @@ Generate these reference images first. All scene prompts should visually match t
 
    **Ref:** Upload `Yantra-Ref.jpg`
 
-	this is the actual Tara Yantra used in this sadhana — hand-drawn ink on paper, square bhupura outer boundary with four gates (one on each side), inside is an eight-petalled lotus with Sanskrit bija mantras in each petal, at the center a circle containing an upward-pointing triangle with the primary bija mantra inside — use this as the structural reference for any scene showing the rice lotus or yantra pattern; the eight petals, triangle, and circle arrangement must match this layout exactly
+	painterly AI devotional illustration, Hindustani folk-story art style, character bible reference for the Tara Yantra — recreate this sacred geometric diagram exactly as shown in the uploaded image: square outer boundary with four gate-like projections, eight-petalled lotus at the center, a circle enclosing an upward-pointing triangle at the heart — rendered in glowing rose-gold lines on a deep dark background, soft divine radiance emanating from the diagram, precise sacred geometry, no figures, no additional text, no watermark — this yantra layout must remain structurally consistent across all scenes where it appears
 
 
 ### Sadhana Room
