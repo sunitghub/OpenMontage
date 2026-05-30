@@ -48,6 +48,31 @@ Two videos in flight: Baglamukhi (nearly done — Scene-7 voiceover pending) and
 2. Tara: write Hindi scripts for Scene-2 onwards, then generate image prompts per scene
 3. Tara: generate scene images in GPT-4o with `Tara-Maa-3.jpg` as reference
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-30 06:31 branch:main -->
+**Modified files:**
+```
+?? Indian-Man.png
+?? Sadhak-A.jpg
+?? Sadhak-B.jpg
+?? TaraAnubhav.md~
+?? TaraYantra.jpg
+```
+
+**Recent commits:**
+```
+e43be48 fix(tara): reorder scene-1 prompts — Guru instruction first to match narrative
+4bcf0db chore: auto-update handoff snapshot [2026-05-30 06:26]
+9f46bd5 feat(tara): add Guru to character bible and guru-shishya scene prompt
+102b020 chore: auto-update handoff snapshot [2026-05-30 06:22]
+19b6c3d chore(tara): approve Sadhak-B; update prompt and ref to match generated image
+```
+
+**In-progress tickets:**
+```
+BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-30 06:26 branch:main -->
 **Modified files:**
 ```
@@ -65,30 +90,6 @@ Two videos in flight: Baglamukhi (nearly done — Scene-7 voiceover pending) and
 19b6c3d chore(tara): approve Sadhak-B; update prompt and ref to match generated image
 7c05f1a chore: auto-update handoff snapshot [2026-05-30 06:21]
 b36bceb chore: auto-update handoff snapshot [2026-05-30 06:17]
-```
-
-**In-progress tickets:**
-```
-BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-30 06:22 branch:main -->
-**Modified files:**
-```
-?? Indian-Man.png
-?? Sadhak-A.jpg
-?? TaraAnubhav.md~
-?? TaraYantra.jpg
-```
-
-**Recent commits:**
-```
-19b6c3d chore(tara): approve Sadhak-B; update prompt and ref to match generated image
-7c05f1a chore: auto-update handoff snapshot [2026-05-30 06:21]
-b36bceb chore: auto-update handoff snapshot [2026-05-30 06:17]
-6adb834 chore(tara): approve Sadhak-A; update refs and hair description to match generated image
-d6495c4 chore: auto-update handoff snapshot [2026-05-30 06:15]
 ```
 
 **In-progress tickets:**
