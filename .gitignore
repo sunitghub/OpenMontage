@@ -90,3 +90,4 @@ remotion-composer/public/demo-props/caption-burn-*
 
 # Extracted video frames (analysis artifacts — regenerable)
 Design-Docs/Competitors/*_frames/
+*.md~
