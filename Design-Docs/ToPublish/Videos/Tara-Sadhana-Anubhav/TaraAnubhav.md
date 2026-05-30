@@ -61,6 +61,13 @@ Generate these reference images first. All scene prompts should visually match t
 	painterly AI devotional illustration, Hindustani folk-story art style, character bible portrait of the same young Indian man as Sadhak-A — identical face, medium-warm wheatish complexion, dark brown hair naturally voluminous and wavy with a tousled quality, short neatly trimmed beard, warm brown expressive eyes — dressed in sadhana attire: rose-pink dhoti wrapped traditionally around the lower body, a soft rose-pink shawl draped loosely open over both shoulders leaving the chest bare in the traditional manner, holding a dark brown rudraksha mala in the right hand raised to chest height with fingers resting on the beads, slight upward gaze, expression serene and inwardly focused, warm golden ochre background, soft warm ambient light, centered three-quarter upper-body composition, no text, no watermark — this face and sadhana attire must remain consistent across all scenes depicting the sadhana ritual
 
 
+### Tara Yantra
+
+   **Ref:** Upload `Yantra-Ref.jpg`
+
+	this is the actual Tara Yantra used in this sadhana — hand-drawn ink on paper, square bhupura outer boundary with four gates (one on each side), inside is an eight-petalled lotus with Sanskrit bija mantras in each petal, at the center a circle containing an upward-pointing triangle with the primary bija mantra inside — use this as the structural reference for any scene showing the rice lotus or yantra pattern; the eight petals, triangle, and circle arrangement must match this layout exactly
+
+
 ### Sadhana Room
 
    **Ref:** Upload `Room-Ref.jpg`
@@ -132,21 +139,26 @@ Generate these reference images first. All scene prompts should visually match t
 	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, close view of a low wooden board draped in a smooth rose-pink cloth, folds falling neatly at the edges, a thick pink velvet cushion placed on the ceramic tiled floor directly in front of the board, smooth rose-pink painted walls visible at the edges, modern glass-paned window with soft evening light from outside, warm soft glow, devotional stillness, no figures, no text no watermark
 
 **7. Sadhak arranging the rice lotus**
-> Refs: `Room-Ref.jpg` + `Sadhak-A.jpg`
+> Refs: `Room-Ref.jpg` + `Sadhak-A.jpg` + `Yantra-Ref.jpg`
 
-	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, the Sadhak kneeling over the pink-cloth-covered board, hands carefully placing pink-dyed rice grains in the form of an eight-petalled lotus, his face close to the board with deep concentration, the nearly-complete lotus pattern visible beneath his hands, warm light from a modern flush ceiling fitting overhead, smooth rose-pink painted walls framing the scene, ceramic tiled floor, contemporary Indian apartment interior, no text no watermark
+	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, the Sadhak kneeling over the pink-cloth-covered board, hands carefully placing pink-dyed rice grains forming an eight-petalled lotus matching the Tara Yantra layout — eight petals with a circle and upward triangle at the center, his face close to the board with deep concentration, the nearly-complete pattern visible beneath his hands, warm light from a modern flush ceiling fitting overhead, smooth rose-pink painted walls framing the scene, ceramic tiled floor, contemporary Indian apartment interior, no text no watermark
 
-**8. The eight-petalled lotus — detail shot**
-> Refs: `Room-Ref.jpg`
+**8. The Tara Yantra — beauty shot**
+> Refs: `Yantra-Ref.jpg`
 
-	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, bird's-eye close-up of a perfectly formed eight-petalled lotus made entirely from pink-dyed rice grains arranged on a rose-pink cloth, petals symmetrical and precise, a circular empty space at the very center awaiting the lamp, soft warm overhead light catching the texture of each grain, sacred geometric beauty, no figures, no text no watermark
+	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, close-up beauty shot of the Tara Yantra rendered in glowing rose-gold lines on a deep crimson or dark background — the square bhupura outer boundary with four gates, eight-petalled lotus at the center with Sanskrit bija mantras glowing in each petal, a circle containing an upward-pointing triangle with the primary bija mantra at its heart, the entire yantra emanating a soft divine radiance as if lit from within, sacred geometric precision, no figures, no text no watermark
 
-**9. The earthenware lamp — detail shot**
+**9. The eight-petalled rice lotus — detail shot**
+> Refs: `Room-Ref.jpg` + `Yantra-Ref.jpg`
+
+	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, bird's-eye close-up of a perfectly formed eight-petalled lotus made entirely from pink-dyed rice grains arranged on a rose-pink cloth, exactly eight petals symmetrical and precise matching the Tara Yantra layout, a circular empty space at the very center with a suggestion of the triangle form awaiting the lamp, soft warm overhead light catching the texture of each grain, sacred geometric beauty, no figures, no text no watermark
+
+**10. The earthenware lamp — detail shot**
 > Refs: `Room-Ref.jpg`
 
 	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, close-up of a thick hand-thrown earthenware deepak placed at the center of the rice lotus, filled with pure golden ghee, a slender pink-dyed cotton wick rising from its center, a single flame just lit — golden and steady, warm glow reflecting off the surrounding pink rice petals, devotional and sacred atmosphere, no figures, no text no watermark
 
-**10. The completed sadhana room at night**
+**11. The completed sadhana room at night**
 > Refs: `Room-Ref.jpg` + `Sadhak-B.jpg`
 
 	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, full interior view of the sadhana room at night in a modern Indian apartment, all four smooth walls and ceiling rose-pink, ceramic tiled floor, contemporary glass-paned window dark with night outside, wooden board on the floor covered in pink cloth with the eight-petalled rice lotus and lit earthenware lamp glowing at its center, the Sadhak seated cross-legged on the pink cushion directly before the board facing north, hands resting on knees in meditation posture, eyes closed, warm golden lamplight illuminating his face and the room, overhead light switched off — only the deepak flame lighting the space, deep devotional stillness, no other figures, no text no watermark
