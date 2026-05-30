@@ -61,6 +61,13 @@ Generate these reference images first. All scene prompts should visually match t
 	painterly AI devotional illustration, Hindustani folk-story art style, character bible portrait of the same young Indian man as Sadhak-A — identical face, medium-warm wheatish complexion, dark brown hair naturally voluminous and wavy with a tousled quality, short neatly trimmed beard, warm brown expressive eyes — dressed in sadhana attire: rose-pink dhoti wrapped traditionally around the lower body, a soft rose-pink shawl draped loosely open over both shoulders leaving the chest bare in the traditional manner, holding a dark brown rudraksha mala in the right hand raised to chest height with fingers resting on the beads, slight upward gaze, expression serene and inwardly focused, warm golden ochre background, soft warm ambient light, centered three-quarter upper-body composition, no text, no watermark — this face and sadhana attire must remain consistent across all scenes depicting the sadhana ritual
 
 
+### Sadhana Room
+
+   **Ref:** Upload `Room-Ref.jpg`
+
+	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, interior of an empty room in a modern 2020s Indian apartment, all four smooth freshly painted walls and ceiling a soft rose-pink, clean ceramic floor tiles, modern flush LED ceiling light fitting casting warm even light, glass-paned window with simple white curtains, plain skirting boards, no furniture, no figures, no clutter — generate this as the room reference; this interior must remain visually consistent across all sadhana preparation scenes
+
+
 ### Guru
 
    **Ref:** Upload `Guru-Ref.jpg`
@@ -94,7 +101,11 @@ Generate these reference images first. All scene prompts should visually match t
 
 #### Images
 
-> **GPT-4o note:** Upload both `Tara-Maa-3.jpg` and `Sadhak-A.jpg` for all prompts that include Sadhak-A. For detail/environment shots, upload `Tara-Maa-3.jpg` only to maintain style anchor. For Guru scenes upload `Guru-Ref.jpg` + `Sadhak-A.jpg`.
+> **GPT-4o note:** Reference uploads per prompt type:
+> - **Room scenes (2–9):** always include `Room-Ref.jpg` to anchor the modern interior
+> - **Character scenes:** add `Sadhak-A.jpg` or `Sadhak-B.jpg` as needed
+> - **Guru scene (1):** `Guru-Ref.jpg` + `Sadhak-A.jpg` (no room ref needed)
+> - **Detail shots (5, 7, 8):** `Room-Ref.jpg` + `Tara-Maa-3.jpg` for style anchor
 
 **1. The Guru gives instructions to Ravi**
 
