@@ -56,11 +56,11 @@ Two videos in flight: Baglamukhi (nearly done — Scene-7 voiceover pending) and
 
 **Recent commits:**
 ```
+1bc4332 chore: auto-update handoff snapshot [2026-05-29 20:02]
 0bbade7 chore: auto-update handoff snapshot [2026-05-29 20:02]
 c0f6b70 docs: add om-utils keybindings and Qwen setup to HANDOFF
 3ce0e20 chore: auto-update handoff snapshot [2026-05-29 20:01]
 a172c86 feat: scaffold Tara Sadhana Anubhav video; clean up Baglamukhi
-02e1a17 chore: auto-update handoff snapshot [2026-05-29 19:59]
 ```
 
 **In-progress tickets:**
@@ -77,11 +77,11 @@ BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check r
 
 **Recent commits:**
 ```
+0bbade7 chore: auto-update handoff snapshot [2026-05-29 20:02]
 c0f6b70 docs: add om-utils keybindings and Qwen setup to HANDOFF
 3ce0e20 chore: auto-update handoff snapshot [2026-05-29 20:01]
 a172c86 feat: scaffold Tara Sadhana Anubhav video; clean up Baglamukhi
 02e1a17 chore: auto-update handoff snapshot [2026-05-29 19:59]
-b732388 chore: auto-update handoff snapshot [2026-05-29 19:58]
 ```
 
 **In-progress tickets:**
