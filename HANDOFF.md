@@ -62,11 +62,11 @@ Two videos in flight: Baglamukhi (nearly done — Scene-7 voiceover pending) and
 
 **Recent commits:**
 ```
+ff23512 feat(tara): add Sadhana Room to character bible for modern interior consistency
+c652c13 chore: auto-update handoff snapshot [2026-05-30 07:04]
 41ac77e fix(tara): update scene-1 prompts to modern 2020s Indian apartment interior
 5abdefa chore: auto-update handoff snapshot [2026-05-30 06:58]
 32d1ea0 chore: auto-update handoff snapshot [2026-05-30 06:55]
-2a286af chore: auto-update handoff snapshot [2026-05-30 06:54]
-e5583d9 chore(tara): approve Guru-Ref.jpg; update prompt to match generated image
 ```
 
 **In-progress tickets:**
@@ -75,24 +75,25 @@ BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check r
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-30 06:58 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-30 07:04 branch:main -->
 **Modified files:**
 ```
 ?? Guru-Ref.jpg
 ?? Indian-Man.png
 ?? Sadhak-A.jpg
 ?? Sadhak-B.jpg
+?? Scene-1-1.png
 ?? TaraAnubhav.md~
 ?? TaraYantra.jpg
 ```
 
 **Recent commits:**
 ```
+41ac77e fix(tara): update scene-1 prompts to modern 2020s Indian apartment interior
+5abdefa chore: auto-update handoff snapshot [2026-05-30 06:58]
 32d1ea0 chore: auto-update handoff snapshot [2026-05-30 06:55]
 2a286af chore: auto-update handoff snapshot [2026-05-30 06:54]
 e5583d9 chore(tara): approve Guru-Ref.jpg; update prompt to match generated image
-5213c00 chore: auto-update handoff snapshot [2026-05-30 06:52]
-c33dcb3 chore: auto-update handoff snapshot [2026-05-30 06:33]
 ```
 
 **In-progress tickets:**
