@@ -48,6 +48,30 @@ Two videos in flight: Baglamukhi (nearly done — Scene-7 voiceover pending) and
 2. Tara: write Hindi scripts for Scene-2 onwards, then generate image prompts per scene
 3. Tara: generate scene images in GPT-4o with `Tara-Maa-3.jpg` as reference
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-30 06:21 branch:main -->
+**Modified files:**
+```
+?? Indian-Man.png
+?? Sadhak-A.jpg
+?? TaraAnubhav.md~
+?? TaraYantra.jpg
+```
+
+**Recent commits:**
+```
+b36bceb chore: auto-update handoff snapshot [2026-05-30 06:17]
+6adb834 chore(tara): approve Sadhak-A; update refs and hair description to match generated image
+d6495c4 chore: auto-update handoff snapshot [2026-05-30 06:15]
+f94f8b1 chore: auto-update handoff snapshot [2026-05-30 06:14]
+f8d677d feat(tara): add Sadhak-B character bible entry — Ravi in sadhana attire
+```
+
+**In-progress tickets:**
+```
+BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-30 06:17 branch:main -->
 **Modified files:**
 ```
@@ -63,28 +87,6 @@ d6495c4 chore: auto-update handoff snapshot [2026-05-30 06:15]
 f94f8b1 chore: auto-update handoff snapshot [2026-05-30 06:14]
 f8d677d feat(tara): add Sadhak-B character bible entry — Ravi in sadhana attire
 c543a29 chore: auto-update handoff snapshot [2026-05-30 05:53]
-```
-
-**In-progress tickets:**
-```
-BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-30 06:15 branch:main -->
-**Modified files:**
-```
-?? TaraAnubhav.md~
-?? TaraYantra.jpg
-```
-
-**Recent commits:**
-```
-f94f8b1 chore: auto-update handoff snapshot [2026-05-30 06:14]
-f8d677d feat(tara): add Sadhak-B character bible entry — Ravi in sadhana attire
-c543a29 chore: auto-update handoff snapshot [2026-05-30 05:53]
-cc36b20 feat(tara): add Sadhak-A to character bible and 8 scene-1 image prompts
-2a2ce51 chore: auto-update handoff snapshot [2026-05-30 04:14]
 ```
 
 **In-progress tickets:**
