@@ -32,6 +32,32 @@ Baglamukhi Sadhana Anubhav long-form video. Scenes 1–4 complete with narration
 - Scene-level handoff: `Design-Docs/ToPublish/Videos/BaglaMukhi-Sadhana-Anubhav/HANDOFF.md`
 - Competitor analysis: `Design-Docs/Competitors/Competitor-Analysis.md`
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-29 19:55 branch:main -->
+**Modified files:**
+```
+ D ../../Design-Changes.md
+ D ../../Scene-1-2-2.png
+ M ../BaglaMukhi-Sadhana-Anubhav/Bagla-Sadhana-Anubhav.md
+ D ../BaglaMukhi-Sadhana-Anubhav/Thumbnail-Final.jpg
+?? ../BaglaMukhi-Sadhana-Anubhav/TrueStory-1.jpg
+?? ./
+```
+
+**Recent commits:**
+```
+0aaadaa chore: auto-update handoff snapshot [2026-05-27 20:01]
+6cb2a8d chore: auto-update handoff snapshot [2026-05-27 20:00]
+8f1aabf chore: auto-update handoff snapshot [2026-05-27 19:59]
+cf4ae11 chore: auto-update handoff snapshot [2026-05-27 19:57]
+2392f56 chore: auto-update handoff snapshot [2026-05-27 19:56]
+```
+
+**In-progress tickets:**
+```
+BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-27 20:01 branch:main -->
 **Modified files:**
 ```
@@ -48,30 +74,6 @@ Baglamukhi Sadhana Anubhav long-form video. Scenes 1–4 complete with narration
 cf4ae11 chore: auto-update handoff snapshot [2026-05-27 19:57]
 2392f56 chore: auto-update handoff snapshot [2026-05-27 19:56]
 d37c0b4 chore: auto-update handoff snapshot [2026-05-27 19:52]
-```
-
-**In-progress tickets:**
-```
-BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-27 20:00 branch:main -->
-**Modified files:**
-```
- M ../BaglaMukhi-Sadhana-Anubhav/Bagla-Sadhana-Anubhav.md
- D ../BaglaMukhi-Sadhana-Anubhav/Thumbnail-Final.jpg
-?? ../BaglaMukhi-Sadhana-Anubhav/TrueStory-1.jpg
-?? ./
-```
-
-**Recent commits:**
-```
-8f1aabf chore: auto-update handoff snapshot [2026-05-27 19:59]
-cf4ae11 chore: auto-update handoff snapshot [2026-05-27 19:57]
-2392f56 chore: auto-update handoff snapshot [2026-05-27 19:56]
-d37c0b4 chore: auto-update handoff snapshot [2026-05-27 19:52]
-5d0bbd7 chore: auto-update handoff snapshot [2026-05-27 19:39]
 ```
 
 **In-progress tickets:**
