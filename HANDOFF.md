@@ -48,6 +48,28 @@ Two videos in flight: Baglamukhi (nearly done — Scene-7 voiceover pending) and
 2. Tara: write Hindi scripts for Scene-2 onwards, then generate image prompts per scene
 3. Tara: generate scene images in GPT-4o with `Tara-Maa-3.jpg` as reference
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-30 07:56 branch:main -->
+**Modified files:**
+```
+?? Scene-1-4.png
+?? Scene-1-5.png
+```
+
+**Recent commits:**
+```
+9539492 chore: auto-update handoff snapshot [2026-05-30 07:54]
+f2fe951 chore: auto-update handoff snapshot [2026-05-30 07:39]
+d71e711 chore(tara): add character bible images and approved scene-1 images
+d352d98 chore: auto-update handoff snapshot [2026-05-30 07:33]
+24e8495 refactor(tara): move refs to title line, clean inline refs from all scene-1 prompts
+```
+
+**In-progress tickets:**
+```
+BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-30 07:54 branch:main -->
 **Modified files:**
 ```
@@ -62,27 +84,6 @@ d71e711 chore(tara): add character bible images and approved scene-1 images
 d352d98 chore: auto-update handoff snapshot [2026-05-30 07:33]
 24e8495 refactor(tara): move refs to title line, clean inline refs from all scene-1 prompts
 f40379f chore: auto-update handoff snapshot [2026-05-30 07:31]
-```
-
-**In-progress tickets:**
-```
-BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-30 07:39 branch:main -->
-**Modified files:**
-```
-?? Scene-1-4.png
-```
-
-**Recent commits:**
-```
-d71e711 chore(tara): add character bible images and approved scene-1 images
-d352d98 chore: auto-update handoff snapshot [2026-05-30 07:33]
-24e8495 refactor(tara): move refs to title line, clean inline refs from all scene-1 prompts
-f40379f chore: auto-update handoff snapshot [2026-05-30 07:31]
-b1256cc chore: auto-update handoff snapshot [2026-05-30 07:28]
 ```
 
 **In-progress tickets:**
