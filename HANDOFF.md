@@ -48,6 +48,32 @@ Two videos in flight: Baglamukhi (nearly done — Scene-7 voiceover pending) and
 2. Tara: write Hindi scripts for Scene-2 onwards, then generate image prompts per scene
 3. Tara: generate scene images in GPT-4o with `Tara-Maa-3.jpg` as reference
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-30 06:55 branch:main -->
+**Modified files:**
+```
+?? Guru-Ref.jpg
+?? Indian-Man.png
+?? Sadhak-A.jpg
+?? Sadhak-B.jpg
+?? TaraAnubhav.md~
+?? TaraYantra.jpg
+```
+
+**Recent commits:**
+```
+2a286af chore: auto-update handoff snapshot [2026-05-30 06:54]
+e5583d9 chore(tara): approve Guru-Ref.jpg; update prompt to match generated image
+5213c00 chore: auto-update handoff snapshot [2026-05-30 06:52]
+c33dcb3 chore: auto-update handoff snapshot [2026-05-30 06:33]
+efd6e5f fix(tara): update Guru — replace full beard with rolled handlebar mustache for distinct look
+```
+
+**In-progress tickets:**
+```
+BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-30 06:54 branch:main -->
 **Modified files:**
 ```
@@ -66,32 +92,6 @@ e5583d9 chore(tara): approve Guru-Ref.jpg; update prompt to match generated imag
 c33dcb3 chore: auto-update handoff snapshot [2026-05-30 06:33]
 efd6e5f fix(tara): update Guru — replace full beard with rolled handlebar mustache for distinct look
 65b0065 chore: auto-update handoff snapshot [2026-05-30 06:31]
-```
-
-**In-progress tickets:**
-```
-BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-30 06:52 branch:main -->
-**Modified files:**
-```
- M TaraAnubhav.md
-?? Indian-Man.png
-?? Sadhak-A.jpg
-?? Sadhak-B.jpg
-?? TaraAnubhav.md~
-?? TaraYantra.jpg
-```
-
-**Recent commits:**
-```
-c33dcb3 chore: auto-update handoff snapshot [2026-05-30 06:33]
-efd6e5f fix(tara): update Guru — replace full beard with rolled handlebar mustache for distinct look
-65b0065 chore: auto-update handoff snapshot [2026-05-30 06:31]
-e43be48 fix(tara): reorder scene-1 prompts — Guru instruction first to match narrative
-4bcf0db chore: auto-update handoff snapshot [2026-05-30 06:26]
 ```
 
 **In-progress tickets:**
