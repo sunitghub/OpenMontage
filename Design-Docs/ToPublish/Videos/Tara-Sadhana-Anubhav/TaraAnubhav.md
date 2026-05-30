@@ -146,7 +146,7 @@ Generate these reference images first. All scene prompts should visually match t
 **8. The Tara Yantra — beauty shot**
 > Refs: `Yantra-Ref.jpg`
 
-	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, close-up beauty shot of the Tara Yantra rendered in glowing rose-gold lines on a deep crimson or dark background — the square bhupura outer boundary with four gates, eight-petalled lotus at the center with Sanskrit bija mantras glowing in each petal, a circle containing an upward-pointing triangle with the primary bija mantra at its heart, the entire yantra emanating a soft divine radiance as if lit from within, sacred geometric precision, no figures, no text no watermark
+	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, close-up beauty shot of a sacred Hindu yantra (ref: Yantra-Ref.jpg) rendered in glowing rose-gold lines on a deep dark background — square outer boundary with four gate-like projections on each side, an eight-petalled lotus flower at the center, inside the lotus a circle enclosing an upward-pointing triangle, the entire geometric diagram emanating a soft golden divine radiance as if lit from within, intricate precise linework, sacred geometric beauty, no figures, no text no watermark
 
 **9. The eight-petalled rice lotus — detail shot**
 > Refs: `Room-Ref.jpg` + `Yantra-Ref.jpg`
