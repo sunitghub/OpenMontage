@@ -25,7 +25,15 @@ Two videos in flight: Baglamukhi (nearly done — Scene-7 voiceover pending) and
 - `REPLICATE_API_TOKEN` in `OpenMontage/.env`
 - GPT-4o / ChatGPT: manual workflow — run prompts in browser, drop files into project folder
 - `render-scene` symlinked to `~/bin` — callable from anywhere
-- Emacs `C-c o t` → `om/translate` → opens `*Translation*` side buffer (qwen2.5:14b via ollama); re-open with `M-x switch-to-buffer RET *Translation*`
+- Emacs `om-utils.el` (`~/.emacs.d/om-utils.el`) — custom keybindings for this workflow:
+  - `C-c o t` → `om/translate` — translates selection/line via qwen2.5:14b (ollama); output in `*Translation*` side buffer; re-open with `M-x switch-to-buffer RET *Translation*`
+  - `C-c o p` → `om/image-prompts` — generates image prompts from selection → side buffer (for experimenting)
+  - `C-c o P` → `om/scene-image-prompts` — scene-aware prompt gen → inserts numbered prompts directly under `#### Images` in the md file
+  - `C-c o i` → `om/insert-at-marker` — manual insert at marker
+  - `C-c o s` → `om/goto-scene` — jump to scene
+  - `C-c o n` → `om/new-scene` — scaffold new scene block
+  - `C-u 7 C-c o P` — generates 7 prompts instead of default 3
+- Ollama must be running (`ollama serve`) for `om/translate` to work
 
 ## Key Files
 - Render script: `bin/render_scene.py`
