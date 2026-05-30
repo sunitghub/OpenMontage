@@ -25,52 +25,20 @@ Generate these reference images first. All scene prompts should visually match t
 > **GPT-4o note:** No reference image needed for Character Bible generations — these ARE the references.
 
 
-## Critique State
-
-_Last updated: 2026-05-06_
-
-**ToDo**
-- **Scene-1 (Medium)**:
-  · Hook has stakes
-  · Beat 3 now fuller
-  · Pending — spoken Hindi polish
-  · Pending — narration order
-  · Pacing: 11 images @ 7.5s/img ✓ (3c done · 5b not needed)
-  · Pending — generate 7b (sadhak pranam to guru)
-
-- **Scene-5 (Medium)**:
-  · Prayer text is the emotional peak of Act 1
-  · Missing — duration of practice
-  · Image bridge added
-  · Missing scenes — Beats 6, 7, 8 not written
-  · Next → Add one closing line to Scene-5 — *"Yeh kram roz raat ko bina naagaa kiye jaari raha — ek raat, do r…
-
-**Fixed:** Scene-2 · Scene-3 · Scene-4
-
-
-
 ## Scene-1:
 
 ### Script Hindi 
 
 	Sridhar naam ke ek vyakti par court case lago ho gaya. Dekhte hi dekhte, case usake khilaaph main jane laga. Sridhar ko laga, ki har daravaaza band hota ja raha tha. Kahin se koi rah dikai nahin de rahi thee. Hataash hokar, vah apane guru ke paas gaya. Guru ne usakee saari baat sunee, aur phir gambhir vicahr kar dheere se kaha: *"Sridhar, ab bas ek hee raasta bacha hai — Maa Bagalaamukhi kee saadhana. Maa Baglamukhi mukadme ke silsale main, attyant phaldayak sabit hoti hai. Tum ise kisee bhee chaudas ki raat se shuroo karna, aur apane hee ghar mein karna."* Guru ne Sridahar aur bhi kuch janakari de aur phir Sridhar ne apne Guru ko pranam kiya aur nishchay kar liya is sadhana ko sampaan karne ka. To pesh hai doston, ek bhakt ka anubhav, jisme Mata Baglamukhi ne, apne Sadhak ki raksha karke uske zindagi ko nayi disha dikahyi. 
- 
+
 ### Script English
 	
 	A court case was filed against a man named Sridhar. Before he knew it, the case began to turn against him. Sridhar felt as though every door was closing before him; nowhere could he see a way out. Despairing, he went to his Guru. The Guru listened to his entire story, and after deep contemplation, spoke softly: *"Sridhar, only one path remains now—the spiritual practice (*sadhana*) of Mother Baglamukhi. Mother Baglamukhi proves to be immensely efficacious in matters concerning lawsuits. You must commence this practice on the night of any *Chauda*s (the fourteenth lunar day), and perform it within the confines of your own home."* The Guru imparted further instructions to Sridhar; Sridhar then paid his obeisance to his Guru and resolved to undertake this spiritual practice. And so, devotees, presented here is a true experience—one in which Mother Baglamukhi, by protecting her devotee, guided his life toward a new direction.
 
 ### Artifacts
 
-#### Video
-
-- Type: Animated still
-- Purpose: Open on the court crisis, then reveal Maa Baglamukhi as the divine answer.
-- Motion: Slow push-in through courtroom benches toward the stressed sadhak, then cut to guru cave instruction.
-- Generate now: No
 
 #### Images
-
-> Images 1–2 are new hook beats (generate as `Scene-1-0a.png`, `Scene-1-0b.png` to keepffmpe existing image numbering intact). Place these first in timeline order before existing images.
 
 1a.
 
