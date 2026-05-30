@@ -48,6 +48,29 @@ Two videos in flight: Baglamukhi (nearly done — Scene-7 voiceover pending) and
 2. Tara: write Hindi scripts for Scene-2 onwards, then generate image prompts per scene
 3. Tara: generate scene images in GPT-4o with `Tara-Maa-3.jpg` as reference
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-30 08:11 branch:main -->
+**Modified files:**
+```
+?? Scene-1-4.png
+?? Scene-1-5.png
+?? Scene-1-6.png
+```
+
+**Recent commits:**
+```
+d7d82cb chore: auto-update handoff snapshot [2026-05-30 08:09]
+3f43ce0 fix(tara): rewrite yantra character bible entry as generation prompt not a note
+e561c16 chore: auto-update handoff snapshot [2026-05-30 08:07]
+088f851 fix(tara): remove Sanskrit mantra refs from yantra prompt — caused GPT-4o refusal
+8b730bd chore: auto-update handoff snapshot [2026-05-30 08:04]
+```
+
+**In-progress tickets:**
+```
+BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-30 08:09 branch:main -->
 **Modified files:**
 ```
@@ -63,29 +86,6 @@ e561c16 chore: auto-update handoff snapshot [2026-05-30 08:07]
 088f851 fix(tara): remove Sanskrit mantra refs from yantra prompt — caused GPT-4o refusal
 8b730bd chore: auto-update handoff snapshot [2026-05-30 08:04]
 8d869d3 feat(tara): add Tara Yantra to character bible; update lotus prompts; add yantra beauty shot
-```
-
-**In-progress tickets:**
-```
-BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-30 08:07 branch:main -->
-**Modified files:**
-```
-?? Scene-1-4.png
-?? Scene-1-5.png
-?? Scene-1-6.png
-```
-
-**Recent commits:**
-```
-088f851 fix(tara): remove Sanskrit mantra refs from yantra prompt — caused GPT-4o refusal
-8b730bd chore: auto-update handoff snapshot [2026-05-30 08:04]
-8d869d3 feat(tara): add Tara Yantra to character bible; update lotus prompts; add yantra beauty shot
-8f247a4 chore: auto-update handoff snapshot [2026-05-30 08:03]
-87a0e9c chore: auto-update handoff snapshot [2026-05-30 08:02]
 ```
 
 **In-progress tickets:**
