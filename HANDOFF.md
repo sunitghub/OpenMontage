@@ -48,7 +48,7 @@ Two videos in flight: Baglamukhi (nearly done — Scene-7 voiceover pending) and
 2. Tara: write Hindi scripts for Scene-2 onwards, then generate image prompts per scene
 3. Tara: generate scene images in GPT-4o with `Tara-Maa-3.jpg` as reference
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-30 07:04 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-30 07:07 branch:main -->
 **Modified files:**
 ```
 ?? Guru-Ref.jpg
@@ -62,11 +62,11 @@ Two videos in flight: Baglamukhi (nearly done — Scene-7 voiceover pending) and
 
 **Recent commits:**
 ```
+703dd7e chore: auto-update handoff snapshot [2026-05-30 07:04]
 ff23512 feat(tara): add Sadhana Room to character bible for modern interior consistency
 c652c13 chore: auto-update handoff snapshot [2026-05-30 07:04]
 41ac77e fix(tara): update scene-1 prompts to modern 2020s Indian apartment interior
 5abdefa chore: auto-update handoff snapshot [2026-05-30 06:58]
-32d1ea0 chore: auto-update handoff snapshot [2026-05-30 06:55]
 ```
 
 **In-progress tickets:**
@@ -89,11 +89,11 @@ BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check r
 
 **Recent commits:**
 ```
+ff23512 feat(tara): add Sadhana Room to character bible for modern interior consistency
+c652c13 chore: auto-update handoff snapshot [2026-05-30 07:04]
 41ac77e fix(tara): update scene-1 prompts to modern 2020s Indian apartment interior
 5abdefa chore: auto-update handoff snapshot [2026-05-30 06:58]
 32d1ea0 chore: auto-update handoff snapshot [2026-05-30 06:55]
-2a286af chore: auto-update handoff snapshot [2026-05-30 06:54]
-e5583d9 chore(tara): approve Guru-Ref.jpg; update prompt to match generated image
 ```
 
 **In-progress tickets:**
