@@ -48,6 +48,28 @@ Two videos in flight: Baglamukhi (nearly done — Scene-7 voiceover pending) and
 2. Tara: write Hindi scripts for Scene-2 onwards, then generate image prompts per scene
 3. Tara: generate scene images in GPT-4o with `Tara-Maa-3.jpg` as reference
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-30 06:14 branch:main -->
+**Modified files:**
+```
+?? TaraAnubhav.md~
+?? TaraYantra.jpg
+```
+
+**Recent commits:**
+```
+f8d677d feat(tara): add Sadhak-B character bible entry — Ravi in sadhana attire
+c543a29 chore: auto-update handoff snapshot [2026-05-30 05:53]
+cc36b20 feat(tara): add Sadhak-A to character bible and 8 scene-1 image prompts
+2a2ce51 chore: auto-update handoff snapshot [2026-05-30 04:14]
+7d8e0d0 chore: auto-update handoff snapshot [2026-05-30 04:12]
+```
+
+**In-progress tickets:**
+```
+BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-30 05:53 branch:main -->
 **Modified files:**
 ```
@@ -62,27 +84,6 @@ cc36b20 feat(tara): add Sadhak-A to character bible and 8 scene-1 image prompts
 7d8e0d0 chore: auto-update handoff snapshot [2026-05-30 04:12]
 7c4e3bf chore: auto-update handoff snapshot [2026-05-30 04:06]
 c66f573 chore: auto-update handoff snapshot [2026-05-30 04:05]
-```
-
-**In-progress tickets:**
-```
-BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-30 04:14 branch:main -->
-**Modified files:**
-```
-?? TaraAnubhav.md~
-```
-
-**Recent commits:**
-```
-7d8e0d0 chore: auto-update handoff snapshot [2026-05-30 04:12]
-7c4e3bf chore: auto-update handoff snapshot [2026-05-30 04:06]
-c66f573 chore: auto-update handoff snapshot [2026-05-30 04:05]
-db26ddd chore: auto-update handoff snapshot [2026-05-29 20:03]
-0a539b7 chore: auto-update handoff snapshot [2026-05-29 20:02]
 ```
 
 **In-progress tickets:**
