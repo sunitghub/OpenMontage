@@ -65,7 +65,7 @@ Generate these reference images first. All scene prompts should visually match t
 
    **Ref:** Upload `Guru-Ref.jpg`
 
-	painterly AI devotional illustration, Hindustani folk-story art style, character bible portrait of an older Indian spiritual master in his fifties, powerfully built bare chest, long dark hair falling to the shoulders, long full dark beard, a bold red tilak on the forehead, large rudraksha mala hanging around the neck, saffron-orange cloth draped around the lower body and loosely over one shoulder, seated cross-legged in an authoritative posture, expression intense and commanding yet deeply wise, dark warm background with a suggestion of a sacred dhuni fire at the base, amber and ochre tones, centered three-quarter upper-body composition, no text, no watermark — this face build and attire must remain consistent across all scenes featuring the Guru
+	painterly AI devotional illustration, Hindustani folk-story art style, character bible portrait of an older Indian spiritual master in his fifties, powerfully built bare chest, long dark hair falling to the shoulders, clean-shaven face with a large thick handlebar mustache with upward-rolled ends — no beard, a bold red tilak on the forehead, large rudraksha mala hanging around the neck, saffron-orange cloth draped around the lower body and loosely over one shoulder, seated cross-legged in an authoritative posture, expression intense and commanding yet deeply wise, dark warm background with a suggestion of a sacred dhuni fire at the base, amber and ochre tones, centered three-quarter upper-body composition, no text, no watermark — this face build mustache and attire must remain consistent across all scenes featuring the Guru
 
 
 ## Scene-1:
@@ -97,7 +97,7 @@ Generate these reference images first. All scene prompts should visually match t
 
 **1. The Guru gives instructions to Ravi**
 
-	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, two figures in a dimly lit traditional Indian setting — on the left the Guru (ref: Guru-Ref.jpg) seated cross-legged, bare-chested, saffron cloth draped around him, large rudraksha mala, red tilak on forehead, one hand raised in a gesture of instruction, expression authoritative and wise — on the right Sadhak-A (ref: Sadhak-A.jpg) seated before him in namaskar posture with palms joined and head slightly bowed in respectful attention, wearing a simple white kurta — a small sacred dhuni fire burning low between them casting warm amber light on both faces, dark moody background with deep shadows, intimate guru-shishya atmosphere, no text no watermark
+	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, two figures in a dimly lit traditional Indian setting — on the left the Guru (ref: Guru-Ref.jpg) seated cross-legged, bare-chested, saffron cloth draped around him, large rudraksha mala, red tilak on forehead, large thick handlebar mustache with upward-rolled ends and no beard, one hand raised in a gesture of instruction, expression authoritative and wise — on the right Sadhak-A (ref: Sadhak-A.jpg) seated before him in namaskar posture with palms joined and head slightly bowed in respectful attention, wearing a simple white kurta — a small sacred dhuni fire burning low between them casting warm amber light on both faces, dark moody background with deep shadows, intimate guru-shishya atmosphere, no text no watermark
 
 **2. Ravi surveys the room before preparation**
 
