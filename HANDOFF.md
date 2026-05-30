@@ -48,6 +48,27 @@ Two videos in flight: Baglamukhi (nearly done — Scene-7 voiceover pending) and
 2. Tara: write Hindi scripts for Scene-2 onwards, then generate image prompts per scene
 3. Tara: generate scene images in GPT-4o with `Tara-Maa-3.jpg` as reference
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-29 20:02 branch:main -->
+**Modified files:**
+```
+?? TaraAnubhav.md~
+```
+
+**Recent commits:**
+```
+c0f6b70 docs: add om-utils keybindings and Qwen setup to HANDOFF
+3ce0e20 chore: auto-update handoff snapshot [2026-05-29 20:01]
+a172c86 feat: scaffold Tara Sadhana Anubhav video; clean up Baglamukhi
+02e1a17 chore: auto-update handoff snapshot [2026-05-29 19:59]
+b732388 chore: auto-update handoff snapshot [2026-05-29 19:58]
+```
+
+**In-progress tickets:**
+```
+BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-29 20:01 branch:main -->
 **Modified files:**
 ```
@@ -63,13 +84,6 @@ b732388 chore: auto-update handoff snapshot [2026-05-29 19:58]
 8186703 chore: auto-update handoff snapshot [2026-05-29 19:56]
 ```
 
-**In-progress tickets:**
-```
-BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-29 19:59 branch:main -->
 **In-progress tickets:**
 ```
 BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
