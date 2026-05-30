@@ -65,7 +65,7 @@ Generate these reference images first. All scene prompts should visually match t
 
    **Ref:** Upload `Guru-Ref.jpg`
 
-	painterly AI devotional illustration, Hindustani folk-story art style, character bible portrait of an older Indian spiritual master in his fifties, powerfully built bare chest, long dark hair falling to the shoulders, clean-shaven face with a large thick handlebar mustache with upward-rolled ends — no beard, a bold red tilak on the forehead, large rudraksha mala hanging around the neck, saffron-orange cloth draped around the lower body and loosely over one shoulder, seated cross-legged in an authoritative posture, expression intense and commanding yet deeply wise, dark warm background with a suggestion of a sacred dhuni fire at the base, amber and ochre tones, centered three-quarter upper-body composition, no text, no watermark — this face build mustache and attire must remain consistent across all scenes featuring the Guru
+	painterly AI devotional illustration, Hindustani folk-story art style, character bible portrait of an older Indian spiritual master in his fifties, powerfully muscular bare chest, long dark wavy voluminous hair falling past the shoulders, clean-shaven face with a large thick handlebar mustache with prominent upward-rolled ends — no beard, a bold red tilak on the forehead, large heavy rudraksha mala hanging around the neck, rudraksha bracelet on the wrist, saffron-orange cloth draped around the lower body and loosely over one shoulder, seated cross-legged in an authoritative posture, expression intense and commanding yet deeply wise, ancient stone temple wall in the background, dramatic dhuni fire burning at his feet casting strong upward amber light, skull and brass ritual vessels at the base, warm amber and ochre tones, centered full-figure composition, no text, no watermark — this face build mustache and attire must remain consistent across all scenes featuring the Guru
 
 
 ## Scene-1:
@@ -88,6 +88,7 @@ Generate these reference images first. All scene prompts should visually match t
 	Next, he colored about 2 kg of rice pink and made an eight-petalled lotus flower with it on the board. He then placed a thick earthenware lamp in its center. The lamp was filled with pure ghee, and the wick was made from pink-dyed cotton wool.
 		
 	
+
 ### Artifacts
 
 
