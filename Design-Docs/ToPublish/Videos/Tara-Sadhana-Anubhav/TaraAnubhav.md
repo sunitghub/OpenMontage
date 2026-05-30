@@ -56,9 +56,9 @@ Generate these reference images first. All scene prompts should visually match t
 
 ### Sadhak-B (Ravi — Sadhana attire)
 
-   **Ref:** Upload `Sadhak-A.jpg`
+   **Ref:** Upload `Sadhak-B.jpg`
 
-	painterly AI devotional illustration, Hindustani folk-story art style, character bible portrait of the same young Indian man as Sadhak-A — identical face, medium-warm wheatish complexion, dark brown hair naturally voluminous and wavy with a tousled quality, short neatly trimmed beard, warm brown expressive eyes — now dressed in sadhana attire: a clean rose-pink dhoti wrapped traditionally around the lower body, a soft rose-pink shawl draped loosely around both shoulders, holding a dark brown rudraksha mala in the right hand with fingers lightly resting on the beads, upright seated or standing posture, expression serene and inwardly focused, devotional composure, soft warm lamplight suggesting a ritual setting, centered three-quarter upper-body composition, no background clutter, no text, no watermark — this face and sadhana attire must remain consistent across all scenes depicting the sadhana ritual
+	painterly AI devotional illustration, Hindustani folk-story art style, character bible portrait of the same young Indian man as Sadhak-A — identical face, medium-warm wheatish complexion, dark brown hair naturally voluminous and wavy with a tousled quality, short neatly trimmed beard, warm brown expressive eyes — dressed in sadhana attire: rose-pink dhoti wrapped traditionally around the lower body, a soft rose-pink shawl draped loosely open over both shoulders leaving the chest bare in the traditional manner, holding a dark brown rudraksha mala in the right hand raised to chest height with fingers resting on the beads, slight upward gaze, expression serene and inwardly focused, warm golden ochre background, soft warm ambient light, centered three-quarter upper-body composition, no text, no watermark — this face and sadhana attire must remain consistent across all scenes depicting the sadhana ritual
 
 
 ## Scene-1:
