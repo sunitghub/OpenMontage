@@ -48,6 +48,35 @@ Two videos in flight: Baglamukhi (nearly done — Scene-7 voiceover pending) and
 2. Tara: write Hindi scripts for Scene-2 onwards, then generate image prompts per scene
 3. Tara: generate scene images in GPT-4o with `Tara-Maa-3.jpg` as reference
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-30 07:28 branch:main -->
+**Modified files:**
+```
+?? Guru-Ref.jpg
+?? Indian-Man.png
+?? Room-Ref.jpg
+?? Sadhak-A.jpg
+?? Sadhak-B.jpg
+?? Scene-1-1.png
+?? Scene-1-2.png
+?? TaraAnubhav.md~
+?? TaraYantra.jpg
+```
+
+**Recent commits:**
+```
+621f1e0 chore: auto-update handoff snapshot [2026-05-30 07:25]
+56a4e5b chore: auto-update handoff snapshot [2026-05-30 07:24]
+f6180c2 chore: auto-update handoff snapshot [2026-05-30 07:22]
+6580e30 chore: auto-update handoff snapshot [2026-05-30 07:20]
+bd14e03 fix(tara): scene-1 image-1 — Sadhak looking up, Tara gazing down at him
+```
+
+**In-progress tickets:**
+```
+BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-30 07:25 branch:main -->
 **Modified files:**
 ```
@@ -68,34 +97,6 @@ f6180c2 chore: auto-update handoff snapshot [2026-05-30 07:22]
 6580e30 chore: auto-update handoff snapshot [2026-05-30 07:20]
 bd14e03 fix(tara): scene-1 image-1 — Sadhak looking up, Tara gazing down at him
 fbdb21a chore: auto-update handoff snapshot [2026-05-30 07:16]
-```
-
-**In-progress tickets:**
-```
-BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-30 07:24 branch:main -->
-**Modified files:**
-```
-?? Guru-Ref.jpg
-?? Indian-Man.png
-?? Room-Ref.jpg
-?? Sadhak-A.jpg
-?? Sadhak-B.jpg
-?? Scene-1-2.png
-?? TaraAnubhav.md~
-?? TaraYantra.jpg
-```
-
-**Recent commits:**
-```
-f6180c2 chore: auto-update handoff snapshot [2026-05-30 07:22]
-6580e30 chore: auto-update handoff snapshot [2026-05-30 07:20]
-bd14e03 fix(tara): scene-1 image-1 — Sadhak looking up, Tara gazing down at him
-fbdb21a chore: auto-update handoff snapshot [2026-05-30 07:16]
-3e5a396 fix(tara): update scene-1 image-1 — add Sadhak-B in prostration, light ray from palm, zoom out
 ```
 
 **In-progress tickets:**
