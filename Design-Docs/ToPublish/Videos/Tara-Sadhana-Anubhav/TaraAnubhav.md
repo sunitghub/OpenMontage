@@ -61,6 +61,13 @@ Generate these reference images first. All scene prompts should visually match t
 	painterly AI devotional illustration, Hindustani folk-story art style, character bible portrait of the same young Indian man as Sadhak-A — identical face, medium-warm wheatish complexion, dark brown hair naturally voluminous and wavy with a tousled quality, short neatly trimmed beard, warm brown expressive eyes — dressed in sadhana attire: rose-pink dhoti wrapped traditionally around the lower body, a soft rose-pink shawl draped loosely open over both shoulders leaving the chest bare in the traditional manner, holding a dark brown rudraksha mala in the right hand raised to chest height with fingers resting on the beads, slight upward gaze, expression serene and inwardly focused, warm golden ochre background, soft warm ambient light, centered three-quarter upper-body composition, no text, no watermark — this face and sadhana attire must remain consistent across all scenes depicting the sadhana ritual
 
 
+### Guru
+
+   **Ref:** Upload `Guru-Ref.jpg`
+
+	painterly AI devotional illustration, Hindustani folk-story art style, character bible portrait of an older Indian spiritual master in his fifties, powerfully built bare chest, long dark hair falling to the shoulders, long full dark beard, a bold red tilak on the forehead, large rudraksha mala hanging around the neck, saffron-orange cloth draped around the lower body and loosely over one shoulder, seated cross-legged in an authoritative posture, expression intense and commanding yet deeply wise, dark warm background with a suggestion of a sacred dhuni fire at the base, amber and ochre tones, centered three-quarter upper-body composition, no text, no watermark — this face build and attire must remain consistent across all scenes featuring the Guru
+
+
 ## Scene-1:
 
 ### Script Hindi 
@@ -119,6 +126,12 @@ Generate these reference images first. All scene prompts should visually match t
 **8. The completed sadhana room at night**
 
 	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, full interior view of the sadhana room at night, all four walls and ceiling rose-pink, wooden board on the floor covered in pink cloth with the eight-petalled rice lotus and lit earthenware lamp glowing at its center, Sadhak-A (ref: Sadhak-A.jpg) seated cross-legged on the pink cushion directly before the board facing north, hands resting on knees in meditation posture, eyes closed, warm golden lamplight illuminating his face and the room, deep devotional stillness, no other figures, no text no watermark
+
+**9. The Guru gives instructions to Ravi**
+
+> **GPT-4o note:** Upload `Guru-Ref.jpg` and `Sadhak-A.jpg` for this prompt.
+
+	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, two figures in a dimly lit traditional Indian setting — on the left the Guru (ref: Guru-Ref.jpg) seated cross-legged, bare-chested, saffron cloth draped around him, large rudraksha mala, red tilak on forehead, one hand raised in a gesture of instruction, expression authoritative and wise — on the right Sadhak-A (ref: Sadhak-A.jpg) seated before him in namaskar posture with palms joined and head slightly bowed in respectful attention, wearing a simple white kurta — a small sacred dhuni fire burning low between them casting warm amber light on both faces, dark moody background with deep shadows, intimate guru-shishya atmosphere, no text no watermark
 
 
 
