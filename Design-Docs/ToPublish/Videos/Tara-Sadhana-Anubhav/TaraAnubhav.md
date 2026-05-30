@@ -102,23 +102,23 @@ Generate these reference images first. All scene prompts should visually match t
 
 **2. Ravi surveys the room before preparation**
 
-	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, young Indian man (Sadhak-A — ref: Sadhak-A.jpg) standing in the doorway of a plain bare room in a modest Indian home, sleeves rolled up, thoughtful and determined expression, warm late-evening interior light streaming from a single bulb, plain whitewashed walls, empty floor, sense of quiet resolve before the work begins, no text no watermark
+	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, young Indian man (Sadhak-A — ref: Sadhak-A.jpg) standing in the doorway of a bare empty room in a modern 2020s Indian apartment, sleeves rolled up, thoughtful and determined expression, smooth freshly painted off-white walls, ceramic tiled floor, modern flush ceiling light fitting casting clean warm light, contemporary door frame with clean finish, glass-paned window with simple curtains, the room clearly empty and being prepared — sense of quiet resolve, no text no watermark
 
 **3. The room transformed — walls painted pink**
 
-	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, Sadhak-A (ref: Sadhak-A.jpg) standing at the center of a freshly painted room, all four walls and ceiling a soft rose-pink, a paint roller resting against the wall beside him, hands slightly paint-stained, he surveys his work with calm satisfaction, late-night interior warm light, empty floor still to be set up, no text no watermark
+	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, Sadhak-A (ref: Sadhak-A.jpg) standing at the center of a freshly painted room in a modern 2020s Indian apartment, all four smooth walls and ceiling now a soft rose-pink, a paint roller resting against the wall beside him, hands slightly paint-stained, he surveys his work with calm satisfaction, ceramic tiled floor, modern flush ceiling light, contemporary glass-paned window, empty floor still to be set up, no text no watermark
 
 **4. Placing the wooden plank**
 
-	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, Sadhak-A (ref: Sadhak-A.jpg) kneeling on the pink-walled room's floor, carefully lowering a flat wooden plank approximately six inches high onto the floor, focused and reverent expression, soft warm lamplight, the pink walls visible in background, humble Indian home interior, no text no watermark
+	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, Sadhak-A (ref: Sadhak-A.jpg) kneeling on the ceramic tiled floor of a modern Indian apartment room, carefully lowering a flat wooden plank approximately six inches high onto the floor, focused and reverent expression, smooth rose-pink painted walls visible in background, modern flush ceiling light, contemporary interior, no text no watermark
 
 **5. The altar cloth and cushion — detail shot**
 
-	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, close view of a low wooden board draped in a smooth rose-pink cloth, folds falling neatly at the edges, a thick pink velvet cushion placed on the floor directly in front of the board, compass direction north implied by slight window light, warm soft glow, devotional stillness, no figures, no text no watermark
+	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, close view of a low wooden board draped in a smooth rose-pink cloth, folds falling neatly at the edges, a thick pink velvet cushion placed on the ceramic tiled floor directly in front of the board, smooth rose-pink painted walls visible at the edges, modern glass-paned window with soft evening light from outside, warm soft glow, devotional stillness, no figures, no text no watermark
 
 **6. Sadhak-A arranging the rice lotus**
 
-	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, Sadhak-A (ref: Sadhak-A.jpg) kneeling over the pink-cloth-covered board, hands carefully placing pink-dyed rice grains in the form of an eight-petalled lotus, his face close to the board with deep concentration, the nearly-complete lotus pattern visible beneath his hands, warm golden light from a single bulb overhead, pink walls framing the scene, no text no watermark
+	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, Sadhak-A (ref: Sadhak-A.jpg) kneeling over the pink-cloth-covered board, hands carefully placing pink-dyed rice grains in the form of an eight-petalled lotus, his face close to the board with deep concentration, the nearly-complete lotus pattern visible beneath his hands, warm light from a modern flush ceiling fitting overhead, smooth rose-pink painted walls framing the scene, ceramic tiled floor, contemporary Indian apartment interior, no text no watermark
 
 **7. The eight-petalled lotus — detail shot**
 
@@ -130,7 +130,7 @@ Generate these reference images first. All scene prompts should visually match t
 
 **9. The completed sadhana room at night**
 
-	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, full interior view of the sadhana room at night, all four walls and ceiling rose-pink, wooden board on the floor covered in pink cloth with the eight-petalled rice lotus and lit earthenware lamp glowing at its center, Sadhak-A (ref: Sadhak-A.jpg) seated cross-legged on the pink cushion directly before the board facing north, hands resting on knees in meditation posture, eyes closed, warm golden lamplight illuminating his face and the room, deep devotional stillness, no other figures, no text no watermark
+	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, full interior view of the sadhana room at night in a modern Indian apartment, all four smooth walls and ceiling rose-pink, ceramic tiled floor, contemporary glass-paned window dark with night outside, wooden board on the floor covered in pink cloth with the eight-petalled rice lotus and lit earthenware lamp glowing at its center, Sadhak-B (ref: Sadhak-B.jpg) seated cross-legged on the pink cushion directly before the board facing north, hands resting on knees in meditation posture, eyes closed, warm golden lamplight illuminating his face and the room, overhead light switched off — only the deepak flame lighting the space, deep devotional stillness, no other figures, no text no watermark
 
 
 
