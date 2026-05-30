@@ -49,16 +49,16 @@ Generate these reference images first. All scene prompts should visually match t
 
 ### Sadhak-A (Ravi)
 
-   **Ref:** Upload `Indian-Man.jpg`
+   **Ref:** Upload `Sadhak-A.jpg`
 
-	painterly AI devotional illustration, Hindustani folk-story art style, character bible portrait of a young Indian man in his late twenties, medium-warm wheatish complexion, sharp and defined facial features, dark brown hair swept upward with natural volume and a slight wave, short neatly trimmed beard, expressive hazel-brown eyes, calm and earnest expression, wearing a simple off-white or pale kurta, three-quarter upper-body composition facing slightly left, soft warm ambient light, centered portrait composition, no background clutter, no text, no watermark — this face hair complexion and expression must remain consistent across all future scenes
+	painterly AI devotional illustration, Hindustani folk-story art style, character bible portrait of a young Indian man in his late twenties, medium-warm wheatish complexion, sharp and defined facial features, dark brown hair naturally voluminous and wavy with a tousled quality, short neatly trimmed beard, warm brown expressive eyes, calm and earnest expression with a slight upward gaze, wearing a white Mandarin-collar kurta, three-quarter upper-body composition facing slightly left, warm golden ambient light, soft ochre-toned background, no text, no watermark — this face hair complexion and expression must remain consistent across all future scenes
 
 
 ### Sadhak-B (Ravi — Sadhana attire)
 
-   **Ref:** Upload `Indian-Man.jpg`
+   **Ref:** Upload `Sadhak-A.jpg`
 
-	painterly AI devotional illustration, Hindustani folk-story art style, character bible portrait of the same young Indian man as Sadhak-A — identical face, medium-warm wheatish complexion, dark brown hair swept upward with slight wave, short neatly trimmed beard, expressive hazel-brown eyes — now dressed in sadhana attire: a clean rose-pink dhoti wrapped traditionally around the lower body, a soft rose-pink shawl draped loosely around both shoulders, holding a dark brown rudraksha mala in the right hand with fingers lightly resting on the beads, upright seated or standing posture, expression serene and inwardly focused, devotional composure, soft warm lamplight suggesting a ritual setting, centered three-quarter upper-body composition, no background clutter, no text, no watermark — this face and sadhana attire must remain consistent across all scenes depicting the sadhana ritual
+	painterly AI devotional illustration, Hindustani folk-story art style, character bible portrait of the same young Indian man as Sadhak-A — identical face, medium-warm wheatish complexion, dark brown hair naturally voluminous and wavy with a tousled quality, short neatly trimmed beard, warm brown expressive eyes — now dressed in sadhana attire: a clean rose-pink dhoti wrapped traditionally around the lower body, a soft rose-pink shawl draped loosely around both shoulders, holding a dark brown rudraksha mala in the right hand with fingers lightly resting on the beads, upright seated or standing posture, expression serene and inwardly focused, devotional composure, soft warm lamplight suggesting a ritual setting, centered three-quarter upper-body composition, no background clutter, no text, no watermark — this face and sadhana attire must remain consistent across all scenes depicting the sadhana ritual
 
 
 ## Scene-1:
@@ -86,19 +86,19 @@ Generate these reference images first. All scene prompts should visually match t
 
 #### Images
 
-> **GPT-4o note:** Upload both `Tara-Maa-3.jpg` and `Indian-Man.jpg` for all prompts that include Sadhak-A. For detail/environment shots, upload `Tara-Maa-3.jpg` only to maintain style anchor.
+> **GPT-4o note:** Upload both `Tara-Maa-3.jpg` and `Sadhak-A.jpg` for all prompts that include Sadhak-A. For detail/environment shots, upload `Tara-Maa-3.jpg` only to maintain style anchor.
 
 **1. Ravi surveys the room before preparation**
 
-	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, young Indian man (Sadhak-A — ref: Indian-Man.jpg) standing in the doorway of a plain bare room in a modest Indian home, sleeves rolled up, thoughtful and determined expression, warm late-evening interior light streaming from a single bulb, plain whitewashed walls, empty floor, sense of quiet resolve before the work begins, no text no watermark
+	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, young Indian man (Sadhak-A — ref: Sadhak-A.jpg) standing in the doorway of a plain bare room in a modest Indian home, sleeves rolled up, thoughtful and determined expression, warm late-evening interior light streaming from a single bulb, plain whitewashed walls, empty floor, sense of quiet resolve before the work begins, no text no watermark
 
 **2. The room transformed — walls painted pink**
 
-	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, Sadhak-A (ref: Indian-Man.jpg) standing at the center of a freshly painted room, all four walls and ceiling a soft rose-pink, a paint roller resting against the wall beside him, hands slightly paint-stained, he surveys his work with calm satisfaction, late-night interior warm light, empty floor still to be set up, no text no watermark
+	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, Sadhak-A (ref: Sadhak-A.jpg) standing at the center of a freshly painted room, all four walls and ceiling a soft rose-pink, a paint roller resting against the wall beside him, hands slightly paint-stained, he surveys his work with calm satisfaction, late-night interior warm light, empty floor still to be set up, no text no watermark
 
 **3. Placing the wooden plank**
 
-	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, Sadhak-A (ref: Indian-Man.jpg) kneeling on the pink-walled room's floor, carefully lowering a flat wooden plank approximately six inches high onto the floor, focused and reverent expression, soft warm lamplight, the pink walls visible in background, humble Indian home interior, no text no watermark
+	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, Sadhak-A (ref: Sadhak-A.jpg) kneeling on the pink-walled room's floor, carefully lowering a flat wooden plank approximately six inches high onto the floor, focused and reverent expression, soft warm lamplight, the pink walls visible in background, humble Indian home interior, no text no watermark
 
 **4. The altar cloth and cushion — detail shot**
 
@@ -106,7 +106,7 @@ Generate these reference images first. All scene prompts should visually match t
 
 **5. Sadhak-A arranging the rice lotus**
 	
-	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, Sadhak-A (ref: Indian-Man.jpg) kneeling over the pink-cloth-covered board, hands carefully placing pink-dyed rice grains in the form of an eight-petalled lotus, his face close to the board with deep concentration, the nearly-complete lotus pattern visible beneath his hands, warm golden light from a single bulb overhead, pink walls framing the scene, no text no watermark
+	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, Sadhak-A (ref: Sadhak-A.jpg) kneeling over the pink-cloth-covered board, hands carefully placing pink-dyed rice grains in the form of an eight-petalled lotus, his face close to the board with deep concentration, the nearly-complete lotus pattern visible beneath his hands, warm golden light from a single bulb overhead, pink walls framing the scene, no text no watermark
 
 **6. The eight-petalled lotus — detail shot**
 
@@ -118,7 +118,7 @@ Generate these reference images first. All scene prompts should visually match t
 
 **8. The completed sadhana room at night**
 
-	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, full interior view of the sadhana room at night, all four walls and ceiling rose-pink, wooden board on the floor covered in pink cloth with the eight-petalled rice lotus and lit earthenware lamp glowing at its center, Sadhak-A (ref: Indian-Man.jpg) seated cross-legged on the pink cushion directly before the board facing north, hands resting on knees in meditation posture, eyes closed, warm golden lamplight illuminating his face and the room, deep devotional stillness, no other figures, no text no watermark
+	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, full interior view of the sadhana room at night, all four walls and ceiling rose-pink, wooden board on the floor covered in pink cloth with the eight-petalled rice lotus and lit earthenware lamp glowing at its center, Sadhak-A (ref: Sadhak-A.jpg) seated cross-legged on the pink cushion directly before the board facing north, hands resting on knees in meditation posture, eyes closed, warm golden lamplight illuminating his face and the room, deep devotional stillness, no other figures, no text no watermark
 
 
 
