@@ -1,20 +1,25 @@
 # Handoff
 
-_Last updated: 2026-05-29 by Claude (claude-sonnet-4-6)_
+_Last updated: 2026-05-30 by Claude (claude-sonnet-4-6)_
 
 ## Current Focus
-Two videos in flight: Baglamukhi (nearly done — Scene-7 voiceover pending) and Tara Sadhana Anubhav (just scaffolded — character bible established, no scenes written yet).
+Tara Sadhana Anubhav — Scene-1 image generation in progress. 7 of 11 images approved and saved.
 
 ## In Progress
 - `BaglaMukhi-Sadhana-Anubhav` — Scene-7 voiceover needs recording and rendered video check (ticket BSA-yhol)
-- `Tara-Sadhana-Anubhav` — scaffolded; character bible image selected and verified; Script Hindi written for Scene-1 only; all scene images and narration pending
+- `Tara-Sadhana-Anubhav` — Scene-1 images 1–7 approved; images 8–11 still to generate; Scene-2+ scripts and images pending
 
 ## Recent Decisions
 - **GPT-4o for all image generation** — MidJourney abandoned after 14+ failed rounds on deity iconography constraints
 - **render-scene CLI** — `render-scene --scene N` auto-resolves `Scene-N.mp3`; `--vintage` on by default; `--all` renders and concatenates in numeric order
 - **Stack confirmed**: GPT-4o for stills + Replicate Seedance for I2V hero clips (~$0.90/5s via `bytedance/seedance-2.0`)
 - **Replicate over Kling** — Kling subscription burns credits too fast
-- **Tara character bible anchor** — `Tara-Maa-3.jpg` is the approved reference image; upload it when generating all scene images to maintain consistency
+- **Character bible fully locked** — 5 refs approved: `Tara-Maa-3.jpg`, `Sadhak-A.jpg`, `Sadhak-B.jpg`, `Guru-Ref.jpg`, `Room-Ref.jpg`, `Yantra-Ref.jpg`
+- **Sadhak-A** = Ravi in everyday clothes; **Sadhak-B** = Ravi in pink sadhana attire (pink dhoti + shawl + rudraksha)
+- **Guru** = handlebar mustache, no beard, saffron cloth, rudraksha mala, red tilak
+- **Room** = modern 2020s Indian apartment, rose-pink walls, ceramic tiles, LED ceiling light, glass window
+- **Yantra** = GPT-4o refused "Sanskrit bija mantras" in prompt — use geometric description only; `Yantra-Ref.jpg` carries the structure
+- **Prompt format** — refs listed as `> Refs: X + Y` under image title, not inline in prompt text
 
 ## Dead Ends
 - `seedance-2.0-fast` on Replicate → 402 on standard billing tier, don't use
@@ -44,9 +49,9 @@ Two videos in flight: Baglamukhi (nearly done — Scene-7 voiceover pending) and
 - Competitor analysis: `Design-Docs/Competitors/Competitor-Analysis.md`
 
 ## Next Steps
-1. Baglamukhi: record Scene-7 voiceover → `render-scene --scene 7` → check output
-2. Tara: write Hindi scripts for Scene-2 onwards, then generate image prompts per scene
-3. Tara: generate scene images in GPT-4o with `Tara-Maa-3.jpg` as reference
+1. Tara Scene-1: generate images 8 (Yantra beauty), 9 (rice lotus detail), 10 (lamp detail), 11 (completed room at night with Sadhak-B)
+2. Tara: write Hindi + English scripts for Scene-2 onwards, then generate image prompts
+3. Baglamukhi: record Scene-7 voiceover → `render-scene --scene 7` → check output
 
 <!-- HANDOFF-SNAPSHOT:START 2026-05-30 08:16 branch:main -->
 **Modified files:**
