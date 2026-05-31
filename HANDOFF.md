@@ -53,6 +53,28 @@ Tara Sadhana Anubhav — Scene-1 image generation in progress. 7 of 11 images ap
 2. Tara: write Hindi + English scripts for Scene-2 onwards, then generate image prompts
 3. Baglamukhi: record Scene-7 voiceover → `render-scene --scene 7` → check output
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-31 00:46 branch:main -->
+**Modified files:**
+```
+?? Scene-1-8.png
+?? Yantra-Ref.png
+```
+
+**Recent commits:**
+```
+ecb186e chore: auto-update handoff snapshot [2026-05-31 00:45]
+6ef8184 chore: auto-update handoff snapshot [2026-05-30 21:25]
+6f5126f chore: auto-update handoff snapshot [2026-05-30 21:25]
+e1b0a5b chore: auto-update handoff snapshot [2026-05-30 21:23]
+b160469 chore: auto-update handoff snapshot [2026-05-30 21:23]
+```
+
+**In-progress tickets:**
+```
+BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-31 00:45 branch:main -->
 **Modified files:**
 ```
@@ -67,27 +89,6 @@ Tara Sadhana Anubhav — Scene-1 image generation in progress. 7 of 11 images ap
 e1b0a5b chore: auto-update handoff snapshot [2026-05-30 21:23]
 b160469 chore: auto-update handoff snapshot [2026-05-30 21:23]
 a97971f chore: auto-update handoff snapshot [2026-05-30 21:21]
-```
-
-**In-progress tickets:**
-```
-BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-30 21:25 branch:main -->
-**Modified files:**
-```
-?? Yantra-Ref.png
-```
-
-**Recent commits:**
-```
-6f5126f chore: auto-update handoff snapshot [2026-05-30 21:25]
-e1b0a5b chore: auto-update handoff snapshot [2026-05-30 21:23]
-b160469 chore: auto-update handoff snapshot [2026-05-30 21:23]
-a97971f chore: auto-update handoff snapshot [2026-05-30 21:21]
-8f35e81 chore: auto-update handoff snapshot [2026-05-30 21:21]
 ```
 
 **In-progress tickets:**
