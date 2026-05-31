@@ -39,12 +39,31 @@ Generate these reference images first. All scene prompts should visually match t
 > **GPT-4o note:** No reference image needed for Character Bible generations — these ARE the references.
 
 ### Maa Tara
-	
+
    **Ref:** Upload `Tara-Maa-3.jpg`
 
-	
-	painterly AI devotional illustration, Hindustani folk-story art style, full-figure character bible portrait of Maa Tara Devi standing upright in slight tribhanga
-	posture, deep blue radiant complexion, four arms — upper-right hand holding a  curved silver khadga sword, upper-left hand holding a blue utpala lotus, lower-right hand holding kartri scissors, lower-left hand holding a dark kapala skull cup — long unbound black hair cascading behind her, three eyes open and calm with the third eye on the forehead, large ornate golden crown with tiered crest, full golden jewelry — necklace, armlets, armlets, anklets — flowing red and gold sari with ornate border draped naturally, standing on the chest of a supine Shiva figure at the base of the frame, twin fires burning on both left and right behind her, billowing golden-orange clouds in the upper background, expression fierce and powerful yet unmistakably benevolent and maternal, divine presence not demonic, warm golden ambient light surrounding her form, centered full-figure composition with subject filling the frame, character reference illustration — this face complexion ornaments and clothing must remain consistent across all future scenes, polished folk illustration, no other figures beside Shiva at base, no text, no watermark
+		painterly AI devotional illustration, Hindustani folk-story art style, full-figure character bible portrait of Maa Tara Devi standing upright in slight tribhanga posture, deep blue radiant complexion, four arms — upper-right hand holding a  curved silver khadga sword, upper-left hand holding a blue utpala lotus, lower-right hand holding kartri scissors, lower-left hand holding a dark kapala skull cup — long unbound black hair cascading behind her, three eyes open and calm with the third eye on the forehead, large ornate golden crown with tiered crest, full golden jewelry — necklace, armlets, armlets, anklets — flowing red and gold sari with ornate border draped naturally, standing on the chest of a supine Shiva figure at the base of the frame, twin fires burning on both left and right behind her, billowing golden-orange clouds in the upper background, expression fierce and powerful yet unmistakably benevolent and maternal, divine presence not demonic, warm golden ambient light surrounding her form, centered full-figure composition with subject filling the frame, character reference illustration — this face complexion ornaments and clothing must remain consistent across all future scenes, polished folk illustration, no other figures beside Shiva at base, no text, no watermark
+		
+#### Maa Tara Signifies
+
+**The Four Arms**
+
+	- **Khadga (Curved Sword) — Upper Right:** The sword of divine knowledge that cuts through ignorance, ego, and the illusions of maya. She severs the bonds of karma, clearing the path to liberation.
+
+	- **Utpala (Blue Lotus) — Upper Left:** Spiritual wisdom and elevated consciousness rising pure from the muddy waters of samsara. The blue lotus connects to Vishuddha — the throat chakra — affirming Tara as *Shabda Brahman*, the divine in the form of sound, ruler of speech and mantra.
+
+	- **Kartri (Scissors) — Lower Right:** Cuts the thread of karmic attachment and the cycle of rebirth. What binds the soul to suffering, she severs.
+
+	- **Kapala (Skull Cup) — Lower Left:** Transcendence of ego and mortality. She holds death itself as a vessel — consuming darkness and transforming it into liberation. The empty skull is the egoless state of moksha.
+
+**Deeper Symbolism**
+
+	- **Blue Complexion** — The infinite void, the unmanifest cosmic space from which all creation arises and returns.
+	- **Three Eyes** — Omniscience: right eye is the Sun, left is the Moon, forehead eye is Fire. She sees past, present, and future simultaneously.
+	- **Standing on Shiva** — Shakti as dynamic creative energy activating inert Shiva (pure Consciousness). She does not defeat him — she animates him. He is the ground of being; she is the force that moves it.
+	- **Twin Fires** — The fire of purification and transformation through which devotees pass to reach her grace.
+
+---
 
 
 ### Sadhak-A (Ravi)
@@ -88,6 +107,8 @@ Generate these reference images first. All scene prompts should visually match t
 
 	Namaste Doston. Blissful chants main aapka swagat hai. Aaj ke, is episode  main, hum Ravi ke, Tara Sadhan ke anubhav, ke baren main sunege, jo usne apne Guru ke kehne par sampaan kari. Guru ne Ravi se, shukla paks ke kisi bhi, Budhwar se raat 9 se 3 baje ke beech main, sadahan ko, sampan karne ko, kaha tha.
 	
+	Maa Tara ko char bhujaon ke saath darshaya gaya hai, jinmein se pratyek unki divya shakti ka prateek hai: agyan aur ahankaar ko kaatne ke liye ek talwar; unnat chetna aur gyan ke liye ek neela kamal; karm aur punarjanm ke bandhanon ko kaatne ke liye canchi; aur ek kapal-patra — jahan andhkar ka bhakshan hota hai aur wah mukti mein rupantarit ho jata hai। ve ugra bhi hain aur mamtamayi bhi — wah divya shakti jo aatma ko mukt karti hai।
+	
 	Guru ka aadesh thaa, ki Maa Tara ko, gulabi rang priya thaa, isiliye Ravi ko, Sadhana ki sabhi samagriyaan, isi rang maen tayaar karni thi. Ravi ne, apne ghar ka ek kamra, saaf kiya, aur uski diwalen aur chath par gulabi rang karvaya. Phir, usne farsh par, lagbhag chhah inch uncha, ek lakdi ka takhta rakha, use ek gulabi kapde se dhaka, aur uske samne ek gulabi aasan rakh diya. Usne aasan ko, is tarah bichhaya, ki jab woh us par baithta, to uska muh uttar disha ki aur hoga. 
 	
 	Iske bad, usne lagbhag 2 kilogram chawalon ko gulabi rang diya aur unse bajot par, aath pankhudiyon wala, ek kamal ka phool banaya. Phir usne, uske theek beech mein, mitti ka ek mota deepak rakha. Deepak shuddh ghee se bhara hua tha, aur uski baati gulabi rang ki rui se bani thi.
@@ -96,7 +117,9 @@ Generate these reference images first. All scene prompts should visually match t
 ### Script English
 
 	Namaste, friends. Welcome to Blissful Chants. In today's episode, we will hear about Ravi's experience with the Tara Sadhana, which he performed at the behest of his Guru. The Guru had instructed Ravi to perform this Sadhana on any Wednesday during the *Shukla Paksha* (waxing phase of the moon), between the hours of 9:00 PM and 3:00 AM.
-	
+
+	Maa Tara is depicted with four arms, each a symbol of her divine power: a sword to cut through ignorance and ego, a blue lotus for elevated consciousness and wisdom, scissors to sever the bonds of karma and rebirth, and a skull cup — where darkness is consumed and transformed into liberation. She is fierce and maternal both — the divine force that frees the soul.
+
 	The Guru had ordered that Mother Tara loved the color pink, hence Ravi had to prepare all the materials for Sadhana in this color. Ravi cleaned up a room in his house and got the ceilings and walls painted pink. Then, he placed a wooden plank—approximately six inches high—on the floor, covered it with a pink cloth, and placed a pink cushion in front of it. The rug was positioned so that when Ravi sat on it, he faced north.
 	
 	Next, he colored about 2 kg of rice pink and made an eight-petalled lotus flower with it on the board. He then placed a thick earthenware lamp in its center. The lamp was filled with pure ghee, and the wick was made from pink-dyed cotton wool.
@@ -151,7 +174,7 @@ Generate these reference images first. All scene prompts should visually match t
 **9. The eight-petalled rice lotus — detail shot**
 > Refs: `Room-Ref.jpg` + `Yantra-Ref.jpg`
 
-	painterly AI devotional illustration, Hindustani folk-story art style, wide landscape composition, bird's-eye close-up of a perfectly formed eight-petalled lotus made entirely from pink-dyed rice grains arranged on a rose-pink cloth, exactly eight petals symmetrical and precise matching the Tara Yantra layout, a circular empty space at the very center with a suggestion of the triangle form awaiting the lamp, soft warm overhead light catching the texture of each grain, sacred geometric beauty, no figures, no text no watermark
+	Hindustani folk-story art style, painterly illustration with visible brush strokes and warm paint texture — NOT photorealistic, NOT 3D render, wide landscape composition, bird's-eye close-up of a perfectly formed eight-petalled lotus made entirely from pink-dyed rice grains arranged on a rose-pink cloth, exactly eight petals symmetrical and precise matching the Tara Yantra layout, a circular empty space at the very center with a subtle triangle outline — empty and awaiting the lamp, soft warm overhead light catching the texture of each grain, sacred geometric beauty, no lamps, no bowls, no props, no figures, no text, no watermark
 
 **10. The earthenware lamp — detail shot**
 > Refs: `Room-Ref.jpg`

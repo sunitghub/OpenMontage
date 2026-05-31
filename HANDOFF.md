@@ -1,20 +1,22 @@
 # Handoff
 
-_Last updated: 2026-05-30 by Claude (claude-sonnet-4-6)_
+_Last updated: 2026-05-31 by Claude (claude-sonnet-4-6)_
 
 ## Current Focus
-Tara Sadhana Anubhav — Scene-1 image generation in progress. 7 of 11 images approved and saved.
+Tara Sadhana Anubhav — Scene-1 complete. Scene-2 scripts and images next.
 
 ## In Progress
 - `BaglaMukhi-Sadhana-Anubhav` — Scene-7 voiceover needs recording and rendered video check (ticket BSA-yhol)
-- `Tara-Sadhana-Anubhav` — Scene-1 images 1–7 approved; images 8–11 still to generate; Scene-2+ scripts and images pending
+- `Tara-Sadhana-Anubhav` — Scene-1 all 11 images approved and saved; Scene-2+ scripts and images pending
 
 ## Recent Decisions
 - **GPT-4o for all image generation** — MidJourney abandoned after 14+ failed rounds on deity iconography constraints
 - **render-scene CLI** — `render-scene --scene N` auto-resolves `Scene-N.mp3`; `--vintage` on by default; `--all` renders and concatenates in numeric order
 - **Stack confirmed**: GPT-4o for stills + Replicate Seedance for I2V hero clips (~$0.90/5s via `bytedance/seedance-2.0`)
 - **Replicate over Kling** — Kling subscription burns credits too fast
-- **Character bible fully locked** — 5 refs approved: `Tara-Maa-3.jpg`, `Sadhak-A.jpg`, `Sadhak-B.jpg`, `Guru-Ref.jpg`, `Room-Ref.jpg`, `Yantra-Ref.jpg`
+- **Character bible fully locked** — refs approved: `TaraMaa.png`, `Sadhak-A.jpg`, `Sadhak-B.jpg`, `Guru-Ref.jpg`, `Room-Ref.jpg`, `Yantra-Ref.jpg`
+- **GPT-4o painterly style won't hold for rice/room scenes** — photorealistic accepted for images 9–11; "NOT photorealistic" directive ignored consistently
+- **Maa Tara Signifies section** added to Character Bible and Script English (four arms iconography) — reads over Image #1
 - **Sadhak-A** = Ravi in everyday clothes; **Sadhak-B** = Ravi in pink sadhana attire (pink dhoti + shawl + rudraksha)
 - **Guru** = handlebar mustache, no beard, saffron cloth, rudraksha mala, red tilak
 - **Room** = modern 2020s Indian apartment, rose-pink walls, ceramic tiles, LED ceiling light, glass window
@@ -43,15 +45,45 @@ Tara Sadhana Anubhav — Scene-1 image generation in progress. 7 of 11 images ap
 ## Key Files
 - Render script: `bin/render_scene.py`
 - **Tara script + prompts**: `Design-Docs/ToPublish/Videos/Tara-Sadhana-Anubhav/TaraAnubhav.md`
-- **Tara character bible ref**: `Design-Docs/ToPublish/Videos/Tara-Sadhana-Anubhav/Tara-Maa-3.jpg`
+- **Tara character bible ref**: `Design-Docs/ToPublish/Videos/Tara-Sadhana-Anubhav/TaraMaa.png`
 - Baglamukhi script + prompts: `Design-Docs/ToPublish/Videos/BaglaMukhi-Sadhana-Anubhav/Bagla-Sadhana-Anubhav.md`
 - Prompt learnings: `Design-Docs/ToPublish/Videos/BaglaMukhi-Sadhana-Anubhav/PROMPT-LEARNINGS.md`
 - Competitor analysis: `Design-Docs/Competitors/Competitor-Analysis.md`
 
 ## Next Steps
-1. Tara Scene-1: generate images 8 (Yantra beauty), 9 (rice lotus detail), 10 (lamp detail), 11 (completed room at night with Sadhak-B)
+1. Tara Scene-1: record voiceover → `render-scene --scene 1` → check output
 2. Tara: write Hindi + English scripts for Scene-2 onwards, then generate image prompts
 3. Baglamukhi: record Scene-7 voiceover → `render-scene --scene 7` → check output
+
+<!-- HANDOFF-SNAPSHOT:START 2026-05-31 01:09 branch:main -->
+**Modified files:**
+```
+ D Scene-1-1.png
+A  Scene-1-10.png
+A  Scene-1-11.png
+A  Scene-1-8.png
+A  Scene-1-9.png
+ D Tara-Maa-3.jpg
+M  TaraAnubhav.md
+A  Yantra-Ref.png
+M  ../../../../HANDOFF.md
+?? Thumbnail.png
+```
+
+**Recent commits:**
+```
+04f1f83 chore: auto-update handoff snapshot [2026-05-31 01:03]
+92147b2 chore: auto-update handoff snapshot [2026-05-31 01:02]
+0996259 chore: auto-update handoff snapshot [2026-05-31 01:01]
+cec8814 chore: auto-update handoff snapshot [2026-05-31 01:00]
+15dd8d8 chore: auto-update handoff snapshot [2026-05-31 00:59]
+```
+
+**In-progress tickets:**
+```
+BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
 
 <!-- HANDOFF-SNAPSHOT:START 2026-05-31 01:03 branch:main -->
 **Modified files:**
@@ -73,34 +105,6 @@ Tara Sadhana Anubhav — Scene-1 image generation in progress. 7 of 11 images ap
 cec8814 chore: auto-update handoff snapshot [2026-05-31 01:00]
 15dd8d8 chore: auto-update handoff snapshot [2026-05-31 00:59]
 19ba00a chore: auto-update handoff snapshot [2026-05-31 00:58]
-```
-
-**In-progress tickets:**
-```
-BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-31 01:02 branch:main -->
-**Modified files:**
-```
- D Scene-1-1.png
- D Tara-Maa-3.jpg
- M TaraAnubhav.md
-?? ../Scene-1-8.png
-?? Scene-1-10.png
-?? Scene-1-9.png
-?? Thumbnail.png
-?? Yantra-Ref.png
-```
-
-**Recent commits:**
-```
-0996259 chore: auto-update handoff snapshot [2026-05-31 01:01]
-cec8814 chore: auto-update handoff snapshot [2026-05-31 01:00]
-15dd8d8 chore: auto-update handoff snapshot [2026-05-31 00:59]
-19ba00a chore: auto-update handoff snapshot [2026-05-31 00:58]
-dc41bb0 chore: auto-update handoff snapshot [2026-05-31 00:54]
 ```
 
 **In-progress tickets:**
