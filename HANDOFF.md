@@ -55,6 +55,29 @@ Tara Sadhana Anubhav — Scene-1 complete. Scene-2 scripts and images next.
 2. Tara: write Hindi + English scripts for Scene-2 onwards, then generate image prompts
 3. Baglamukhi: record Scene-7 voiceover → `render-scene --scene 7` → check output
 
+<!-- HANDOFF-SNAPSHOT:START 2026-05-31 07:01 branch:main -->
+**Modified files:**
+```
+ D Scene-1-1.png
+ D Tara-Maa-3.jpg
+?? Thumbnail.png
+```
+
+**Recent commits:**
+```
+04c874b chore: auto-update handoff snapshot [2026-05-31 01:09]
+04f1f83 chore: auto-update handoff snapshot [2026-05-31 01:03]
+92147b2 chore: auto-update handoff snapshot [2026-05-31 01:02]
+0996259 chore: auto-update handoff snapshot [2026-05-31 01:01]
+cec8814 chore: auto-update handoff snapshot [2026-05-31 01:00]
+```
+
+**In-progress tickets:**
+```
+BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
+```
+<!-- HANDOFF-SNAPSHOT:END -->
+
 <!-- HANDOFF-SNAPSHOT:START 2026-05-31 01:09 branch:main -->
 **Modified files:**
 ```
@@ -77,34 +100,6 @@ M  ../../../../HANDOFF.md
 0996259 chore: auto-update handoff snapshot [2026-05-31 01:01]
 cec8814 chore: auto-update handoff snapshot [2026-05-31 01:00]
 15dd8d8 chore: auto-update handoff snapshot [2026-05-31 00:59]
-```
-
-**In-progress tickets:**
-```
-BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check rendered video
-```
-<!-- HANDOFF-SNAPSHOT:END -->
-
-<!-- HANDOFF-SNAPSHOT:START 2026-05-31 01:03 branch:main -->
-**Modified files:**
-```
- D Scene-1-1.png
- D Tara-Maa-3.jpg
- M TaraAnubhav.md
-?? ../Scene-1-8.png
-?? Scene-1-10.png
-?? Scene-1-9.png
-?? Thumbnail.png
-?? Yantra-Ref.png
-```
-
-**Recent commits:**
-```
-92147b2 chore: auto-update handoff snapshot [2026-05-31 01:02]
-0996259 chore: auto-update handoff snapshot [2026-05-31 01:01]
-cec8814 chore: auto-update handoff snapshot [2026-05-31 01:00]
-15dd8d8 chore: auto-update handoff snapshot [2026-05-31 00:59]
-19ba00a chore: auto-update handoff snapshot [2026-05-31 00:58]
 ```
 
 **In-progress tickets:**
