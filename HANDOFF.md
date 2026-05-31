@@ -61,11 +61,11 @@ Tara Sadhana Anubhav — Scene-1 image generation in progress. 7 of 11 images ap
 
 **Recent commits:**
 ```
+6f5126f chore: auto-update handoff snapshot [2026-05-30 21:25]
 e1b0a5b chore: auto-update handoff snapshot [2026-05-30 21:23]
 b160469 chore: auto-update handoff snapshot [2026-05-30 21:23]
 a97971f chore: auto-update handoff snapshot [2026-05-30 21:21]
 8f35e81 chore: auto-update handoff snapshot [2026-05-30 21:21]
-39b1f5c chore: auto-update handoff snapshot [2026-05-30 21:17]
 ```
 
 **In-progress tickets:**
@@ -74,7 +74,7 @@ BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check r
 ```
 <!-- HANDOFF-SNAPSHOT:END -->
 
-<!-- HANDOFF-SNAPSHOT:START 2026-05-30 21:23 branch:main -->
+<!-- HANDOFF-SNAPSHOT:START 2026-05-30 21:25 branch:main -->
 **Modified files:**
 ```
 ?? Yantra-Ref.png
@@ -82,11 +82,11 @@ BSA-yhol    in_progress   task      p1  Record voiceover for Scene-7 and check r
 
 **Recent commits:**
 ```
+e1b0a5b chore: auto-update handoff snapshot [2026-05-30 21:23]
 b160469 chore: auto-update handoff snapshot [2026-05-30 21:23]
 a97971f chore: auto-update handoff snapshot [2026-05-30 21:21]
 8f35e81 chore: auto-update handoff snapshot [2026-05-30 21:21]
 39b1f5c chore: auto-update handoff snapshot [2026-05-30 21:17]
-9a97faf chore: auto-update handoff snapshot [2026-05-30 21:17]
 ```
 
 **In-progress tickets:**
